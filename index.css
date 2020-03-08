@@ -16,11 +16,12 @@ li,a,button {
   text-decoration: none;
 }
 header {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items:center;
   padding: 30px 10%;
-
 }
 
 .nav_links {
@@ -55,10 +56,38 @@ button:hover {
   width: 100px;
   color: white;
   font-family: "Architects Daughter", Arial;
-  font-size: 28px;
+  font-size: 36px;
   transition: all 0.3s ease 0s;
+  text-shadow: 22px 30px 30px #aeb8b3;
+  letter-spacing: 0,16em;
 }
 
 .logo:hover {
-  color: rgba(0, 136, 169, 0.8)
+  color: rgba(0, 136, 169, 0.8);
+  text-shadow:  22px 30px 30px #349ac2;
+}
+.c {
+  padding-left: 40px;
+}
+.main_content {
+  margin-left: 10%;
+  margin-top: 46px;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.main_content * {
+  padding: 20px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  background: white;
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.middle {
+
 }
