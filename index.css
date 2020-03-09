@@ -53,7 +53,7 @@ button:hover {
 }
 
 .logo {
-  width: 100px;
+  width: 180;
   color: white;
   font-family: "Architects Daughter", Arial;
   font-size: 36px;
@@ -74,12 +74,17 @@ button:hover {
   margin-top: 46px;
   margin-right: 10%;
   background-color: white;
+  border-top: 19px solid #3a3d3e;
+  border-left: 65px solid #3a3d3e;
+  border-right: 65px solid #3a3d3e;
+  border-bottom: 20px solid #3a3d3e;
 }
 
 .main_content * {
   padding: 20px;
-  padding-left: 10px;
-  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  margin-right: 5px;
   background: white;
   color:black;
   text-decoration: none;
@@ -87,7 +92,24 @@ button:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+.footer {
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 40px;
+  background-color: white;
 
-.middle {
+  border-top: 9px solid #3a3d3e;
+  border-left: 25px solid #3a3d3e;
+  border-right: 25px solid #3a3d3e;
+  border-bottom: 9px solid #3a3d3e;
+}
 
+.footer * {
+  padding-left: 20px;
+  margin-right: 40px;
+  color:black;
+  font-size: 18px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: ;
 }
