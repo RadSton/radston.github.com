@@ -83,33 +83,47 @@ button:hover {
 .main_content * {
   padding: 20px;
   padding-left: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
   margin-right: 5px;
   background: white;
   color:black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
-  margin-left: 18px;
-  margin-right: 18px;
-  margin-top: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 50px;
   background-color: white;
 
   border-top: 9px solid #3a3d3e;
-  border-left: 25px solid #3a3d3e;
-  border-right: 25px solid #3a3d3e;
+  border-left: 145px solid #3a3d3e;
+  border-right: 145px solid #3a3d3e;
   border-bottom: 9px solid #3a3d3e;
+  margin-bottom: 30px;
 }
 
 .footer * {
   padding-left: 20px;
   margin-right: 40px;
   color:black;
-  font-size: 18px;
+  font-size: 16px;
   background-color: white;
   font-family: 'Montserrat', sans-serif;
 }
-     
+
+.html {
+  padding: 130px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.copyright {
+  text-align: right;
+  font-size: 14px;
+  padding-top: 0px;
+  margin-right: 14%;
+  padding-bottom: 30px;
+}
