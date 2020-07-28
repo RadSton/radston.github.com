@@ -19,25 +19,20 @@ function init() {
   var ambientLight = new THREE.AmbientLight( 0xcccccc, 2);
 				scene.add( ambientLight );
 
-  var mtlLoader = new THREE.MTLLoader();
-  mtlLoader.setPath( 'models/' );
-  var url = "bike.mtl";
-  mtlLoader.load( url, function( materials ) {
 
-    materials.preload();
+      var loader = new THREE.GLTFLoader();
 
-    var objLoader = new THREE.OBJLoader();
-    objLoader.setMaterials( materials );
-    objLoader.setPath( 'models/' );
-    objLoader.load( 'bike.obj', function ( object ) {
-        obj1 = object
-        scene.add( obj1 );
+      loader.load( 'models/bike1.glb', function ( gltf ) {
 
-    });
+      	scene.add( gltf.scene );
 
-  });
+      }, undefined, function ( error ) {
 
+      	console.error( error );
 
+      } );
+
+  renderer.setClearColor( 0xfff00, 1);
   camera.position.z = 50;
 }
 
