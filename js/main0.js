@@ -22,7 +22,7 @@ function init() {
 
       var loader = new THREE.GLTFLoader();
 
-      loader.load( 'models/bike1.glb', function ( gltf ) {
+      loader.load( 'models/wolf.glb', function ( gltf ) {
 
       	scene.add( gltf.scene );
 
