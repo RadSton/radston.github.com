@@ -15,14 +15,17 @@
   </head>
   <body>
     <canvas id="canvas" width="1000px" height="600px"></canvas>
+    <br><span>Bomben: <span class="bombcounter">0</span> </span>
   </body>
   <script type="text/javascript">
+    var i =0;
     function getCursorPosition(canvas, event) {
     const rect = canvas.getBoundingClientRect()
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
     return {x,y};
 }
+    const bombcounter = document.querySelector(".bombcounter");
 var ctx = document.getElementById("canvas").getContext("2d");
 const canvas = document.querySelector('canvas')
 canvas.addEventListener('mousedown', function(e) {
@@ -37,6 +40,8 @@ canvas.addEventListener('mousedown', function(e) {
       console.log( {"x":pos.x - (128/2),"y": pos.y - (134/2)});
   };
   img.src = "bomb.png";
+  i = i +1;
+  bombcounter.innerHTML = i;
 })
 
 
