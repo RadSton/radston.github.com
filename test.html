@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de " dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+      canvas {
+        border:black solid 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="1000px" height="600px"></canvas>
+  </body>
+  <script type="text/javascript">
+    function getCursorPosition(canvas, event) {
+    const rect = canvas.getBoundingClientRect()
+    const x = event.clientX - rect.left
+    const y = event.clientY - rect.top
+    return {x,y};
+}
+var ctx = document.getElementById("canvas").getContext("2d");
+const canvas = document.querySelector('canvas')
+canvas.addEventListener('mousedown', function(e) {
+  const pos = getCursorPosition(canvas,e);
+  console.log("Position: ");
+  console.log(pos);
+
+  var img = new Image();
+  img.onload = function(){
+      ctx.drawImage(img,pos.x - (128/2),pos.y - (134/2));
+      console.log("Imagepositon: ");
+      console.log( {"x":pos.x - (128/2),"y": pos.y - (134/2)});
+  };
+  img.src = "bomb.png";
+})
+
+
+  </script>
+</html>
