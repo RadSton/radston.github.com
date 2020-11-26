@@ -6,22 +6,10 @@ class Bomb {
   }
   render(ctx) {
     if(this.pt == 0) {
-      var img = new Image();
-      var i = this.x;
-      var j = this.y;
-      img.onload = function(){
-          ctx.drawImage(img,i - (128/2),j - (134/2));
-      };
-      img.src = "bomb.png";
+      drawBomb(this.x,this.y,ctx)
     }
     if(this.pt == 1) {
-        var img = new Image();
-        var i = this.x;
-        var j = this.y;
-        img.onload = function(){
-            ctx.drawImage(img,i - (128/2),j - (134/2));
-        };
-        img.src = "bomb2.png";
+        drawBombExplusion(this.x,this.y,ctx)
     }
   }
 
