@@ -6,11 +6,22 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <span>VERSION 2.0 Flackert leicht leider!</span> <br>
-    <canvas id="canvas" width="800" height="600"></canvas>
-    <br> <button type="button" name="button"><span style="font-size:30pt">ZÜNDEN</span></button>
+    <canvas id="canvas" width="1280" height="500"></canvas>
+    <br>
+    <div class="bottombar">
+      <span class="fonted">Bomb</span> <span class="placeholder"></span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <span class="placeholder"></span>
+      <span class="fonted">(In Arbeit!)</span>
+      <span class="placeholderlong"></span>
+      <button class="button1" type="button" name="button"><span class="button1text">Zünden</span></button>
+    </div>
   </body>
   <script src="util.js" charset="utf-8"></script>
   <script src="main.js" charset="utf-8"></script>
   <script src="bomb.js" charset="utf-8"></script>
+  <script src="drawer.js" charset="utf-8"></script>
 </html>
