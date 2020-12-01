@@ -11,3 +11,8 @@ function getPos(canvas,event) {
   const y = event.clientY - rect.top;
   return {x,y};
 }
+function generateRandomPos() {
+  const x = Math.floor(Math.random() * 1001);
+  const y = Math.floor(Math.random() * 1001);
+  return {x,y};
+}
