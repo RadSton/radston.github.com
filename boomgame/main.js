@@ -13,9 +13,11 @@ function render() {
   renderBomb();
   renderNuclearBomb();
 }
-
+function updateBombType() {
+    bombtype = getObject(".bombtype").checked;
+}
 function mousedown(event) {
-  bombtype = getObject(".bombtype").checked;
+  updateBombType();
   if(bombtype == false)
     createBomb(getPos(canvas,event))
   else
@@ -69,8 +71,20 @@ function startGameEngine() {
   render();
   setTimeout(startGameEngine, 40);
 }
+
+function primeSelectedBombs() {
+  updateBombType();
+  if (bombtype == false) {
+    primeBombs();
+  } else if(bombtype == true) {
+    primeNuclear();
+  } else {
+    console.err("Could not prime Bombs!")
+  }
+}
+
 // EVENTS
 canvas.addEventListener('mousedown',function(e){mousedown(event)});
-prb.addEventListener('click', function(e){if(bombtype == false) primeBombs(); else primeNuclear()});
+prb.addEventListener('click', function(e){primeSelectedBombs();});
 // START
 startGameEngine();
