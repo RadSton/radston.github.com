@@ -86,3 +86,57 @@ input:checked + .slider:before {transform: translateX(26px);}
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  width: 3%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.material-icons {
+  width: 100%;
+  height: 100%;
+}
+.menuoverlay {
+  width: 700px;
+  height:500px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  background: white;
+  border-radius: 5px;
+  border:5px solid black;
+  flex-flow: wrap;
+}
+.menuoverlay hr {
+  width: 100%;
+  border: none;
+}
+.fontedtwo {
+  height:10%;
+}
+
+.option1 {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 4px solid #02b302;
+  padding: 4px;
+}
+
+.option2 {
+    padding: 4px;
+    border: 4px solid #02b302;
+    border-left: none;
+    border-right: none;
+}
+.option3 {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 4px solid #02b302;
+  padding: 4px;
+}
