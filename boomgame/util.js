@@ -16,3 +16,8 @@ function generateRandomPos() {
   const y = Math.floor(Math.random() * 1001);
   return {x,y};
 }
+function updateGameEngine() {
+  windowsize = [window.innerWidth, window.innerHeight];
+  canvas.width = windowsize[0] - 201;
+  canvas.height = windowsize[1] - 230;
+}
