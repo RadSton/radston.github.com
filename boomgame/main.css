@@ -100,6 +100,8 @@ input:checked + .slider:before {transform: translateX(26px);}
   height: 100%;
 }
 .menuoverlay {
+  overflow: scroll;
+  overflow-x: hidden;
   width: 700px;
   height:500px;
   position: absolute;
@@ -121,22 +123,53 @@ input:checked + .slider:before {transform: translateX(26px);}
   height:10%;
 }
 
-.option1 {
+.option1, .option5, .option8 {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   border: 4px solid #02b302;
   padding: 4px;
 }
 
-.option2 {
+.option2, .option6 {
     padding: 4px;
     border: 4px solid #02b302;
     border-left: none;
     border-right: none;
 }
-.option3 {
+.option3{
+  background: #02b302;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   border: 4px solid #02b302;
   padding: 4px;
+}
+
+.fontedthree {
+  height: 20%;
+}
+
+.option4 {
+  border-radius: 10px;
+  border: 4px solid #02b302;
+  padding: 4px;
+}
+
+.option9 {
+  background: #02b302;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 4px solid #02b302;
+  padding: 4px;
+}
+
+.option7, .option10, .option11 {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 4px solid #02b302;
+  padding: 4px;
+}
+
+.option1:hover, .option2:hover, .option3:hover, .option4:hover {
+  opacity: 0.8;
+  background: #02b302;
 }
