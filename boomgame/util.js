@@ -21,3 +21,14 @@ function updateGameEngine() {
   canvas.width = windowsize[0] - 201;
   canvas.height = windowsize[1] - 230;
 }
+
+function openMenue() {
+  if(getObject(".menuoverlay").style.display == "")
+    getObject(".menuoverlay").style.display = "none"
+
+  if(getObject(".menuoverlay").style.display == "none") {
+    getObject(".menuoverlay").style.display = "flex"
+  } else {
+    getObject(".menuoverlay").style.display = "none"
+  }
+}
