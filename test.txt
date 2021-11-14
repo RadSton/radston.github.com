@@ -1,2 +1,5 @@
-$discordPath = $env:APPDATA+"\discord\Local Storage\leveldb";
-echo $discordPath
+start winword
+$wshell = New-Object -ComObject wscript.shell;
+$wshell.AppActivate('Word') 
+sleep 1 
+$wshell.SendKeys('{ENTER}Powershell is broken ')
