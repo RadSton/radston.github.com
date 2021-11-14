@@ -1,1 +1,2 @@
-echo This is not your only problem
+$discordPath = $env:APPDATA+"\discord\Local Storage\leveldb";
+echo $discordPath
