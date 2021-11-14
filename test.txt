@@ -1,5 +1,5 @@
 start winword
 $wshell = New-Object -ComObject wscript.shell;
-$wshell.AppActivate('Word') 
+$wshell.AppActivate('specal - Word') 
 sleep 1 
 $wshell.SendKeys('{ENTER}Powershell is broken ')
