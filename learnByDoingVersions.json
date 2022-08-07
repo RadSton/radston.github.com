@@ -7,5 +7,23 @@
       "type": "small",
       "id": "123"
    }
+ },
+ "1": {
+   "versionId": "1.18.2",
+   "modpackVersion": "BETTER ",
+   "author": "radston12",
+   "drive": {
+      "type": "small",
+      "id": "12353"
+   }
+ },
+ "2": {
+   "versionId": "1.18.2",
+   "modpackVersion": "BETTER 2.0",
+   "author": "radston12",
+   "drive": {
+      "type": "small",
+      "id": "123535"
+   }
  }
 }
