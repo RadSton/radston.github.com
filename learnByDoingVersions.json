@@ -1,0 +1,11 @@
+{
+ "0": {
+   "versionId": "1.18.2",
+   "modpackVersion": "BETA",
+   "author": "radston12",
+   "drive": {
+      "type": "small",
+      "id": "123"
+   }
+ }
+}
