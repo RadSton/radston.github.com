@@ -15,7 +15,8 @@
    "author": "radston12",
    "drive": {
       "type": "small",
-      "id": "12353"
+      "id": "12353",
+      "configId": "1"
    }
  },
  "2": {
@@ -24,7 +25,8 @@
    "author": "niemand anerem als baum xd",
    "drive": {
       "type": "small",
-      "id": "123535"
+      "id": "123535",
+      "configId": "1"
    }
  }
 }
