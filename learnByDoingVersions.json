@@ -1,32 +1,12 @@
 {
  "0": {
    "versionId": "1.18.2",
-   "modpackVersion": "BETA",
+   "modpackVersion": "Version 1",
    "author": "radston12",
    "drive": {
       "type": "big",
       "id": "1UiIa1GGTSBkvshjqOj0HHZL8u3m-rFH_",
       "configId": "1bnpO6CdGGBjAUpY9efH5A5FfHQe3JXaX"
-   }
- },
- "1": {
-   "versionId": "1.18.2",
-   "modpackVersion": "BETTER ",
-   "author": "radston12",
-   "drive": {
-      "type": "small",
-      "id": "12353",
-      "configId": "1"
-   }
- },
- "2": {
-   "versionId": "1.18.2",
-   "modpackVersion": "Baum Version",
-   "author": "niemand anerem als baum xd",
-   "drive": {
-      "type": "small",
-      "id": "123535",
-      "configId": "1"
    }
  }
 }
