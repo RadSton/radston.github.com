@@ -1,0 +1,156 @@
+hosted by radston12
+<br>
+INFO: Eventuell ist die Clock nicht zwischen Handys syncronisiert da die Erstberechnung auf der eingestellten Gerät Zeit basiert!
+<!DOCTYPE html>
+<html class="no-js" data-lt-installed="true" lang="de-DE">
+
+<head>
+  <link id="custom-css" href="https://climateclock.net/wp-content/themes/C2D/css/custom.css?r=201912120634&amp;ver=4.7.21" type="text/css" media="all" rel="stylesheet">
+  <meta charset="utf-8">
+  <style>
+      .center {
+        margin: auto;
+        width: 50%;
+        
+      }
+  </style>
+</head>
+
+<body class="home page-template page-template-homepage page-template-homepage-php page page-id-6 gecko">
+  <div id="container" class="center">
+    <div id="clock">
+      <div id="carbontonnes" class= "dis" style="display: block; font-size: 72pt">Could not be loaded!</div>
+      <h4 id="tonnes" style="display: block;">bis letzter Schultag 12:00 (d:h:min:sec:mil)</h4>
+      <div id="carbontonnes" class="unterricht" style="display: block;  font-size: 72pt">Could not be loaded!</div>
+      <h4 id="tonnes" style="display: block;">Schultage/Frei/Wochenende/Schulstunden<span style="font-size: 11pt">(Next update: 23:59)</span></h4>
+      
+      <div class="checks">
+        <input type="checkbox" id="edv" name="edv" value="info" style="width: 0pt; height: 0pt;" onclick="update()">
+        <label for="edv" style="font-size: 0pt;">Ich habe EDCL</label><br>
+        </div>
+    </div>
+    </div>
+    
+  </div>
+</body>
+
+
+<script>
+var lastSchoolDay = new Date("Jul 01 2023 12:00:00");
+
+// -1: doesnt bother
+// 0: never 
+// 1: everytime
+// 2: round weeks (KW)
+// 3: unround weeks
+var hasDifferingEightHours = [-1,0,0,2,0,0,-1] // make 5th 1 for EDV
+function update() {
+    if(hasDifferingEightHours[4] == 0) hasDifferingEightHours[4] = 1;
+    else hasDifferingEightHours[4] = 0;
+    calcSecond();
+}
+
+
+setInterval(() => {
+    calcFirst();
+}, 20)
+
+setInterval(() => {
+    calcSecond();
+},60000)
+
+// funcs
+function calcFirst() {
+    var timeUntilNormaly = new Date(lastSchoolDay.getTime() - Date.now())
+    var timeUntilNormalyDays = timeUntilNormaly.getDate();
+    if(timeUntilNormaly.getFullYear > 1970) {
+        for(var i = 0;i < timeUntilNormaly.getMonth(); i++) 
+            timeUntilNormalyDays += new Date(timeUntilNormaly.getFullYear(), i, 0).getDate();
+    } else {
+        for(var i = 0;i < timeUntilNormaly.getMonth(); i++) 
+            timeUntilNormalyDays += new Date(timeUntilNormaly.getFullYear(), i, 0).getDate();
+    }
+    var untilSummerStr = timeUntilNormalyDays 
+                    + ":" +  format2digit(timeUntilNormaly.getHours()) 
+                    + ":" +  format2digit(timeUntilNormaly.getMinutes()) 
+                    + ":" +  format2digit(timeUntilNormaly.getSeconds())
+                    + ":" +  format3digit(timeUntilNormaly.getMilliseconds());
+    document.querySelector(".dis").innerHTML = untilSummerStr;
+
+}
+
+function calcSecond() {
+    var currentDay = new Date(Date.now());
+
+    var vars = {schoolDays: 0, free: 0, weekends: 0, hours: 0}
+
+    while(currentDay.getTime() < lastSchoolDay.getTime()) {
+        currentDay.setDate(currentDay.getDate() + 1);
+        if(!checkDay(currentDay)) {
+            vars.free += 1;
+            vars.weekends += ((currentDay.getDay() == 0 || currentDay.getDay() == 6) ? 1 : 0)
+        } else {
+            vars.schoolDays++;
+            vars.hours += getSchoolHours(currentDay);
+        }
+    }
+
+    document.querySelector(".unterricht").innerHTML = "" + vars.schoolDays + "/" + vars.free + "/" + vars.weekends + "/" + "-1";vars.hours
+}
+
+
+// UTILS
+
+
+
+function format2digit(seconds) {
+    if(seconds < 10) return "0" + seconds;
+    return "" + seconds;
+}
+
+function format3digit(seconds) {
+    if(seconds < 10) return "00" + seconds;
+    if(seconds < 100) return "0" + seconds;
+    return "" + seconds;
+}
+
+function getSchoolHours(date) {
+    var type = date.getDay();
+    var today = 6;
+    if(hasDifferingEightHours[type] != 0) {
+        var dif =hasDifferingEightHours[type];
+        if(dif == 1) today += 2;
+        if(dif == 2 && isRoundWeek(date)) today += 2;
+        if(dif == 3 && !isRoundWeek(date)) today +=2;
+
+    }
+    return today;
+}
+
+
+function checkDay(date) {
+	var month = date.getMonth() + 1;
+	var day = date.getUTCDate();
+	var type = date.getDay();
+	if (type == 0 || type == 6) return 0;
+	if(month == 10 && day >= 27 && day <= 31) return 0; // HERBST FERIEN 27. OKT - 31. OKT
+    if(month == 12 && day >= 24) return 0;              // WEINACHTS FERIEN 24. DEZ - LETZ. DEZ
+    if(month == 1 && day <= 6) return 0;                // WEINACHTS FERIEN 1. JAN - 6. JAN
+    if(month == 2 && day >= 6 && day <= 11) return 0;   // SEMESTER FERIEN 6.2 - 11.2
+    if(month == 4 && day <= 10) return 0;               // OSTER FERIEN  1. APR - 10. APR
+    if(month == 5 && day >= 27 && day <= 29) return 0;  // PFINGSFERIEN 27.MAI - 29.MAI
+
+    return 1;
+}
+
+ function isRoundWeek(d) {
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay()||7));
+    return Math.ceil(( ( (d - new Date(Date.UTC(d.getUTCFullYear(),0,1))) / 86400000) + 1)/7) % 2 === 0;
+}
+
+calcSecond();
+
+
+
+</script>
