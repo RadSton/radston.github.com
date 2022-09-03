@@ -92,11 +92,11 @@ function calcSecond() {
             vars.weekends += ((currentDay.getDay() == 0 || currentDay.getDay() == 6) ? 1 : 0)
         } else {
             vars.schoolDays++;
-            vars.hours += getSchoolHours(currentDay);
+            vars.hours += 1; // getSchoolHours(currentDay)
         }
     }
 
-    document.querySelector(".unterricht").innerHTML = "" + vars.schoolDays + "/" + vars.free + "/" + vars.weekends + "/" + "-1";vars.hours
+    document.querySelector(".unterricht").innerHTML = "" + vars.schoolDays + "/" + vars.free + "/" + vars.weekends + "/" + (vars.hours * 6.2);
 }
 
 
