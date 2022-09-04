@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stundenplan</title>
+    <style>
+        @font-face {
+            font-family: "AvenirNextLT";
+            src:url("/AvenirNextLT.otf") format("opentype");
+        }
+        :root {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+        td {
+            padding: 3px;
+            font-family: "AvenirNextLT",arial,sans-serif;
+            font-size: 14pt;
+            margin: 0px;
+            border-radius: 2px;
+            box-shadow: none;
+            border: black 1px solid;
+            border-width: 0px 1px 1px 0px;
+            background-color: #171516FF;
+            color: white;
+        }
+        table {
+            border-spacing: 1px;
+        }
+        
+        center {
+            display: block;
+        }
+        .noborder {
+            border: 0;
+        }
+        .toptd {
+            min-width: 55px;
+        }
+
+        .latin {
+            color: black;
+            background-color: #80FF00;
+        }
+
+        .german {
+            color: black;
+            background-color: #FFFF00;
+        }
+
+        .english {
+            color: black;
+            background-color: #FEAAAA;
+        }
+
+        .math {
+            color: black;
+            background-color: #00FFFF;
+        }
+
+        .standard {
+            color: black;
+            background-color: #F4A026;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="insertTable">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="noborder toptd"></td>
+                    <td class="toptd"><center>MO</center></td>
+                    <td class="toptd"><center>DI</center></td>
+                    <td class="toptd"><center>MI</center></td>
+                    <td class="toptd"><center>DO</center></td>
+                    <td class="toptd"><center>FR</center></td>
+                </tr> 
+                <tr>
+                    <td>07:45 <br> 1.St <br> 08:35</td>
+                </tr>
+                <tr>
+                    <td class="breakafterwards">08:40 <br> 2.St <br> 09:30</td>
+                </tr>    
+                <tr>
+                    <td>09:45 <br> 3.St <br> 10:35</td>
+                </tr>
+                <tr>
+                    <td class="breakafterwards">10:40 <br> 4.St <br> 11:30</td>
+                </tr>
+                <tr>
+                    <td>11:40 <br> 5.St <br> 12:30</td>
+                </tr>     
+                <tr>
+                    <td>12:35 <br> 6.St <br> 13:25</td>
+                </tr> 
+                <tr>
+                    <td>14:00 <br> 7.St <br> 14:50</td>
+                </tr> 
+                <tr>
+                    <td>14:50 <br> 8.St <br> 15:40</td>
+                </tr> 
+
+            </tbody>    
+        </table>
+    </div>
+</body>
+<script>
+const tables = document.getElementsByClassName("insertTable")[0].children[0].children[0].children;
+
+const json = JSON.parse('[{"0":{"subjectShort":"L4","subjectLong":"Latein 4 jährig","subjectUnverbindlich":false,"subjectTeacher":"HUB"},"1":{"subjectShort":"D","subjectLong":"Deutsch","subjectUnverbindlich":false,"subjectTeacher":"TIP"},"2":{"subjectShort":"GSPB","subjectLong":"Geschichte und Sozialkunde/Politische Bildung","subjectUnverbindlich":false,"subjectTeacher":"POS"},"3":{"subjectShort":"BSPK","subjectLong":"Bewegung u. Sport Knaben","subjectUnverbindlich":false,"subjectTeacher":"ADRF"},"4":{"subjectShort":"BIUK","subjectLong":"Biologie und Umweltkunde","subjectUnverbindlich":false,"subjectTeacher":"MIL"},"5":{"subjectShort":"E","subjectLong":"Englisch","subjectUnverbindlich":false,"subjectTeacher":"EDER"},"6":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"7":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"8":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"9":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null}},{"0":{"subjectShort":"M","subjectLong":"Mathematik","subjectUnverbindlich":false,"subjectTeacher":"ALM"},"1":{"subjectShort":"ME","subjectLong":"Musikerziehung","subjectUnverbindlich":false,"subjectTeacher":"EHR"},"2":{"subjectShort":"L4","subjectLong":"Latein 4 jährig","subjectUnverbindlich":false,"subjectTeacher":"HUB"},"3":{"subjectShort":"NWL","subjectLong":"Naturwissenschaftliches Labor","subjectUnverbindlich":false,"subjectTeacher":"ALM"},"4":{"subjectShort":"INF","subjectLong":"Informatik","subjectUnverbindlich":false,"subjectTeacher":"BUZ"},"5":{"subjectShort":"GWK","subjectLong":"Geographie und Wirtschaftskunde","subjectUnverbindlich":false,"subjectTeacher":"ADRF"},"6":{"subjectShort":"uSKI","subjectLong":"Ski Alpin","subjectUnverbindlich":true,"subjectTeacher":"TEY"},"7":{"subjectShort":"uSKI","subjectLong":"Ski Alpin","subjectUnverbindlich":true,"subjectTeacher":"TEY"},"8":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"9":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null}},{"0":{"subjectShort":"E","subjectLong":"Englisch","subjectUnverbindlich":false,"subjectTeacher":"EDER"},"1":{"subjectShort":"INF","subjectLong":"Informatik","subjectUnverbindlich":false,"subjectTeacher":"BUZ"},"2":{"subjectShort":"M","subjectLong":"Mathematik","subjectUnverbindlich":false,"subjectTeacher":"ALM"},"3":{"subjectShort":"BSPK","subjectLong":"Bewegung u. Sport Knaben","subjectUnverbindlich":false,"subjectTeacher":"ADRF"},"4":{"subjectShort":"D","subjectLong":"Deutsch","subjectUnverbindlich":false,"subjectTeacher":"TIP"},"5":{"subjectShort":"BIUK","subjectLong":"Biologie und Umweltkunde","subjectUnverbindlich":false,"subjectTeacher":"MIL"},"6":{"subjectShort":"RK","subjectLong":"Religion kath.","subjectUnverbindlich":false,"subjectTeacher":"ORG"},"7":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"8":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"9":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null}},{"0":{"subjectShort":"NWL","subjectLong":"Naturwissenschaftliches Labor","subjectUnverbindlich":false,"subjectTeacher":"MIL"},"1":{"subjectShort":"NWL","subjectLong":"Naturwissenschaftliches Labor","subjectUnverbindlich":false,"subjectTeacher":"ALM"},"2":{"subjectShort":"D","subjectLong":"Deutsch","subjectUnverbindlich":false,"subjectTeacher":"TIP"},"3":{"subjectShort":"L4","subjectLong":"Latein 4 jährig","subjectUnverbindlich":false,"subjectTeacher":"HUB"},"4":{"subjectShort":"BE","subjectLong":"Bildnerische Erziehung","subjectUnverbindlich":false,"subjectTeacher":"UNG"},"5":{"subjectShort":"BE","subjectLong":"Bildnerische Erziehung","subjectUnverbindlich":false,"subjectTeacher":"UNG"},"6":{"subjectShort":"uITA","subjectLong":"Italienisch","subjectUnverbindlich":true,"subjectTeacher":"KAF"},"7":{"subjectShort":"uITA","subjectLong":"Italienisch","subjectUnverbindlich":true,"subjectTeacher":"KAF"},"8":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"9":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null}},{"0":{"subjectShort":"E","subjectLong":"Englisch","subjectUnverbindlich":false,"subjectTeacher":"EDER"},"1":{"subjectShort":"GWK","subjectLong":"Geographie und Wirtschaftskunde","subjectUnverbindlich":false,"subjectTeacher":"ADRF"},"2":{"subjectShort":"M","subjectLong":"Mathematik","subjectUnverbindlich":false,"subjectTeacher":"ALM"},"3":{"subjectShort":"RK","subjectLong":"Religion kath.","subjectUnverbindlich":false,"subjectTeacher":"ORG"},"4":{"subjectShort":"ME","subjectLong":"Musikerziehung","subjectUnverbindlich":false,"subjectTeacher":"EHR"},"5":{"subjectShort":"BSPK","subjectLong":"Bewegung u. Sport Knaben","subjectUnverbindlich":false,"subjectTeacher":"ADRF"},"6":{"subjectShort":"uCLAB","subjectLong":"Chemieolympiade","subjectUnverbindlich":true,"subjectTeacher":"ALM"},"7":{"subjectShort":"uCLAB","subjectLong":"Chemieolympiade","subjectUnverbindlich":true,"subjectTeacher":"ALM"},"8":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null},"9":{"subjectShort":"","subjectLong":"Freistunde","subjectUnverbindlich":false,"subjectTeacher":null}}]');
+
+for (var i = 1; i <= 8; i++) {
+    var htmlToAdd = "\n";
+    for (var j = 0; j < 5; j++) {
+        if(!json[j][i-1]["subjectUnverbindlich"] && json[j][i-1]["subjectShort"].length > 0) {
+            var className = translateName(json[j][i-1]["subjectShort"]);
+            var textToAdd = className != null ? "class=\"" + className + "\"" :"class=\"standard\"";
+            htmlToAdd += "<td " + textToAdd  +  "> <center>" + json[j][i-1]["subjectShort"] +"</br>" + json[j][i-1]["subjectTeacher"] +  "</center></td>\n";
+        } else 
+            htmlToAdd += "<td class=\"noborder\"></td>\n";
+    }
+    tables[i].innerHTML = tables[i].innerHTML + htmlToAdd;
+}
+
+function translateName (name) {
+    if(name.startsWith("L")) return "latin";
+    if(name == "D") return "german";
+    if(name == "E") return "english";
+    if(name == "M") return "math";
+    return null;
+}
+
+</script>
+</html>
