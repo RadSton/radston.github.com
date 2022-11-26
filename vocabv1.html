@@ -112,6 +112,12 @@
     .germanText {
       font-size: 24pt;
     }
+
+    .help {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
   </style>
 </head>
 
@@ -124,6 +130,7 @@
           placeholder="Dek.">
         <input type="text" name="vocabular" class="vocin_text german" autocomplete="false" autofocus="true"
           placeholder="Deutsch">
+        <button class="help">HELP</button>
       </div>
       <div class="status"></div>
     </div>
@@ -226,7 +233,21 @@
 
     console.log("DEK", score);
 
-    return score / 2;
+    return score / 4;
+  }
+
+  let getsPoints = true;
+
+  const reveal = () => {
+    document.querySelector(".status").innerHTML =
+      "<span class=\"lastvoc\">Richtige Antwort:</span><br><span class=\"vocabText\">"
+      + currentQuestion.vocabular
+      + "</span><span class=\"dekText\"> "
+      + currentQuestion.deklination
+      + "</span><span class=\"germanText\"> > "
+      + currentQuestion.german
+      + "</span>";
+      getsPoints = false;
   }
 
   const check = () => {
@@ -238,7 +259,9 @@
     let score = checkGermanWord(germanValue, currentQuestion.german);
     score += checkDeklinationWord(dekValue, currentQuestion.deklination);
 
-    if (score < 1) wrongQuestions.push(currentQuestion)
+    if (score < 1 || !getsPoints) wrongQuestions.push(currentQuestion)
+    
+    
 
     document.querySelector(".status").innerHTML =
       "<span class=\"lastvoc\">Letztes Voc:</span><br><span class=\"vocabText\">"
@@ -251,7 +274,7 @@
       + score
       + " Punkte</span><br>";
 
-    totalScore += score;
+    if(getsPoints) totalScore += score;
     localStorage.setItem("points", totalScore);
     document.querySelector(".points").innerHTML = totalScore + " P.";
 
@@ -301,6 +324,12 @@
     document.querySelector(".german").addEventListener("keyup", (ev) => {
       if (ev.key === "Enter" || ev.keyCode === 13) onEnterInGerman(ev);
     });
+
+
+    document.querySelector(".help").addEventListener("click", () => {
+      reveal();
+    })
+
     nextQuestion();
   });
 
