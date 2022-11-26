@@ -138,7 +138,7 @@
 
   let wrongQuestions = []
 
-  let totalScore = localStorage.getItem("");
+  let totalScore = 0;
 
   let currentIndex = -1;
   let currentQuestion = undefined;
@@ -252,6 +252,7 @@
       + " Punkte</span><br>";
 
     totalScore += score;
+    localStorage.setItem("points", totalScore);
     document.querySelector(".points").innerHTML = totalScore + " P.";
 
     nextQuestion();
@@ -290,6 +291,9 @@
 
 
   document.addEventListener("readystatechange", (e) => {
+    localStorage.setItem("points",localStorage.getItem("points") != undefined ? localStorage.getItem("points") : 0.0);
+    totalScore = parseFloat(localStorage.getItem("points"));
+
     shuffle();
     document.querySelector(".dek").addEventListener("keyup", (ev) => {
       if (ev.key === "Enter" || ev.keyCode === 13) onEnterInDeklination(ev);
