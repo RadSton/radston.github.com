@@ -274,7 +274,11 @@
       + score
       + " Punkte</span><br>";
 
-    if(getsPoints) totalScore += score;
+    if(getsPoints) {
+      totalScore += score;
+      getsPoints = false;
+    }
+    
     localStorage.setItem("points", totalScore);
     document.querySelector(".points").innerHTML = totalScore + " P.";
 
