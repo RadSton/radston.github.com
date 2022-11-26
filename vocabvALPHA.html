@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabtrainer</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 0.5fr 2fr 0.5fr;
+      grid-template-rows: 0.5fr 2fr 0.5fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "Settings toWrite Pointsview"
+        "Settings Writing-Area ."
+        "Settings . .";
+    }
+
+    .Pointsview {
+      grid-area: Pointsview;
+    }
+
+    .Writing-Area {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        ". . . . ."
+        ". you-tipped you-tipped you-tipped ."
+        ". . . . ."
+        ". correct correct correct ."
+        ". inputfield inputfield inputfield .";
+      grid-area: Writing-Area;
+    }
+
+    .you-tipped {
+      grid-area: you-tipped;
+    }
+
+    .inputfield {
+      grid-area: inputfield;
+    }
+
+    .correct {
+      grid-area: correct;
+    }
+
+    .Settings {
+      grid-area: Settings;
+    }
+
+    .toWrite {
+      grid-area: toWrite;
+    }
+  </style>
+
+  <style>
+    html,
+    body,
+    .container {
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color: black;
+    }
+
+    .inputfield {
+      position: relative;
+    }
+
+    input {
+      height: 100%;
+      font-size: 28pt;
+      text-align: center;
+      color: white;
+      background-color: black;
+      border: 1px solid white;
+    }
+
+    .deklinationInput {
+      position: absolute;
+      left: 0;
+      width: 29%;
+    }
+
+    .vocabularInput {
+      position: absolute;
+      right: 0;
+      width: 69%;
+    }
+
+    .inputfield {
+      display: block;
+    }
+
+    .Pointsview {
+      text-align: center;
+      font-size: 22pt;
+    }
+
+    .pointsSpan {
+      font-size: 26pt;
+    }
+
+    .hightsScore {
+      font-size: 26pt;
+    }
+
+    .youWroteDescription {
+      font-size: 18pt;
+      margin-bottom: 10pt;
+    }
+
+    .rightAwnserWord,
+    .rightAwnserDeklination,
+    .rightAwnserGerman {
+      font-size: 22pt;
+    }
+
+    .rightAwnserDeklination {
+      color: gray;
+    }
+
+    .correctDescription {
+      font-size: 18pt;
+      margin-bottom: 10pt;
+    }
+
+    .correctWord,
+    .correctDeklination,
+    .correctGerman {
+      font-size: 22pt;
+    }
+
+    .correctDeklination {
+      color: gray;
+    }
+
+    .Settings {
+      display: flex;
+      font-size: 118pt;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .toWrite {
+      text-align: center;
+      justify-content: center;
+      font-size: 52pt;
+      padding-top: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="Pointsview">Score: <span class="pointsSpan">0</span><br>Highscore: <span class="hightsScore">0</span>
+    </div>
+    <div class="Writing-Area">
+      <div class="you-tipped">
+        <span class="youWroteDescription">Du hast geschrieben:</span>
+        <br>
+        <span class="rightAwnserWord">amicus </span>
+        <span class="rightAwnserDeklination">-i m. </span>
+        <span class="rightAwnserGerman">Freund</span>
+      </div>
+      <div class="inputfield">
+        <input type="text" name="Deklinations Input" class="deklinationInput" autocomplete="off" placeholder="Dekl.">
+        <input type="text" name="Vocabular Input" class="vocabularInput" autocomplete="off" placeholder="Vocabular">
+      </div>
+      <div class="correct">
+        <span class="correctDescription">Die richtige Antwort ist:</span>
+        <br>
+        <span class="correctWord">amicus </span>
+        <span class="correctDeklination">-i m. </span>
+        <span class="correctGerman">Freund</span>
+      </div>
+    </div>
+    <div class="Settings">✅</div>
+    <div class="toWrite">amicus</div>
+  </div>
+</body>
+<script>let ALL_VOC = JSON.parse('[{"vocabular":"a Troianis","deklination":"","german":"von den Trojanern"},{"vocabular":"at","deklination":"","german":"aber"},{"vocabular":"autem","deklination":"","german":"aber"},{"vocabular":"deinde","deklination":"","german":"dann"},{"vocabular":"domum","deklination":"","german":"nach Hause"},{"vocabular":"dum","deklination":"","german":"während"},{"vocabular":"E schola venio.","deklination":"","german":"Ich komme von = aus der Schule."},{"vocabular":"ergo","deklination":"","german":"also, deshalb, daher"},{"vocabular":"esse, sum","deklination":"","german":"sein, existieren"},{"vocabular":"et","deklination":"","german":"und"},{"vocabular":"hic","deklination":"","german":"hier"},{"vocabular":"ibi","deklination":"","german":"dort"},{"vocabular":"itaque","deklination":"","german":"also, deshalb, daher"},{"vocabular":"mox","deklination":"","german":"bald, dann"},{"vocabular":"nam","deklination":"","german":"denn, nämlich"},{"vocabular":"non","deklination":"","german":"nicht"},{"vocabular":"non iam","deklination":"","german":"nicht mehr"},{"vocabular":"nunc","deklination":"","german":"jetzt, nun"},{"vocabular":"posse, possum","deklination":"","german":"können"},{"vocabular":"quia","deklination":"","german":"weil"},{"vocabular":"quid?","deklination":"","german":"was?"},{"vocabular":"quod","deklination":"","german":"weil"},{"vocabular":"sed","deklination":"","german":"aber, sondern"},{"vocabular":"subito","deklination":"","german":"plötzlich, unerwartet"},{"vocabular":"tum","deklination":"","german":"damals, da, dann, darauf"},{"vocabular":"ubi","deklination":"","german":"wo, sobald, als"},{"vocabular":"in Italiam","deklination":"","german":"nach Italien, Italia"},{"vocabular":"neque","deklination":"= nec","german":"und nicht, auch nicht"},{"vocabular":"vis","deklination":"Akk. vim, Abl. vi Pl. : vires, virium, viribus…","german":"Kraft, Stärke, Gewalt"},{"vocabular":"animal","deklination":"animalis n.","german":"Lebewesen, Tier"},{"vocabular":"carmen","deklination":"carminis n.","german":"Lied, Gedicht"},{"vocabular":"de-esse","deklination":"desum","german":"fehlen"},{"vocabular":"finis","deklination":"finis m.","german":"Ende, Ziel, Grenze, Gebiet"},{"vocabular":"Ulixes","deklination":"Genitiv Ulixis, Akk. Ulixem","german":"Odysseus"},{"vocabular":"gens","deklination":"gentis f.","german":"s"},{"vocabular":"homo","deklination":"hominis m.","german":"Mensch, Mann"},{"vocabular":"Iuppiter","deklination":"Iovis m.","german":"Jupiter"},{"vocabular":"iuvenis","deklination":"iuvenis m.","german":"junger Mann, jung"},{"vocabular":"mare","deklination":"maris n., Pl. mária","german":"Meer"},{"vocabular":"mons","deklination":"montis m.","german":"Berg"},{"vocabular":"mulier","deklination":"mulieris f.","german":"Frau, Ehefrau"},{"vocabular":"nox","deklination":"noctis f.","german":"Nacht"},{"vocabular":"orbis","deklination":"orbis m.","german":"Kreis, Scheibe, Erdkreis = Erde"},{"vocabular":"parentes","deklination":"parentum m. Pl.","german":"Eltern"},{"vocabular":"proles","deklination":"prolis f.","german":"Kind, Nachkommen, Kinder"},{"vocabular":"puer","deklination":"pueri m.","german":"Bub"},{"vocabular":"pulcher","deklination":"pulchra, pulchrum","german":"schön"},{"vocabular":"rex","deklination":"regis m.","german":"König"},{"vocabular":"urbs","deklination":"urbis f.","german":"große Stadt, Rom"},{"vocabular":"virgo","deklination":"virginis f.","german":"Mädchen"},{"vocabular":"vir","deklination":"viri m.","german":"Mann"},{"vocabular":"virtus","deklination":"virtutis f.","german":"Tugend, Tapferkeit"},{"vocabular":"a / ab","deklination":"+ Abl.","german":"von, von … weg"},{"vocabular":"cum","deklination":"+ Abl.","german":"mit"},{"vocabular":"e / ex","deklination":"+ Abl.","german":"von, aus"},{"vocabular":"prae","deklination":"+ Abl.","german":"vor"},{"vocabular":"sine","deklination":"+ Abl.","german":"ohne"},{"vocabular":"sub","deklination":"+ Abl.","german":"unter"},{"vocabular":"in","deklination":"+ Abl.","german":"in, auf"},{"vocabular":"ad","deklination":"+ Akk.","german":"zu, an, bei"},{"vocabular":"ante","deklination":"+ Akk.","german":"vor"},{"vocabular":"apud","deklination":"+ Akk.","german":"bei, an, zu"},{"vocabular":"per","deklination":"+ Akk.","german":"durchüber "},{"vocabular":"sub","deklination":"+ Akk.","german":"unter"},{"vocabular":"in","deklination":"+ Akk.","german":"in … hineinnach, gegen"},{"vocabular":"dare","deklination":"1, do","german":"geben"},{"vocabular":"donare","deklination":"1, dono","german":"schenken"},{"vocabular":"adiuvare","deklination":"1, -o","german":"helfen"},{"vocabular":"amare","deklination":"1, -o","german":"lieben"},{"vocabular":"apportare","deklination":"1, -o","german":"bringen, herbeitragen"},{"vocabular":"clamare","deklination":"1, -o","german":"rufen"},{"vocabular":"exspectare","deklination":"1, -o","german":"warten, erwarten"},{"vocabular":"invitare","deklination":"1, -o","german":"einladen"},{"vocabular":"laborare","deklination":"1, -o","german":"sich anstrengen, arbeiten"},{"vocabular":"navigare","deklination":"1, -o","german":"segeln"},{"vocabular":"negare","deklination":"1, -o","german":"leugnen, verweigern"},{"vocabular":"occultare","deklination":"1, -o","german":"verstecken, verbergen"},{"vocabular":"parare","deklination":"1, -o","german":"vorbereiten, vorhaben, erwerben, sich verschaffen"},{"vocabular":"pugnare","deklination":"1, -o","german":"kämpfen"},{"vocabular":"rogare","deklination":"1, -o","german":"bitten, erbitten, fragen"},{"vocabular":"servare","deklination":"1, -o","german":"retten, bewahren"},{"vocabular":"superare","deklination":"1, -o","german":"besiegen, übertreffen"},{"vocabular":"tacere","deklination":"2, -eo","german":"schweigen"},{"vocabular":"debere","deklination":"2, -eo","german":"müssen, schulden, verdanken"},{"vocabular":"docere","deklination":"2, -eo","german":"lehren, belehren"},{"vocabular":"dolere","deklination":"2, -eo","german":"bedauern, leiden, Schmerz empfinden"},{"vocabular":"gaudere","deklination":"2, -eo","german":"sich freuen"},{"vocabular":"iubere","deklination":"2, -eo","german":"befehlen"},{"vocabular":"manere","deklination":"2, -eo","german":"bleiben"},{"vocabular":"monere","deklination":"2, -eo","german":"ermahnen, warnen, erinnern"},{"vocabular":"movere","deklination":"2, -eo","german":"bewegen "},{"vocabular":"parere","deklination":"2, -eo","german":"gehorchen"},{"vocabular":"respondere","deklination":"2, -eo","german":"antworten"},{"vocabular":"sedere","deklination":"2, -eo","german":"sitzen"},{"vocabular":"videre","deklination":"2, -eo","german":"sehen"},{"vocabular":"currere","deklination":"3, -o","german":"laufen"},{"vocabular":"dicere","deklination":"3, -o","german":"sagen, nennen"},{"vocabular":"ducere","deklination":"3, -o","german":"führen, leiten"},{"vocabular":"mittere","deklination":"3, -o","german":"schicken"},{"vocabular":"neglegere","deklination":"3, -o","german":"vernachlässigen, gering schätzen"},{"vocabular":"defendere","deklination":"3, -o","german":"verteidigen, abwehren"},{"vocabular":"permittere","deklination":"3, -o","german":"erlauben, zulassen"},{"vocabular":"quaerere","deklination":"3, -o","german":"suchen, fragen = quaerere e/ex…"},{"vocabular":"relinquere","deklination":"3, -o","german":"verlassen, zurücklassen"},{"vocabular":"scribere","deklination":"3, -o","german":"schreiben"},{"vocabular":"vivere","deklination":"3, -o","german":"leben"},{"vocabular":"audire","deklination":"4, -io","german":"hören"},{"vocabular":"invenire","deklination":"4, -io","german":"finden, erfinden"},{"vocabular":"venire","deklination":"4, -io","german":"kommen"},{"vocabular":"bonus","deklination":"-a -um","german":"gut"},{"vocabular":"magnus","deklination":"-a -um","german":"groß"},{"vocabular":"novus","deklination":"-a -um","german":"neu"},{"vocabular":"Romanus","deklination":"-a, -um Imperium Romanum","german":"römisch, das Römische Reich"},{"vocabular":"dea","deklination":"-ae f.","german":"Göttin"},{"vocabular":"femina","deklination":"-ae f.","german":"Frau"},{"vocabular":"filia","deklination":"-ae f.","german":"Tochter"},{"vocabular":"insula","deklination":"-ae f.","german":"Insel"},{"vocabular":"in Italia","deklination":"-ae f.","german":"Italien, in Italien"},{"vocabular":"patria","deklination":"-ae f.","german":"Heimat, Vaterland"},{"vocabular":"porta","deklination":"-ae f.","german":"Tür, Tor"},{"vocabular":"puella","deklination":"-ae f.","german":"Mädchen"},{"vocabular":"regina","deklination":"-ae f.","german":"Königin"},{"vocabular":"Roma","deklination":"-ae f.","german":"Rom"},{"vocabular":"Troia","deklination":"-ae f.","german":"Troja"},{"vocabular":"Aeneas","deklination":"-ae m.","german":"Äneas"},{"vocabular":"multi","deklination":"-ae, -a","german":"viele"},{"vocabular":"equus","deklination":"-i m.","german":"Pferd"},{"vocabular":"filius","deklination":"-i m.","german":"Sohn"},{"vocabular":"nuntius","deklination":"-i m.","german":"Bote, Botschaft"},{"vocabular":"amicus","deklination":"-i m.","german":"Freund"},{"vocabular":"deus","deklination":"-i m.","german":"Gott"},{"vocabular":"Graecus","deklination":"-i m.","german":"Grieche"},{"vocabular":"Mercurius","deklination":"-i m.","german":"Merkur"},{"vocabular":"murus","deklination":"-i m.","german":"Mauer"},{"vocabular":"Romanus","deklination":"-i m.","german":"der Römer"},{"vocabular":"Romulus","deklination":"-i m.","german":"Romulus"},{"vocabular":"socius","deklination":"-i m.","german":"Kamerad, Gefährte"},{"vocabular":"oppidum","deklination":"-i n,","german":"Stadt"},{"vocabular":"bellum","deklination":"-i n.","german":"Krieg"},{"vocabular":"consilium","deklination":"-i n.","german":"Rat, Plan, Beratung"},{"vocabular":"fatum","deklination":"-i n.","german":"Schicksal, Götterspruch, Weissagung"},{"vocabular":"spectaculum","deklination":"-i n.","german":"Schauspiel, Spektakel"},{"vocabular":"templum","deklination":"-i n.","german":"Tempel"},{"vocabular":"verbum","deklination":"-i n.","german":"Wort"},{"vocabular":"capere","deklination":"M, capio","german":"fangen, erobern, fassen, nehmen"},{"vocabular":"in-cipere","deklination":"M, -cipio","german":"beginnen, anfangen"},{"vocabular":"cupere","deklination":"M, cupio","german":"wünschen, begehren"},{"vocabular":"facere","deklination":"M, facio","german":"tun, machen"},{"vocabular":"rapere","deklination":"M, rapio","german":"rauben, entführen"},{"vocabular":"Romani","deklination":"-orum m. Pl.","german":"die Römer"},{"vocabular":"Troiani","deklination":"-orum m. Pl.","german":"die Trojaner"}]');
+
+
+  let correctSymbol = "✅";
+  let wrongSymbol = "❎";
+
+  let version = 2; // DATABASE API VERSION 
+  let db = {
+    wrongVocabular: [],
+    rightVocabular: [],
+    currentVocabulab: undefined,
+    points: 0,
+    highScore: 0,
+    scoreList: [],
+    nextWrong: -1,
+  }
+
+
+
+  const init = () => {
+    if (!localStorage.getItem("db")) {
+      localStorage.setItem("dbVersion", version);
+      localStorage.setItem("db", JSON.stringify(db));
+      return;
+    }
+
+    if (parseInt(localStorage.getItem("dbVersion")) != version) {
+      localStorage.setItem("backupDB", localStorage.getItem("db"));
+      console.log("Old DB was backuped!")
+      localStorage.setItem("dbVersion", version);
+    }
+
+    db = JSON.parse(localStorage.getItem("db"));
+
+    shuffle();
+
+    if (db.currentVocabulab == undefined) db.currentVocabulab = ALL_VOC[0];
+
+
+    hideAll();
+
+
+  }
+
+  const save = () => {
+    localStorage.setItem("db", JSON.stringify(db));
+  }
+
+  const clearInput = () => {
+    document.querySelector(".deklinationInput").value = "";
+    document.querySelector(".deklinationInput").focus();
+    document.querySelector(".vocabularInput").value = "";
+  }
+
+  let isCurrentlyWritingAgain = false;
+
+  const onUserInput = () => {
+    console.debug("onUserInput")
+    if (isCurrentlyWritingAgain) { checkWriteAgain(); return; }
+
+    var isAwnseredCorrect = isCorrect();
+    if (!isAwnseredCorrect) {
+      isCurrentlyWritingAgain = true;
+      db.wrongVocabular.push(db.currentVocabulab);
+      if (db.nextWrong == -1) db.nextWrong = 3;
+    } else {
+      db.rightVocabular.push(db.currentVocabulab);
+      showDependOnBool(true)
+    }
+
+    db.points += isAwnseredCorrect ? 1 : 0;
+    if (db.highScore < db.points) {
+      db.highScore = db.points;
+      console.log("NEW HIGHSCORE!")
+    }
+
+    save();
+  }
+
+
+  const isCorrect = () => {
+    console.debug("isCorrect")
+    let inputDek = getInput().deklination;
+    let inputVal = getInput().vocabular;
+
+    let shallDek = db.currentVocabulab.deklination;
+    let shallVal = db.currentVocabulab.german;
+
+    if (inputDek == shallDek && inputVal == shallVal) return true; // gonna be onest never going to happen anyways
+
+    let dekl = false;
+
+    let inputDeklination = inputDek.replaceAll(",", "").replaceAll(" ", "");
+    let shallDeklination = shallDek.replaceAll(",", "").replaceAll(" ", "");
+
+    if (inputDeklination == shallDeklination) dekl = true;
+
+    return checkGermanWord(inputVal, shallVal) && dekl;
+  }
+
+  const checkGermanWord = (w1, w2) => {
+    console.debug("checkGermanWord")
+    let score = 0;
+
+    const a = w1
+      .toLowerCase()
+      .replaceAll(" ", "")
+      .replaceAll(".", ",")
+      .replaceAll("der", undefined)
+      .replaceAll("das", undefined)
+      .replaceAll("die", undefined)
+      .replaceAll("des", undefined)
+      .replaceAll("dem", undefined)
+      .replaceAll("dessen", undefined)
+      .split(",")
+      .filter((a) => a != '');
+    const b = w2.toLowerCase()
+      .replaceAll(" ", "")
+      .replaceAll(".", ",")
+      .replaceAll("der", undefined)
+      .replaceAll("das", undefined)
+      .replaceAll("die", undefined)
+      .replaceAll("des", undefined)
+      .replaceAll("dem", undefined)
+      .replaceAll("dessen", undefined)
+      .split(",")
+      .filter((a) => a != '');
+
+    if (!w1 || w1.length == 0) return 0;
+
+    for (var i = 0; i < a.length; i++) {
+      for (var j = 0; j < b.length; j++) {
+        if (a[i] === b[i]) { score += 1; break; }
+      }
+    }
+
+    return score != 0;
+  }
+
+
+  const checkWriteAgain = () => {
+    console.debug("checkWriteAgain")
+    var bool = isCorrect();
+
+    isCurrentlyWritingAgain = !bool;
+
+    if (bool) {
+      showDependOnBool(true)
+    } else {
+      showDependOnBool(false)
+    }
+  }
+
+  const showDependOnBool = (bool) => {
+    console.debug("showDependOnBool")
+    if (bool) {
+      showAwnser(true);
+      setTimeout(() => hideAll(), 1000);
+      setTimeout(() => generateNewVocabular(false), 1001);
+    } else {
+      showAwnser(false, false);
+    }
+  }
+
+  const showFeedbackSymbol = (bool) => {
+    console.debug("showFeedbackSymbol")
+    document.querySelector(".Settings").innerHTML = bool ? correctSymbol : wrongSymbol;
+  }
+
+  const showAwnser = (bool, hideThing = true) => {
+    console.debug("showAwnser")
+    showFeedbackSymbol(bool);
+
+    document.querySelector(".toWrite").innerHTML = db.currentVocabulab.vocabular;
+
+    document.querySelector(".rightAwnserWord").innerHTML = db.currentVocabulab.vocabular;
+    document.querySelector(".rightAwnserDeklination").innerHTML = getInput().deklination;
+    document.querySelector(".rightAwnserGerman").innerHTML = getInput().vocabular;
+
+    document.querySelector(".correctWord").innerHTML = db.currentVocabulab.vocabular;
+    document.querySelector(".correctDeklination").innerHTML = db.currentVocabulab.deklination;
+    document.querySelector(".correctGerman").innerHTML = db.currentVocabulab.german;
+
+
+    document.querySelector(".correct").style.display = "block";
+    document.querySelector(".you-tipped").style.display = "block";
+    if (hideThing) {
+      document.querySelector(".inputfield").style.display = "none";
+    } else {
+      clearInput();
+    }
+  }
+
+  const hideAll = () => {
+    console.debug("hideAll")
+
+    document.querySelector(".toWrite").innerHTML = db.currentVocabulab.vocabular;
+
+    document.querySelector(".Settings").innerHTML = "";
+    document.querySelector(".correct").style.display = "none";
+    document.querySelector(".you-tipped").style.display = "none";
+    document.querySelector(".inputfield").style.display = "block";
+
+    clearInput();
+  }
+
+  const updateText = () => {
+    console.debug("updateText");
+    document.querySelector(".toWrite").innerHTML = db.currentVocabulab.vocabular;
+    save();
+  }
+
+  const generateNewVocabular = (bool = true) => {
+    console.debug("generateNewVocabular")
+    if (db.wrongVocabular.length == 0) {
+      db.nextWrong = -1;
+      db.currentVocabulab = generateNeverSeenVocab();
+    } else {
+      db.nextWrong--;
+      if (db.nextWrong == 0) {
+        db.currentVocabulab = db.wrongVocabular.pop();
+        db.nextWrong = db.wrongVocabular.length == 0 ? -1 : 3;
+      } else {
+        db.currentVocabulab = generateNeverSeenVocab();
+      }
+    }
+    if (bool) showDependOnBool(true);
+    updateText();
+  }
+
+  const generateNeverSeenVocab = () => {
+    console.debug("generateNeverSeenVocab")
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      const elem = ALL_VOC[i];
+      if (!db.rightVocabular.includes(elem))
+        return elem;
+    }
+  }
+
+
+  let cooldown = false;
+  document.addEventListener("readystatechange", () => {
+    init();
+    document.querySelector(".vocabularInput").addEventListener("keyup", (ev) => {
+      if (ev.key === "Enter" || ev.keyCode === 13) {
+        if (!cooldown) onUserInput();
+        cooldown = true;
+        setTimeout(() => { cooldown = false }, 50);
+      }
+    });
+  })
+
+
+  const getInput = () => {
+    return {
+      deklination: document.querySelector(".deklinationInput").value,
+      vocabular: document.querySelector(".vocabularInput").value,
+    }
+  }
+
+
+
+  /// VOCAB DATA
+
+
+
+  const getArrayByVocabular = (name) => {
+    let results = []
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].vocabular.includes(name)) results.push(ALL_VOC[i]);
+    }
+    return results;
+  }
+
+  const getArrayByDeklination = (name) => {
+    let results = []
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].deklination.includes(name)) results.push(ALL_VOC[i]);
+    }
+    return results;
+  }
+
+  const getArrayByGerman = (name) => {
+    let results = []
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].german.includes(name)) results.push(ALL_VOC[i]);
+    }
+    return results;
+  }
+
+  const getByName = (name) => {
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].vocabular.includes(name)) return ALL_VOC[i];
+    }
+    return undefined;
+  }
+
+  const getByDeklination = (name) => {
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].deklination.includes(name)) return ALL_VOC[i];
+    }
+    return undefined;
+  }
+
+  const getByGerman = (name) => {
+    for (var i = 0; i < ALL_VOC.length; i++) {
+      if (ALL_VOC[i].german.includes(name)) return ALL_VOC[i];
+    }
+    return undefined;
+  }
+
+  const shuffle = () => {
+    let shuffledArray = ALL_VOC.sort((a, b) => 0.5 - Math.random());
+    ALL_VOC = shuffledArray;
+    delete shuffledArray;
+  }
+
+
+</script>
+
+</html>
