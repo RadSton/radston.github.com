@@ -9,13 +9,11 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <meta content="Jetzt auch mit neuster BENCHTECH LEKTION 9" property="og:title">
-    <meta content="WIE IMMER GILT MINUS-WARTHUNDIBUS-MUST-SCHULIBUS\n\nChangelogs: \n Added Lektion 8 & 9"
+    <meta content="Jetzt auch mit neuster BENCHTECH SPEICHERN UND LADEN" property="og:title">
+    <meta content="So viele Bugs hilfe"
         property="og:description">
     <meta content="https://radston.github.io/benchlavin.html" property="og:url">
     <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
-
-
     <style>
         :root {
             font-size: 16px;
@@ -232,9 +230,6 @@
             display: block;
         }
     </style>
-
-    <!--<link rel="stylesheet" href="static/css/speedDial.css">-->
-
     <!-- VOK TRAINER-->
     <style>
         main {
@@ -509,7 +504,7 @@
                 index: asking.current
             }));
 
-            notify(isOverriten ? "Speicherstand mit " + name + " überschrieben" : "Gespeichert als " + name);
+            notify(isOverriten ? "Speicherstand mit  " + name + " überschrieben" : "Gespeichert als  " + name);
 
         })
 
@@ -519,7 +514,7 @@
             let saveState = JSON.parse(localStorage.getItem("saveVokTrainer"));
 
             if (saveState) {
-                notify("Loading " + saveState.name);
+                notify("Loading:  " + saveState.name);
                 wrong = [...saveState.wrong];
                 asking.pack = saveState.pack;
                 asking.current = saveState.index - 1;
@@ -686,7 +681,7 @@
 
                 for (var w of wrong) {
                     newPack.push({
-                        ...defaultPack[w]
+                        ...asking.pack[w]
                     })
                 }
 
@@ -706,7 +701,7 @@
 
         const showKoenig = () => {
             setProgress("WARTHUNDER", "LERNERN");
-            showQuestion("Du hast alle Vokabeln durch", "Dieses Menu ist noch nicht programmiert!");
+            showQuestion("Du hast alle Vokabeln durch", "Clicke irgendeinen Knopf um von vorne zu beginnen");
             locked = true;
         }
 
