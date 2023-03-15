@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <meta content="Jetzt auch mit neuster BENCHTECH SPEICHERN UND LADEN" property="og:title">
-    <meta content="So viele Bugs hilfe"
-        property="og:description">
+    <meta content="So viele Bugs hilfe" property="og:description">
     <meta content="https://radston.github.io/benchlavin.html" property="og:url">
     <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
     <style>
@@ -383,6 +382,10 @@
             text-align: center;
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 </head>
 
 <body class="preload">
@@ -481,7 +484,68 @@
         tr:nth-child(even) {
             background-color: #111111;
         }
+
+        .downloadAsPdfButton {
+            color: blue;
+            text-align: center;
+        }
     </style>
+
+    <script defer>
+        const generatePDF = () => {
+            body = [
+                ['lateinisch', 'deutsch', 'Platz für Fremdwörter, englische Wörter, Eselsbrücken…'],
+            ];
+            for (var wrongid of wrong) {
+                let ask = asking.pack[wrongid];
+                body.push([ask.question, ask.awnser, '']);
+            }
+
+            // playground requires you to assign document definition to a variable called dd
+
+            var dd = {
+                header: {
+                    columns: [
+                        { text: 'Made by BENCHLAVIN v3.2', alignment: 'center' },
+                        { text: 'Name: _____________________________', alignment: 'center' }
+                    ]
+                },
+                content: [
+                    { text: 'Lernvokabel von _____________________________', style: 'header' },
+
+                    {
+                        table: {
+                            widths: ['33%', '33%', '33%'],
+                            body: body
+                        },
+                    },
+                    ' ',
+                    { text: 'KEINE GARANTIE AUF RICHTIGKEIT', style: 'big', alignment: 'center' },
+                    { text: '(Dieses Vokabelblatt wurde von https://radston.github.com/benchlavin generiert!)', style: 'radplat', alignment: 'center' },
+
+                ],
+                styles: {
+                    header: {
+                        fontSize: 11,
+                        bold: true,
+                        margin: [0, 0, 0, 10]
+                    },
+                    radplat: {
+                        fontSize: 10,
+                        bold: true,
+                    },
+                    big: {
+                        fontSize: 16,
+                        bold: true,
+
+                    }
+                }
+            }
+            pdfMake.createPdf(dd).download("BENCHLAVIN v3.2.pdf");
+        }
+
+
+    </script>
 
     <script defer>
         const saveButton = document.querySelector(".save");
@@ -534,7 +598,7 @@
                 document.querySelector(".isCorrectButtons").style.display = "inline-block";
             } else {
 
-                let string = "<table><tr><th>Vokabel</th><th>Antwort</th></tr>";
+                let string = "<a class=\"downloadAsPdfButton\" href=\"#\">Als PDF herrunterladen</a><br><br><table><tr><th>Vokabel</th><th>Antwort</th></tr>";
 
                 console.log(asking.pack);
                 for (var wrongid of wrong) {
@@ -551,6 +615,10 @@
 
                 showQuestion("Liste falscher Vokablen:", string);
                 showAwnsers();
+                document.querySelector(".downloadAsPdfButton").addEventListener("click", (e) => {
+                    e.preventDefault();
+                    generatePDF();
+                })
             }
         })
 
@@ -2909,7 +2977,6 @@
             };
         }
     </script>
-
 
 </body>
 
