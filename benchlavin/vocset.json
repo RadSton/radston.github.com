@@ -1,0 +1,2183 @@
+{
+    "flashcards": [
+        {
+            "packId": 10001,
+            "name": "Latein SA3 Vokabel",
+            "author": "radplat",
+            "created": 1676713250000,
+            "lastEdited": 1676713250000,
+            "cardVersion": 1,
+            "cards": [
+                {
+                    "cardIndex": 1,
+                    "question": "a / ab + Abl.",
+                    "awnser": "von, von … weg"
+                },
+                {
+                    "cardIndex": 2,
+                    "question": "a Troianis",
+                    "awnser": "von den Trojanern"
+                },
+                {
+                    "cardIndex": 3,
+                    "question": "accedere 3, -o ",
+                    "awnser": "herankommen, sich nähern"
+                },
+                {
+                    "cardIndex": 4,
+                    "question": "acer, acris, acre, Genitiv acris",
+                    "awnser": "scharf, wild, kräftig"
+                },
+                {
+                    "cardIndex": 5,
+                    "question": "ad + Akk.",
+                    "awnser": "zu, an, bei"
+                },
+                {
+                    "cardIndex": 6,
+                    "question": "adiuvare 1, -o ",
+                    "awnser": "helfen"
+                },
+                {
+                    "cardIndex": 7,
+                    "question": "aedificium, -i n.",
+                    "awnser": "Gebäude"
+                },
+                {
+                    "cardIndex": 8,
+                    "question": "Aeneas, Gen./Dat. Aeneae, Akk. -am; Vok. u. Abl.: Aenea m.",
+                    "awnser": "Äneas (trojan. Prinz, wurde zum Ahnherrn der Römer)"
+                },
+                {
+                    "cardIndex": 9,
+                    "question": "aestas, aestatis f.",
+                    "awnser": "Sommer"
+                },
+                {
+                    "cardIndex": 10,
+                    "question": "agere 3, ago ",
+                    "awnser": "tun, machen, handeln, ausführen"
+                },
+                {
+                    "cardIndex": 11,
+                    "question": "ait (nur 3. P.)",
+                    "awnser": "er / sie / es sagt"
+                },
+                {
+                    "cardIndex": 12,
+                    "question": "alius, alia, aliud",
+                    "awnser": "ein anderer/eine andere/ein anderes"
+                },
+                {
+                    "cardIndex": 13,
+                    "question": "alius…, alius…",
+                    "awnser": "der eine …, der andere…"
+                },
+                {
+                    "cardIndex": 14,
+                    "question": "alter, altera, alterum",
+                    "awnser": "der andere / der eine (von zweien)"
+                },
+                {
+                    "cardIndex": 15,
+                    "question": "amare 1, -o",
+                    "awnser": "lieben"
+                },
+                {
+                    "cardIndex": 16,
+                    "question": "amicitia, -ae f.",
+                    "awnser": "Freundschaft"
+                },
+                {
+                    "cardIndex": 17,
+                    "question": "amicus, -i m.",
+                    "awnser": "Freund"
+                },
+                {
+                    "cardIndex": 18,
+                    "question": "animal, animalis n.",
+                    "awnser": "Lebewesen, Tier"
+                },
+                {
+                    "cardIndex": 19,
+                    "question": "animus, -i m.",
+                    "awnser": "Geist, Sinn, Gemüt"
+                },
+                {
+                    "cardIndex": 20,
+                    "question": "ante + Akk.",
+                    "awnser": "vor (zeitlich oder örtlich)"
+                },
+                {
+                    "cardIndex": 21,
+                    "question": "appellare 1, -o ",
+                    "awnser": "rufen, nennen"
+                },
+                {
+                    "cardIndex": 22,
+                    "question": "apportare 1, -o ",
+                    "awnser": "bringen, herbeitragen"
+                },
+                {
+                    "cardIndex": 23,
+                    "question": "apud + Akk.",
+                    "awnser": "bei, an, zu"
+                },
+                {
+                    "cardIndex": 24,
+                    "question": "aqua, ae f.",
+                    "awnser": "Wasser"
+                },
+                {
+                    "cardIndex": 25,
+                    "question": "arcere 2, -eo",
+                    "awnser": "abwehren, fernhalten"
+                },
+                {
+                    "cardIndex": 26,
+                    "question": "at",
+                    "awnser": "aber (starker Gegensatz)"
+                },
+                {
+                    "cardIndex": 27,
+                    "question": "atrox (m./f./n.), Gen. atrocis",
+                    "awnser": "furchtbar, schrecklich"
+                },
+                {
+                    "cardIndex": 28,
+                    "question": "auctoritas, -atis f.",
+                    "awnser": "Ansehen, Einfluss, Autorität"
+                },
+                {
+                    "cardIndex": 29,
+                    "question": "audire 4, -io ",
+                    "awnser": "hören"
+                },
+                {
+                    "cardIndex": 30,
+                    "question": "augere 2, -eo ",
+                    "awnser": "vergrößern, vermehren"
+                },
+                {
+                    "cardIndex": 31,
+                    "question": "aureus 3",
+                    "awnser": "golden"
+                },
+                {
+                    "cardIndex": 32,
+                    "question": "autem",
+                    "awnser": "aber"
+                },
+                {
+                    "cardIndex": 33,
+                    "question": "balneum, -i n.",
+                    "awnser": "Bad"
+                },
+                {
+                    "cardIndex": 34,
+                    "question": "bellum, i n.",
+                    "awnser": "Krieg"
+                },
+                {
+                    "cardIndex": 35,
+                    "question": "bestia, -ae f.",
+                    "awnser": "wildes Tier, Bestie"
+                },
+                {
+                    "cardIndex": 36,
+                    "question": "bonus, -a, -um = bonus 3",
+                    "awnser": "gut"
+                },
+                {
+                    "cardIndex": 37,
+                    "question": "bos, bovis m./f.",
+                    "awnser": "Rind, Kuh, Ochse"
+                },
+                {
+                    "cardIndex": 38,
+                    "question": "C.",
+                    "awnser": "Gaius"
+                },
+                {
+                    "cardIndex": 39,
+                    "question": "caedes, caedis f.",
+                    "awnser": "Mord, Ermordung"
+                },
+                {
+                    "cardIndex": 40,
+                    "question": "canis, canis m./f.",
+                    "awnser": "Hund, Hündin "
+                },
+                {
+                    "cardIndex": 41,
+                    "question": "cantare 1, canto",
+                    "awnser": "Singen"
+                },
+                {
+                    "cardIndex": 42,
+                    "question": "capere M, capio",
+                    "awnser": "1.fangen, erobern 2. (einen Plan) fassen 3. nehmen"
+                },
+                {
+                    "cardIndex": 43,
+                    "question": "caput, capitis n.",
+                    "awnser": "1.Kopf, Haupt, 2. Hauptstadt"
+                },
+                {
+                    "cardIndex": 44,
+                    "question": "carere 2, -eo + Abl. separativus ",
+                    "awnser": "eine Sache entbehren / nicht haben"
+                },
+                {
+                    "cardIndex": 45,
+                    "question": "carmen, carminis n.",
+                    "awnser": "Lied, Gedicht"
+                },
+                {
+                    "cardIndex": 46,
+                    "question": "casus, -us m.",
+                    "awnser": "Fall"
+                },
+                {
+                    "cardIndex": 47,
+                    "question": "celeber, celebris, celebre, Gen. celebris",
+                    "awnser": "1.berühmt ; 2. (von Orten / Festen) : viel besucht"
+                },
+                {
+                    "cardIndex": 48,
+                    "question": "celebrare 1, -o",
+                    "awnser": "feiern"
+                },
+                {
+                    "cardIndex": 49,
+                    "question": "celer, celeris, celere, Gn. celeris",
+                    "awnser": "schnell"
+                },
+                {
+                    "cardIndex": 50,
+                    "question": "cena, -ae f.",
+                    "awnser": "Essen, Mahlzeit (meist: Abendessen)"
+                },
+                {
+                    "cardIndex": 51,
+                    "question": "certe (Adv.)",
+                    "awnser": "sicher, sicherlich"
+                },
+                {
+                    "cardIndex": 52,
+                    "question": "ceteri, -ae , -a Pl.",
+                    "awnser": "die Übrigen; neutrum: das Übrige"
+                },
+                {
+                    "cardIndex": 53,
+                    "question": "cibo carere",
+                    "awnser": "nichts zu essen haben, ohne Nahrung sein"
+                },
+                {
+                    "cardIndex": 54,
+                    "question": "cibus, -i m.",
+                    "awnser": "Speise"
+                },
+                {
+                    "cardIndex": 55,
+                    "question": "circus, -i m.",
+                    "awnser": "Circus (Rennbahn im alten Rom)"
+                },
+                {
+                    "cardIndex": 56,
+                    "question": "civis, civis m./f.",
+                    "awnser": "Bürger/-in"
+                },
+                {
+                    "cardIndex": 57,
+                    "question": "civitas, civitatis f.",
+                    "awnser": "1.Stadt (Stadtbevölkerung) 2. Stamm (Volksstamm)"
+                },
+                {
+                    "cardIndex": 58,
+                    "question": "clamare 1, -o",
+                    "awnser": "rufen"
+                },
+                {
+                    "cardIndex": 59,
+                    "question": "clamor, -oris m.",
+                    "awnser": "Geschrei"
+                },
+                {
+                    "cardIndex": 60,
+                    "question": "clarus 3 praeclarus 3",
+                    "awnser": "berühmt, sehr berühmt"
+                },
+                {
+                    "cardIndex": 61,
+                    "question": "cognoscere 3, -o ",
+                    "awnser": "1.kennenlernen, erkennen; 2.erfahren"
+                },
+                {
+                    "cardIndex": 62,
+                    "question": "colligere 3, -o, ",
+                    "awnser": "sammeln"
+                },
+                {
+                    "cardIndex": 63,
+                    "question": "consilium, -i n.",
+                    "awnser": "1.Rat, Plan 2.Beratung"
+                },
+                {
+                    "cardIndex": 64,
+                    "question": "contendere 3, -o, ",
+                    "awnser": "sich anstrengen 2. eilen (= rasch marschieren) 3. kämpfen"
+                },
+                {
+                    "cardIndex": 65,
+                    "question": "copia, -ae f.",
+                    "awnser": "Menge, Vorrat"
+                },
+                {
+                    "cardIndex": 66,
+                    "question": "cum (Konjunktion)",
+                    "awnser": "1.(immer) wenn 2.indem"
+                },
+                {
+                    "cardIndex": 67,
+                    "question": "cum + Abl.",
+                    "awnser": "mit"
+                },
+                {
+                    "cardIndex": 68,
+                    "question": "cupere, cupio M ",
+                    "awnser": "wünschen, begehren"
+                },
+                {
+                    "cardIndex": 69,
+                    "question": "currere 3, curro ",
+                    "awnser": "laufen"
+                },
+                {
+                    "cardIndex": 70,
+                    "question": "dare 1, -o ",
+                    "awnser": "geben"
+                },
+                {
+                    "cardIndex": 71,
+                    "question": "de (Präp. + Abl.)",
+                    "awnser": "1.von (z. B. ich erzähle von…) 2.über (z. B. ich erzähle über…) 3. von … herab (örtlich)"
+                },
+                {
+                    "cardIndex": 72,
+                    "question": "dea, deae f.",
+                    "awnser": "Göttin"
+                },
+                {
+                    "cardIndex": 73,
+                    "question": "debere 2, -eo ",
+                    "awnser": "1.+ Inf.: müssen 2. schulden, verdanken"
+                },
+                {
+                    "cardIndex": 74,
+                    "question": "de-esse, desum ",
+                    "awnser": "fehlen "
+                },
+                {
+                    "cardIndex": 75,
+                    "question": "defendere 3, -o",
+                    "awnser": "verteidigen, abwehren"
+                },
+                {
+                    "cardIndex": 76,
+                    "question": "deinde",
+                    "awnser": "dann"
+                },
+                {
+                    "cardIndex": 77,
+                    "question": "delectare 1, -o ",
+                    "awnser": "erfreuen"
+                },
+                {
+                    "cardIndex": 78,
+                    "question": "deus, -i m.",
+                    "awnser": "Gott"
+                },
+                {
+                    "cardIndex": 79,
+                    "question": "dicere 3, -o ",
+                    "awnser": "1. sagen ; 2. nennen"
+                },
+                {
+                    "cardIndex": 80,
+                    "question": "dicere 3, -o mit 2 Akk.",
+                    "awnser": "jem. nennen/bezeichnen als"
+                },
+                {
+                    "cardIndex": 81,
+                    "question": "dies, diei m.",
+                    "awnser": "Tag"
+                },
+                {
+                    "cardIndex": 82,
+                    "question": "dignus 3 + Abl.",
+                    "awnser": "würdig einer Sache (d. h.: man verdient diese Sache)"
+                },
+                {
+                    "cardIndex": 83,
+                    "question": "diligens, Gen. diligentis",
+                    "awnser": "sorgfältig"
+                },
+                {
+                    "cardIndex": 84,
+                    "question": "docere 2, -eo ",
+                    "awnser": "lehren, belehren"
+                },
+                {
+                    "cardIndex": 85,
+                    "question": "dolere 2, -eo",
+                    "awnser": "bedauern, leiden, Schmerz empfinden"
+                },
+                {
+                    "cardIndex": 86,
+                    "question": "dominus, -i m.",
+                    "awnser": "Herr"
+                },
+                {
+                    "cardIndex": 87,
+                    "question": "domum (Akk.)",
+                    "awnser": "nach Hause"
+                },
+                {
+                    "cardIndex": 88,
+                    "question": "domus, -i f.",
+                    "awnser": "Haus"
+                },
+                {
+                    "cardIndex": 89,
+                    "question": "donare 1, -o ",
+                    "awnser": "schenken"
+                },
+                {
+                    "cardIndex": 90,
+                    "question": "ducere 3, -o ",
+                    "awnser": "führen (z.B. Personen), leiten (z.B. Wasser)"
+                },
+                {
+                    "cardIndex": 91,
+                    "question": "dum (Konjunktion + Präsens)",
+                    "awnser": "während"
+                },
+                {
+                    "cardIndex": 92,
+                    "question": "e / ex + Abl.",
+                    "awnser": "von, aus"
+                },
+                {
+                    "cardIndex": 93,
+                    "question": "E schola venio.",
+                    "awnser": "Ich komme von = aus der Schule."
+                },
+                {
+                    "cardIndex": 94,
+                    "question": "egere 2, -eo + Abl. separativus",
+                    "awnser": "etwas nicht haben, brauchen (=nötig haben)"
+                },
+                {
+                    "cardIndex": 95,
+                    "question": "ego – tu – nos – vos mit Deklination",
+                    "awnser": "ich – du – wir – ihr"
+                },
+                {
+                    "cardIndex": 96,
+                    "question": "equus, equi m.",
+                    "awnser": "Pferd"
+                },
+                {
+                    "cardIndex": 97,
+                    "question": "ergo (Konjunktion) = itaque",
+                    "awnser": "also, deshalb, daher"
+                },
+                {
+                    "cardIndex": 98,
+                    "question": "esse, sum (fui)",
+                    "awnser": "sein, existieren"
+                },
+                {
+                    "cardIndex": 99,
+                    "question": "et",
+                    "awnser": "und"
+                },
+                {
+                    "cardIndex": 100,
+                    "question": "et … et …",
+                    "awnser": "sowohl … als auch …"
+                },
+                {
+                    "cardIndex": 101,
+                    "question": "etiam",
+                    "awnser": "auch, sogar"
+                },
+                {
+                    "cardIndex": 102,
+                    "question": "exercere 2, -eo ",
+                    "awnser": "1.üben, (jemanden) trainieren; 2. beschäftigen 3. im Passiv: (selbst) trainieren"
+                },
+                {
+                    "cardIndex": 103,
+                    "question": "exspectare 1, -o",
+                    "awnser": "warten; mit Akk.: erwarten"
+                },
+                {
+                    "cardIndex": 104,
+                    "question": "fabula, -ae f.",
+                    "awnser": "Geschichte, Fabel"
+                },
+                {
+                    "cardIndex": 105,
+                    "question": "facere M, -io ",
+                    "awnser": "tun, machen"
+                },
+                {
+                    "cardIndex": 106,
+                    "question": "1.factum, -i n.",
+                    "awnser": "Tat 2. Tatsache 3. Ereignis"
+                },
+                {
+                    "cardIndex": 107,
+                    "question": "facultas, facultatis f.",
+                    "awnser": "Möglichkeit"
+                },
+                {
+                    "cardIndex": 108,
+                    "question": "falsus, -a, -um",
+                    "awnser": "falsch"
+                },
+                {
+                    "cardIndex": 109,
+                    "question": "fatum, -i n.",
+                    "awnser": "1. Schicksal ; 2. Götterspruch, Weissagung"
+                },
+                {
+                    "cardIndex": 110,
+                    "question": "felix (m./f./n.), Gen. felicis",
+                    "awnser": "glücklich"
+                },
+                {
+                    "cardIndex": 111,
+                    "question": "femina, -ae f.",
+                    "awnser": "Frau"
+                },
+                {
+                    "cardIndex": 112,
+                    "question": "filia, -ae f.",
+                    "awnser": "Tochter"
+                },
+                {
+                    "cardIndex": 113,
+                    "question": "filius, filii m.",
+                    "awnser": "Sohn"
+                },
+                {
+                    "cardIndex": 114,
+                    "question": "finis, finis m.",
+                    "awnser": "1. Ende, Ziel, Grenze 2. im Plural auch: Gebiet"
+                },
+                {
+                    "cardIndex": 115,
+                    "question": "fluctus, -us m.",
+                    "awnser": "1.Flut, Welle 2. das Fließen"
+                },
+                {
+                    "cardIndex": 116,
+                    "question": "fortis, -e",
+                    "awnser": "1.tapfer; 2. stark"
+                },
+                {
+                    "cardIndex": 117,
+                    "question": "fugare 1, -o ",
+                    "awnser": "verjagen, in die Flucht schlagen"
+                },
+                {
+                    "cardIndex": 118,
+                    "question": "gaudere 2, -eo ",
+                    "awnser": "sich freuen"
+                },
+                {
+                    "cardIndex": 119,
+                    "question": "gaudium, -i n.",
+                    "awnser": "Freude"
+                },
+                {
+                    "cardIndex": 120,
+                    "question": "gens, gentis f.",
+                    "awnser": "Volk, Volksstamm"
+                },
+                {
+                    "cardIndex": 121,
+                    "question": "genus, generis n.",
+                    "awnser": "1.Art 2.Volk 3.Geschlecht"
+                },
+                {
+                    "cardIndex": 122,
+                    "question": "gloria, -ae f.",
+                    "awnser": "Ruhm"
+                },
+                {
+                    "cardIndex": 123,
+                    "question": "Graecus, -i m.",
+                    "awnser": "Grieche "
+                },
+                {
+                    "cardIndex": 124,
+                    "question": "gratia, ae f.",
+                    "awnser": "Dank 2.Ansehen"
+                },
+                {
+                    "cardIndex": 125,
+                    "question": "gratias habere",
+                    "awnser": "danken"
+                },
+                {
+                    "cardIndex": 126,
+                    "question": "habere 2, -eo ",
+                    "awnser": "1. haben 2. halten für… (mit 2 Akk.-Objekten)"
+                },
+                {
+                    "cardIndex": 127,
+                    "question": "habitare 1, -o ",
+                    "awnser": "wohnen"
+                },
+                {
+                    "cardIndex": 128,
+                    "question": "hic (Adv.)",
+                    "awnser": "hier"
+                },
+                {
+                    "cardIndex": 129,
+                    "question": "hiems, hiemis f.",
+                    "awnser": "Winter"
+                },
+                {
+                    "cardIndex": 130,
+                    "question": "hodie (Adv.)",
+                    "awnser": "heute"
+                },
+                {
+                    "cardIndex": 131,
+                    "question": "homo, hominis m.",
+                    "awnser": "1. Mensch; 2. Mann"
+                },
+                {
+                    "cardIndex": 132,
+                    "question": "honestus, -a, -um",
+                    "awnser": "ehrenhaft, anständig 1.honos/honor, honoris m."
+                },
+                {
+                    "cardIndex": 133,
+                    "question": "hostis, hostis m.",
+                    "awnser": "Feind (im militärischen Sinn)"
+                },
+                {
+                    "cardIndex": 134,
+                    "question": "iam (Adv.)",
+                    "awnser": "schon"
+                },
+                {
+                    "cardIndex": 135,
+                    "question": "ibi (Adv.)",
+                    "awnser": "dort"
+                },
+                {
+                    "cardIndex": 136,
+                    "question": "ideo (Adv.)",
+                    "awnser": "deshalb"
+                },
+                {
+                    "cardIndex": 137,
+                    "question": "imperator, -toris m.",
+                    "awnser": "1.Feldherr; 2. Kaiser"
+                },
+                {
+                    "cardIndex": 138,
+                    "question": "imperium, -i n.",
+                    "awnser": "1. Befehl, Befehlsgewalt 2. Reich (=die Gegend, wo man die Befehlsgewalt ausübt)"
+                },
+                {
+                    "cardIndex": 139,
+                    "question": "im-piger, -pigra, -pgrum",
+                    "awnser": "fließig (« un-faul »)"
+                },
+                {
+                    "cardIndex": 140,
+                    "question": "in + Abl. (auf die Frage WO?)",
+                    "awnser": "in, auf"
+                },
+                {
+                    "cardIndex": 141,
+                    "question": "in + Akk. (auf die Frage WOHIN?)",
+                    "awnser": "in … hinein, nach (z. B. nach Italien); gegen (im feindlichen Sinn)"
+                },
+                {
+                    "cardIndex": 142,
+                    "question": "in-cipere M, -io ",
+                    "awnser": "beginnen, anfangen"
+                },
+                {
+                    "cardIndex": 143,
+                    "question": "ingens (m./f. n.), Gen.: ingentis",
+                    "awnser": "riesig, (sehr) groß"
+                },
+                {
+                    "cardIndex": 144,
+                    "question": "initium, -i n.",
+                    "awnser": "Anfang"
+                },
+                {
+                    "cardIndex": 145,
+                    "question": "in-iustus, -a, -um",
+                    "awnser": "un-gerecht"
+                },
+                {
+                    "cardIndex": 146,
+                    "question": "insula, -ae f.",
+                    "awnser": "Insel"
+                },
+                {
+                    "cardIndex": 147,
+                    "question": "inter-esse, -sum (interfui)",
+                    "awnser": "dabei sein, teilnehmen"
+                },
+                {
+                    "cardIndex": 148,
+                    "question": "invenire 4, -io ",
+                    "awnser": "1. finden ; 2. erfinden"
+                },
+                {
+                    "cardIndex": 149,
+                    "question": "invitare 1, -o ",
+                    "awnser": "einladen"
+                },
+                {
+                    "cardIndex": 150,
+                    "question": "ira, irae f.",
+                    "awnser": "Zorn, Wut"
+                },
+                {
+                    "cardIndex": 151,
+                    "question": "is, ea, id",
+                    "awnser": "1. in Kombination mit einem Substantiv: dieser/-e/-es 2. alleine (statt eines Substantivs): er /sie / es"
+                },
+                {
+                    "cardIndex": 152,
+                    "question": "ita (Adv.)",
+                    "awnser": "so"
+                },
+                {
+                    "cardIndex": 153,
+                    "question": "Italia, -ae f. in Italia (Abl.) in Italiam (Akk.)",
+                    "awnser": "Italien in Italien nach Italien "
+                },
+                {
+                    "cardIndex": 154,
+                    "question": "itaque (Konjunktion) = ergo",
+                    "awnser": "also, deshalb, daher"
+                },
+                {
+                    "cardIndex": 155,
+                    "question": "iubere 2, -eo",
+                    "awnser": "befehlen"
+                },
+                {
+                    "cardIndex": 156,
+                    "question": "iucundus, -a, -um",
+                    "awnser": "angenehm, erfreulich"
+                },
+                {
+                    "cardIndex": 157,
+                    "question": "Iulius, -i m.",
+                    "awnser": "Julius"
+                },
+                {
+                    "cardIndex": 158,
+                    "question": "iungere 3, -o ",
+                    "awnser": "verbinden"
+                },
+                {
+                    "cardIndex": 159,
+                    "question": "Iuppiter, Iovis m.",
+                    "awnser": "Jupiter (griech. Zeus)"
+                },
+                {
+                    "cardIndex": 160,
+                    "question": "iuvenis, iuvenis m.",
+                    "awnser": "1.Substantiv: junger Mann 2.Adjektiv: jung"
+                },
+                {
+                    "cardIndex": 161,
+                    "question": "laborare 1, -o ",
+                    "awnser": "1. sich anstrengen ; 2. arbeiten"
+                },
+                {
+                    "cardIndex": 162,
+                    "question": "laudare 1, -o ",
+                    "awnser": "loben"
+                },
+                {
+                    "cardIndex": 163,
+                    "question": "laus, laudis f.",
+                    "awnser": "Lob, Ruhm"
+                },
+                {
+                    "cardIndex": 164,
+                    "question": "1.legere 3, -o ",
+                    "awnser": "lesen 2.sammeln"
+                },
+                {
+                    "cardIndex": 165,
+                    "question": "leo, leonis m.",
+                    "awnser": "Löwe"
+                },
+                {
+                    "cardIndex": 166,
+                    "question": "lex, legis fr.",
+                    "awnser": "Gesetz"
+                },
+                {
+                    "cardIndex": 167,
+                    "question": "liber, libri m.",
+                    "awnser": "Buch (eigentlich: Schriftrolle)"
+                },
+                {
+                    "cardIndex": 168,
+                    "question": "licet, (licuit) + Inf.",
+                    "awnser": "es ist erlaubt (… zu tun)"
+                },
+                {
+                    "cardIndex": 169,
+                    "question": "lingua, -ae f.",
+                    "awnser": "1.Zunge; 2. Sprache"
+                },
+                {
+                    "cardIndex": 170,
+                    "question": "littera, -ae f.",
+                    "awnser": "1. im Sg.: Buchstabe 2. im Pl.: a) Brief b) Literatur c) Wissenschaft (eigentlich: alles Geschriebene) "
+                },
+                {
+                    "cardIndex": 171,
+                    "question": "magis (Adv.) … quam",
+                    "awnser": "mehr … als"
+                },
+                {
+                    "cardIndex": 172,
+                    "question": "magnā voce",
+                    "awnser": "mit lauter Stimme"
+                },
+                {
+                    "cardIndex": 173,
+                    "question": "magnus 3",
+                    "awnser": "groß"
+                },
+                {
+                    "cardIndex": 174,
+                    "question": "manere 2, -eo ",
+                    "awnser": "bleiben"
+                },
+                {
+                    "cardIndex": 175,
+                    "question": "manus, manus f.",
+                    "awnser": "1.Hand, 2. (eine Hand voll ->) Schar, Menge"
+                },
+                {
+                    "cardIndex": 176,
+                    "question": "Marcus Paulusque",
+                    "awnser": "Marcus und Paul"
+                },
+                {
+                    "cardIndex": 177,
+                    "question": "mare, maris n. ; Pl. mária",
+                    "awnser": "Meer"
+                },
+                {
+                    "cardIndex": 178,
+                    "question": "medicus, -i m.",
+                    "awnser": "Arzt"
+                },
+                {
+                    "cardIndex": 179,
+                    "question": "Mercurius, -i m.",
+                    "awnser": "Merkur (Götterbote, Gott der Händler und Diebe; griech. Hermes)"
+                },
+                {
+                    "cardIndex": 180,
+                    "question": "meridies, meridei m.",
+                    "awnser": "1.Mittag 2. Süden"
+                },
+                {
+                    "cardIndex": 181,
+                    "question": "mihi licet",
+                    "awnser": "es ist mir erlaubt (= ich darf)"
+                },
+                {
+                    "cardIndex": 182,
+                    "question": "minime (Adv.)",
+                    "awnser": "keineswegs, überhaupt nicht"
+                },
+                {
+                    "cardIndex": 183,
+                    "question": "mittere 3, -o ",
+                    "awnser": "schicken"
+                },
+                {
+                    "cardIndex": 184,
+                    "question": "monere 2, -eo ",
+                    "awnser": "1.ermahnen, warnen 2.erinnern"
+                },
+                {
+                    "cardIndex": 185,
+                    "question": "mons, montis m.",
+                    "awnser": "Berg"
+                },
+                {
+                    "cardIndex": 186,
+                    "question": "monstrare 1, -o ",
+                    "awnser": "zeigen"
+                },
+                {
+                    "cardIndex": 187,
+                    "question": "mors, mortis f. ",
+                    "awnser": "(natürlicher) Tod"
+                },
+                {
+                    "cardIndex": 188,
+                    "question": "mos, moris m.",
+                    "awnser": "1. Sitte, Gewohnheit 2. (moralische) regel"
+                },
+                {
+                    "cardIndex": 189,
+                    "question": "movere 2, -eo ",
+                    "awnser": "bewegen "
+                },
+                {
+                    "cardIndex": 190,
+                    "question": "mox (Adv.)",
+                    "awnser": "bald, dann"
+                },
+                {
+                    "cardIndex": 191,
+                    "question": "mulier, mulieris f.",
+                    "awnser": "Frau, Ehefrau"
+                },
+                {
+                    "cardIndex": 192,
+                    "question": "multa n. Pl.l",
+                    "awnser": "viel (eigentlich: viele Sachen) multi nostrum"
+                },
+                {
+                    "cardIndex": 193,
+                    "question": "nemo nostrum",
+                    "awnser": "viele von uns keiner von uns"
+                },
+                {
+                    "cardIndex": 194,
+                    "question": "multi, -ae , -a (Pl.)",
+                    "awnser": "viele; Neutrum: vieles, viel"
+                },
+                {
+                    "cardIndex": 195,
+                    "question": "murus, -i m.",
+                    "awnser": "Mauer"
+                },
+                {
+                    "cardIndex": 196,
+                    "question": "nam (Konjunktion)",
+                    "awnser": "denn, nämlich"
+                },
+                {
+                    "cardIndex": 197,
+                    "question": "narrare 1, -o ",
+                    "awnser": "erzählen"
+                },
+                {
+                    "cardIndex": 198,
+                    "question": "navigare 1, -o ",
+                    "awnser": "segeln"
+                },
+                {
+                    "cardIndex": 199,
+                    "question": "-ne (Enklitikum = angehängtes Wort)",
+                    "awnser": "Frageeinleitung (bleibt unübersetzt)"
+                },
+                {
+                    "cardIndex": 200,
+                    "question": "ne … quidem",
+                    "awnser": "nicht einmal …"
+                },
+                {
+                    "cardIndex": 201,
+                    "question": "necare 1, -o ",
+                    "awnser": "töten"
+                },
+                {
+                    "cardIndex": 202,
+                    "question": "necessarius, -a, -um",
+                    "awnser": "notwendig"
+                },
+                {
+                    "cardIndex": 203,
+                    "question": "negare 1, -o",
+                    "awnser": "1.leugnen; 2.verweigern (3. sagen, dass… nicht…)"
+                },
+                {
+                    "cardIndex": 204,
+                    "question": "neglegere 3, -o",
+                    "awnser": "vernachlässigen, gering schätzen"
+                },
+                {
+                    "cardIndex": 205,
+                    "question": "neque = nec",
+                    "awnser": "und nicht, auch nicht"
+                },
+                {
+                    "cardIndex": 206,
+                    "question": "nihil",
+                    "awnser": "nichts"
+                },
+                {
+                    "cardIndex": 207,
+                    "question": "nolle, nolo, (nolui)",
+                    "awnser": "nicht wollen"
+                },
+                {
+                    "cardIndex": 208,
+                    "question": "non",
+                    "awnser": "nicht"
+                },
+                {
+                    "cardIndex": 209,
+                    "question": "non iam",
+                    "awnser": "nicht mehr"
+                },
+                {
+                    "cardIndex": 210,
+                    "question": "non solum …., sed etiam…",
+                    "awnser": "nicht nur …, sondern auch …"
+                },
+                {
+                    "cardIndex": 211,
+                    "question": "nonne?",
+                    "awnser": "nicht? (in einer Frage; erwartete Antwort = ja, doch!)"
+                },
+                {
+                    "cardIndex": 212,
+                    "question": "nonnumquam ",
+                    "awnser": "manchmal (wörtlich: nicht niemals)"
+                },
+                {
+                    "cardIndex": 213,
+                    "question": "novus 3",
+                    "awnser": "neu"
+                },
+                {
+                    "cardIndex": 214,
+                    "question": "nox, noctis f.",
+                    "awnser": "Nacht"
+                },
+                {
+                    "cardIndex": 215,
+                    "question": "nullus, -a, -um",
+                    "awnser": "kein"
+                },
+                {
+                    "cardIndex": 216,
+                    "question": "num?",
+                    "awnser": "etwa? (in einer Frage; erwartete Antwort = nein!)"
+                },
+                {
+                    "cardIndex": 217,
+                    "question": "numquam",
+                    "awnser": "nie(mals) (vgl. nonnumquam = „nicht niemals“ -> manchmal)"
+                },
+                {
+                    "cardIndex": 218,
+                    "question": "nunc (Adv.)",
+                    "awnser": "jetzt, nun"
+                },
+                {
+                    "cardIndex": 219,
+                    "question": "nuntius, -i m.",
+                    "awnser": "1.Bote; 2. Botschaft"
+                },
+                {
+                    "cardIndex": 220,
+                    "question": "occidere 3, -o",
+                    "awnser": "töten, erschlagen"
+                },
+                {
+                    "cardIndex": 221,
+                    "question": "occultare 1, -o",
+                    "awnser": "verstecken, verbergen"
+                },
+                {
+                    "cardIndex": 222,
+                    "question": "omnia, quae (n. Pl.)",
+                    "awnser": "alle, was (wörtlich: alle <Dinge>, welche…)"
+                },
+                {
+                    "cardIndex": 223,
+                    "question": "omnis, omne",
+                    "awnser": "Sg.: 1.jeder (omnis homo); 2.ganz (omnis terra) Pl.: alle"
+                },
+                {
+                    "cardIndex": 224,
+                    "question": "oppidum, -i n,",
+                    "awnser": "(kleine) Stadt"
+                },
+                {
+                    "cardIndex": 225,
+                    "question": "opus, operis n.",
+                    "awnser": "Werk, Tat"
+                },
+                {
+                    "cardIndex": 226,
+                    "question": "orbis, orbis m.",
+                    "awnser": "1. Kreis, Scheibe; 2. Erdkreis = Erde"
+                },
+                {
+                    "cardIndex": 227,
+                    "question": "ornare 1, -o ",
+                    "awnser": "schmücken"
+                },
+                {
+                    "cardIndex": 228,
+                    "question": "parare 1, -o",
+                    "awnser": "1. vorbereiten; 2. vorhaben (+ Inf.); 3. erwerben, sich (etwas) verschaffen"
+                },
+                {
+                    "cardIndex": 229,
+                    "question": "parentes, parentum m. Pl.",
+                    "awnser": "Eltern"
+                },
+                {
+                    "cardIndex": 230,
+                    "question": "parere, 2, -eo ",
+                    "awnser": "gehorchen"
+                },
+                {
+                    "cardIndex": 231,
+                    "question": "Parthi, Parthorum m. Pl.",
+                    "awnser": "die Parther (Volk im heutigen Irak und Iran; mit Rom verfeindet)"
+                },
+                {
+                    "cardIndex": 232,
+                    "question": "patria, -ae f.",
+                    "awnser": "Heimat, Vaterland"
+                },
+                {
+                    "cardIndex": 233,
+                    "question": "pax, pacis f.",
+                    "awnser": "Friede"
+                },
+                {
+                    "cardIndex": 234,
+                    "question": "per + Akk.",
+                    "awnser": "durch, über (z. B. über das Meer)"
+                },
+                {
+                    "cardIndex": 235,
+                    "question": "permittere 3, -o ",
+                    "awnser": "erlauben, zulassen"
+                },
+                {
+                    "cardIndex": 236,
+                    "question": "pertinere 2, -eo, ad",
+                    "awnser": "sich erstrecken / sich beziehen auf"
+                },
+                {
+                    "cardIndex": 237,
+                    "question": "per-turbare 1, -o ",
+                    "awnser": "stören, in Unordnung bringen"
+                },
+                {
+                    "cardIndex": 238,
+                    "question": "philosophus, -i m.",
+                    "awnser": "Philosoph"
+                },
+                {
+                    "cardIndex": 239,
+                    "question": "piger, pigra, pigrum",
+                    "awnser": "faul"
+                },
+                {
+                    "cardIndex": 240,
+                    "question": "piscina, -ae f.",
+                    "awnser": "Schwimmbecken"
+                },
+                {
+                    "cardIndex": 241,
+                    "question": "placare 1, -o ",
+                    "awnser": "besänftigen"
+                },
+                {
+                    "cardIndex": 242,
+                    "question": "placere 2, -eo ",
+                    "awnser": "gefallen"
+                },
+                {
+                    "cardIndex": 243,
+                    "question": "poeta, -ae m.",
+                    "awnser": "Dichter"
+                },
+                {
+                    "cardIndex": 244,
+                    "question": "porta, -ae f.",
+                    "awnser": "Tür, Tor"
+                },
+                {
+                    "cardIndex": 245,
+                    "question": "portare 1, -o ",
+                    "awnser": "tragen, bringen"
+                },
+                {
+                    "cardIndex": 246,
+                    "question": "posse, possum ",
+                    "awnser": "können"
+                },
+                {
+                    "cardIndex": 247,
+                    "question": "post (Präp. + Akk.)",
+                    "awnser": "1. örtlich: hinter 2. zeitlich: nach"
+                },
+                {
+                    "cardIndex": 248,
+                    "question": "prae + Abl.",
+                    "awnser": "vor"
+                },
+                {
+                    "cardIndex": 249,
+                    "question": "primus, -a, um",
+                    "awnser": "der erste; im Satz oft: als erster/e"
+                },
+                {
+                    "cardIndex": 250,
+                    "question": "prod-esse, pro-sum ",
+                    "awnser": "nützen"
+                },
+                {
+                    "cardIndex": 251,
+                    "question": "prohibere 2, -eo ",
+                    "awnser": "fernhalten, hindern"
+                },
+                {
+                    "cardIndex": 252,
+                    "question": "proles, prolis f.",
+                    "awnser": "Kind; kann auch mit einem Plural übersetzt werden: Nachkommen, Kinder"
+                },
+                {
+                    "cardIndex": 253,
+                    "question": "provincia, -ae f.",
+                    "awnser": "Provinz"
+                },
+                {
+                    "cardIndex": 254,
+                    "question": "prudens, Gen.: prudentis",
+                    "awnser": "klug"
+                },
+                {
+                    "cardIndex": 255,
+                    "question": "puella, -ae f.",
+                    "awnser": "Mädchen"
+                },
+                {
+                    "cardIndex": 256,
+                    "question": "puer, pueri m.",
+                    "awnser": "Bub"
+                },
+                {
+                    "cardIndex": 257,
+                    "question": "pugna, -ae f.",
+                    "awnser": "Kampf"
+                },
+                {
+                    "cardIndex": 258,
+                    "question": "pugnare 1, -o ",
+                    "awnser": "kämpfen"
+                },
+                {
+                    "cardIndex": 259,
+                    "question": "pulcher, pulchra, pulchrum",
+                    "awnser": "schön"
+                },
+                {
+                    "cardIndex": 260,
+                    "question": "putare 1, -o ",
+                    "awnser": "1.glauben; 2. halten für (siehe oben)"
+                },
+                {
+                    "cardIndex": 261,
+                    "question": "putare 1, -o mit 2 Akk. Puto eum bonum.",
+                    "awnser": "jem./etwas für … halten Ich halte ihn für gut."
+                },
+                {
+                    "cardIndex": 262,
+                    "question": "quaerere 3, -o ",
+                    "awnser": "1. (jem. / etwas) suchen (mit Akk.-Objekt) 2. (jemanden) fragen = quaerere e/ex…"
+                },
+                {
+                    "cardIndex": 263,
+                    "question": "quam (Adv.)",
+                    "awnser": "wie (z. B. bei einem Vergleich: tam [L 14] – quam = so – wie)"
+                },
+                {
+                    "cardIndex": 264,
+                    "question": "quamvis (Konjunktion)",
+                    "awnser": "obwohl"
+                },
+                {
+                    "cardIndex": 265,
+                    "question": "quasi (Adv.)",
+                    "awnser": "gleichsam, sozusagen"
+                },
+                {
+                    "cardIndex": 266,
+                    "question": "quasi (Konjunktion)",
+                    "awnser": "als ob, wie wenn (entstanden aus quam = wie + si =wenn)"
+                },
+                {
+                    "cardIndex": 267,
+                    "question": "-que (wird an das nächste Wort drangehängt)",
+                    "awnser": "und"
+                },
+                {
+                    "cardIndex": 268,
+                    "question": "qui, quae, quod",
+                    "awnser": "Relativpronomen: der/die/das, welcher/-e/-es"
+                },
+                {
+                    "cardIndex": 269,
+                    "question": "quia (Konjunktion)",
+                    "awnser": "weil"
+                },
+                {
+                    "cardIndex": 270,
+                    "question": "quid?",
+                    "awnser": "was?"
+                },
+                {
+                    "cardIndex": 271,
+                    "question": "quidam, quaedam, quoddam",
+                    "awnser": "einer, ein gewisser; Pl.: einige "
+                },
+                {
+                    "cardIndex": 272,
+                    "question": "quis? quis nostrum/vestrum?",
+                    "awnser": "wer? wer von uns/euch?"
+                },
+                {
+                    "cardIndex": 273,
+                    "question": "quod (Konjunktion)",
+                    "awnser": "weil"
+                },
+                {
+                    "cardIndex": 274,
+                    "question": "quoque (Konjunktion)",
+                    "awnser": "auch"
+                },
+                {
+                    "cardIndex": 275,
+                    "question": "quot (indeklinabel)",
+                    "awnser": "wie viele"
+                },
+                {
+                    "cardIndex": 276,
+                    "question": "rapere M, -io ",
+                    "awnser": "rauben, entführen"
+                },
+                {
+                    "cardIndex": 277,
+                    "question": "regina, -ae f.",
+                    "awnser": "Königin"
+                },
+                {
+                    "cardIndex": 278,
+                    "question": "relinquere, relinquo 3 ",
+                    "awnser": "1.verlassen; 2. zurücklassen"
+                },
+                {
+                    "cardIndex": 279,
+                    "question": "res, rei f.",
+                    "awnser": "1.Sache, 2. Angelegenheit, 3. Lage"
+                },
+                {
+                    "cardIndex": 280,
+                    "question": "respondere 2, -eo ",
+                    "awnser": "antworten"
+                },
+                {
+                    "cardIndex": 281,
+                    "question": "rex, regis m.",
+                    "awnser": "König"
+                },
+                {
+                    "cardIndex": 282,
+                    "question": "rogare 1, -o ",
+                    "awnser": "1. bitten, erbitten; 2. fragen"
+                },
+                {
+                    "cardIndex": 283,
+                    "question": "Roma, -ae f.",
+                    "awnser": "Rom"
+                },
+                {
+                    "cardIndex": 284,
+                    "question": "Romanus, -a, -um Imperium Romanum",
+                    "awnser": "römisch das Römische Reich "
+                },
+                {
+                    "cardIndex": 285,
+                    "question": "Romanus, -i m. Romani, -orum m. Pl.",
+                    "awnser": "der Römer die Römer"
+                },
+                {
+                    "cardIndex": 286,
+                    "question": "Romulus, -i m.",
+                    "awnser": "Romulus (Gründer Roms)"
+                },
+                {
+                    "cardIndex": 287,
+                    "question": "1.sacrum, -i n.",
+                    "awnser": "das Heiligtum(=Tempel) 2.Opfergabe "
+                },
+                {
+                    "cardIndex": 288,
+                    "question": "saeculum, -i n.",
+                    "awnser": "Jahrhundert, Zeitalter"
+                },
+                {
+                    "cardIndex": 289,
+                    "question": "saepe (Adv.)",
+                    "awnser": "oft"
+                },
+                {
+                    "cardIndex": 290,
+                    "question": "salus, salutis f.",
+                    "awnser": "1. Gesundheit 2. Rettung, Heil 3. Gruß"
+                },
+                {
+                    "cardIndex": 291,
+                    "question": "salutare 1, -o ",
+                    "awnser": "(be-)grüßen"
+                },
+                {
+                    "cardIndex": 292,
+                    "question": "salutem dicere + Dativ",
+                    "awnser": "jemanden grüßen"
+                },
+                {
+                    "cardIndex": 293,
+                    "question": "scribere 3, -o ",
+                    "awnser": "schreiben"
+                },
+                {
+                    "cardIndex": 294,
+                    "question": "se praebere 2, -eo ",
+                    "awnser": "sich zeigen/erweisen als"
+                },
+                {
+                    "cardIndex": 295,
+                    "question": "sed",
+                    "awnser": "aber; nach Verneinung: sondern"
+                },
+                {
+                    "cardIndex": 296,
+                    "question": "sedere 2, -eo ",
+                    "awnser": "sitzen"
+                },
+                {
+                    "cardIndex": 297,
+                    "question": "semper (Adv.)",
+                    "awnser": "immer"
+                },
+                {
+                    "cardIndex": 298,
+                    "question": "servare 1, -o ",
+                    "awnser": "retten, bewahren"
+                },
+                {
+                    "cardIndex": 299,
+                    "question": "servus, i m.",
+                    "awnser": "Sklave"
+                },
+                {
+                    "cardIndex": 300,
+                    "question": "si (Konjunktion)",
+                    "awnser": "wenn, falls"
+                },
+                {
+                    "cardIndex": 301,
+                    "question": "silentium, -i n.",
+                    "awnser": "Stille, Ruhe"
+                },
+                {
+                    "cardIndex": 302,
+                    "question": "sine + Abl.",
+                    "awnser": "ohne + 4. Fall"
+                },
+                {
+                    "cardIndex": 303,
+                    "question": "socius, -i m.",
+                    "awnser": "Kamerad, Gefährte"
+                },
+                {
+                    "cardIndex": 304,
+                    "question": "solere 2, -eo ",
+                    "awnser": "gewohnt sein, pflegen; (etwas) häufig machen"
+                },
+                {
+                    "cardIndex": 305,
+                    "question": "solum (Adv.)",
+                    "awnser": "nur"
+                },
+                {
+                    "cardIndex": 306,
+                    "question": "sonus, -i m.",
+                    "awnser": "Klang, Laut"
+                },
+                {
+                    "cardIndex": 307,
+                    "question": "spatium, -i n.",
+                    "awnser": "1.Raum; 2. Zeit(raum, -strecke)"
+                },
+                {
+                    "cardIndex": 308,
+                    "question": "spectaculum, -i n.",
+                    "awnser": "Schauspiel, Spektakel"
+                },
+                {
+                    "cardIndex": 309,
+                    "question": "spes, spei f.",
+                    "awnser": "Hoffnung"
+                },
+                {
+                    "cardIndex": 310,
+                    "question": "studere 2, -eo + Dativ oder + Infinitiv",
+                    "awnser": "1.sich bemühen, nach etwas streben 2. studieren"
+                },
+                {
+                    "cardIndex": 311,
+                    "question": "1.studium, -i n.",
+                    "awnser": "Eifer, Bemühung 2.Beschäftigung, Interesse 3.(wissensch.) Studium "
+                },
+                {
+                    "cardIndex": 312,
+                    "question": "sub + Akk.",
+                    "awnser": "unter (WOHIN?)"
+                },
+                {
+                    "cardIndex": 313,
+                    "question": "subito (Adv.)",
+                    "awnser": "plötzlich, unerwartet"
+                },
+                {
+                    "cardIndex": 314,
+                    "question": "superare 1, -o ",
+                    "awnser": "1. besiegen; 2. übertreffen"
+                },
+                {
+                    "cardIndex": 315,
+                    "question": "superbia, -ae f.",
+                    "awnser": "Hochmut, Überheblichkeit, Arroganz"
+                },
+                {
+                    "cardIndex": 316,
+                    "question": "superbus, -a, -um",
+                    "awnser": "stolz, überheblich, arrogant"
+                },
+                {
+                    "cardIndex": 317,
+                    "question": "supra (Adv.)",
+                    "awnser": "zeitlich: vorher, früher örtlich: oberhalb"
+                },
+                {
+                    "cardIndex": 318,
+                    "question": "tacere 2, -eo ",
+                    "awnser": "schweigen"
+                },
+                {
+                    "cardIndex": 319,
+                    "question": "talis (m./f.), tale (n.)",
+                    "awnser": "solch, so ein/-e…, so beschaffen"
+                },
+                {
+                    "cardIndex": 320,
+                    "question": "templum, -i n.",
+                    "awnser": "Tempel"
+                },
+                {
+                    "cardIndex": 321,
+                    "question": "tempus, temporis n.",
+                    "awnser": "die Zeit"
+                },
+                {
+                    "cardIndex": 322,
+                    "question": "toga, -ae f.",
+                    "awnser": "die Toga "
+                },
+                {
+                    "cardIndex": 323,
+                    "question": "tolerare 1, -o ",
+                    "awnser": "ertragen, erdulden, aushalten"
+                },
+                {
+                    "cardIndex": 324,
+                    "question": "tot (indeklinabel)",
+                    "awnser": "so viele"
+                },
+                {
+                    "cardIndex": 325,
+                    "question": "triclinium, -i n.",
+                    "awnser": "Speisezimmer, Triklinium"
+                },
+                {
+                    "cardIndex": 326,
+                    "question": "Troia, -ae f.",
+                    "awnser": "Troja"
+                },
+                {
+                    "cardIndex": 327,
+                    "question": "Troiani, -orum m. Pl.",
+                    "awnser": "die Trojaner"
+                },
+                {
+                    "cardIndex": 328,
+                    "question": "tum (Adv.)",
+                    "awnser": "1. damals, da (zeitlich); 2. dann, darauf"
+                },
+                {
+                    "cardIndex": 329,
+                    "question": "tumultus, -us m.",
+                    "awnser": "Lärm, Getöse, Tumult"
+                },
+                {
+                    "cardIndex": 330,
+                    "question": "ubi",
+                    "awnser": "1.wo 2.sobald, als"
+                },
+                {
+                    "cardIndex": 331,
+                    "question": "Ulixes, Genitiv Ulixis, Akk. Ulixem (3. Deklination)",
+                    "awnser": "Odysseus"
+                },
+                {
+                    "cardIndex": 332,
+                    "question": "unus, una, unum",
+                    "awnser": "ein(er), ein einziger"
+                },
+                {
+                    "cardIndex": 333,
+                    "question": "urbs, urbis f.",
+                    "awnser": "große Stadt; oft: Rom"
+                },
+                {
+                    "cardIndex": 334,
+                    "question": "ut ",
+                    "awnser": "wie"
+                },
+                {
+                    "cardIndex": 335,
+                    "question": "vale! Pl. valete!",
+                    "awnser": "leb wohl (= bleib gesund)!"
+                },
+                {
+                    "cardIndex": 336,
+                    "question": "varius, -a, -um",
+                    "awnser": "verschieden"
+                },
+                {
+                    "cardIndex": 337,
+                    "question": "velle, volo (volui)",
+                    "awnser": "wollen"
+                },
+                {
+                    "cardIndex": 338,
+                    "question": "venire 4, -io",
+                    "awnser": "kommen"
+                },
+                {
+                    "cardIndex": 339,
+                    "question": "verbum, -i n.",
+                    "awnser": "Wort "
+                },
+                {
+                    "cardIndex": 340,
+                    "question": "verus, -a, -um",
+                    "awnser": "wahr, echt, wirklich"
+                },
+                {
+                    "cardIndex": 341,
+                    "question": "videre 2, -eo ",
+                    "awnser": "sehen"
+                },
+                {
+                    "cardIndex": 342,
+                    "question": "villa, ae f.",
+                    "awnser": "Villa = 1. großer Bauernhof; 2. Landhaus („Ferienhaus“ für reiche Römer)"
+                },
+                {
+                    "cardIndex": 343,
+                    "question": "vir, viri m.",
+                    "awnser": "Mann"
+                },
+                {
+                    "cardIndex": 344,
+                    "question": "virgo, virginis f.",
+                    "awnser": "Mädchen"
+                },
+                {
+                    "cardIndex": 345,
+                    "question": "virtus, virtutis f.",
+                    "awnser": "1.Tugend (= positive Charaktereigenschaft) 2.Tapferkeit"
+                },
+                {
+                    "cardIndex": 346,
+                    "question": "vis, Akk. vim, Abl. vi Pl. : vires, virium, viribus…",
+                    "awnser": "Kraft, Stärke, Gewalt"
+                },
+                {
+                    "cardIndex": 347,
+                    "question": "visitare 1, -o ",
+                    "awnser": "besuchen"
+                },
+                {
+                    "cardIndex": 348,
+                    "question": "vita, ae f.",
+                    "awnser": "Leben"
+                },
+                {
+                    "cardIndex": 349,
+                    "question": "vitam agere",
+                    "awnser": "das Leben verbringen"
+                },
+                {
+                    "cardIndex": 350,
+                    "question": "vivere 3, -o ",
+                    "awnser": "leben"
+                },
+                {
+                    "cardIndex": 351,
+                    "question": "vix",
+                    "awnser": "kaum"
+                },
+                {
+                    "cardIndex": 352,
+                    "question": "vocare 1, -o",
+                    "awnser": "rufen, nennen"
+                },
+                {
+                    "cardIndex": 353,
+                    "question": "vocare 1, -o mit 2 Akk.",
+                    "awnser": "nennen (wie „dicere“)"
+                },
+                {
+                    "cardIndex": 354,
+                    "question": "voluntas, -voluntatis f.",
+                    "awnser": "Wille, Absicht"
+                },
+                {
+                    "cardIndex": 355,
+                    "question": "vox, vocis f.",
+                    "awnser": "Stimme"
+                }
+            ]
+        },
+        {
+            "packId": 10002,
+            "name": "Latein L9 Vokabel",
+            "author": "radplat",
+            "created": 1676713250000,
+            "lastEdited": 1676713250000,
+            "cardVersion": 1,
+            "cards": [
+                {
+                    "cardIndex": 1,
+                    "question": "acer, acris, acre, Genitiv acris",
+                    "awnser": "scharf, wild, kräftig"
+                },
+                {
+                    "cardIndex": 2,
+                    "question": "diligens, Gen. diligentis",
+                    "awnser": "sorgfältig"
+                },
+                {
+                    "cardIndex": 3,
+                    "question": "multa n. Pl.l",
+                    "awnser": "viel (eigentlich: viele Sachen)"
+                },
+                {
+                    "cardIndex": 4,
+                    "question": "nolle, nolo",
+                    "awnser": "nicht wollen"
+                },
+                {
+                    "cardIndex": 5,
+                    "question": "piger, pigra, pigrum",
+                    "awnser": "faul"
+                },
+                {
+                    "cardIndex": 6,
+                    "question": "im-piger, -pigra, -pgrum",
+                    "awnser": "fließig (« un-faul »)"
+                },
+                {
+                    "cardIndex": 7,
+                    "question": "primus, -a, um",
+                    "awnser": "der erste ; im Satz oft: als erster/e"
+                },
+                {
+                    "cardIndex": 8,
+                    "question": "prudens, Gen.: prudentis",
+                    "awnser": "klug"
+                },
+                {
+                    "cardIndex": 9,
+                    "question": "semper (Adv.)",
+                    "awnser": "immer"
+                },
+                {
+                    "cardIndex": 10,
+                    "question": "velle, volo ",
+                    "awnser": "wollen"
+                },
+                {
+                    "cardIndex": 11,
+                    "question": "ait (nur 3. P.)",
+                    "awnser": "er / sie / es sagt"
+                },
+                {
+                    "cardIndex": 12,
+                    "question": "alter, altera, alterum",
+                    "awnser": "der andere / der eine (von zweien)"
+                },
+                {
+                    "cardIndex": 13,
+                    "question": "caput, capitis n.",
+                    "awnser": "1.Kopf, Haupt, 2. Hauptstadt"
+                },
+                {
+                    "cardIndex": 14,
+                    "question": "carere, -eo 2 (carui) + Abl. separativus",
+                    "awnser": "eine Sache entbehren / nicht haben"
+                },
+                {
+                    "cardIndex": 15,
+                    "question": "cibo carere",
+                    "awnser": "nichts zu essen haben, ohne Nahrung sein"
+                },
+                {
+                    "cardIndex": 16,
+                    "question": "colligere 3, -o, ",
+                    "awnser": "sammeln"
+                },
+                {
+                    "cardIndex": 17,
+                    "question": "contendere 3, -o, ",
+                    "awnser": "1. sich anstrengen 2. eilen (= rasch marschieren) 3. kämpfen"
+                },
+                {
+                    "cardIndex": 18,
+                    "question": "copia, -ae f.",
+                    "awnser": "Menge, Vorrat"
+                },
+                {
+                    "cardIndex": 19,
+                    "question": "cum (Konjunktion)",
+                    "awnser": "1.(immer) wenn 2. indem"
+                },
+                {
+                    "cardIndex": 20,
+                    "question": "egere 2, -eo + Abl. separativus",
+                    "awnser": "etwas nicht haben, brauchen (=nötig haben)"
+                },
+                {
+                    "cardIndex": 21,
+                    "question": "fabula, -ae f.",
+                    "awnser": "Geschichte, Fabel"
+                },
+                {
+                    "cardIndex": 22,
+                    "question": "facultas, facultatis f.",
+                    "awnser": "Möglichkeit"
+                },
+                {
+                    "cardIndex": 23,
+                    "question": "falsus, -a, -um",
+                    "awnser": "falsch"
+                },
+                {
+                    "cardIndex": 24,
+                    "question": "fugare 1, -o ",
+                    "awnser": "verjagen, in die Flucht schlagen"
+                },
+                {
+                    "cardIndex": 25,
+                    "question": "honestus, -a, -um",
+                    "awnser": "ehrenhaft, anständig"
+                },
+                {
+                    "cardIndex": 26,
+                    "question": "ideo (Adv.)",
+                    "awnser": "deshalb"
+                },
+                {
+                    "cardIndex": 27,
+                    "question": "inter-esse, -sum ",
+                    "awnser": "dabei sein, teilnehmen"
+                },
+                {
+                    "cardIndex": 28,
+                    "question": "laus, laudis f.",
+                    "awnser": "Lob, Ruhm"
+                },
+                {
+                    "cardIndex": 29,
+                    "question": "monstrare 1, -o",
+                    "awnser": "zeigen"
+                },
+                {
+                    "cardIndex": 30,
+                    "question": "necare 1, neco (",
+                    "awnser": "töten"
+                },
+                {
+                    "cardIndex": 31,
+                    "question": "quamvis (Konjunktion)",
+                    "awnser": "obwohl"
+                },
+                {
+                    "cardIndex": 32,
+                    "question": "sacrum, -i n.",
+                    "awnser": "1. das Heiligtum (=Tempel) 2. Opfergabe "
+                },
+                {
+                    "cardIndex": 33,
+                    "question": "vita, -ae f. (-> Lektion 10)",
+                    "awnser": "das Leben"
+                },
+                {
+                    "cardIndex": 34,
+                    "question": "vitam agere",
+                    "awnser": "das Leben verbringen"
+                }
+            ]
+        },
+        {
+            "packId": 10003,
+            "name": "Latein L8 Vokabel",
+            "author": "radplat",
+            "created": 1676713250000,
+            "lastEdited": 1676713250000,
+            "cardVersion": 1,
+            "cards": [
+                {
+                    "cardIndex": 1,
+                    "question": "exercere 2, -eo ",
+                    "awnser": "1.üben, (jemanden) trainieren; 2. beschäftigen 3. im Passiv: (selbst) trainieren"
+                },
+                {
+                    "cardIndex": 2,
+                    "question": "ingens (m./f. n.), Gen.: ingentis",
+                    "awnser": "riesig, (sehr) groß"
+                },
+                {
+                    "cardIndex": 3,
+                    "question": "-ne (Enklitikum = angehängtes Wort)",
+                    "awnser": "Frageeinleitung (bleibt unübersetzt)"
+                },
+                {
+                    "cardIndex": 4,
+                    "question": "nonne?",
+                    "awnser": "nicht? (in einer Frage; erwartete Antwort = ja, doch!)"
+                },
+                {
+                    "cardIndex": 5,
+                    "question": "num?",
+                    "awnser": "etwa? (in einer Frage; erwartete Antwort = nein!)"
+                },
+                {
+                    "cardIndex": 6,
+                    "question": "per-turbare 1, -o ",
+                    "awnser": "stören, in Unordnung bringen"
+                },
+                {
+                    "cardIndex": 7,
+                    "question": "philosophus, -i m.",
+                    "awnser": "Philosoph"
+                },
+                {
+                    "cardIndex": 8,
+                    "question": "prod-esse, pro-sum ",
+                    "awnser": "nützen"
+                },
+                {
+                    "cardIndex": 9,
+                    "question": "prohibere 2, -eo ",
+                    "awnser": "fernhalten, hindern"
+                },
+                {
+                    "cardIndex": 10,
+                    "question": "salutare 1, -o ",
+                    "awnser": "(be-)grüßen"
+                },
+                {
+                    "cardIndex": 11,
+                    "question": "studere 2, -eo + Dativ oder + Infinitiv",
+                    "awnser": "1.sich bemühen, nach etwas streben 2. studieren"
+                },
+                {
+                    "cardIndex": 12,
+                    "question": "alius, alia, aliud",
+                    "awnser": "ein anderer/eine andere/ein anderes"
+                },
+                {
+                    "cardIndex": 13,
+                    "question": "alius…, alius…",
+                    "awnser": "der eine …, der andere…"
+                },
+                {
+                    "cardIndex": 14,
+                    "question": "animus, -i m.",
+                    "awnser": "Geist, Sinn, Gemüt"
+                },
+                {
+                    "cardIndex": 15,
+                    "question": "appellare 1, -o ",
+                    "awnser": "rufen, nennen"
+                },
+                {
+                    "cardIndex": 16,
+                    "question": "balneum, -i n.",
+                    "awnser": "Bad"
+                },
+                {
+                    "cardIndex": 17,
+                    "question": "fluctus, -us m.",
+                    "awnser": "1.Flut, Welle 2. das Fließen"
+                },
+                {
+                    "cardIndex": 18,
+                    "question": "genus, generis n.",
+                    "awnser": "1.Art 2.Volk 3.Geschlecht"
+                },
+                {
+                    "cardIndex": 19,
+                    "question": "littera, -ae f.",
+                    "awnser": "1. im Sg.: Buchstabe 2. im Pl.: a) Brief b) Literatur c) Wissenschaft (eigentlich: alles Geschriebene)"
+                },
+                {
+                    "cardIndex": 20,
+                    "question": "magis (Adv.) … quam",
+                    "awnser": "mehr … als"
+                },
+                {
+                    "cardIndex": 21,
+                    "question": "minime (Adv.)",
+                    "awnser": "keineswegs, überhaupt nicht"
+                },
+                {
+                    "cardIndex": 22,
+                    "question": "necessarius, -a, -um",
+                    "awnser": "notwendig"
+                },
+                {
+                    "cardIndex": 23,
+                    "question": "nihil",
+                    "awnser": "nichts"
+                },
+                {
+                    "cardIndex": 24,
+                    "question": "nullus, -a, -um",
+                    "awnser": "kein"
+                },
+                {
+                    "cardIndex": 25,
+                    "question": "pertinere 2, -eo, ad",
+                    "awnser": "sich erstrecken / sich beziehen auf"
+                },
+                {
+                    "cardIndex": 26,
+                    "question": "piscina, -ae f.",
+                    "awnser": "Schwimmbecken"
+                },
+                {
+                    "cardIndex": 27,
+                    "question": "placare 1, -o ",
+                    "awnser": "besänftigen"
+                },
+                {
+                    "cardIndex": 28,
+                    "question": "quot (indeklinabel)",
+                    "awnser": "wie viele"
+                },
+                {
+                    "cardIndex": 29,
+                    "question": "si (Konjunktion)",
+                    "awnser": "wenn, falls"
+                },
+                {
+                    "cardIndex": 30,
+                    "question": "silentium, -i n.",
+                    "awnser": "Stille, Ruhe"
+                },
+                {
+                    "cardIndex": 31,
+                    "question": "sonus, -i m.",
+                    "awnser": "Klang, Laut"
+                },
+                {
+                    "cardIndex": 32,
+                    "question": "studium, -i n.",
+                    "awnser": "1. Eifer, Bemühung 2. Beschäftigung, Interesse 3. (wissensch.) Studium "
+                },
+                {
+                    "cardIndex": 33,
+                    "question": "supra (Adv.)",
+                    "awnser": "zeitlich: vorher, früher"
+                },
+                {
+                    "cardIndex": 34,
+                    "question": "örtlich: oberhalb"
+                },
+                {
+                    "cardIndex": 35,
+                    "question": "talis (m./f.), tale (n.)",
+                    "awnser": "solch, so ein/-e…, so beschaffen"
+                },
+                {
+                    "cardIndex": 36,
+                    "question": "toga, -ae f.",
+                    "awnser": "die Toga "
+                },
+                {
+                    "cardIndex": 37,
+                    "question": "tumultus, -us m.",
+                    "awnser": "Lärm, Getöse, Tumult"
+                },
+                {
+                    "cardIndex": 38,
+                    "question": "varius, -a, -um",
+                    "awnser": "verschieden"
+                },
+                {
+                    "cardIndex": 39,
+                    "question": "verus, -a, -um",
+                    "awnser": "wahr, echt, wirklich"
+                },
+                {
+                    "cardIndex": 40,
+                    "question": "vox, vocis f.",
+                    "awnser": "Stimme"
+                },
+                {
+                    "cardIndex": 41,
+                    "question": "magnā voce",
+                    "awnser": "mit lauter Stimme"
+                }
+            ]
+        }
+    ]
+}
