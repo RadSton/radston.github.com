@@ -1,5 +1,3 @@
-let isInfoOpen = false;
-
 let asking = {
     current: 0,
     pack: undefined,
@@ -7,9 +5,13 @@ let asking = {
 }
 
 let hasLearntEveryVocabulary = false;
-
 let flashCardSets;
 
+const init = () => {
+    loadJSONFromPage("benchlavin/vocset.json").then(res => { flashCardSets = res; loadAfterFinish() });
+}
+
+// save current memory image to localStorage
 const save = () => {
     let name = ("VOK-" + (new Date()).toLocaleString());
 
@@ -23,9 +25,10 @@ const save = () => {
     }));
 
     notify(isOverriten ? "Speicherstand mit  " + name + " überschrieben" : "Gespeichert als  " + name);
-
 }
 
+
+// load localStorage image and override current memory 
 const loadFromLocal = () => {
     let saveState = JSON.parse(localStorage.getItem("saveVokTrainer"));
 
@@ -37,119 +40,11 @@ const loadFromLocal = () => {
         setTimeout(() => nextCard(), 990);
     } else
         notify("Keine Daten gefunden!");
-
-}
-
-infoButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    handleInfoScreen();
-})
-
-const notify = (title) => {
-    showButtons(false)
-    showQuestion(title, " ");
-
-    setTimeout(() =>  // After a second show voc again
-        showCurrentCard()
-        , 1000)
 }
 
 
-const showQuestion = (question, awnser) => {
-
-    showAwnsers(false); // Hide awnser
-
-    questionField.innerHTML = question;
-    solutionField.innerHTML = awnser;
-}
-
-const setProgress = (current, max) => {
-    label.innerHTML = current + " / " + max;
-}
-
-showAwnser.addEventListener("click", (e) => {
-    e.preventDefault();
-
-    showAwnsers();
-});
-
-const showButtons = (shouldShow = true) => {
-    if (shouldShow)
-        document.querySelector(".isCorrectButtons").style.display = "inline-block";
-    else
-        document.querySelector(".isCorrectButtons").style.display = "none";
-
-}
-
-const showAwnsers = (shouldShow = true) => {
-    awnsers.forEach(awnserElement => awnserElement.style.display = (shouldShow ? "block" : "none"));
-
-    if (shouldShow) {
-        showAwnser.style.display = "none";
-        closeButton.style.display = "inline-block";
-        checkButton.style.display = "inline-block";
-    } else {
-        closeButton.style.display = "none";
-        checkButton.style.display = "none";
-        showAwnser.style.display = "block";
-    }
-
-}
-
-
-const handleInfoScreen = () => {
-    isInfoOpen = !isInfoOpen;
-
-    if (!isInfoOpen) {
-        showCurrentCard();
-        showButtons();
-    } else {
-
-        let table_html = "<a class=\"downloadAsPdfButton\" href=\"#\">Als PDF herrunterladen</a><br><br><table><tr><th>Vokabel</th><th>Antwort</th></tr>";
-        for (var wrong of asking.wrong) {
-            let card = asking.pack[wrong];
-            table_html += "<tr>\n" +
-                "<td>" + card.question + "</td>" +
-                "<td>" + card.awnser + "</td>" +
-                "</tr>"
-        }
-
-        table_html += "</table>";
-
-        showButtons(false) // Hide Buttons
-
-        showQuestion("Liste falscher Vokablen:", table_html); // Set promt
-
-        showAwnsers(); // Show promt
-
-        // When clicked download as PDF
-        document.querySelector(".downloadAsPdfButton").addEventListener("click", (e) => {
-            e.preventDefault();
-            generatePDF();
-        })
-    }
-}
-
-const checkIfDone = () => {
-    if (hasLearntEveryVocabulary) {
-        setTimeout(() => vokSelection.dispatchEvent(new Event("change")), 1); // call async just for safty probably not needed!
-        return true;
-    }
-    return false
-}
-
-
-const loadJSONFromPage = (url) => {
-    return new Promise((res, rej) => {
-        fetch(url).then((content) => content.text()).then((text) => {
-            res(JSON.parse(text));
-        });
-    })
-}
-
+// init when flashCardSet has been loaded
 const loadAfterFinish = () => {
-    initflashCardSets();
-
     asking.pack = flashCardSets.flashcards[0].cards;
 
     showQuestion(asking.pack[0].question, asking.pack[0].awnser);
@@ -171,8 +66,7 @@ const loadAfterFinish = () => {
 
 };
 
-document.addEventListener("DOMContentLoaded", loadAfterFinish);
-
+// load a set of vocabulary
 const load = (val) => {
     asking.pack = flashCardSets.flashcards[val].cards;
     asking.current = 0;
@@ -182,13 +76,14 @@ const load = (val) => {
     hasLearntEveryVocabulary = false;
 }
 
+// Get next card and show it
 const nextCard = () => {
     if (checkIfDone()) return;
 
     asking.current++;
 
     if (asking.current >= asking.pack.length) {
-        if (wrong.length == 0) {
+        if (asking.wrong.length == 0) {
             showDoneScreen();
             return;
         }
@@ -201,7 +96,7 @@ const nextCard = () => {
             })
         }
 
-        wrong = [];
+        asking.wrong = [];
 
         asking.pack = newPack;
         asking.current = 0;
@@ -211,33 +106,26 @@ const nextCard = () => {
     setProgress(asking.current + 1, asking.pack.length);
 }
 
-const showCurrentCard = () => {
-    showButtons();
-    showQuestion(asking.pack[asking.current].question, asking.pack[asking.current].awnser);
+/// HELPERS
+
+const checkIfDone = () => {
+    if (hasLearntEveryVocabulary) {
+        setTimeout(() => vokSelection.dispatchEvent(new Event("change")), 1); // call async just for safty probably not needed!
+        return true;
+    }
+    return false
 }
 
-const showDoneScreen = () => {
-    setProgress("WARTHUNDER", "LERNERN");
-    showQuestion("Du hast alle Vokabeln durch", "Clicke irgendeinen Knopf um von vorne zu beginnen");
-    hasLearntEveryVocabulary = true;
+
+const loadJSONFromPage = (url) => {
+    return new Promise((res, rej) => {
+        fetch(url).then((content) => content.text()).then((text) => {
+            res(JSON.parse(text));
+        });
+    })
 }
 
-closeButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    asking.wrong.push(asking.current);
-    nextCard();
-})
-checkButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    nextCard();
-})
-
-const initflashCardSets = () => {
-    flashCardSets = {
-
-    };
-}
-
+// GEN PDF
 const generatePDF = () => {
     body = [
         ['lateinisch', 'deutsch', 'Platz für Fremdwörter, englische Wörter, Eselsbrücken…'],
@@ -288,4 +176,3 @@ const generatePDF = () => {
     }
     pdfMake.createPdf(dd).download("BENCHLAVIN v3.2.pdf");
 }
-
