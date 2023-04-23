@@ -2091,6 +2091,361 @@
                     "awnser": "das Leben verbringen"
                 }
             ]
+        },
+        {
+            "packId": 10010,
+            "name": "Englisch U8 Vokabel",
+            "author": "radplat",
+            "created": 1676713250000,
+            "lastEdited": 1676713250000,
+            "cardVersion": 1,
+            "cards": [
+                {
+                    "cardIndex": 1,
+                    "question": "bolt",
+                    "awnser": "Blitz"
+                },
+                {
+                    "cardIndex": 2,
+                    "question": "detest",
+                    "awnser": "verabscheuen"
+                },
+                {
+                    "cardIndex": 3,
+                    "question": "sadness",
+                    "awnser": "Traurigkeit"
+                },
+                {
+                    "cardIndex": 4,
+                    "question": "fiancée",
+                    "awnser": "Verlobte"
+                },
+                {
+                    "cardIndex": 5,
+                    "question": "flame",
+                    "awnser": "Flamme"
+                },
+                {
+                    "cardIndex": 6,
+                    "question": "roar",
+                    "awnser": "Gebrüll"
+                },
+                {
+                    "cardIndex": 7,
+                    "question": "afford",
+                    "awnser": "sich leisten"
+                },
+                {
+                    "cardIndex": 8,
+                    "question": "amazed",
+                    "awnser": "erstaunt"
+                },
+                {
+                    "cardIndex": 9,
+                    "question": "clear-cut",
+                    "awnser": "deutlich, eindeutig"
+                },
+                {
+                    "cardIndex": 10,
+                    "question": "threaten",
+                    "awnser": "bedrohen"
+                },
+                {
+                    "cardIndex": 11,
+                    "question": "figure out",
+                    "awnser": "herausfinden"
+                },
+                {
+                    "cardIndex": 12,
+                    "question": "kindness",
+                    "awnser": "Freundlichkeit"
+                },
+                {
+                    "cardIndex": 13,
+                    "question": "probable",
+                    "awnser": "wahrscheinlich"
+                },
+                {
+                    "cardIndex": 14,
+                    "question": "detect",
+                    "awnser": "aufspüren, feststellen"
+                },
+                {
+                    "cardIndex": 15,
+                    "question": "popularity",
+                    "awnser": "Beliebtheit"
+                },
+                {
+                    "cardIndex": 16,
+                    "question": "laziness",
+                    "awnser": "Faulheit"
+                },
+                {
+                    "cardIndex": 17,
+                    "question": "preference",
+                    "awnser": "Vorliebe"
+                },
+                {
+                    "cardIndex": 18,
+                    "question": "desperate",
+                    "awnser": "verzweifelt"
+                },
+                {
+                    "cardIndex": 19,
+                    "question": "spread",
+                    "awnser": "Verbreitung, Ausdehnung"
+                },
+                {
+                    "cardIndex": 20,
+                    "question": "stylish",
+                    "awnser": "modisch"
+                },
+                {
+                    "cardIndex": 21,
+                    "question": "tagging",
+                    "awnser": "Markierung (auf einer Wand)"
+                },
+                {
+                    "cardIndex": 22,
+                    "question": "vandalism",
+                    "awnser": "Vandalismus"
+                },
+                {
+                    "cardIndex": 23,
+                    "question": "hook up with",
+                    "awnser": "anschließen, jemanden verkuppeln"
+                },
+                {
+                    "cardIndex": 24,
+                    "question": "perception",
+                    "awnser": "Auffassung, Wahrnehmung"
+                },
+                {
+                    "cardIndex": 25,
+                    "question": "scared",
+                    "awnser": "verängstigt"
+                },
+                {
+                    "cardIndex": 26,
+                    "question": "blind",
+                    "awnser": "blind"
+                },
+                {
+                    "cardIndex": 27,
+                    "question": "creative",
+                    "awnser": "kreativ"
+                },
+                {
+                    "cardIndex": 28,
+                    "question": "expect",
+                    "awnser": "erwarten"
+                },
+                {
+                    "cardIndex": 29,
+                    "question": "treat",
+                    "awnser": "behandeln"
+                },
+                {
+                    "cardIndex": 30,
+                    "question": "come true",
+                    "awnser": "wahr werden"
+                },
+                {
+                    "cardIndex": 31,
+                    "question": "cruel",
+                    "awnser": "grausam"
+                },
+                {
+                    "cardIndex": 32,
+                    "question": "Eastern",
+                    "awnser": "Ost-"
+                },
+                {
+                    "cardIndex": 33,
+                    "question": "handsome",
+                    "awnser": "gutaussehend, attraktiv"
+                },
+                {
+                    "cardIndex": 34,
+                    "question": "lawyer",
+                    "awnser": "Anwalt, Anwältin"
+                },
+                {
+                    "cardIndex": 35,
+                    "question": "lightning",
+                    "awnser": "Blitz"
+                },
+                {
+                    "cardIndex": 36,
+                    "question": "murderer",
+                    "awnser": "Mörder/in"
+                },
+                {
+                    "cardIndex": 37,
+                    "question": "nowhere",
+                    "awnser": "nirgends"
+                },
+                {
+                    "cardIndex": 38,
+                    "question": "prisoner",
+                    "awnser": "Gefangene/r"
+                },
+                {
+                    "cardIndex": 39,
+                    "question": "thief",
+                    "awnser": "Dieb/in"
+                },
+                {
+                    "cardIndex": 40,
+                    "question": "realise",
+                    "awnser": "erkennen"
+                },
+                {
+                    "cardIndex": 41,
+                    "question": "step",
+                    "awnser": "treten"
+                },
+                {
+                    "cardIndex": 42,
+                    "question": "wave",
+                    "awnser": "Welle"
+                },
+                {
+                    "cardIndex": 43,
+                    "question": "criminal",
+                    "awnser": "Verbrecher/in"
+                },
+                {
+                    "cardIndex": 44,
+                    "question": "enemy",
+                    "awnser": "Feind/in"
+                },
+                {
+                    "cardIndex": 45,
+                    "question": "familiar",
+                    "awnser": "vertraut"
+                },
+                {
+                    "cardIndex": 46,
+                    "question": "pipe",
+                    "awnser": "Pfeife"
+                },
+                {
+                    "cardIndex": 47,
+                    "question": "marry",
+                    "awnser": "heiraten"
+                },
+                {
+                    "cardIndex": 48,
+                    "question": "murder",
+                    "awnser": "Mord"
+                },
+                {
+                    "cardIndex": 49,
+                    "question": "for instance",
+                    "awnser": "beispielsweise"
+                },
+                {
+                    "cardIndex": 50,
+                    "question": "preparation",
+                    "awnser": "Vorbereitung"
+                },
+                {
+                    "cardIndex": 51,
+                    "question": "rise",
+                    "awnser": "aufgehen"
+                },
+                {
+                    "cardIndex": 52,
+                    "question": "secretly",
+                    "awnser": "heimlich"
+                },
+                {
+                    "cardIndex": 53,
+                    "question": "display",
+                    "awnser": "zu Schau stellen"
+                },
+                {
+                    "cardIndex": 54,
+                    "question": "generally",
+                    "awnser": "allgemein"
+                },
+                {
+                    "cardIndex": 55,
+                    "question": "poetry",
+                    "awnser": "Dichtung"
+                },
+                {
+                    "cardIndex": 56,
+                    "question": "private property",
+                    "awnser": "Privatbesitz"
+                },
+                {
+                    "cardIndex": 57,
+                    "question": "sexes",
+                    "awnser": "Geschlechter"
+                },
+                {
+                    "cardIndex": 58,
+                    "question": "signature",
+                    "awnser": "Unterschrift"
+                },
+                {
+                    "cardIndex": 59,
+                    "question": "hang out",
+                    "awnser": "herumhängen"
+                },
+                {
+                    "cardIndex": 60,
+                    "question": "disadvantage",
+                    "awnser": "Nachteil"
+                },
+                {
+                    "cardIndex": 61,
+                    "question": "exact",
+                    "awnser": "genau"
+                },
+                {
+                    "cardIndex": 62,
+                    "question": "go wrong",
+                    "awnser": "fehlschlagen"
+                },
+                {
+                    "cardIndex": 63,
+                    "question": "charged",
+                    "awnser": "aufgeladen"
+                },
+                {
+                    "cardIndex": 64,
+                    "question": "cage",
+                    "awnser": "Käfig"
+                },
+                {
+                    "cardIndex": 65,
+                    "question": "act",
+                    "awnser": "sich benehmen"
+                },
+                {
+                    "cardIndex": 66,
+                    "question": "advertise",
+                    "awnser": "etwas bewerben"
+                },
+                {
+                    "cardIndex": 67,
+                    "question": "amused",
+                    "awnser": "amüsiert"
+                },
+                {
+                    "cardIndex": 68,
+                    "question": "invite",
+                    "awnser": "einladen"
+                },
+                {
+                    "cardIndex": 69,
+                    "question": "mad",
+                    "awnser": "verrückt"
+                }
+            ]
         }
     ]
 }
