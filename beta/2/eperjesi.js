@@ -29,11 +29,23 @@ const init = (check) => {
     awnserField.placeholder = "Type here"
     awnserField.classList.add("awnser");
 
+    const nextBtn = document.createElement("span");
+    nextBtn.innerHTML = "navigate_next";
+    nextBtn.classList.add("material-icons")
+    nextBtn.id = "awnser-icon"
+
+
     document.querySelector(".card").appendChild(awnserField);
+    document.querySelector(".card").appendChild(document.createElement("br"));
+    document.querySelector(".card").appendChild(nextBtn);
 
     awnserField.addEventListener("keyup", (e) => {
         if (e.key === "Enter" || e.keyCode === 13) check();
     })
+    nextBtn.addEventListener("click", (e) => {
+        check();
+    })
+
 }
 
 
@@ -66,9 +78,9 @@ const checkIfInputCorrect = (questionObject) => {
 
     console.log(taw, qaw);
 
-    for(const tawnser of taw) {
-        for(const qawnser of qaw) {
-            if(tawnser == qawnser) return true;
+    for (const tawnser of taw) {
+        for (const qawnser of qaw) {
+            if (tawnser == qawnser) return true;
         }
     }
 
