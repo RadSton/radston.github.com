@@ -2446,6 +2446,236 @@
                     "awnser": "mad"
                 }
             ]
+        },
+        {
+            "packId": 10011,
+            "name": "Latein L11 Vokabel",
+            "author": "radplat",
+            "created": 1676713250000,
+            "lastEdited": 1676713250000,
+            "cardVersion": 1,
+            "cards": [
+                {
+                    "cardIndex": 1,
+                    "question": "gehen",
+                    "awnser": "ire, eo, ii, (itum)"
+                },
+                {
+                    "cardIndex": 2,
+                    "question": "weggehen",
+                    "awnser": "ab-ire, -eo, -ii (abitum)"
+                },
+                {
+                    "cardIndex": 3,
+                    "question": "hingehen, sich an jemanden wenden; angreifen (=attackieren)",
+                    "awnser": "ad-ire, -eo, -ii"
+                },
+                {
+                    "cardIndex": 4,
+                    "question": "hinausgehen",
+                    "awnser": "ex-ire, -eo, -ii"
+                },
+                {
+                    "cardIndex": 5,
+                    "question": "unter-gehen, umkommen",
+                    "awnser": "inter-ire, -eo, -ii"
+                },
+                {
+                    "cardIndex": 6,
+                    "question": "zurückkehren",
+                    "awnser": "red-ire, -eo, -ii"
+                },
+                {
+                    "cardIndex": 7,
+                    "question": "hinübergehen, überqueren",
+                    "awnser": "trans-ire, -eo, -ii"
+                },
+                {
+                    "cardIndex": 8,
+                    "question": "lange (lange Zeit)",
+                    "awnser": "diu (Adv.)"
+                },
+                {
+                    "cardIndex": 9,
+                    "question": "(Stadt-)Mauer(n)",
+                    "awnser": "moenia, moenium n. Pl."
+                },
+                {
+                    "cardIndex": 10,
+                    "question": "das Land (im Gegensatz zur Stadt)",
+                    "awnser": "rus, ruris n."
+                },
+                {
+                    "cardIndex": 11,
+                    "question": "auf das Land (Richtungsakkusativ)",
+                    "awnser": "rus (Akk.)"
+                },
+                {
+                    "cardIndex": 12,
+                    "question": "tun, handeln, ausführen",
+                    "awnser": "agere 3, ago, egi (actum)"
+                },
+                {
+                    "cardIndex": 13,
+                    "question": "bemerken, wahrnemen",
+                    "awnser": "animadvertere 3, -verto, -verti, -versum"
+                },
+                {
+                    "cardIndex": 14,
+                    "question": "Hilfe; Pl.: Hilfstruppen (Reiter, Bogenschützen, Steinschleuderer)",
+                    "awnser": "auxilium, -i n."
+                },
+                {
+                    "cardIndex": 15,
+                    "question": "alle",
+                    "awnser": "cuncti m. Pl., cunctae f. Pl."
+                },
+                {
+                    "cardIndex": 16,
+                    "question": "alles (alle Sachen)",
+                    "awnser": "cuncta n. Pl."
+                },
+                {
+                    "cardIndex": 17,
+                    "question": "schließlich",
+                    "awnser": "denique (Adv.)"
+                },
+                {
+                    "cardIndex": 18,
+                    "question": "flüchten, fliehen (L 15)",
+                    "awnser": "fugere, fugio M, fugi"
+                },
+                {
+                    "cardIndex": 19,
+                    "question": "entfliehen, entkommen",
+                    "awnser": "ef-fugere M, -io, effugi (< ex + fugere)"
+                },
+                {
+                    "cardIndex": 20,
+                    "question": "zufällig",
+                    "awnser": "forte (Adv.)"
+                },
+                {
+                    "cardIndex": 21,
+                    "question": "schwer ; wichtig",
+                    "awnser": "gravis (m./f.), grave (n.)"
+                },
+                {
+                    "cardIndex": 22,
+                    "question": "stehen (L 12)",
+                    "awnser": "stare 3, sto 1, steti, (statum)"
+                },
+                {
+                    "cardIndex": 23,
+                    "question": "bevorstehen, drohen, bedrängen",
+                    "awnser": "in-stare 1, insto, institi"
+                },
+                {
+                    "cardIndex": 24,
+                    "question": "Weg ; Reise, Marsch",
+                    "awnser": "iter, itineris n."
+                },
+                {
+                    "cardIndex": 25,
+                    "question": "lästig, beschwerlich",
+                    "awnser": "molestus 3"
+                },
+                {
+                    "cardIndex": 26,
+                    "question": "Krankheit",
+                    "awnser": "morbus, -i n."
+                },
+                {
+                    "cardIndex": 27,
+                    "question": "tot, gestorben",
+                    "awnser": "mortuus 3"
+                },
+                {
+                    "cardIndex": 28,
+                    "question": "notwendig",
+                    "awnser": "necesse (indeklinables Adj.)"
+                },
+                {
+                    "cardIndex": 29,
+                    "question": "Name, Bezeichnung",
+                    "awnser": "nomen, nominis n."
+                },
+                {
+                    "cardIndex": 30,
+                    "question": "bekannt",
+                    "awnser": "notus 3"
+                },
+                {
+                    "cardIndex": 31,
+                    "question": "niemals",
+                    "awnser": "numquam"
+                },
+                {
+                    "cardIndex": 32,
+                    "question": "wohin ?",
+                    "awnser": "quo ?"
+                },
+                {
+                    "cardIndex": 33,
+                    "question": "übrig bleiben",
+                    "awnser": "re-stare 1, resto, restiti"
+                },
+                {
+                    "cardIndex": 34,
+                    "question": "heilig ; verflucht",
+                    "awnser": "sacer, sacre, sacrum"
+                },
+                {
+                    "cardIndex": 35,
+                    "question": "sei/seid gegrüßt !",
+                    "awnser": "salve !, salvete !"
+                },
+                {
+                    "cardIndex": 36,
+                    "question": "Gespräch, Unterhaltung ; Sprache",
+                    "awnser": "sermo, sermonis m."
+                },
+                {
+                    "cardIndex": 37,
+                    "question": "sowie",
+                    "awnser": "sicut (sic + ut) (Adv.)"
+                },
+                {
+                    "cardIndex": 38,
+                    "question": "nur",
+                    "awnser": "tantum (Adv.)"
+                },
+                {
+                    "cardIndex": 39,
+                    "question": "Tiber",
+                    "awnser": "Tiber, Tiberis m."
+                },
+                {
+                    "cardIndex": 40,
+                    "question": "über (örtlich) ; jenseits",
+                    "awnser": "trans + Akk."
+                },
+                {
+                    "cardIndex": 41,
+                    "question": "traurig",
+                    "awnser": "tristis, triste"
+                },
+                {
+                    "cardIndex": 42,
+                    "question": "Wort",
+                    "awnser": "verbum, -i n."
+                },
+                {
+                    "cardIndex": 43,
+                    "question": "Weg, Straße ; Reise",
+                    "awnser": "via, viae f."
+                },
+                {
+                    "cardIndex": 44,
+                    "question": "die Heilige Straße (führt vom Forum aufs Kapitol)",
+                    "awnser": "Via Sacra"
+                }
+            ]
         }
     ]
 }
