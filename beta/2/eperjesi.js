@@ -69,14 +69,14 @@ const checkIfInputCorrect = (questionObject) => {
     let qaw = questionObject.awnser.replaceAll(" ", "").toLowerCase();
     if (taw === qaw) return true;
 
-    taw = taw.replaceAll("(", ",").replaceAll(")", ",");
-    qaw = qaw.replaceAll("(", ",").replaceAll(")", ",");
+    taw = taw.replaceAll("(", ",").replaceAll(")", ",").replaceAll(";", ",");
+    qaw = qaw.replaceAll("(", ",").replaceAll(")", ",").replaceAll(";", ",");
     if (taw === qaw) return true;
 
     taw = taw.replaceAll(/([1-9])+./g, "").split(",");
     qaw = qaw.replaceAll(/([1-9])+./g, "").split(",");
 
-    console.log(taw, qaw);
+    if (taw.length <= 1) return false;
 
     for (const tawnser of taw) {
         for (const qawnser of qaw) {
