@@ -73,10 +73,11 @@ const checkIfInputCorrect = (questionObject) => {
     qaw = qaw.replaceAll("(", ",").replaceAll(")", ",").replaceAll(";", ",");
     if (taw === qaw) return true;
 
-    taw = taw.replaceAll(/([1-9])+./g, "").split(",");
-    qaw = qaw.replaceAll(/([1-9])+./g, "").split(",");
 
     if (taw.length <= 1) return false;
+
+    taw = taw.replaceAll(/([1-9])+./g, "").split(",");
+    qaw = qaw.replaceAll(/([1-9])+./g, "").split(",");
 
     for (const tawnser of taw) {
         for (const qawnser of qaw) {
