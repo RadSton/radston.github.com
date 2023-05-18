@@ -139,7 +139,7 @@ main>div {
     min-width: 300px;
     max-width: 500px;
     min-height: 70px;
-    max-height: 100px;
+    /*max-height: 100px;*/
     background-color: var(--bg-secondary);
     border-radius: 10px;
     transition: background 0.1s;

@@ -140,7 +140,7 @@ const revealAwnser = () => {
     clearAwnsers();
     let index = 0;
     for (const iter of currentTraining.currentVocabular) {
-        if (index != 0) addAwnser(iter);
+        if (index != 0 && iter) addAwnser(iter);
         index++;
     }
 }
