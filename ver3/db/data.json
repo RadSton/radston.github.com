@@ -62,6 +62,104 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Latein Grammatik",
+            "format": {
+                "questions": [1,2],
+                "questions_str": ["Wie lautet die grammatische Kennzeichnung <br> von", "Wie lautet das deutsche Wort <br> von"],
+                "result_str": "Wusstest du was richtig war?",
+                "names": ["Wort","Fall","Übersetzung"]
+            },
+            "sets": [
+                {
+                    "name": "Personal- & Possessivpronomina (Fürwörter)",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["ego",     "(1. P. Sg.)", "ich"],
+                        ["mei",     "(2. P. Sg.)", "meiner"],
+                        ["mihi",    "(3. P. Sg.)", "mir"],
+                        ["me",      "(4. P. Sg.)", "mich"],
+                        ["a me",    "(6. P. Sg.)", "on mir"],
+                        ["mecum",   "(6. P. Sg.)", "mit mir"],
+
+                        ["tu",      "(1. P. Sg.)", "du"],
+                        ["tui",     "(2. P. Sg.)", "deiner"],
+                        ["tibi",    "(3. P. Sg.)", "dir"],
+                        ["te",      "(4. P. Sg.)", "dich"],
+                        ["a te",    "(6. P. Sg.)", "von dir"],
+                        ["tecum",   "(6. P. Sg.)", "mit dir"],
+
+                        ["sui",     "(2. P. Sg.)", "seiner, ihrer"],
+                        ["sibi",    "(3. P. Sg.)", "sich"],
+                        ["se",      "(4. P. Sg.)", "sich"],
+                        ["a se",    "(6. P. Sg.)", "von sich"],
+                        ["secum",   "(6. P. Sg.)", "mit sich"],
+                        
+                        ["nos",     "(1/4. P. Pl.)", "wir"],
+                        ["nostri",  "(2. P. Pl.)",   "unser"],
+                        ["nostrum", "(2. P. Pl.)",   "von uns"],
+                        ["nobis",   "(3. P. Pl.)",   "uns"],
+                        ["a nobis", "(6. P. Pl.)",   "von uns"],
+                        ["nobiscum","(6. P. Pl.)",   "mit uns"],
+                        
+                        ["vos",     "(1/4. P. Pl.)", "ihr"],
+                        ["vestri",  "(2. P. Pl.)",   "euch"],
+                        ["vestrum", "(2. P. Pl.)",   "von euch"],
+                        ["vobis",   "(3. P. Pl.)",   "euch"],
+                        ["a vobis", "(6. P. Pl.)",   "von euch"],
+                        ["vobiscum","(6. P. Pl.)",   "mit euch"],
+                        
+                        ["sui",     "(2. P. Pl.)", "ihrer"],
+                        ["sibi",    "(3. P. Pl.)", "sich"],
+                        ["se",      "(4. P. Pl.)", "sich"],
+                        ["a se",    "(6. P. Pl.)", "von sich"],
+                        ["secum",   "(6. P. Pl.)", "mit sich"],
+
+                        ["meus/a/um","(1. P. Sg.)","mein"],
+                        ["tuus/a/um","(2. P. Sg.)","dein"],
+                        ["suus/a/um","(3. P. Sg./Pl.)","sein ihr/"],
+                        ["noster/tra/trum","(1. P. Pl.)","unser"],
+                        ["vester/tra/trum","(2. P. Pl.)","euer"]
+                    ]
+                },
+                {
+                    "name": "Demonstrativpronomen: is, ea, id",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["is", "(1. Sg. m.)", "er"],
+                        ["ea", "(1. Sg. f.)", "sie"],
+                        ["id", "(1/4. Sg. n.)", "es"],
+                        
+                        ["eius", "(2. Sg. mfn.)", "Maskulin: dessen/sein, Feminin: deren/ihr, Neutrum: dessen"],
+                        
+                        ["ei", "(3. Sg. mfn.)", "Maskulin: ihm, Feminin: ihr, Neutrum: ihm"],
+                        
+                        ["eum", "(4. Sg. m.)", "ihn"],
+                        ["eam", "(4. Sg. f.)", "sie"],
+
+                        ["cum eo", "(6. Sg. m.)", "mit ihm"],
+                        ["cum ea", "(6. Sg. f.)", "mit ihr"],
+                        ["eo", "(6. Sg. n.)", "mit ihm"],
+
+                        ["ii", "(1. Pl. m.)", "sie"],
+                        ["eae", "(1. Pl. f.)", "sie"],
+                        ["ea", "(1. Pl. n.)", "das"],
+
+                        ["eorum", "(2. Pl. m. n.)", "deren"],
+                        ["earum", "(2. Pl. f.)", "deren"],
+
+                        ["iis (3. Fall)", "(3. Pl. m. n. f.)", "ihnen"],
+
+                        ["eos","(4. Pl. m.)","sie"],
+                        ["eas","(4. Pl. f.)","sie"],
+                        ["ea" ,"(4. Pl. n.)","sie"],
+
+                        ["cum iis", "(6. Pl. m. f.)", "mit ihnen"],
+                        ["iis (6. Fall)", "(6. Pl. n.)", "dadurch"]
+                    ]
+                }
+            ]
         }
     ]
 }
