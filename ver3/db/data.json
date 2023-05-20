@@ -6,59 +6,120 @@
                 "questions": [1,2],
                 "questions_str": ["Wie lautet die grammatische Kennzeichnung <br> von", "Wie lautet das deutsche Wort <br> von"],
                 "result_str": "Wusstest du was richtig war?",
-                "names": ["Latein","gramatische Kennzeichnung","Deutsch"]
+                "names": ["Latein","gramatische Kennzeichnung","Deutsch"],
+                "sortable": true
             },
             "sets": [
                 {
                     "name": "Lektion 12",
                     "author": "radston12",
                     "vocabulary": [
-                        ["amor","amoris m.", "Liebe"],
-                        ["annus", "-i m.", "Jahr"],
-                        ["canis", "canis m.", "Hund"],
-                        ["cura", "-ae f.", "Sorge, Fürsorge"],
-                        ["desiderium", "-i n.", "Sehnsucht"],
-                        ["ipse", "ipsa, ipsum", "(er/sie/es) selbst, gerade (= direkt, unmittelbar) er/sie/es"],
-                        ["metus","metus m.", "Angst, Furcht"],
-                        ["munus", "muneris n.", "Gabe, Geschenk; Aufgabe, Pflicht"],
-                        ["petere", "3, -o, petivi petitum", "anstreben"],
-                        ["petere", "3, -o, petivi petitum + Akk.", "reisen nach ..., aufsuchen, angreifen"],
-                        ["petere", "3, -o, petivi petitum + a/ab + Abl.", "jemanden bitten (wörtlich: von jemanden [etwas] erbitten)"],
-                        ["quicumque", "quaecumque, quodcumque", "wer/was auch immer"],
-                        ["tenere", "2, -eo, tenui, tentum", "halten, festhalten, bewahren"],
-                        ["altus", "3", "hoch; tief"],
-                        ["atque", "= ac", "und (wörtlich: und dazu)"],
-                        ["audacia", "-ae f.", "Kühnheit, Frechheit"],
-                        ["caelum", "-i n.", "Himmel; Wetter, Klima"], 
-                        ["cavere", "2, -eo, cavi cautum + Akk.", "sich hüten vor (Akk.); achtgeben auf (Akk.)"],
-                        ["cave canem!", "", "Achtung Hund!"],
-                        ["convenire", "4, -io, conveni conventum", "zusammenkommen, übereinkommen"],
-                        ["crudelis", "-e", "grausam"],
-                        ["currus", "currus m.", "Wagen"],
-                        ["deponere", "3, -o, deposui depositum", "ablegen"],
-                        ["donec", "(Konjunktion)", "solange; bis"],
-                        ["donum", "-i n.", "Gabe; Geschenk"],
-                        ["eiusmodi", "", "derartig"], 
-                        ["exspectare", "1, -o, -avi -atum", "erwarten (wörtlich: ausschauen, Ausschau halten)"],
-                        ["horrere", "2, -eo, -ui + Akk", "erschrecken vor (AKK.), sehr fürchten"],
-                        ["initium", "-i n.", "Anfangs"],
-                        ["initio", "(Abl. temporis)", "anfangs"],
-                        ["nec ... nec", "= neque ... neque", "weder ... noch ..."],
-                        ["neglegere","3, -o, neglexi neglectum", "vernachlässigen, missachten"],
-                        ["nemo", "Gen. nullius, Dat. nulli, Akk. neminem, Abl. a nullo", "niemand"],
-                        ["nocere", "2, -eo, nocui nocitum", "schaden, schädigen"],
-                        ["poscere", "3, -o poposci", "fordern, verlangen"],
-                        ["quamquam", "(Konjunktion)", "obwohl"],
-                        ["quidem", "(Adv., nachgestellt)", "zwar, freilich, gewiss, ja (als Füllwort)"],
-                        ["regere", "3, -o, rexi rectum", "lenken, leiten"],
-                        ["scire", "4, -io scivi scitum", "wissen / kennen"],
-                        ["nescire", "4, -io nescivi nescitum", "nicht wissen / kennen"],
-                        ["sol", "solis m.", "Sonne"],
-                        ["Sol", "Solis m.", "Sonnengott (griech: Helios)"],
-                        ["stare", "1, -o, steti statum", "stehen"],
-                        ["terra", "-ae f.", "Land; Erde (Planet)"],
-                        ["tunc", " = tum (Adv.)", "damals, dann"],
-                        ["votum", "-i n.", "Versprechen"]
+                        ["stare",                   "1, -o, steti statum",                  "stehen"],
+                        ["exspectare",              "1, -o, -avi -atum",                    "erwarten (wörtlich: ausschauen, Ausschau halten)"],
+                        ["cavere [+Akk]",           "2, -eo, cavi cautum",                  "sich hüten vor (Akk.); achtgeben auf (Akk.)"],
+                        ["tenere",                  "2, -eo, tenui, tentum",                "halten, festhalten, bewahren"],
+                        ["horrere [+Akk]",          "2, -eo, -ui",                          "erschrecken vor (AKK.), sehr fürchten"],
+                        ["nocere",                  "2, -eo, nocui nocitum",                "schaden, schädigen"],
+                        ["regere",                  "3, -o, rexi rectum",                   "lenken, leiten"],
+                        ["petere [+Akk]",           "3, -o, petivi petitum ",               "reisen nach ..., aufsuchen, angreifen"],
+                        ["petere",                  "3, -o, petivi petitum",                "anstreben"],
+                        ["petere [+ a/ab (+ Abl.)]","3, -o, petivi petitum ",       "jemanden bitten (wörtlich: von jemanden [etwas] erbitten)"],
+                        ["deponere",                "3, -o, deposui depositum",             "ablegen"],
+                        ["neglegere",               "3, -o, neglexi neglectum",             "vernachlässigen, missachten"],
+                        ["poscere",                 "3, -o poposci",                        "fordern, verlangen"],
+                        ["nescire",                 "4, -io, nescivi nescitum",             "nicht wissen / kennen"],
+                        ["convenire",               "4, -io, conveni conventum",            "zusammenkommen, übereinkommen"],
+                        ["scire",                   "4, -io, scivi scitum",                 "wissen / kennen"],
+
+                        ["annus",                   "-i m.",                                "Jahr"],
+
+                        ["cura",                    "-ae f.",                               "Sorge, Fürsorge"],
+                        ["audacia",                 "-ae f.",                               "Kühnheit, Frechheit"],
+                        ["terra",                   "-ae f.",                               "Land; Erde (Planet)"],
+
+                        ["desiderium",              "-i n.",                                "Sehnsucht"],
+                        ["caelum",                  "-i n.",                                "Himmel; Wetter, Klima"], 
+                        ["donum",                   "-i n.",                                "Gabe; Geschenk"],
+                        ["initium",                 "-i n.",                                "Anfangs"],
+                        ["votum",                   "-i n.",                                "Versprechen"],
+
+                        ["crudelis",                "-e",                                   "grausam"],
+
+                        ["amor",                    "amoris m.",                            "Liebe"],
+                        ["canis",                   "canis m.",                             "Hund"],
+                        ["ipse",                    "ipsa, ipsum",                          "(er/sie/es) selbst, gerade (= direkt, unmittelbar) er/sie/es"],
+                        ["metus",                   "metus m.",                             "Angst, Furcht"],
+                        ["munus",                   "muneris n.",                           "Gabe, Geschenk; Aufgabe, Pflicht"],
+                        ["quicumque",               "quaecumque, quodcumque",               "wer/was auch immer"],
+                        ["currus",                  "currus m.",                            "Wagen"],
+                        ["sol",                     "solis m.",                             "Sonne"],
+                        ["Sol",                     "Solis m.",                             "Sonnengott (griech: Helios)"],
+                        
+                        ["nemo",                    "Gen. nullius, Dat. nulli, Akk. neminem, Abl. a nullo", "niemand"],
+
+                        ["altus",                   "3",                                    "hoch; tief"],
+                        
+                        ["atque",                   "= ac",                                 "und (wörtlich: und dazu)"],
+                        ["nec ... nec",             "= neque ... neque",                    "weder ... noch ..."],
+                        ["tunc",                    "= tum (Adv.)",                         "damals, dann"],
+                        
+                        ["initio",                  "(Abl. temporis)",                      "anfangs"],
+                        ["quidem",                  "(Adv., nachgestellt)",                 "zwar, freilich, gewiss, ja (als Füllwort)"],
+                        
+                        ["donec",                   "(Konjunktion)",                        "solange; bis"],
+                        ["quamquam",                "(Konjunktion)",                        "obwohl"],
+                        
+                        ["eiusmodi",                "",                                     "derartig"], 
+                        ["cave canem!",             "",                                     "Achtung Hund!"]
+                    ]
+                },
+                {
+                    "name": "Lektion L10",
+                    "author": "radston12",
+                    "vocabulary": [
+
+                        ["cenare",                  "1, -o, -avi -atum", "essen"],
+                        ["imperare",                "1, -o, -avi -atum", "befehlen, beherrschen"],
+                        ["con-cedere",              "3, -o, -cessi -cessum", "weichen, nachgeben, erlauben"],
+                        ["caedere",                 "3, -o, cecídi caesum", "fällen (Baum), töten, vernichten"],
+                        ["cadere",                  "3, -o, cécidi", "fallen"],
+                        ["ex-pellere",              "3, -o, ex-puli ex-pulsum", "vertreiben, verjagen"],
+                        ["nubere",                  "3, -o, nupsi, nupta", "heiraten (aus der Sicht der Frau)"],
+                        ["quaerere",                "3, -o, quasivi quaesitum", "mit Akk.: jemanden suchen, mit a/ab oder e/ex: jemanden fragen"],
+
+                        ["maritus,",                "-i m.", "Ehemann"],
+
+                        ["hora,",                   "-ae f.", "Stunde"],
+                        ["nuptiae,",                "-arum f. Pl.", "Hochzeit "],
+                        
+                        ["testamentum,",            "-i n.", "Testament"],
+
+
+                        ["aetas,",                  "aetatis f.", "Zeitalter, Lebensalter, Lebenszeit"],
+                        ["dens,",                   "dentis m.", "Zahn"],
+                        ["funus,",                  "funeris n.", "Begräbnis, Tod ; Pl. : Todesfälle"],
+                        ["mater,",                  "matris f.", "Mutter"],
+                        ["orator,",                 "oratoris m.", "Redner, Politiker"],
+                        ["pater,",                  "patris m.", "Vater"],
+                        ["preces,",                 "precum f. Pl.", "Bitte, Gebet"],
+                        ["soror,",                  "sororis f.", "Schwester"],
+                        
+                        ["solus",                   "3 Genitiv solíus m./f./n. Dativ: soli m./f./n.", "alleine, einzig"],
+                        ["totus",                   "3 Genitiv totíus m./f./n. Dativ: toti m./f./n.", "ganz, gesamt"],
+                        ["ignotus,",                "3", "unbekannt"],
+                        ["longus",                  "3", "lange"],
+                        ["securus",                 "3", "sicher"],
+                        ["miser",                   "3", "arm, elend, unglücklich"],
+                        
+                        ["libenter",                "(Adv.)", "gerne"],
+                        ["huc",                     "(Adv.)", "hierher"],
+                        ["statim",                  "(Adv.)", "sofort"],
+                        ["quoniam",                 "(Konjunktion)", "da ja, weil ja"],
+                        
+                        ["aetatem / vitam agere",   "", "das Leben verbringen"],
+                        ["quaero ex te",            "", "ich frage dich"],
+                        ["quaeso",                  "", "bitte"],
+                        ["considite, quaeso!",      "", "setzt euch, bitte!"]
                     ]
                 }
             ]

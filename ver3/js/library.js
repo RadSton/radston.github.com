@@ -1,5 +1,22 @@
 const vocabulary_view = document.querySelector(".vocabulary_view");
 
+const sortAlphabeticly = (toSort) => {
+    var clone = [...toSort];
+    clone.sort(function (a, b) {
+        var wordA = a[0].toUpperCase();
+        var wordB = b[0].toUpperCase();
+        if (wordA < wordB) {
+            return -1;
+        }
+        if (wordA > wordB) {
+            return 1;
+        }
+        return 0;
+    });
+
+    return clone;
+}
+
 const showVocSetInVocabularyView = (set, category) => {
     hideAll();
     unmarkAllButtons();
@@ -20,7 +37,9 @@ const showVocSetInVocabularyView = (set, category) => {
 
     let th = ``;
 
-    for (let voc of set.vocabulary) {
+    const sortedSet = category.format.sortable ? sortAlphabeticly(set.vocabulary) : set.vocabulary;
+
+    for (let voc of sortedSet) {
         th += `<tr>`;
         for (let inVoc of voc) th += `<td>${inVoc}</td>`;
         th += `</tr>`;
