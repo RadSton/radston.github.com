@@ -54,3 +54,7 @@ for (const menu of menus) {
             menu.button.classList.add("menu__item__active");
         });
 }
+
+const isTestingSelectedInMenu = () => {
+    return !document.querySelector(".testing").classList.contains("hidden")
+}

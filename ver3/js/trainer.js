@@ -24,6 +24,8 @@ const UI = {
 
 const questionField = document.querySelector(".question");
 
+let currentButton;
+
 const Button = {
     NONE: -1,
     SHOWAWNSERS: 0,
@@ -31,6 +33,9 @@ const Button = {
 }
 
 const showButtons = (button) => {
+
+    currentButton = button;
+
     visible.button.style.display = "none";
     visible.name.style.display = "none";
     right.button.style.display = "none";
@@ -68,7 +73,7 @@ let currentTraining = {
  * @param {Event} event 
  */
 const onShowAwnser = (event) => {
-    event.preventDefault();
+    if (event) event.preventDefault();
     revealAwnser();
     showButtons(Button.AWNSERS);
 }
@@ -160,7 +165,7 @@ const trainSet = (set, categoryName) => {
 
 const handleAwnser = (good) => {
     return (event) => {
-        event.preventDefault();
+        if(event) event.preventDefault();
         if (good) currentTraining.stats.rightWords++;
         else {
             currentTraining.wrongs.push(currentTraining.currentVocabular);
@@ -181,3 +186,23 @@ wrong.button.addEventListener("click", handleAwnser(false));
 
 // dev
 
+document.onkeypress = function (e) {
+    e = e || window.event;
+    // use e.keyCode
+
+    if (!isTestingSelectedInMenu()) return;
+    if (currentButton == Button.AWNSERS) {
+        switch (e.keyCode) {
+            case 97: handleAwnser(true)(undefined); break;
+            case 100: handleAwnser(false)(undefined); break;
+            default: break;
+        }
+    } else if (currentButton == Button.SHOWAWNSERS) {
+        switch (e.keyCode) {
+            case 32:
+            case 119:
+                onShowAwnser();
+            default: break;
+        }
+    }
+};
