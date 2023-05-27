@@ -425,3 +425,7 @@ td[trainer_style]:hover>i {
         overflow-x: hidden;
     }
 }
+
+bold {
+    font-weight: 700;
+}
