@@ -69,6 +69,9 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
     elClone.addEventListener("click", (e) => {
         e.preventDefault();
         trainSet(set, category.name, isCategory);
+        gtag('event', 'started_training', {
+            set: category.name + "/" + set.name
+        });
         hideAll();
         unmarkAllButtons();
         menus[INDEX_OF_TESTING].menu.classList.remove("hidden");
