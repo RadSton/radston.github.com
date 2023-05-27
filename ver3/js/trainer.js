@@ -68,10 +68,6 @@ let currentTraining = {
     }
 }
 
-/**
- * 
- * @param {Event} event 
- */
 const onShowAwnser = (event) => {
     if (event) event.preventDefault();
     revealAwnser();
@@ -105,8 +101,6 @@ const updateUi = () => {
     currentTraining.stats.percentage = Math.floor((currentTraining.stats.rightWords / (currentTraining.stats.rightWords + currentTraining.stats.wrongWords ))*100);
     if(!currentTraining.stats.percentage) currentTraining.stats.percentage = 0;
     // old Math.floor(((currentTraining.stats.gesamt - currentTraining.set.length) / currentTraining.stats.gesamt) * 100)
-    // currentTraining.stats.wrongWords = currentTraining.wrongs.length; Todo: Marked for removal
-
     UI.vocset_name.innerText = currentTraining.stats.setName;
     UI.vocset_cards.innerText = currentTraining.stats.gesamt;
     UI.vocset_learned.innerText = currentTraining.stats.gesamt - currentTraining.set.length;
@@ -152,16 +146,17 @@ const revealAwnser = () => {
     }
 }
 
-const trainSet = (set, categoryName, isCategory = false) => {
+const trainSet = (set, category, isCategory = false) => {
     currentTraining.set = mixArray(set.vocabulary);
     currentTraining.stats = {
-        setName: categoryName + (isCategory ? "/*" : "/" + set.name),
+        setName: category.name + (isCategory ? "/*" : "/" + set.name),
         gesamt: set.vocabulary.length,
         trainedWords: 0,
         rightWords: 0,
         wrongWords: 0,
         percentage: 100,
     }
+    currentTraining.wrongs = [];
     getNextVocabular();
 }
 
@@ -176,8 +171,9 @@ const handleAwnser = (good) => {
         if (!getNextVocabular()) {
             console.log("Done!");
             // Temporary solution: Refresh page TODO: Get more intelligent 
+            clearStorage();
             window.location.href = window.location.href;
-        }
+        } else saveProgress();
     }
 }
 
@@ -185,8 +181,6 @@ const handleAwnser = (good) => {
 visible.button.addEventListener("click", onShowAwnser);
 right.button.addEventListener("click", handleAwnser(true));
 wrong.button.addEventListener("click", handleAwnser(false));
-
-// dev
 
 document.onkeypress = function (e) {
     e = e || window.event;
@@ -208,3 +202,38 @@ document.onkeypress = function (e) {
         }
     }
 };
+
+
+
+// dev
+
+const SAVE_NAME = "currentTraining";
+
+const saveProgress = () => {
+    localStorage.setItem(SAVE_NAME, JSON.stringify(currentTraining));
+} 
+
+const load = () => {
+    const tempCurrentTraining = JSON.parse(localStorage.getItem(SAVE_NAME));
+    if(!tempCurrentTraining) return;
+    if(!tempCurrentTraining.set || !tempCurrentTraining.stats || !tempCurrentTraining.wrongs) return;
+
+    console.log(tempCurrentTraining);
+
+    currentTraining.set = mixArray(tempCurrentTraining.set);
+    currentTraining.stats = tempCurrentTraining.stats;
+    currentTraining.wrongs = tempCurrentTraining.wrongs;
+    currentTraining.currentVocabular = tempCurrentTraining.currentVocabular;
+
+
+    showVocabularQuestion();
+    clearAwnsers();
+    showButtons(Button.SHOWAWNSERS)
+    updateUi();
+}
+
+const clearStorage = () => {
+    localStorage.setItem(SAVE_NAME, undefined);
+}
+
+load();

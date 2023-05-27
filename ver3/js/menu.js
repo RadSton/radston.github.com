@@ -24,7 +24,6 @@ const menus = [
 ]
 
 let INDEX_OF_TESTING = 1; // menus[1] -> testing
-let initalLoad = Date.now();
 
 const hideAll = () => {
     for (const menu of menus) {
@@ -68,14 +67,10 @@ const isTestingSelectedInMenu = () => {
     return !document.querySelector(".testing").classList.contains("hidden")
 }
 
-document.addEventListener("beforeunload", () => {
-   
-})
-
 var MAX_WAIT_MS = 1000;
 var _waitForFinalHit = false;
-
-function recordFinalHit() {
+const initalLoad = Date.now();
+window.onunload = () => {
     _waitForFinalHit = true;
 
     gtag('event', 'closedpage', {
@@ -84,16 +79,7 @@ function recordFinalHit() {
             _waitForFinalHit = false;
         }
     });
-}
 
-function waitForFinalHit() {
     var waitStart = new Date().getTime();
-    while (_waitForFinalHit
-        && (new Date().getTime() - waitStart < MAX_WAIT_MS)) { }
-}
-
-
-window.onunload = () => {
-    recordFinalHit();
-    waitForFinalHit();
+    while (_waitForFinalHit && (new Date().getTime() - waitStart < MAX_WAIT_MS)) { }
 };
