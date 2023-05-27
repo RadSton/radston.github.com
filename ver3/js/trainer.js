@@ -102,7 +102,9 @@ const mixArray = (array) => {
 
 
 const updateUi = () => {
-    currentTraining.stats.percentage = Math.floor(((currentTraining.stats.gesamt - currentTraining.set.length) / currentTraining.stats.gesamt) * 100);
+    currentTraining.stats.percentage = Math.floor((currentTraining.stats.rightWords / (currentTraining.stats.rightWords + currentTraining.stats.wrongWords ))*100);
+    if(!currentTraining.stats.percentage) currentTraining.stats.percentage = 0;
+    // old Math.floor(((currentTraining.stats.gesamt - currentTraining.set.length) / currentTraining.stats.gesamt) * 100)
     // currentTraining.stats.wrongWords = currentTraining.wrongs.length; Todo: Marked for removal
 
     UI.vocset_name.innerText = currentTraining.stats.setName;
