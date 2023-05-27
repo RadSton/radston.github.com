@@ -152,10 +152,10 @@ const revealAwnser = () => {
     }
 }
 
-const trainSet = (set, categoryName) => {
+const trainSet = (set, categoryName, isCategory = false) => {
     currentTraining.set = mixArray(set.vocabulary);
     currentTraining.stats = {
-        setName: categoryName + "/" + set.name,
+        setName: categoryName + (isCategory ? "/*" : "/" + set.name),
         gesamt: set.vocabulary.length,
         trainedWords: 0,
         rightWords: 0,

@@ -241,6 +241,11 @@ category {
     padding: 20px;
     padding-bottom: 30px;
     margin: 20px;
+    text-align: center;
+}
+
+.category_button {
+    background-color: var(--bg-secondary);
 }
 
 .vocabulary_view_vocab {

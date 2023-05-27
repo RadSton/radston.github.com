@@ -17,13 +17,25 @@ const sortAlphabeticly = (toSort) => {
     return clone;
 }
 
-const showVocSetInVocabularyView = (set, category) => {
+const showCategory = (cat) => {
+    const vocabulary = [];
+
+    for (const set of cat.sets) {
+        for (const voc of set.vocabulary) vocabulary.push(voc);
+    }
+
+    showVocSetInVocabularyView({
+        vocabulary
+    }, cat, true);
+}
+
+const showVocSetInVocabularyView = (set, category, isCategory = false) => {
     hideAll();
     unmarkAllButtons();
 
     vocabulary_view.querySelector("[vocabulary_view=\"table\"]").innerHTML = `<tr vocabulary_view="format"></tr>`;
 
-    vocabulary_view.querySelector("[vocabulary_view=\"title\"]").innerHTML = "Vokabel von " + category.name + "/" + set.name;
+    vocabulary_view.querySelector("[vocabulary_view=\"title\"]").innerHTML = "Vokabel von " + category.name + (isCategory ? "/*" : "/" + set.name);
     const amount = category.format.names.length;
     const spacing = Math.floor(100 / amount);
 
@@ -56,7 +68,7 @@ const showVocSetInVocabularyView = (set, category) => {
 
     elClone.addEventListener("click", (e) => {
         e.preventDefault();
-        trainSet(set, category.name);
+        trainSet(set, category.name, isCategory);
         hideAll();
         unmarkAllButtons();
         menus[INDEX_OF_TESTING].menu.classList.remove("hidden");
@@ -70,7 +82,7 @@ const showVocSetInVocabularyView = (set, category) => {
 const loadLibrary = () => {
     let catIndex = 0;
     for (const category of vocabularyDB.categorys) {
-        let htmlToInject = `<category><text>${category.name}</text><hr>`;
+        let htmlToInject = `<category><text>${category.name}</text><button class="category_button" identifyer="${catIndex}">Kategorie anzeigen</button><hr>`;
 
         let index = 0;
         for (const set of category.sets) {
@@ -96,6 +108,13 @@ const loadLibrary = () => {
         set.addEventListener("click", (ev) => {
             const identifyer = set.getAttribute("identifyer").split("-");
             showVocSetInVocabularyView(vocabularyDB.categorys[identifyer[0]].sets[identifyer[1]], vocabularyDB.categorys[identifyer[0]]);
+        })
+    };
+
+    for (const set of document.querySelectorAll(".category_button")) {
+        set.addEventListener("click", (ev) => {
+            const identifyer = set.getAttribute("identifyer");
+            showCategory(vocabularyDB.categorys[identifyer]);
         })
     };
 };
