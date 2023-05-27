@@ -74,7 +74,7 @@ window.onunload = () => {
     _waitForFinalHit = true;
 
     gtag('event', 'closedpage', {
-        duration: Math.floor(Date.now() - initalLoad / 1000),
+        duration: Math.floor((Date.now() - initalLoad) /  1000),
         hitCallback: function() {
             _waitForFinalHit = false;
         }

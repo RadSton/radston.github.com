@@ -1,0 +1,207 @@
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+    <title>Home</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+
+    <meta content="Vokabel Trainer v1.0 BETA made by radston12" property="og:title">
+    <meta content="Cooler neuer Trainer mit konfigurierbarem Design, Mobile Support und vielem mehr!"
+        property="og:description">
+    <meta content="https://radston.github.io/ver3/" property="og:url">
+    <meta content="VokTrainer v1.0-beta" property="og:site_name">
+    <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/updater.js"></script>
+    <script>
+        function gtag() {}
+    </script>
+</head>
+
+<body class="preload">
+
+    <nav class="menu">
+        <!--- <a class="menu__item menu__item__active" name="dashboard">
+            <i class="material-icons">home</i>
+        </a> --->
+        <a class="menu__item" name="testing">
+            <i class="material-icons">school</i>
+        </a>
+        <a class="menu__item" name="library">
+            <i class="material-icons">book</i>
+        </a>
+        <a class="menu__item" name="settings">
+            <i class="material-icons">settings</i>
+        </a>
+    </nav>
+
+    <main>
+
+        <div class="dashboard"></div>
+        <div class="testing">
+
+            <section trainer="div">
+                <table trainer="table">
+                    <tr>
+                        <th width="16%">Einheit</th>
+                        <th width="16%">Gesamt</th>
+                        <th width="16%">angezeigte Wörter</th>
+                        <th width="16%">richtige Wörter</th>
+                        <th width="16%">falsche Wörter</th>
+                        <th width="16%">Prozentsatz</th>
+                    </tr>
+                    <tr>
+                        <td trainer_ui="vocset_name">Keine</td>
+                        <td trainer_ui="vocset_cards">0</td>
+                        <td trainer_ui="vocset_learned">0</td>
+                        <td trainer_ui="vocset_right">0</td>
+                        <td trainer_ui="vocset_wrong">0</td>
+                        <td trainer_ui="vocset_percent">0%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="testing_question">
+                <span class="subquestion"></span>
+                <text class="question">Gehe auf <i class="material-icons" style="font-size: 20pt">book</i> wähle ein Set
+                    aus und drücke unten auf "Trainieren"</text>
+                <div class="showing"></div>
+            </section>
+            <section class="testing_awnser">
+                <table>
+                    <tr>
+                        <th trainer="right">Wusste ich </th>
+                        <th trainer="wrong">Wusste ich nicht</th>
+                        <th trainer="visibility">Aufdecken</th>
+                    </tr>
+                    <tr>
+                        <td trainer_style trainer="right"><i class="material-icons">sentiment_satisfied</i></td>
+                        <td trainer_style trainer="wrong"><i class="material-icons">sentiment_dissatisfied</i></td>
+                        <td trainer_style trainer="visibility"><i class="material-icons">visibility</i>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+        </div>
+        <div class="library">
+            <section class="title">Vokabel Sets</section>
+            <section class="max vocsets">
+
+                <!-- SAMPLE DATA - normaly inserted by javascript
+                <div class="vocset">
+                    <div class="voc_set_description">
+                        <div class="count">
+                            <div class="count_description">Vokabel</div>
+                            <div class="count_value">109</div>
+                        </div>
+                        <div class="vocset_name">Latein SA 4 Vokabel</div>
+                        <div class="vocset_author">by radplat</div>
+                    </div>
+                </div>
+            -->
+
+            </section>
+
+        </div>
+        <div class="vocabulary_view">
+            <section class="title">Vokabel Übersicht</section>
+            <section class="max vocsets">
+
+                <spacer></spacer>
+                <spacer></spacer>
+
+                <div class="vocabulary_view_vocab_list">
+                    <text vocabulary_view="title"></text>
+                    <hr>
+                    <table vocabulary_view="table" type="vocabulary_view">
+                        <tr vocabulary_view="format"></tr>
+                    </table>
+                </div>
+            </section>
+            <bottombar>
+                <button vocabulary_view="button">Trainieren</button>
+            </bottombar>
+        </div>
+        <div class="settings">
+            <section class="title">Settings</section>
+            <section class="not-middled">
+
+                <setting>
+                    <text>Speicherfunktionen <red>(WIP)</red></text>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td width="100%">Anzahl an gespeicherten Sessions</td>
+                            <td><input setting="saved_study_sessions" placeholder="20" type="number"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Gerätespeicher exportieren</td>
+                            <td><button setting="export_save">Export</button></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Gerätespeicher importieren</td>
+                            <td><button setting="import_save">Import</button></td>
+                        </tr>
+                    </table>
+                </setting>
+
+                <setting>
+                    <text>Farben</text>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td width="100%">Textprimärfarbe</td>
+                            <td><input setting="text_primary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Textsekundärfarbe</td>
+                            <td><input setting="text_sekundary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundprimärfarbe</td>
+                            <td><input setting="back_primary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundsekundärfarbe</td>
+                            <td><input setting="back_second" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundterzierfarbe</td>
+                            <td><input setting="back_tertiary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Akzentfarbe</td>
+                            <td><input setting="accent" type="color"></td>
+                        </tr>
+                    </table>
+                </setting>
+
+            </section>
+            <bottombar>
+
+                <button button_id="settings_save">Save</button>
+                <button button_id="settings_reset">Reset</button>
+            </bottombar>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="js/library.js"></script>
+    <script src="js/vocUtils.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/trainer.js"></script>
+
+
+</body>
+
+</html>
