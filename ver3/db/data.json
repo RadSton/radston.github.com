@@ -729,7 +729,7 @@
                         ["ducere",                                   "3, -o",                                    "duxi",                                     "führen (z.B. Personen), leiten (z.B. Wasser)"],
                         ["egere",                                    "2, -eo",                                   "egui",                                     "etwas nicht haben, brauchen (= nötig haben)"],
                         ["esse",                                     "-",                                        "fui",                                      "sein"],
-                        ["desse",                                    "-",                                        "defui",                                    "fehlen"],
+                        ["deesse",                                   "-",                                        "defui",                                    "fehlen"],
                         ["prodesse",                                 "-",                                        "profui",                                   "nützen"],
                         ["interesse",                                "-",                                        "interfui",                                 "dabei sein, teilnehmen"],
                         ["exercere",                                 "2, -eo",                                   "exercui",                                  "üben, (jemanden) trainieren; 2. beschäftigen; 3. im Passiv: (selbst) trainieren"],
@@ -869,7 +869,7 @@
                         ["videre",                                   "2, -eo",                                   "vidi",                                     "sehen"],
                         ["vivere",                                   "3, -o",                                    "vixi",                                     "leben"],
                         ["esse",                                     "-",                                        "fui",                                      "sein"],
-                        ["desse",                                    "-",                                        "defui",                                    "fehlen"],
+                        ["deesse",                                   "-",                                        "defui",                                    "fehlen"],
                         ["prodesse",                                 "-",                                        "profui",                                   "nützen"],
                         ["interesse",                                "-",                                        "interfui",                                 "dabei sein, teilnehmen"]
                     ]
