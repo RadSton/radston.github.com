@@ -1,0 +1,4310 @@
+[
+    {
+        "nennform": "accedere",
+        "info": "3, -o",
+        "german": "herankommen, sich nähern",
+        "conjugations": {
+            "normal": [
+                "accedo",
+                "accedis",
+                "accedit",
+                "accedimus",
+                "acceditis",
+                "accedunt"
+            ],
+            "imperfekt": [
+                "accedebam",
+                "accedebas",
+                "accedebat",
+                "accedebamus",
+                "accedebatis",
+                "accedebant"
+            ],
+            "futur": [
+                "accedam",
+                "accedes",
+                "accedet",
+                "accedemus",
+                "accedetis",
+                "accedent"
+            ],
+            "perfekt": [
+                "accessi",
+                "accessisti",
+                "accessit",
+                "accessimus",
+                "accessistis",
+                "accesserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "adiuvare",
+        "info": "1, -o",
+        "german": "helfen",
+        "conjugations": {
+            "normal": [
+                "adiuvo",
+                "adiuvas",
+                "adiuvat",
+                "adiuvamus",
+                "adiuvatis",
+                "adiuvant"
+            ],
+            "imperfekt": [
+                "adiuvabam",
+                "adiuvabas",
+                "adiuvabat",
+                "adiuvabamus",
+                "adiuvabatis",
+                "adiuvabant"
+            ],
+            "futur": [
+                "adiuvabo",
+                "adiuvabis",
+                "adiuvabit",
+                "adiuvabimus",
+                "adiuvabitis",
+                "adiuvabunt"
+            ],
+            "perfekt": [
+                "adiuvi",
+                "adiuvisti",
+                "adiuvit",
+                "adiuvimus",
+                "adiuvistis",
+                "adiuverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "agere",
+        "info": "3, -o",
+        "german": "tun, machen, handeln, ausführen",
+        "conjugations": {
+            "normal": [
+                "ago",
+                "agis",
+                "agit",
+                "agimus",
+                "agitis",
+                "agunt"
+            ],
+            "imperfekt": [
+                "agebam",
+                "agebas",
+                "agebat",
+                "agebamus",
+                "agebatis",
+                "agebant"
+            ],
+            "futur": [
+                "agam",
+                "ages",
+                "aget",
+                "agemus",
+                "agetis",
+                "agent"
+            ],
+            "perfekt": [
+                "egi",
+                "egisti",
+                "egit",
+                "egimus",
+                "egistis",
+                "egerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "amare",
+        "info": "1, -o",
+        "german": "lieben",
+        "conjugations": {
+            "normal": [
+                "amo",
+                "amas",
+                "amat",
+                "amamus",
+                "amatis",
+                "amant"
+            ],
+            "imperfekt": [
+                "amabam",
+                "amabas",
+                "amabat",
+                "amabamus",
+                "amabatis",
+                "amabant"
+            ],
+            "futur": [
+                "amabo",
+                "amabis",
+                "amabit",
+                "amabimus",
+                "amabitis",
+                "amabunt"
+            ],
+            "perfekt": [
+                "amavi",
+                "amavisti",
+                "amavit",
+                "amavimus",
+                "amavistis",
+                "amaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "appellare",
+        "info": "1, -o",
+        "german": "rufen, nennen",
+        "conjugations": {
+            "normal": [
+                "appello",
+                "appellas",
+                "appellat",
+                "appellamus",
+                "appellatis",
+                "appellant"
+            ],
+            "imperfekt": [
+                "appellabam",
+                "appellabas",
+                "appellabat",
+                "appellabamus",
+                "appellabatis",
+                "appellabant"
+            ],
+            "futur": [
+                "appellabo",
+                "appellabis",
+                "appellabit",
+                "appellabimus",
+                "appellabitis",
+                "appellabunt"
+            ],
+            "perfekt": [
+                "appellavi",
+                "appellavisti",
+                "appellavit",
+                "appellavimus",
+                "appellavistis",
+                "appellaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "apportare",
+        "info": "1, -o",
+        "german": "bringen, herbeitragen",
+        "conjugations": {
+            "normal": [
+                "apporto",
+                "apportas",
+                "apportat",
+                "apportamus",
+                "apportatis",
+                "apportant"
+            ],
+            "imperfekt": [
+                "apportabam",
+                "apportabas",
+                "apportabat",
+                "apportabamus",
+                "apportabatis",
+                "apportabant"
+            ],
+            "futur": [
+                "apportabo",
+                "apportabis",
+                "apportabit",
+                "apportabimus",
+                "apportabitis",
+                "apportabunt"
+            ],
+            "perfekt": [
+                "apportavi",
+                "apportavisti",
+                "apportavit",
+                "apportavimus",
+                "apportavistis",
+                "apportaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "arcere",
+        "info": "2, -eo",
+        "german": "abwehren, fernhalten",
+        "conjugations": {
+            "normal": [
+                "arceo",
+                "arces",
+                "arcet",
+                "arcemus",
+                "arcetis",
+                "arcent"
+            ],
+            "imperfekt": [
+                "arcebam",
+                "arcebas",
+                "arcebat",
+                "arcebamus",
+                "arcebatis",
+                "arcebant"
+            ],
+            "futur": [
+                "arcebo",
+                "arcebis",
+                "arcebit",
+                "arcebimus",
+                "arcebitis",
+                "arcebunt"
+            ],
+            "perfekt": [
+                "arcui",
+                "arcuisti",
+                "arcuit",
+                "arcuimus",
+                "arcuistis",
+                "arcuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "audire",
+        "info": "4, -io",
+        "german": "hören",
+        "conjugations": {
+            "normal": [
+                "audio",
+                "audis",
+                "audit",
+                "audimus",
+                "auditis",
+                "audiunt"
+            ],
+            "imperfekt": [
+                "audiebam",
+                "audiebas",
+                "audiebat",
+                "audiebamus",
+                "audiebatis",
+                "audiebant"
+            ],
+            "futur": [
+                "audiam",
+                "audies",
+                "audiet",
+                "audiemus",
+                "audietis",
+                "audient"
+            ],
+            "perfekt": [
+                "audivi",
+                "audivisti",
+                "audivit",
+                "audivimus",
+                "audivistis",
+                "audiverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "augere",
+        "info": "2, -eo",
+        "german": "vergrößern, vermehren",
+        "conjugations": {
+            "normal": [
+                "augeo",
+                "auges",
+                "auget",
+                "augemus",
+                "augetis",
+                "augent"
+            ],
+            "imperfekt": [
+                "augebam",
+                "augebas",
+                "augebat",
+                "augebamus",
+                "augebatis",
+                "augebant"
+            ],
+            "futur": [
+                "augebo",
+                "augebis",
+                "augebit",
+                "augebimus",
+                "augebitis",
+                "augebunt"
+            ],
+            "perfekt": [
+                "auxi",
+                "auxisti",
+                "auxit",
+                "auximus",
+                "auxistis",
+                "auxerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "caedere",
+        "info": "3, -o",
+        "german": "töten, vernichten",
+        "conjugations": {
+            "normal": [
+                "caedo",
+                "caedis",
+                "caedit",
+                "caedimus",
+                "caeditis",
+                "caedunt"
+            ],
+            "imperfekt": [
+                "caedebam",
+                "caedebas",
+                "caedebat",
+                "caedebamus",
+                "caedebatis",
+                "caedebant"
+            ],
+            "futur": [
+                "caedam",
+                "caedes",
+                "caedet",
+                "caedemus",
+                "caedetis",
+                "caedent"
+            ],
+            "perfekt": [
+                "cecídi",
+                "cecídisti",
+                "cecídit",
+                "cecídimus",
+                "cecídistis",
+                "cecíderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "cantare",
+        "info": "1, -o",
+        "german": "Singen",
+        "conjugations": {
+            "normal": [
+                "canto",
+                "cantas",
+                "cantat",
+                "cantamus",
+                "cantatis",
+                "cantant"
+            ],
+            "imperfekt": [
+                "cantabam",
+                "cantabas",
+                "cantabat",
+                "cantabamus",
+                "cantabatis",
+                "cantabant"
+            ],
+            "futur": [
+                "cantabo",
+                "cantabis",
+                "cantabit",
+                "cantabimus",
+                "cantabitis",
+                "cantabunt"
+            ],
+            "perfekt": [
+                "cantavi",
+                "cantavisti",
+                "cantavit",
+                "cantavimus",
+                "cantavistis",
+                "cantaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "capere",
+        "info": "M, -io",
+        "german": "fangen, erobern 2. (einen Plan) fassen 3. nehmen",
+        "conjugations": {
+            "normal": [
+                "capeo",
+                "capes",
+                "capet",
+                "capemus",
+                "capetis",
+                "capent"
+            ],
+            "imperfekt": [
+                "capebam",
+                "capebas",
+                "capebat",
+                "capebamus",
+                "capebatis",
+                "capebant"
+            ],
+            "futur": [
+                "capam",
+                "capes",
+                "capet",
+                "capemus",
+                "capetis",
+                "capent"
+            ],
+            "perfekt": [
+                "cepi",
+                "cepisti",
+                "cepit",
+                "cepimus",
+                "cepistis",
+                "ceperunt"
+            ]
+        }
+    },
+    {
+        "nennform": "carere",
+        "info": "2, -eo",
+        "german": "eine Sache entbehren / nicht haben",
+        "conjugations": {
+            "normal": [
+                "careo",
+                "cares",
+                "caret",
+                "caremus",
+                "caretis",
+                "carent"
+            ],
+            "imperfekt": [
+                "carebam",
+                "carebas",
+                "carebat",
+                "carebamus",
+                "carebatis",
+                "carebant"
+            ],
+            "futur": [
+                "carebo",
+                "carebis",
+                "carebit",
+                "carebimus",
+                "carebitis",
+                "carebunt"
+            ],
+            "perfekt": []
+        }
+    },
+    {
+        "nennform": "celebrare",
+        "info": "1, -o",
+        "german": "feiern",
+        "conjugations": {
+            "normal": [
+                "celebro",
+                "celebras",
+                "celebrat",
+                "celebramus",
+                "celebratis",
+                "celebrant"
+            ],
+            "imperfekt": [
+                "celebrabam",
+                "celebrabas",
+                "celebrabat",
+                "celebrabamus",
+                "celebrabatis",
+                "celebrabant"
+            ],
+            "futur": [
+                "celebrabo",
+                "celebrabis",
+                "celebrabit",
+                "celebrabimus",
+                "celebrabitis",
+                "celebrabunt"
+            ],
+            "perfekt": [
+                "celebravi",
+                "celebravisti",
+                "celebravit",
+                "celebravimus",
+                "celebravistis",
+                "celebraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "clamare",
+        "info": "1, -o",
+        "german": "rufen",
+        "conjugations": {
+            "normal": [
+                "clamo",
+                "clamas",
+                "clamat",
+                "clamamus",
+                "clamatis",
+                "clamant"
+            ],
+            "imperfekt": [
+                "clamabam",
+                "clamabas",
+                "clamabat",
+                "clamabamus",
+                "clamabatis",
+                "clamabant"
+            ],
+            "futur": [
+                "clamabo",
+                "clamabis",
+                "clamabit",
+                "clamabimus",
+                "clamabitis",
+                "clamabunt"
+            ],
+            "perfekt": [
+                "clamavi",
+                "clamavisti",
+                "clamavit",
+                "clamavimus",
+                "clamavistis",
+                "clamaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "cognoscere",
+        "info": "3, -o",
+        "german": "kennenlernen, erkennen; 2.erfahren",
+        "conjugations": {
+            "normal": [
+                "cognosco",
+                "cognoscis",
+                "cognoscit",
+                "cognoscimus",
+                "cognoscitis",
+                "cognoscunt"
+            ],
+            "imperfekt": [
+                "cognoscebam",
+                "cognoscebas",
+                "cognoscebat",
+                "cognoscebamus",
+                "cognoscebatis",
+                "cognoscebant"
+            ],
+            "futur": [
+                "cognoscam",
+                "cognosces",
+                "cognoscet",
+                "cognoscemus",
+                "cognoscetis",
+                "cognoscent"
+            ],
+            "perfekt": [
+                "cognovi",
+                "cognovisti",
+                "cognovit",
+                "cognovimus",
+                "cognovistis",
+                "cognoverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "colligere",
+        "info": "3, -o,",
+        "german": "sammeln",
+        "conjugations": {
+            "normal": [
+                "colligo",
+                "colligis",
+                "colligit",
+                "colligimus",
+                "colligitis",
+                "colligunt"
+            ],
+            "imperfekt": [
+                "colligebam",
+                "colligebas",
+                "colligebat",
+                "colligebamus",
+                "colligebatis",
+                "colligebant"
+            ],
+            "futur": [
+                "colligam",
+                "colliges",
+                "colliget",
+                "colligemus",
+                "colligetis",
+                "colligent"
+            ],
+            "perfekt": [
+                "col-legi",
+                "col-legisti",
+                "col-legit",
+                "col-legimus",
+                "col-legistis",
+                "col-legerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "contendere",
+        "info": "3, -o",
+        "german": "sich anstrengen 2. eilen (= rasch marschieren) 3. kämpfen",
+        "conjugations": {
+            "normal": [
+                "contendo",
+                "contendis",
+                "contendit",
+                "contendimus",
+                "contenditis",
+                "contendunt"
+            ],
+            "imperfekt": [
+                "contendebam",
+                "contendebas",
+                "contendebat",
+                "contendebamus",
+                "contendebatis",
+                "contendebant"
+            ],
+            "futur": [
+                "contendam",
+                "contendes",
+                "contendet",
+                "contendemus",
+                "contendetis",
+                "contendent"
+            ],
+            "perfekt": [
+                "contendi",
+                "contendisti",
+                "contendit",
+                "contendimus",
+                "contendistis",
+                "contenderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "cupere",
+        "info": "M, -io",
+        "german": "wünschen begehren",
+        "conjugations": {
+            "normal": [
+                "cupeo",
+                "cupes",
+                "cupet",
+                "cupemus",
+                "cupetis",
+                "cupent"
+            ],
+            "imperfekt": [
+                "cupebam",
+                "cupebas",
+                "cupebat",
+                "cupebamus",
+                "cupebatis",
+                "cupebant"
+            ],
+            "futur": [
+                "cupam",
+                "cupes",
+                "cupet",
+                "cupemus",
+                "cupetis",
+                "cupent"
+            ],
+            "perfekt": [
+                "cupivi",
+                "cupivisti",
+                "cupivit",
+                "cupivimus",
+                "cupivistis",
+                "cupiverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "currere",
+        "info": "3, -o",
+        "german": "laufen",
+        "conjugations": {
+            "normal": [
+                "curro",
+                "curris",
+                "currit",
+                "currimus",
+                "curritis",
+                "currunt"
+            ],
+            "imperfekt": [
+                "currebam",
+                "currebas",
+                "currebat",
+                "currebamus",
+                "currebatis",
+                "currebant"
+            ],
+            "futur": [
+                "curram",
+                "curres",
+                "curret",
+                "curremus",
+                "curretis",
+                "current"
+            ],
+            "perfekt": [
+                "cucurri",
+                "cucurristi",
+                "cucurrit",
+                "cucurrimus",
+                "cucurristis",
+                "cucurrerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "dare",
+        "info": "1, -o",
+        "german": "geben",
+        "conjugations": {
+            "normal": [
+                "do",
+                "das",
+                "dat",
+                "damus",
+                "datis",
+                "dant"
+            ],
+            "imperfekt": [
+                "dabam",
+                "dabas",
+                "dabat",
+                "dabamus",
+                "dabatis",
+                "dabant"
+            ],
+            "futur": [
+                "dabo",
+                "dabis",
+                "dabit",
+                "dabimus",
+                "dabitis",
+                "dabunt"
+            ],
+            "perfekt": [
+                "dedi",
+                "dedisti",
+                "dedit",
+                "dedimus",
+                "dedistis",
+                "dederunt"
+            ]
+        }
+    },
+    {
+        "nennform": "debere",
+        "info": "2, -eo",
+        "german": "Inf.: müssen 2. schulden, verdanken",
+        "conjugations": {
+            "normal": [
+                "debeo",
+                "debes",
+                "debet",
+                "debemus",
+                "debetis",
+                "debent"
+            ],
+            "imperfekt": [
+                "debebam",
+                "debebas",
+                "debebat",
+                "debebamus",
+                "debebatis",
+                "debebant"
+            ],
+            "futur": [
+                "debebo",
+                "debebis",
+                "debebit",
+                "debebimus",
+                "debebitis",
+                "debebunt"
+            ],
+            "perfekt": [
+                "debui",
+                "debuisti",
+                "debuit",
+                "debuimus",
+                "debuistis",
+                "debuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "defendere",
+        "info": "3, -o",
+        "german": "verteidigen, abwehren",
+        "conjugations": {
+            "normal": [
+                "defendo",
+                "defendis",
+                "defendit",
+                "defendimus",
+                "defenditis",
+                "defendunt"
+            ],
+            "imperfekt": [
+                "defendebam",
+                "defendebas",
+                "defendebat",
+                "defendebamus",
+                "defendebatis",
+                "defendebant"
+            ],
+            "futur": [
+                "defendam",
+                "defendes",
+                "defendet",
+                "defendemus",
+                "defendetis",
+                "defendent"
+            ],
+            "perfekt": [
+                "defendi",
+                "defendisti",
+                "defendit",
+                "defendimus",
+                "defendistis",
+                "defenderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "delectare",
+        "info": "1, -o",
+        "german": "erfreuen",
+        "conjugations": {
+            "normal": [
+                "delecto",
+                "delectas",
+                "delectat",
+                "delectamus",
+                "delectatis",
+                "delectant"
+            ],
+            "imperfekt": [
+                "delectabam",
+                "delectabas",
+                "delectabat",
+                "delectabamus",
+                "delectabatis",
+                "delectabant"
+            ],
+            "futur": [
+                "delectabo",
+                "delectabis",
+                "delectabit",
+                "delectabimus",
+                "delectabitis",
+                "delectabunt"
+            ],
+            "perfekt": [
+                "delectavi",
+                "delectavisti",
+                "delectavit",
+                "delectavimus",
+                "delectavistis",
+                "delectaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "dicere",
+        "info": "3, -o",
+        "german": "jem. nennen/bezeichnen als",
+        "conjugations": {
+            "normal": [
+                "dico",
+                "dicis",
+                "dicit",
+                "dicimus",
+                "dicitis",
+                "dicunt"
+            ],
+            "imperfekt": [
+                "dicebam",
+                "dicebas",
+                "dicebat",
+                "dicebamus",
+                "dicebatis",
+                "dicebant"
+            ],
+            "futur": [
+                "dicam",
+                "dices",
+                "dicet",
+                "dicemus",
+                "dicetis",
+                "dicent"
+            ],
+            "perfekt": [
+                "dixi",
+                "dixisti",
+                "dixit",
+                "diximus",
+                "dixistis",
+                "dixerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "docere",
+        "info": "2, -eo",
+        "german": "lehren, belehren",
+        "conjugations": {
+            "normal": [
+                "doceo",
+                "doces",
+                "docet",
+                "docemus",
+                "docetis",
+                "docent"
+            ],
+            "imperfekt": [
+                "docebam",
+                "docebas",
+                "docebat",
+                "docebamus",
+                "docebatis",
+                "docebant"
+            ],
+            "futur": [
+                "docebo",
+                "docebis",
+                "docebit",
+                "docebimus",
+                "docebitis",
+                "docebunt"
+            ],
+            "perfekt": [
+                "docui",
+                "docuisti",
+                "docuit",
+                "docuimus",
+                "docuistis",
+                "docuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "dolere",
+        "info": "2, -eo",
+        "german": "bedauern, leiden, Schmerz empfinden",
+        "conjugations": {
+            "normal": [
+                "doleo",
+                "doles",
+                "dolet",
+                "dolemus",
+                "doletis",
+                "dolent"
+            ],
+            "imperfekt": [
+                "dolebam",
+                "dolebas",
+                "dolebat",
+                "dolebamus",
+                "dolebatis",
+                "dolebant"
+            ],
+            "futur": [
+                "dolebo",
+                "dolebis",
+                "dolebit",
+                "dolebimus",
+                "dolebitis",
+                "dolebunt"
+            ],
+            "perfekt": [
+                "dolui",
+                "doluisti",
+                "doluit",
+                "doluimus",
+                "doluistis",
+                "doluerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "donare",
+        "info": "1, -o",
+        "german": "schenken",
+        "conjugations": {
+            "normal": [
+                "dono",
+                "donas",
+                "donat",
+                "donamus",
+                "donatis",
+                "donant"
+            ],
+            "imperfekt": [
+                "donabam",
+                "donabas",
+                "donabat",
+                "donabamus",
+                "donabatis",
+                "donabant"
+            ],
+            "futur": [
+                "donabo",
+                "donabis",
+                "donabit",
+                "donabimus",
+                "donabitis",
+                "donabunt"
+            ],
+            "perfekt": [
+                "donavi",
+                "donavisti",
+                "donavit",
+                "donavimus",
+                "donavistis",
+                "donaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "ducere",
+        "info": "3, -o",
+        "german": "führen (z.B. Personen), leiten (z.B. Wasser)",
+        "conjugations": {
+            "normal": [
+                "duco",
+                "ducis",
+                "ducit",
+                "ducimus",
+                "ducitis",
+                "ducunt"
+            ],
+            "imperfekt": [
+                "ducebam",
+                "ducebas",
+                "ducebat",
+                "ducebamus",
+                "ducebatis",
+                "ducebant"
+            ],
+            "futur": [
+                "ducam",
+                "duces",
+                "ducet",
+                "ducemus",
+                "ducetis",
+                "ducent"
+            ],
+            "perfekt": [
+                "duxi",
+                "duxisti",
+                "duxit",
+                "duximus",
+                "duxistis",
+                "duxerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "egere",
+        "info": "2, -eo",
+        "german": "etwas nicht haben, brauchen (= nötig haben)",
+        "conjugations": {
+            "normal": [
+                "egeo",
+                "eges",
+                "eget",
+                "egemus",
+                "egetis",
+                "egent"
+            ],
+            "imperfekt": [
+                "egebam",
+                "egebas",
+                "egebat",
+                "egebamus",
+                "egebatis",
+                "egebant"
+            ],
+            "futur": [
+                "egebo",
+                "egebis",
+                "egebit",
+                "egebimus",
+                "egebitis",
+                "egebunt"
+            ],
+            "perfekt": [
+                "egui",
+                "eguisti",
+                "eguit",
+                "eguimus",
+                "eguistis",
+                "eguerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "exercere",
+        "info": "2, -eo",
+        "german": "üben, (jemanden) trainieren; 2. beschäftigen; 3. im Passiv: (selbst) trainieren",
+        "conjugations": {
+            "normal": [
+                "exerceo",
+                "exerces",
+                "exercet",
+                "exercemus",
+                "exercetis",
+                "exercent"
+            ],
+            "imperfekt": [
+                "exercebam",
+                "exercebas",
+                "exercebat",
+                "exercebamus",
+                "exercebatis",
+                "exercebant"
+            ],
+            "futur": [
+                "exercebo",
+                "exercebis",
+                "exercebit",
+                "exercebimus",
+                "exercebitis",
+                "exercebunt"
+            ],
+            "perfekt": [
+                "exercui",
+                "exercuisti",
+                "exercuit",
+                "exercuimus",
+                "exercuistis",
+                "exercuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "expellere",
+        "info": "3, -o",
+        "german": "vertreiben, verjagen, entwurzeln",
+        "conjugations": {
+            "normal": [
+                "expello",
+                "expellis",
+                "expellit",
+                "expellimus",
+                "expellitis",
+                "expellunt"
+            ],
+            "imperfekt": [
+                "expellebam",
+                "expellebas",
+                "expellebat",
+                "expellebamus",
+                "expellebatis",
+                "expellebant"
+            ],
+            "futur": [
+                "expellam",
+                "expelles",
+                "expellet",
+                "expellemus",
+                "expelletis",
+                "expellent"
+            ],
+            "perfekt": [
+                "expuli",
+                "expulisti",
+                "expulit",
+                "expulimus",
+                "expulistis",
+                "expulerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "exspectare",
+        "info": "1, -o",
+        "german": "warten; mit Akk.: erwarten",
+        "conjugations": {
+            "normal": [
+                "exspecto",
+                "exspectas",
+                "exspectat",
+                "exspectamus",
+                "exspectatis",
+                "exspectant"
+            ],
+            "imperfekt": [
+                "exspectabam",
+                "exspectabas",
+                "exspectabat",
+                "exspectabamus",
+                "exspectabatis",
+                "exspectabant"
+            ],
+            "futur": [
+                "exspectabo",
+                "exspectabis",
+                "exspectabit",
+                "exspectabimus",
+                "exspectabitis",
+                "exspectabunt"
+            ],
+            "perfekt": [
+                "expuli",
+                "expulisti",
+                "expulit",
+                "expulimus",
+                "expulistis",
+                "expulerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "facere",
+        "info": "M, -io",
+        "german": "tun, machen",
+        "conjugations": {
+            "normal": [
+                "faceo",
+                "faces",
+                "facet",
+                "facemus",
+                "facetis",
+                "facent"
+            ],
+            "imperfekt": [
+                "facebam",
+                "facebas",
+                "facebat",
+                "facebamus",
+                "facebatis",
+                "facebant"
+            ],
+            "futur": [
+                "facam",
+                "faces",
+                "facet",
+                "facemus",
+                "facetis",
+                "facent"
+            ],
+            "perfekt": [
+                "feci",
+                "fecisti",
+                "fecit",
+                "fecimus",
+                "fecistis",
+                "fecerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "fugare",
+        "info": "1, -o",
+        "german": "verjagen, in die Flucht schlagen",
+        "conjugations": {
+            "normal": [
+                "fugo",
+                "fugas",
+                "fugat",
+                "fugamus",
+                "fugatis",
+                "fugant"
+            ],
+            "imperfekt": [
+                "fugabam",
+                "fugabas",
+                "fugabat",
+                "fugabamus",
+                "fugabatis",
+                "fugabant"
+            ],
+            "futur": [
+                "fugabo",
+                "fugabis",
+                "fugabit",
+                "fugabimus",
+                "fugabitis",
+                "fugabunt"
+            ],
+            "perfekt": [
+                "fugavi",
+                "fugavisti",
+                "fugavit",
+                "fugavimus",
+                "fugavistis",
+                "fugaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "gaudere",
+        "info": "2, -eo",
+        "german": "sich freuen",
+        "conjugations": {
+            "normal": [
+                "gaudeo",
+                "gaudes",
+                "gaudet",
+                "gaudemus",
+                "gaudetis",
+                "gaudent"
+            ],
+            "imperfekt": [
+                "gaudebam",
+                "gaudebas",
+                "gaudebat",
+                "gaudebamus",
+                "gaudebatis",
+                "gaudebant"
+            ],
+            "futur": [
+                "gaudebo",
+                "gaudebis",
+                "gaudebit",
+                "gaudebimus",
+                "gaudebitis",
+                "gaudebunt"
+            ],
+            "perfekt": []
+        }
+    },
+    {
+        "nennform": "habere",
+        "info": "2, -eo",
+        "german": "haben 2. halten für … (+ 2x Akk.)",
+        "conjugations": {
+            "normal": [
+                "habeo",
+                "habes",
+                "habet",
+                "habemus",
+                "habetis",
+                "habent"
+            ],
+            "imperfekt": [
+                "habebam",
+                "habebas",
+                "habebat",
+                "habebamus",
+                "habebatis",
+                "habebant"
+            ],
+            "futur": [
+                "habebo",
+                "habebis",
+                "habebit",
+                "habebimus",
+                "habebitis",
+                "habebunt"
+            ],
+            "perfekt": [
+                "habui",
+                "habuisti",
+                "habuit",
+                "habuimus",
+                "habuistis",
+                "habuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "habitare",
+        "info": "1, -o",
+        "german": "wohnen",
+        "conjugations": {
+            "normal": [
+                "habito",
+                "habitas",
+                "habitat",
+                "habitamus",
+                "habitatis",
+                "habitant"
+            ],
+            "imperfekt": [
+                "habitabam",
+                "habitabas",
+                "habitabat",
+                "habitabamus",
+                "habitabatis",
+                "habitabant"
+            ],
+            "futur": [
+                "habitabo",
+                "habitabis",
+                "habitabit",
+                "habitabimus",
+                "habitabitis",
+                "habitabunt"
+            ],
+            "perfekt": [
+                "habitavi",
+                "habitavisti",
+                "habitavit",
+                "habitavimus",
+                "habitavistis",
+                "habitaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "in-cipere",
+        "info": "M, -io",
+        "german": "beginnen, anfangen",
+        "conjugations": {
+            "normal": [
+                "in-cipeo",
+                "in-cipes",
+                "in-cipet",
+                "in-cipemus",
+                "in-cipetis",
+                "in-cipent"
+            ],
+            "imperfekt": [
+                "in-cipebam",
+                "in-cipebas",
+                "in-cipebat",
+                "in-cipebamus",
+                "in-cipebatis",
+                "in-cipebant"
+            ],
+            "futur": [
+                "in-cipam",
+                "in-cipes",
+                "in-cipet",
+                "in-cipemus",
+                "in-cipetis",
+                "in-cipent"
+            ],
+            "perfekt": [
+                "coepi",
+                "coepisti",
+                "coepit",
+                "coepimus",
+                "coepistis",
+                "coeperunt"
+            ]
+        }
+    },
+    {
+        "nennform": "invenire",
+        "info": "4, -io",
+        "german": "finden; 2. erfinden",
+        "conjugations": {
+            "normal": [
+                "invenio",
+                "invenis",
+                "invenit",
+                "invenimus",
+                "invenitis",
+                "inveniunt"
+            ],
+            "imperfekt": [
+                "inveniebam",
+                "inveniebas",
+                "inveniebat",
+                "inveniebamus",
+                "inveniebatis",
+                "inveniebant"
+            ],
+            "futur": [
+                "inveniam",
+                "invenies",
+                "inveniet",
+                "inveniemus",
+                "invenietis",
+                "invenient"
+            ],
+            "perfekt": [
+                "inveni",
+                "invenisti",
+                "invenit",
+                "invenimus",
+                "invenistis",
+                "invenerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "invitare",
+        "info": "1, -o",
+        "german": "einladen",
+        "conjugations": {
+            "normal": [
+                "invito",
+                "invitas",
+                "invitat",
+                "invitamus",
+                "invitatis",
+                "invitant"
+            ],
+            "imperfekt": [
+                "invitabam",
+                "invitabas",
+                "invitabat",
+                "invitabamus",
+                "invitabatis",
+                "invitabant"
+            ],
+            "futur": [
+                "invitabo",
+                "invitabis",
+                "invitabit",
+                "invitabimus",
+                "invitabitis",
+                "invitabunt"
+            ],
+            "perfekt": [
+                "invitavi",
+                "invitavisti",
+                "invitavit",
+                "invitavimus",
+                "invitavistis",
+                "invitaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "iubere",
+        "info": "2, -eo",
+        "german": "befehlen",
+        "conjugations": {
+            "normal": [
+                "iubeo",
+                "iubes",
+                "iubet",
+                "iubemus",
+                "iubetis",
+                "iubent"
+            ],
+            "imperfekt": [
+                "iubebam",
+                "iubebas",
+                "iubebat",
+                "iubebamus",
+                "iubebatis",
+                "iubebant"
+            ],
+            "futur": [
+                "iubebo",
+                "iubebis",
+                "iubebit",
+                "iubebimus",
+                "iubebitis",
+                "iubebunt"
+            ],
+            "perfekt": [
+                "iussi",
+                "iussisti",
+                "iussit",
+                "iussimus",
+                "iussistis",
+                "iusserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "iungere",
+        "info": "3, -o",
+        "german": "verbinden",
+        "conjugations": {
+            "normal": [
+                "iungo",
+                "iungis",
+                "iungit",
+                "iungimus",
+                "iungitis",
+                "iungunt"
+            ],
+            "imperfekt": [
+                "iungebam",
+                "iungebas",
+                "iungebat",
+                "iungebamus",
+                "iungebatis",
+                "iungebant"
+            ],
+            "futur": [
+                "iungam",
+                "iunges",
+                "iunget",
+                "iungemus",
+                "iungetis",
+                "iungent"
+            ],
+            "perfekt": [
+                "iunxi",
+                "iunxisti",
+                "iunxit",
+                "iunximus",
+                "iunxistis",
+                "iunxerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "laborare",
+        "info": "1, -o",
+        "german": "sich anstrengen, arbeiten",
+        "conjugations": {
+            "normal": [
+                "laboro",
+                "laboras",
+                "laborat",
+                "laboramus",
+                "laboratis",
+                "laborant"
+            ],
+            "imperfekt": [
+                "laborabam",
+                "laborabas",
+                "laborabat",
+                "laborabamus",
+                "laborabatis",
+                "laborabant"
+            ],
+            "futur": [
+                "laborabo",
+                "laborabis",
+                "laborabit",
+                "laborabimus",
+                "laborabitis",
+                "laborabunt"
+            ],
+            "perfekt": [
+                "laboravi",
+                "laboravisti",
+                "laboravit",
+                "laboravimus",
+                "laboravistis",
+                "laboraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "laudare",
+        "info": "1, -o",
+        "german": "loben",
+        "conjugations": {
+            "normal": [
+                "laudo",
+                "laudas",
+                "laudat",
+                "laudamus",
+                "laudatis",
+                "laudant"
+            ],
+            "imperfekt": [
+                "laudabam",
+                "laudabas",
+                "laudabat",
+                "laudabamus",
+                "laudabatis",
+                "laudabant"
+            ],
+            "futur": [
+                "laudabo",
+                "laudabis",
+                "laudabit",
+                "laudabimus",
+                "laudabitis",
+                "laudabunt"
+            ],
+            "perfekt": [
+                "laudavi",
+                "laudavisti",
+                "laudavit",
+                "laudavimus",
+                "laudavistis",
+                "laudaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "legere",
+        "info": "3, -o",
+        "german": "lesen; 2. sammeln",
+        "conjugations": {
+            "normal": [
+                "lego",
+                "legis",
+                "legit",
+                "legimus",
+                "legitis",
+                "legunt"
+            ],
+            "imperfekt": [
+                "legebam",
+                "legebas",
+                "legebat",
+                "legebamus",
+                "legebatis",
+                "legebant"
+            ],
+            "futur": [
+                "legam",
+                "leges",
+                "leget",
+                "legemus",
+                "legetis",
+                "legent"
+            ],
+            "perfekt": [
+                "legi",
+                "legisti",
+                "legit",
+                "legimus",
+                "legistis",
+                "legerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "manere",
+        "info": "2, -eo",
+        "german": "bleiben",
+        "conjugations": {
+            "normal": [
+                "maneo",
+                "manes",
+                "manet",
+                "manemus",
+                "manetis",
+                "manent"
+            ],
+            "imperfekt": [
+                "manebam",
+                "manebas",
+                "manebat",
+                "manebamus",
+                "manebatis",
+                "manebant"
+            ],
+            "futur": [
+                "manebo",
+                "manebis",
+                "manebit",
+                "manebimus",
+                "manebitis",
+                "manebunt"
+            ],
+            "perfekt": [
+                "mansi",
+                "mansisti",
+                "mansit",
+                "mansimus",
+                "mansistis",
+                "manserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "mittere",
+        "info": "3, -o",
+        "german": "schicken",
+        "conjugations": {
+            "normal": [
+                "mitto",
+                "mittis",
+                "mittit",
+                "mittimus",
+                "mittitis",
+                "mittunt"
+            ],
+            "imperfekt": [
+                "mittebam",
+                "mittebas",
+                "mittebat",
+                "mittebamus",
+                "mittebatis",
+                "mittebant"
+            ],
+            "futur": [
+                "mittam",
+                "mittes",
+                "mittet",
+                "mittemus",
+                "mittetis",
+                "mittent"
+            ],
+            "perfekt": [
+                "misi",
+                "misisti",
+                "misit",
+                "misimus",
+                "misistis",
+                "miserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "monere",
+        "info": "2, -eo",
+        "german": "ermahnen, warnen; 2.erinnern",
+        "conjugations": {
+            "normal": [
+                "moneo",
+                "mones",
+                "monet",
+                "monemus",
+                "monetis",
+                "monent"
+            ],
+            "imperfekt": [
+                "monebam",
+                "monebas",
+                "monebat",
+                "monebamus",
+                "monebatis",
+                "monebant"
+            ],
+            "futur": [
+                "monebo",
+                "monebis",
+                "monebit",
+                "monebimus",
+                "monebitis",
+                "monebunt"
+            ],
+            "perfekt": [
+                "monui",
+                "monuisti",
+                "monuit",
+                "monuimus",
+                "monuistis",
+                "monuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "monstrare",
+        "info": "1, -o",
+        "german": "zeigen",
+        "conjugations": {
+            "normal": [
+                "monstro",
+                "monstras",
+                "monstrat",
+                "monstramus",
+                "monstratis",
+                "monstrant"
+            ],
+            "imperfekt": [
+                "monstrabam",
+                "monstrabas",
+                "monstrabat",
+                "monstrabamus",
+                "monstrabatis",
+                "monstrabant"
+            ],
+            "futur": [
+                "monstrabo",
+                "monstrabis",
+                "monstrabit",
+                "monstrabimus",
+                "monstrabitis",
+                "monstrabunt"
+            ],
+            "perfekt": [
+                "monstravi",
+                "monstravisti",
+                "monstravit",
+                "monstravimus",
+                "monstravistis",
+                "monstraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "movere",
+        "info": "2, -eo",
+        "german": "bewegen",
+        "conjugations": {
+            "normal": [
+                "moveo",
+                "moves",
+                "movet",
+                "movemus",
+                "movetis",
+                "movent"
+            ],
+            "imperfekt": [
+                "movebam",
+                "movebas",
+                "movebat",
+                "movebamus",
+                "movebatis",
+                "movebant"
+            ],
+            "futur": [
+                "movebo",
+                "movebis",
+                "movebit",
+                "movebimus",
+                "movebitis",
+                "movebunt"
+            ],
+            "perfekt": [
+                "movi",
+                "movisti",
+                "movit",
+                "movimus",
+                "movistis",
+                "moverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "narrare",
+        "info": "1, -o",
+        "german": "erzählen",
+        "conjugations": {
+            "normal": [
+                "narro",
+                "narras",
+                "narrat",
+                "narramus",
+                "narratis",
+                "narrant"
+            ],
+            "imperfekt": [
+                "narrabam",
+                "narrabas",
+                "narrabat",
+                "narrabamus",
+                "narrabatis",
+                "narrabant"
+            ],
+            "futur": [
+                "narrabo",
+                "narrabis",
+                "narrabit",
+                "narrabimus",
+                "narrabitis",
+                "narrabunt"
+            ],
+            "perfekt": [
+                "narravi",
+                "narravisti",
+                "narravit",
+                "narravimus",
+                "narravistis",
+                "narraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "navigare",
+        "info": "1, -o",
+        "german": "segeln",
+        "conjugations": {
+            "normal": [
+                "navigo",
+                "navigas",
+                "navigat",
+                "navigamus",
+                "navigatis",
+                "navigant"
+            ],
+            "imperfekt": [
+                "navigabam",
+                "navigabas",
+                "navigabat",
+                "navigabamus",
+                "navigabatis",
+                "navigabant"
+            ],
+            "futur": [
+                "navigabo",
+                "navigabis",
+                "navigabit",
+                "navigabimus",
+                "navigabitis",
+                "navigabunt"
+            ],
+            "perfekt": [
+                "navigavi",
+                "navigavisti",
+                "navigavit",
+                "navigavimus",
+                "navigavistis",
+                "navigaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "necare",
+        "info": "1, -o",
+        "german": "töten",
+        "conjugations": {
+            "normal": [
+                "neco",
+                "necas",
+                "necat",
+                "necamus",
+                "necatis",
+                "necant"
+            ],
+            "imperfekt": [
+                "necabam",
+                "necabas",
+                "necabat",
+                "necabamus",
+                "necabatis",
+                "necabant"
+            ],
+            "futur": [
+                "necabo",
+                "necabis",
+                "necabit",
+                "necabimus",
+                "necabitis",
+                "necabunt"
+            ],
+            "perfekt": [
+                "necavi",
+                "necavisti",
+                "necavit",
+                "necavimus",
+                "necavistis",
+                "necaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "negare",
+        "info": "1, -o",
+        "german": "leugnen; 2.verweigern (3. sagen, dass… nicht…)",
+        "conjugations": {
+            "normal": [
+                "nego",
+                "negas",
+                "negat",
+                "negamus",
+                "negatis",
+                "negant"
+            ],
+            "imperfekt": [
+                "negabam",
+                "negabas",
+                "negabat",
+                "negabamus",
+                "negabatis",
+                "negabant"
+            ],
+            "futur": [
+                "negabo",
+                "negabis",
+                "negabit",
+                "negabimus",
+                "negabitis",
+                "negabunt"
+            ],
+            "perfekt": [
+                "negavi",
+                "negavisti",
+                "negavit",
+                "negavimus",
+                "negavistis",
+                "negaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "neglegere",
+        "info": "3, -o",
+        "german": "vernachlässigen, gering schätzen",
+        "conjugations": {
+            "normal": [
+                "neglego",
+                "neglegis",
+                "neglegit",
+                "neglegimus",
+                "neglegitis",
+                "neglegunt"
+            ],
+            "imperfekt": [
+                "neglegebam",
+                "neglegebas",
+                "neglegebat",
+                "neglegebamus",
+                "neglegebatis",
+                "neglegebant"
+            ],
+            "futur": [
+                "neglegam",
+                "negleges",
+                "negleget",
+                "neglegemus",
+                "neglegetis",
+                "neglegent"
+            ],
+            "perfekt": [
+                "neglexi",
+                "neglexisti",
+                "neglexit",
+                "negleximus",
+                "neglexistis",
+                "neglexerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "nubere",
+        "info": "3, -o",
+        "german": "heiraten",
+        "conjugations": {
+            "normal": [
+                "nubo",
+                "nubis",
+                "nubit",
+                "nubimus",
+                "nubitis",
+                "nubunt"
+            ],
+            "imperfekt": [
+                "nubebam",
+                "nubebas",
+                "nubebat",
+                "nubebamus",
+                "nubebatis",
+                "nubebant"
+            ],
+            "futur": [
+                "nubam",
+                "nubes",
+                "nubet",
+                "nubemus",
+                "nubetis",
+                "nubent"
+            ],
+            "perfekt": [
+                "nupsi",
+                "nupsisti",
+                "nupsit",
+                "nupsimus",
+                "nupsistis",
+                "nupserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "occidere",
+        "info": "3, -o",
+        "german": "töten, erschlagen",
+        "conjugations": {
+            "normal": [
+                "occido",
+                "occidis",
+                "occidit",
+                "occidimus",
+                "occiditis",
+                "occidunt"
+            ],
+            "imperfekt": [
+                "occidebam",
+                "occidebas",
+                "occidebat",
+                "occidebamus",
+                "occidebatis",
+                "occidebant"
+            ],
+            "futur": [
+                "occidam",
+                "occides",
+                "occidet",
+                "occidemus",
+                "occidetis",
+                "occident"
+            ],
+            "perfekt": [
+                "occidi",
+                "occidisti",
+                "occidit",
+                "occidimus",
+                "occidistis",
+                "occiderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "occultare",
+        "info": "1, -o",
+        "german": "verstecken, verbergen",
+        "conjugations": {
+            "normal": [
+                "occulto",
+                "occultas",
+                "occultat",
+                "occultamus",
+                "occultatis",
+                "occultant"
+            ],
+            "imperfekt": [
+                "occultabam",
+                "occultabas",
+                "occultabat",
+                "occultabamus",
+                "occultabatis",
+                "occultabant"
+            ],
+            "futur": [
+                "occultabo",
+                "occultabis",
+                "occultabit",
+                "occultabimus",
+                "occultabitis",
+                "occultabunt"
+            ],
+            "perfekt": [
+                "occidi",
+                "occidisti",
+                "occidit",
+                "occidimus",
+                "occidistis",
+                "occiderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "ornare",
+        "info": "1, -o",
+        "german": "schmücken",
+        "conjugations": {
+            "normal": [
+                "orno",
+                "ornas",
+                "ornat",
+                "ornamus",
+                "ornatis",
+                "ornant"
+            ],
+            "imperfekt": [
+                "ornabam",
+                "ornabas",
+                "ornabat",
+                "ornabamus",
+                "ornabatis",
+                "ornabant"
+            ],
+            "futur": [
+                "ornabo",
+                "ornabis",
+                "ornabit",
+                "ornabimus",
+                "ornabitis",
+                "ornabunt"
+            ],
+            "perfekt": [
+                "ornavi",
+                "ornavisti",
+                "ornavit",
+                "ornavimus",
+                "ornavistis",
+                "ornaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "parare",
+        "info": "1, -o",
+        "german": "vorbereiten; 2. vorhaben (+ Inf.); 3. erwerben, sich (etwas) verschaffen",
+        "conjugations": {
+            "normal": [
+                "paro",
+                "paras",
+                "parat",
+                "paramus",
+                "paratis",
+                "parant"
+            ],
+            "imperfekt": [
+                "parabam",
+                "parabas",
+                "parabat",
+                "parabamus",
+                "parabatis",
+                "parabant"
+            ],
+            "futur": [
+                "parabo",
+                "parabis",
+                "parabit",
+                "parabimus",
+                "parabitis",
+                "parabunt"
+            ],
+            "perfekt": [
+                "paravi",
+                "paravisti",
+                "paravit",
+                "paravimus",
+                "paravistis",
+                "paraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "parere",
+        "info": "2, -eo",
+        "german": "gehorchen",
+        "conjugations": {
+            "normal": [
+                "pareo",
+                "pares",
+                "paret",
+                "paremus",
+                "paretis",
+                "parent"
+            ],
+            "imperfekt": [
+                "parebam",
+                "parebas",
+                "parebat",
+                "parebamus",
+                "parebatis",
+                "parebant"
+            ],
+            "futur": [
+                "parebo",
+                "parebis",
+                "parebit",
+                "parebimus",
+                "parebitis",
+                "parebunt"
+            ],
+            "perfekt": [
+                "parui",
+                "paruisti",
+                "paruit",
+                "paruimus",
+                "paruistis",
+                "paruerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "permittere",
+        "info": "3, -o",
+        "german": "erlauben, zulassen",
+        "conjugations": {
+            "normal": [
+                "permitto",
+                "permittis",
+                "permittit",
+                "permittimus",
+                "permittitis",
+                "permittunt"
+            ],
+            "imperfekt": [
+                "permittebam",
+                "permittebas",
+                "permittebat",
+                "permittebamus",
+                "permittebatis",
+                "permittebant"
+            ],
+            "futur": [
+                "permittam",
+                "permittes",
+                "permittet",
+                "permittemus",
+                "permittetis",
+                "permittent"
+            ],
+            "perfekt": [
+                "permisi",
+                "permisisti",
+                "permisit",
+                "permisimus",
+                "permisistis",
+                "permiserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "pertinere",
+        "info": "2, -eo",
+        "german": "sich erstrecken / sich beziehen auf",
+        "conjugations": {
+            "normal": [
+                "pertineo",
+                "pertines",
+                "pertinet",
+                "pertinemus",
+                "pertinetis",
+                "pertinent"
+            ],
+            "imperfekt": [
+                "pertinebam",
+                "pertinebas",
+                "pertinebat",
+                "pertinebamus",
+                "pertinebatis",
+                "pertinebant"
+            ],
+            "futur": [
+                "pertinebo",
+                "pertinebis",
+                "pertinebit",
+                "pertinebimus",
+                "pertinebitis",
+                "pertinebunt"
+            ],
+            "perfekt": [
+                "pertinui",
+                "pertinuisti",
+                "pertinuit",
+                "pertinuimus",
+                "pertinuistis",
+                "pertinuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "per-turbare",
+        "info": "1, -o",
+        "german": "stören, in Unordnung bringen",
+        "conjugations": {
+            "normal": [
+                "per-turbo",
+                "per-turbas",
+                "per-turbat",
+                "per-turbamus",
+                "per-turbatis",
+                "per-turbant"
+            ],
+            "imperfekt": [
+                "per-turbabam",
+                "per-turbabas",
+                "per-turbabat",
+                "per-turbabamus",
+                "per-turbabatis",
+                "per-turbabant"
+            ],
+            "futur": [
+                "per-turbabo",
+                "per-turbabis",
+                "per-turbabit",
+                "per-turbabimus",
+                "per-turbabitis",
+                "per-turbabunt"
+            ],
+            "perfekt": [
+                "per-turbavi",
+                "per-turbavisti",
+                "per-turbavit",
+                "per-turbavimus",
+                "per-turbavistis",
+                "per-turbaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "placare",
+        "info": "1, -o",
+        "german": "besänftigen",
+        "conjugations": {
+            "normal": [
+                "placo",
+                "placas",
+                "placat",
+                "placamus",
+                "placatis",
+                "placant"
+            ],
+            "imperfekt": [
+                "placabam",
+                "placabas",
+                "placabat",
+                "placabamus",
+                "placabatis",
+                "placabant"
+            ],
+            "futur": [
+                "placabo",
+                "placabis",
+                "placabit",
+                "placabimus",
+                "placabitis",
+                "placabunt"
+            ],
+            "perfekt": [
+                "placavi",
+                "placavisti",
+                "placavit",
+                "placavimus",
+                "placavistis",
+                "placaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "placere",
+        "info": "2, -eo",
+        "german": "gefallen",
+        "conjugations": {
+            "normal": [
+                "placeo",
+                "places",
+                "placet",
+                "placemus",
+                "placetis",
+                "placent"
+            ],
+            "imperfekt": [
+                "placebam",
+                "placebas",
+                "placebat",
+                "placebamus",
+                "placebatis",
+                "placebant"
+            ],
+            "futur": [
+                "placebo",
+                "placebis",
+                "placebit",
+                "placebimus",
+                "placebitis",
+                "placebunt"
+            ],
+            "perfekt": [
+                "placui",
+                "placuisti",
+                "placuit",
+                "placuimus",
+                "placuistis",
+                "placuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "portare",
+        "info": "1, -o",
+        "german": "tragen, bringen",
+        "conjugations": {
+            "normal": [
+                "porto",
+                "portas",
+                "portat",
+                "portamus",
+                "portatis",
+                "portant"
+            ],
+            "imperfekt": [
+                "portabam",
+                "portabas",
+                "portabat",
+                "portabamus",
+                "portabatis",
+                "portabant"
+            ],
+            "futur": [
+                "portabo",
+                "portabis",
+                "portabit",
+                "portabimus",
+                "portabitis",
+                "portabunt"
+            ],
+            "perfekt": [
+                "portavi",
+                "portavisti",
+                "portavit",
+                "portavimus",
+                "portavistis",
+                "portaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "prohibere",
+        "info": "2, -eo",
+        "german": "fernhalten, hindern",
+        "conjugations": {
+            "normal": [
+                "prohibeo",
+                "prohibes",
+                "prohibet",
+                "prohibemus",
+                "prohibetis",
+                "prohibent"
+            ],
+            "imperfekt": [
+                "prohibebam",
+                "prohibebas",
+                "prohibebat",
+                "prohibebamus",
+                "prohibebatis",
+                "prohibebant"
+            ],
+            "futur": [
+                "prohibebo",
+                "prohibebis",
+                "prohibebit",
+                "prohibebimus",
+                "prohibebitis",
+                "prohibebunt"
+            ],
+            "perfekt": [
+                "prohibui",
+                "prohibuisti",
+                "prohibuit",
+                "prohibuimus",
+                "prohibuistis",
+                "prohibuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "pugnare",
+        "info": "1, -o",
+        "german": "kämpfen",
+        "conjugations": {
+            "normal": [
+                "pugno",
+                "pugnas",
+                "pugnat",
+                "pugnamus",
+                "pugnatis",
+                "pugnant"
+            ],
+            "imperfekt": [
+                "pugnabam",
+                "pugnabas",
+                "pugnabat",
+                "pugnabamus",
+                "pugnabatis",
+                "pugnabant"
+            ],
+            "futur": [
+                "pugnabo",
+                "pugnabis",
+                "pugnabit",
+                "pugnabimus",
+                "pugnabitis",
+                "pugnabunt"
+            ],
+            "perfekt": [
+                "pugnavi",
+                "pugnavisti",
+                "pugnavit",
+                "pugnavimus",
+                "pugnavistis",
+                "pugnaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "putare",
+        "info": "1, -o",
+        "german": "glauben; 2. halten für (siehe oben)",
+        "conjugations": {
+            "normal": [
+                "puto",
+                "putas",
+                "putat",
+                "putamus",
+                "putatis",
+                "putant"
+            ],
+            "imperfekt": [
+                "putabam",
+                "putabas",
+                "putabat",
+                "putabamus",
+                "putabatis",
+                "putabant"
+            ],
+            "futur": [
+                "putabo",
+                "putabis",
+                "putabit",
+                "putabimus",
+                "putabitis",
+                "putabunt"
+            ],
+            "perfekt": [
+                "putavi",
+                "putavisti",
+                "putavit",
+                "putavimus",
+                "putavistis",
+                "putaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "putare",
+        "info": "1, -o",
+        "german": "jem./etwas für … halten",
+        "conjugations": {
+            "normal": [
+                "puto",
+                "putas",
+                "putat",
+                "putamus",
+                "putatis",
+                "putant"
+            ],
+            "imperfekt": [
+                "putabam",
+                "putabas",
+                "putabat",
+                "putabamus",
+                "putabatis",
+                "putabant"
+            ],
+            "futur": [
+                "putabo",
+                "putabis",
+                "putabit",
+                "putabimus",
+                "putabitis",
+                "putabunt"
+            ],
+            "perfekt": [
+                "putavi",
+                "putavisti",
+                "putavit",
+                "putavimus",
+                "putavistis",
+                "putaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "quaerere",
+        "info": "3, -o",
+        "german": "(jem. / etwas) suchen (+ Akk.); 2. (jemanden) fragen = quaerere e/ex…",
+        "conjugations": {
+            "normal": [
+                "quaero",
+                "quaeris",
+                "quaerit",
+                "quaerimus",
+                "quaeritis",
+                "quaerunt"
+            ],
+            "imperfekt": [
+                "quaerebam",
+                "quaerebas",
+                "quaerebat",
+                "quaerebamus",
+                "quaerebatis",
+                "quaerebant"
+            ],
+            "futur": [
+                "quaeram",
+                "quaeres",
+                "quaeret",
+                "quaeremus",
+                "quaeretis",
+                "quaerent"
+            ],
+            "perfekt": [
+                "quaesivi",
+                "quaesivisti",
+                "quaesivit",
+                "quaesivimus",
+                "quaesivistis",
+                "quaesiverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "rapere",
+        "info": "M, -io",
+        "german": "rauben, entführen",
+        "conjugations": {
+            "normal": [
+                "rapeo",
+                "rapes",
+                "rapet",
+                "rapemus",
+                "rapetis",
+                "rapent"
+            ],
+            "imperfekt": [
+                "rapebam",
+                "rapebas",
+                "rapebat",
+                "rapebamus",
+                "rapebatis",
+                "rapebant"
+            ],
+            "futur": [
+                "rapam",
+                "rapes",
+                "rapet",
+                "rapemus",
+                "rapetis",
+                "rapent"
+            ],
+            "perfekt": [
+                "rapui",
+                "rapuisti",
+                "rapuit",
+                "rapuimus",
+                "rapuistis",
+                "rapuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "relinquere",
+        "info": "3, -o",
+        "german": "verlassen, zurücklassen",
+        "conjugations": {
+            "normal": [
+                "relinquo",
+                "relinquis",
+                "relinquit",
+                "relinquimus",
+                "relinquitis",
+                "relinquunt"
+            ],
+            "imperfekt": [
+                "relinquebam",
+                "relinquebas",
+                "relinquebat",
+                "relinquebamus",
+                "relinquebatis",
+                "relinquebant"
+            ],
+            "futur": [
+                "relinquam",
+                "relinques",
+                "relinquet",
+                "relinquemus",
+                "relinquetis",
+                "relinquent"
+            ],
+            "perfekt": [
+                "reliqui",
+                "reliquisti",
+                "reliquit",
+                "reliquimus",
+                "reliquistis",
+                "reliquerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "respondere",
+        "info": "2, -eo",
+        "german": "antworten",
+        "conjugations": {
+            "normal": [
+                "respondeo",
+                "respondes",
+                "respondet",
+                "respondemus",
+                "respondetis",
+                "respondent"
+            ],
+            "imperfekt": [
+                "respondebam",
+                "respondebas",
+                "respondebat",
+                "respondebamus",
+                "respondebatis",
+                "respondebant"
+            ],
+            "futur": [
+                "respondebo",
+                "respondebis",
+                "respondebit",
+                "respondebimus",
+                "respondebitis",
+                "respondebunt"
+            ],
+            "perfekt": [
+                "respondi",
+                "respondisti",
+                "respondit",
+                "respondimus",
+                "respondistis",
+                "responderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "rogare",
+        "info": "1, -o",
+        "german": "bitten, erbitten; 2. fragen",
+        "conjugations": {
+            "normal": [
+                "rogo",
+                "rogas",
+                "rogat",
+                "rogamus",
+                "rogatis",
+                "rogant"
+            ],
+            "imperfekt": [
+                "rogabam",
+                "rogabas",
+                "rogabat",
+                "rogabamus",
+                "rogabatis",
+                "rogabant"
+            ],
+            "futur": [
+                "rogabo",
+                "rogabis",
+                "rogabit",
+                "rogabimus",
+                "rogabitis",
+                "rogabunt"
+            ],
+            "perfekt": [
+                "rogavi",
+                "rogavisti",
+                "rogavit",
+                "rogavimus",
+                "rogavistis",
+                "rogaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "salutare",
+        "info": "1, -o",
+        "german": "(be-)grüßen",
+        "conjugations": {
+            "normal": [
+                "saluto",
+                "salutas",
+                "salutat",
+                "salutamus",
+                "salutatis",
+                "salutant"
+            ],
+            "imperfekt": [
+                "salutabam",
+                "salutabas",
+                "salutabat",
+                "salutabamus",
+                "salutabatis",
+                "salutabant"
+            ],
+            "futur": [
+                "salutabo",
+                "salutabis",
+                "salutabit",
+                "salutabimus",
+                "salutabitis",
+                "salutabunt"
+            ],
+            "perfekt": [
+                "salutavi",
+                "salutavisti",
+                "salutavit",
+                "salutavimus",
+                "salutavistis",
+                "salutaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "scribere",
+        "info": "3, -o",
+        "german": "schreiben",
+        "conjugations": {
+            "normal": [
+                "scribo",
+                "scribis",
+                "scribit",
+                "scribimus",
+                "scribitis",
+                "scribunt"
+            ],
+            "imperfekt": [
+                "scribebam",
+                "scribebas",
+                "scribebat",
+                "scribebamus",
+                "scribebatis",
+                "scribebant"
+            ],
+            "futur": [
+                "scribam",
+                "scribes",
+                "scribet",
+                "scribemus",
+                "scribetis",
+                "scribent"
+            ],
+            "perfekt": [
+                "scripsi",
+                "scripsisti",
+                "scripsit",
+                "scripsimus",
+                "scripsistis",
+                "scripserunt"
+            ]
+        }
+    },
+    {
+        "nennform": "se praebere",
+        "info": "2, -eo",
+        "german": "sich zeigen/erweisen als",
+        "conjugations": {
+            "normal": [
+                "se praebeo",
+                "se praebes",
+                "se praebet",
+                "se praebemus",
+                "se praebetis",
+                "se praebent"
+            ],
+            "imperfekt": [
+                "se praebebam",
+                "se praebebas",
+                "se praebebat",
+                "se praebebamus",
+                "se praebebatis",
+                "se praebebant"
+            ],
+            "futur": [
+                "se praebebo",
+                "se praebebis",
+                "se praebebit",
+                "se praebebimus",
+                "se praebebitis",
+                "se praebebunt"
+            ],
+            "perfekt": [
+                "praebui",
+                "praebuisti",
+                "praebuit",
+                "praebuimus",
+                "praebuistis",
+                "praebuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "sedere",
+        "info": "2, -eo",
+        "german": "sitzen",
+        "conjugations": {
+            "normal": [
+                "sedeo",
+                "sedes",
+                "sedet",
+                "sedemus",
+                "sedetis",
+                "sedent"
+            ],
+            "imperfekt": [
+                "sedebam",
+                "sedebas",
+                "sedebat",
+                "sedebamus",
+                "sedebatis",
+                "sedebant"
+            ],
+            "futur": [
+                "sedebo",
+                "sedebis",
+                "sedebit",
+                "sedebimus",
+                "sedebitis",
+                "sedebunt"
+            ],
+            "perfekt": [
+                "sedi",
+                "sedisti",
+                "sedit",
+                "sedimus",
+                "sedistis",
+                "sederunt"
+            ]
+        }
+    },
+    {
+        "nennform": "servare",
+        "info": "1, -o",
+        "german": "retten, bewahren",
+        "conjugations": {
+            "normal": [
+                "servo",
+                "servas",
+                "servat",
+                "servamus",
+                "servatis",
+                "servant"
+            ],
+            "imperfekt": [
+                "servabam",
+                "servabas",
+                "servabat",
+                "servabamus",
+                "servabatis",
+                "servabant"
+            ],
+            "futur": [
+                "servabo",
+                "servabis",
+                "servabit",
+                "servabimus",
+                "servabitis",
+                "servabunt"
+            ],
+            "perfekt": [
+                "servavi",
+                "servavisti",
+                "servavit",
+                "servavimus",
+                "servavistis",
+                "servaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "solere",
+        "info": "2, -eo",
+        "german": "gewohnt sein, pflegen; (etwas) häufig machen",
+        "conjugations": {
+            "normal": [
+                "soleo",
+                "soles",
+                "solet",
+                "solemus",
+                "soletis",
+                "solent"
+            ],
+            "imperfekt": [
+                "solebam",
+                "solebas",
+                "solebat",
+                "solebamus",
+                "solebatis",
+                "solebant"
+            ],
+            "futur": [
+                "solebo",
+                "solebis",
+                "solebit",
+                "solebimus",
+                "solebitis",
+                "solebunt"
+            ],
+            "perfekt": []
+        }
+    },
+    {
+        "nennform": "studere",
+        "info": "2, -eo",
+        "german": "sich bemühen, nach etwas streben; 2. studieren",
+        "conjugations": {
+            "normal": [
+                "studeo",
+                "studes",
+                "studet",
+                "studemus",
+                "studetis",
+                "student"
+            ],
+            "imperfekt": [
+                "studebam",
+                "studebas",
+                "studebat",
+                "studebamus",
+                "studebatis",
+                "studebant"
+            ],
+            "futur": [
+                "studebo",
+                "studebis",
+                "studebit",
+                "studebimus",
+                "studebitis",
+                "studebunt"
+            ],
+            "perfekt": [
+                "studui",
+                "studuisti",
+                "studuit",
+                "studuimus",
+                "studuistis",
+                "studuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "superare",
+        "info": "1, -o",
+        "german": "besiegen; 2. übertreffen",
+        "conjugations": {
+            "normal": [
+                "supero",
+                "superas",
+                "superat",
+                "superamus",
+                "superatis",
+                "superant"
+            ],
+            "imperfekt": [
+                "superabam",
+                "superabas",
+                "superabat",
+                "superabamus",
+                "superabatis",
+                "superabant"
+            ],
+            "futur": [
+                "superabo",
+                "superabis",
+                "superabit",
+                "superabimus",
+                "superabitis",
+                "superabunt"
+            ],
+            "perfekt": [
+                "superavi",
+                "superavisti",
+                "superavit",
+                "superavimus",
+                "superavistis",
+                "superaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "tacere",
+        "info": "2, -eo",
+        "german": "schweigen",
+        "conjugations": {
+            "normal": [
+                "taceo",
+                "taces",
+                "tacet",
+                "tacemus",
+                "tacetis",
+                "tacent"
+            ],
+            "imperfekt": [
+                "tacebam",
+                "tacebas",
+                "tacebat",
+                "tacebamus",
+                "tacebatis",
+                "tacebant"
+            ],
+            "futur": [
+                "tacebo",
+                "tacebis",
+                "tacebit",
+                "tacebimus",
+                "tacebitis",
+                "tacebunt"
+            ],
+            "perfekt": [
+                "tacui",
+                "tacuisti",
+                "tacuit",
+                "tacuimus",
+                "tacuistis",
+                "tacuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "tolerare",
+        "info": "1, -o",
+        "german": "ertragen, erdulden, aushalten",
+        "conjugations": {
+            "normal": [
+                "tolero",
+                "toleras",
+                "tolerat",
+                "toleramus",
+                "toleratis",
+                "tolerant"
+            ],
+            "imperfekt": [
+                "tolerabam",
+                "tolerabas",
+                "tolerabat",
+                "tolerabamus",
+                "tolerabatis",
+                "tolerabant"
+            ],
+            "futur": [
+                "tolerabo",
+                "tolerabis",
+                "tolerabit",
+                "tolerabimus",
+                "tolerabitis",
+                "tolerabunt"
+            ],
+            "perfekt": [
+                "toleravi",
+                "toleravisti",
+                "toleravit",
+                "toleravimus",
+                "toleravistis",
+                "toleraverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "venire",
+        "info": "4, -io",
+        "german": "kommen",
+        "conjugations": {
+            "normal": [
+                "venio",
+                "venis",
+                "venit",
+                "venimus",
+                "venitis",
+                "veniunt"
+            ],
+            "imperfekt": [
+                "veniebam",
+                "veniebas",
+                "veniebat",
+                "veniebamus",
+                "veniebatis",
+                "veniebant"
+            ],
+            "futur": [
+                "veniam",
+                "venies",
+                "veniet",
+                "veniemus",
+                "venietis",
+                "venient"
+            ],
+            "perfekt": [
+                "veni",
+                "venisti",
+                "venit",
+                "venimus",
+                "venistis",
+                "venerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "videre",
+        "info": "2, -eo",
+        "german": "sehen",
+        "conjugations": {
+            "normal": [
+                "video",
+                "vides",
+                "videt",
+                "videmus",
+                "videtis",
+                "vident"
+            ],
+            "imperfekt": [
+                "videbam",
+                "videbas",
+                "videbat",
+                "videbamus",
+                "videbatis",
+                "videbant"
+            ],
+            "futur": [
+                "videbo",
+                "videbis",
+                "videbit",
+                "videbimus",
+                "videbitis",
+                "videbunt"
+            ],
+            "perfekt": [
+                "vidi",
+                "vidisti",
+                "vidit",
+                "vidimus",
+                "vidistis",
+                "viderunt"
+            ]
+        }
+    },
+    {
+        "nennform": "visitare",
+        "info": "1, -o",
+        "german": "besuchen",
+        "conjugations": {
+            "normal": [
+                "visito",
+                "visitas",
+                "visitat",
+                "visitamus",
+                "visitatis",
+                "visitant"
+            ],
+            "imperfekt": [
+                "visitabam",
+                "visitabas",
+                "visitabat",
+                "visitabamus",
+                "visitabatis",
+                "visitabant"
+            ],
+            "futur": [
+                "visitabo",
+                "visitabis",
+                "visitabit",
+                "visitabimus",
+                "visitabitis",
+                "visitabunt"
+            ],
+            "perfekt": [
+                "visitavi",
+                "visitavisti",
+                "visitavit",
+                "visitavimus",
+                "visitavistis",
+                "visitaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "vivere",
+        "info": "3, -o",
+        "german": "leben",
+        "conjugations": {
+            "normal": [
+                "vivo",
+                "vivis",
+                "vivit",
+                "vivimus",
+                "vivitis",
+                "vivunt"
+            ],
+            "imperfekt": [
+                "vivebam",
+                "vivebas",
+                "vivebat",
+                "vivebamus",
+                "vivebatis",
+                "vivebant"
+            ],
+            "futur": [
+                "vivam",
+                "vives",
+                "vivet",
+                "vivemus",
+                "vivetis",
+                "vivent"
+            ],
+            "perfekt": [
+                "vixi",
+                "vixisti",
+                "vixit",
+                "viximus",
+                "vixistis",
+                "vixerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "vocare",
+        "info": "1, -o",
+        "german": "rufen, nennen",
+        "conjugations": {
+            "normal": [
+                "voco",
+                "vocas",
+                "vocat",
+                "vocamus",
+                "vocatis",
+                "vocant"
+            ],
+            "imperfekt": [
+                "vocabam",
+                "vocabas",
+                "vocabat",
+                "vocabamus",
+                "vocabatis",
+                "vocabant"
+            ],
+            "futur": [
+                "vocabo",
+                "vocabis",
+                "vocabit",
+                "vocabimus",
+                "vocabitis",
+                "vocabunt"
+            ],
+            "perfekt": [
+                "vocavi",
+                "vocavisti",
+                "vocavit",
+                "vocavimus",
+                "vocavistis",
+                "vocaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "vocare",
+        "info": "1, -o",
+        "german": "nennen (wie „dicere“)",
+        "conjugations": {
+            "normal": [
+                "voco",
+                "vocas",
+                "vocat",
+                "vocamus",
+                "vocatis",
+                "vocant"
+            ],
+            "imperfekt": [
+                "vocabam",
+                "vocabas",
+                "vocabat",
+                "vocabamus",
+                "vocabatis",
+                "vocabant"
+            ],
+            "futur": [
+                "vocabo",
+                "vocabis",
+                "vocabit",
+                "vocabimus",
+                "vocabitis",
+                "vocabunt"
+            ],
+            "perfekt": [
+                "vocavi",
+                "vocavisti",
+                "vocavit",
+                "vocavimus",
+                "vocavistis",
+                "vocaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "animadvertere",
+        "info": "3, -o",
+        "german": "bemerken, wahrnehmen",
+        "conjugations": {
+            "normal": [
+                "animadverto",
+                "animadvertis",
+                "animadvertit",
+                "animadvertimus",
+                "animadvertitis",
+                "animadvertunt"
+            ],
+            "imperfekt": [
+                "animadvertebam",
+                "animadvertebas",
+                "animadvertebat",
+                "animadvertebamus",
+                "animadvertebatis",
+                "animadvertebant"
+            ],
+            "futur": [
+                "animadvertam",
+                "animadvertes",
+                "animadvertet",
+                "animadvertemus",
+                "animadvertetis",
+                "animadvertent"
+            ],
+            "perfekt": [
+                "animadverti",
+                "animadvertisti",
+                "animadvertit",
+                "animadvertimus",
+                "animadvertistis",
+                "animadverterunt"
+            ]
+        }
+    },
+    {
+        "nennform": "fugere",
+        "info": "M, -io",
+        "german": "flüchten, fliehen",
+        "conjugations": {
+            "normal": [
+                "fugeo",
+                "fuges",
+                "fuget",
+                "fugemus",
+                "fugetis",
+                "fugent"
+            ],
+            "imperfekt": [
+                "fugebam",
+                "fugebas",
+                "fugebat",
+                "fugebamus",
+                "fugebatis",
+                "fugebant"
+            ],
+            "futur": [
+                "fugam",
+                "fuges",
+                "fuget",
+                "fugemus",
+                "fugetis",
+                "fugent"
+            ],
+            "perfekt": [
+                "fugi",
+                "fugisti",
+                "fugit",
+                "fugimus",
+                "fugistis",
+                "fugerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "effugere",
+        "info": "M, -io",
+        "german": "entfliehen, entkommen",
+        "conjugations": {
+            "normal": [
+                "effugeo",
+                "effuges",
+                "effuget",
+                "effugemus",
+                "effugetis",
+                "effugent"
+            ],
+            "imperfekt": [
+                "effugebam",
+                "effugebas",
+                "effugebat",
+                "effugebamus",
+                "effugebatis",
+                "effugebant"
+            ],
+            "futur": [
+                "effugam",
+                "effuges",
+                "effuget",
+                "effugemus",
+                "effugetis",
+                "effugent"
+            ],
+            "perfekt": [
+                "effugi",
+                "effugisti",
+                "effugit",
+                "effugimus",
+                "effugistis",
+                "effugerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "stare",
+        "info": "3, -o",
+        "german": "stehen",
+        "conjugations": {
+            "normal": [
+                "sto",
+                "stis",
+                "stit",
+                "stimus",
+                "stitis",
+                "stunt"
+            ],
+            "imperfekt": [
+                "stebam",
+                "stebas",
+                "stebat",
+                "stebamus",
+                "stebatis",
+                "stebant"
+            ],
+            "futur": [
+                "stam",
+                "stes",
+                "stet",
+                "stemus",
+                "stetis",
+                "stent"
+            ],
+            "perfekt": [
+                "steti",
+                "stetisti",
+                "stetit",
+                "stetimus",
+                "stetistis",
+                "steterunt"
+            ]
+        }
+    },
+    {
+        "nennform": "instare",
+        "info": "1, -o",
+        "german": "bevorstehen, drohen, bedrängen",
+        "conjugations": {
+            "normal": [
+                "insto",
+                "instas",
+                "instat",
+                "instamus",
+                "instatis",
+                "instant"
+            ],
+            "imperfekt": [
+                "instabam",
+                "instabas",
+                "instabat",
+                "instabamus",
+                "instabatis",
+                "instabant"
+            ],
+            "futur": [
+                "instabo",
+                "instabis",
+                "instabit",
+                "instabimus",
+                "instabitis",
+                "instabunt"
+            ],
+            "perfekt": [
+                "inst<bold>i</bold>ti",
+                "inst<bold>i</bold>tisti",
+                "inst<bold>i</bold>tit",
+                "inst<bold>i</bold>timus",
+                "inst<bold>i</bold>tistis",
+                "inst<bold>i</bold>terunt"
+            ]
+        }
+    },
+    {
+        "nennform": "restare",
+        "info": "1, -o",
+        "german": "übrig bleiben",
+        "conjugations": {
+            "normal": [
+                "resto",
+                "restas",
+                "restat",
+                "restamus",
+                "restatis",
+                "restant"
+            ],
+            "imperfekt": [
+                "restabam",
+                "restabas",
+                "restabat",
+                "restabamus",
+                "restabatis",
+                "restabant"
+            ],
+            "futur": [
+                "restabo",
+                "restabis",
+                "restabit",
+                "restabimus",
+                "restabitis",
+                "restabunt"
+            ],
+            "perfekt": [
+                "rest<bold>i</bold>ti",
+                "rest<bold>i</bold>tisti",
+                "rest<bold>i</bold>tit",
+                "rest<bold>i</bold>timus",
+                "rest<bold>i</bold>tistis",
+                "rest<bold>i</bold>terunt"
+            ]
+        }
+    },
+    {
+        "nennform": "petere",
+        "info": "3, -o",
+        "german": "anstreben; reisen nach, aufsuchen; jemanden bitten",
+        "conjugations": {
+            "normal": [
+                "peto",
+                "petis",
+                "petit",
+                "petimus",
+                "petitis",
+                "petunt"
+            ],
+            "imperfekt": [
+                "petebam",
+                "petebas",
+                "petebat",
+                "petebamus",
+                "petebatis",
+                "petebant"
+            ],
+            "futur": [
+                "petam",
+                "petes",
+                "petet",
+                "petemus",
+                "petetis",
+                "petent"
+            ],
+            "perfekt": [
+                "petivi",
+                "petivisti",
+                "petivit",
+                "petivimus",
+                "petivistis",
+                "petiverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "tenere",
+        "info": "2, -eo",
+        "german": "halten, festhalten, bewahren",
+        "conjugations": {
+            "normal": [
+                "teneo",
+                "tenes",
+                "tenet",
+                "tenemus",
+                "tenetis",
+                "tenent"
+            ],
+            "imperfekt": [
+                "tenebam",
+                "tenebas",
+                "tenebat",
+                "tenebamus",
+                "tenebatis",
+                "tenebant"
+            ],
+            "futur": [
+                "tenebo",
+                "tenebis",
+                "tenebit",
+                "tenebimus",
+                "tenebitis",
+                "tenebunt"
+            ],
+            "perfekt": [
+                "tenui",
+                "tenuisti",
+                "tenuit",
+                "tenuimus",
+                "tenuistis",
+                "tenuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "cavere",
+        "info": "2, -eo",
+        "german": "sich hüten vor…; achtgeben auf ",
+        "conjugations": {
+            "normal": [
+                "caveo",
+                "caves",
+                "cavet",
+                "cavemus",
+                "cavetis",
+                "cavent"
+            ],
+            "imperfekt": [
+                "cavebam",
+                "cavebas",
+                "cavebat",
+                "cavebamus",
+                "cavebatis",
+                "cavebant"
+            ],
+            "futur": [
+                "cavebo",
+                "cavebis",
+                "cavebit",
+                "cavebimus",
+                "cavebitis",
+                "cavebunt"
+            ],
+            "perfekt": [
+                "cavi",
+                "cavisti",
+                "cavit",
+                "cavimus",
+                "cavistis",
+                "caverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "convenire",
+        "info": "4, -io",
+        "german": "zusammenkommen; übereinkommen",
+        "conjugations": {
+            "normal": [
+                "convenio",
+                "convenis",
+                "convenit",
+                "convenimus",
+                "convenitis",
+                "conveniunt"
+            ],
+            "imperfekt": [
+                "conveniebam",
+                "conveniebas",
+                "conveniebat",
+                "conveniebamus",
+                "conveniebatis",
+                "conveniebant"
+            ],
+            "futur": [
+                "conveniam",
+                "convenies",
+                "conveniet",
+                "conveniemus",
+                "convenietis",
+                "convenient"
+            ],
+            "perfekt": [
+                "conveni",
+                "convenisti",
+                "convenit",
+                "convenimus",
+                "convenistis",
+                "convenerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "deponere",
+        "info": "3, -o",
+        "german": "ablegen",
+        "conjugations": {
+            "normal": [
+                "depono",
+                "deponis",
+                "deponit",
+                "deponimus",
+                "deponitis",
+                "deponunt"
+            ],
+            "imperfekt": [
+                "deponebam",
+                "deponebas",
+                "deponebat",
+                "deponebamus",
+                "deponebatis",
+                "deponebant"
+            ],
+            "futur": [
+                "deponam",
+                "depones",
+                "deponet",
+                "deponemus",
+                "deponetis",
+                "deponent"
+            ],
+            "perfekt": [
+                "deposui",
+                "deposuisti",
+                "deposuit",
+                "deposuimus",
+                "deposuistis",
+                "deposuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "expectare",
+        "info": "1, -o",
+        "german": "erwarten",
+        "conjugations": {
+            "normal": [
+                "expecto",
+                "expectas",
+                "expectat",
+                "expectamus",
+                "expectatis",
+                "expectant"
+            ],
+            "imperfekt": [
+                "expectabam",
+                "expectabas",
+                "expectabat",
+                "expectabamus",
+                "expectabatis",
+                "expectabant"
+            ],
+            "futur": [
+                "expectabo",
+                "expectabis",
+                "expectabit",
+                "expectabimus",
+                "expectabitis",
+                "expectabunt"
+            ],
+            "perfekt": [
+                "expectavi",
+                "expectavisti",
+                "expectavit",
+                "expectavimus",
+                "expectavistis",
+                "expectaverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "horrere",
+        "info": "2, -eo",
+        "german": "erschrecken vor…; sehr fürchen",
+        "conjugations": {
+            "normal": [
+                "horreo",
+                "horres",
+                "horret",
+                "horremus",
+                "horretis",
+                "horrent"
+            ],
+            "imperfekt": [
+                "horrebam",
+                "horrebas",
+                "horrebat",
+                "horrebamus",
+                "horrebatis",
+                "horrebant"
+            ],
+            "futur": [
+                "horrebo",
+                "horrebis",
+                "horrebit",
+                "horrebimus",
+                "horrebitis",
+                "horrebunt"
+            ],
+            "perfekt": [
+                "horrui",
+                "horruisti",
+                "horruit",
+                "horruimus",
+                "horruistis",
+                "horruerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "nocere",
+        "info": "2, -eo",
+        "german": "schaden, schädigen",
+        "conjugations": {
+            "normal": [
+                "noceo",
+                "noces",
+                "nocet",
+                "nocemus",
+                "nocetis",
+                "nocent"
+            ],
+            "imperfekt": [
+                "nocebam",
+                "nocebas",
+                "nocebat",
+                "nocebamus",
+                "nocebatis",
+                "nocebant"
+            ],
+            "futur": [
+                "nocebo",
+                "nocebis",
+                "nocebit",
+                "nocebimus",
+                "nocebitis",
+                "nocebunt"
+            ],
+            "perfekt": [
+                "nocui",
+                "nocuisti",
+                "nocuit",
+                "nocuimus",
+                "nocuistis",
+                "nocuerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "poscere",
+        "info": "3, -o",
+        "german": "fordern, verlangen",
+        "conjugations": {
+            "normal": [
+                "posco",
+                "poscis",
+                "poscit",
+                "poscimus",
+                "poscitis",
+                "poscunt"
+            ],
+            "imperfekt": [
+                "poscebam",
+                "poscebas",
+                "poscebat",
+                "poscebamus",
+                "poscebatis",
+                "poscebant"
+            ],
+            "futur": [
+                "poscam",
+                "posces",
+                "poscet",
+                "poscemus",
+                "poscetis",
+                "poscent"
+            ],
+            "perfekt": [
+                "poposci",
+                "poposcisti",
+                "poposcit",
+                "poposcimus",
+                "poposcistis",
+                "poposcerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "regere",
+        "info": "3, -o",
+        "german": "lenken, leiten",
+        "conjugations": {
+            "normal": [
+                "rego",
+                "regis",
+                "regit",
+                "regimus",
+                "regitis",
+                "regunt"
+            ],
+            "imperfekt": [
+                "regebam",
+                "regebas",
+                "regebat",
+                "regebamus",
+                "regebatis",
+                "regebant"
+            ],
+            "futur": [
+                "regam",
+                "reges",
+                "reget",
+                "regemus",
+                "regetis",
+                "regent"
+            ],
+            "perfekt": [
+                "rexi",
+                "rexisti",
+                "rexit",
+                "reximus",
+                "rexistis",
+                "rexerunt"
+            ]
+        }
+    },
+    {
+        "nennform": "scire",
+        "info": "4, -io",
+        "german": "wissen / kennen",
+        "conjugations": {
+            "normal": [
+                "scio",
+                "scis",
+                "scit",
+                "scimus",
+                "scitis",
+                "sciunt"
+            ],
+            "imperfekt": [
+                "sciebam",
+                "sciebas",
+                "sciebat",
+                "sciebamus",
+                "sciebatis",
+                "sciebant"
+            ],
+            "futur": [
+                "sciam",
+                "scies",
+                "sciet",
+                "sciemus",
+                "scietis",
+                "scient"
+            ],
+            "perfekt": [
+                "scivi",
+                "scivisti",
+                "scivit",
+                "scivimus",
+                "scivistis",
+                "sciverunt"
+            ]
+        }
+    },
+    {
+        "nennform": "nescire",
+        "info": "4, -io",
+        "german": "nicht wissen / kennen",
+        "conjugations": {
+            "normal": [
+                "nescio",
+                "nescis",
+                "nescit",
+                "nescimus",
+                "nescitis",
+                "nesciunt"
+            ],
+            "imperfekt": [
+                "nesciebam",
+                "nesciebas",
+                "nesciebat",
+                "nesciebamus",
+                "nesciebatis",
+                "nesciebant"
+            ],
+            "futur": [
+                "nesciam",
+                "nescies",
+                "nesciet",
+                "nesciemus",
+                "nescietis",
+                "nescient"
+            ],
+            "perfekt": [
+                "nescivi",
+                "nescivisti",
+                "nescivit",
+                "nescivimus",
+                "nescivistis",
+                "nesciverunt"
+            ]
+        }
+    }
+]

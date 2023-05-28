@@ -19,16 +19,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/updater.js"></script>
 
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5BN2F0V2Z"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-H5BN2F0V2Z');
     </script>
-
 </head>
 
 <body class="preload">
@@ -42,6 +39,9 @@
         </a>
         <a class="menu__item" name="library">
             <i class="material-icons">book</i>
+        </a>
+        <a class="menu__item" name="verbs">
+            <i class="material-icons">extension</i>
         </a>
         <a class="menu__item" name="settings">
             <i class="material-icons">settings</i>
@@ -198,6 +198,28 @@
             </bottombar>
         </div>
 
+        <div class="verbs">
+
+            <section class="verbs_question">
+                <span class="subquestion"></span>
+                <text class="question verbs_questionField">Loading ...</text>
+                <div class="showing verbs_showing"></div>
+            </section>
+            <section class="verbs_awnser testing_awnser">
+                <table>
+                    <tr>
+                        <th verb="right">Nächstes Verb</th>
+                        <th verb="visibility">Aufdecken</th>
+                    </tr>
+                    <tr>
+                        <td trainer_style verb="right"><i class="material-icons">read_more</i></td>
+                        <td trainer_style verb="visibility"><i class="material-icons">visibility</i>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
     </main>
 
 
@@ -208,6 +230,7 @@
     <script src="js/settings.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/trainer.js"></script>
+    <script src="js/verbs.js"></script>
 
 
 </body>

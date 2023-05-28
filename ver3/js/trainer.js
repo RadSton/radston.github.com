@@ -182,11 +182,8 @@ visible.button.addEventListener("click", onShowAwnser);
 right.button.addEventListener("click", handleAwnser(true));
 wrong.button.addEventListener("click", handleAwnser(false));
 
-document.onkeypress = function (e) {
-    e = e || window.event;
-    // use e.keyCode
 
-    if (!isTestingSelectedInMenu()) return;
+const handleTrainKeyPress = (e) => {
     if (currentButton == Button.AWNSERS) {
         switch (e.keyCode) {
             case 97: handleAwnser(true)(undefined); break;
@@ -202,7 +199,6 @@ document.onkeypress = function (e) {
         }
     }
 };
-
 
 
 // dev

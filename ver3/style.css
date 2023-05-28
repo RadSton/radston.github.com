@@ -338,7 +338,7 @@ input {
     border: 0;
 }
 
-.testing_question {
+.testing_question, .verbs_question{
     padding: 10px 6px;
 
     min-width: 500px;
@@ -412,7 +412,7 @@ td[trainer_style]:hover>i {
 
     .menu__item {
         padding: 0px;
-        width: 32%;
+        width: 24%;
         height: 100%;
         display: inline-flex;
     }

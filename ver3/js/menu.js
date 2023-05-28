@@ -21,6 +21,11 @@ const menus = [
         button: document.querySelector("[name=\"settings\"]"),
         update: () => settings_change()
     },
+    {
+        menu: document.querySelector(".verbs"),
+        button: document.querySelector("[name=\"verbs\"]"),
+        update: () => settings_change()
+    },
 ]
 
 let INDEX_OF_TESTING = 1; // menus[1] -> testing
@@ -65,6 +70,10 @@ for (const menu of menus) {
 
 const isTestingSelectedInMenu = () => {
     return !document.querySelector(".testing").classList.contains("hidden")
+}
+
+const isVerbSelectedInMenu = () => {
+    return !document.querySelector(".verbs").classList.contains("hidden")
 }
 
 var MAX_WAIT_MS = 1000;
