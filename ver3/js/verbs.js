@@ -35,9 +35,6 @@ const revealVerbAwnser = () => {
 
 
 
-
-
-
 let currentVerbButton; 
 
 const showVerbButtons = (button) => {
@@ -69,8 +66,8 @@ const getRandomVerb = () => {
 
     let readableName = "";
 
-    if(descriptor > 3) readableName = (descriptor - 3) + ".Pl. " + (type === "Normal" ? "Präsens" : type);
-    else readableName = descriptor  + ".Sg. " + (type === "Normal" ? "Präsens" : type);
+    if((descriptor + 1) > 3) readableName = (descriptor - 2) + ".Pl. " + (type === "Normal" ? "Präsens" : type);
+    else readableName = (descriptor + 1)  + ".Sg. " + (type === "Normal" ? "Präsens" : type);
     
     return {
         result: randomType,
