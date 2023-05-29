@@ -35,6 +35,30 @@
                 "accessimus",
                 "accessistis",
                 "accesserunt"
+            ],
+            "preasenspassiv": [
+                "acceditur",
+                "accederis",
+                "acceditur",
+                "accedimur",
+                "accedimini",
+                "acceduntur"
+            ],
+            "imperfektpassiv": [
+                "accedebar",
+                "accedebaris",
+                "accedebatur",
+                "accedebamur",
+                "accedebamini",
+                "accedebantur"
+            ],
+            "futurpassiv": [
+                "accedar",
+                "accederis",
+                "accedetur",
+                "accedemur",
+                "accedemini",
+                "accedentur"
             ]
         }
     },
@@ -74,6 +98,30 @@
                 "adiuvimus",
                 "adiuvistis",
                 "adiuverunt"
+            ],
+            "preasenspassiv": [
+                "adiuvor",
+                "adiuvaris",
+                "adiuvatur",
+                "adiuvamur",
+                "adiuvamini",
+                "adiuvantur"
+            ],
+            "imperfektpassiv": [
+                "adiuvabar",
+                "adiuvabaris",
+                "adiuvabatur",
+                "adiuvabamur",
+                "adiuvabamini",
+                "adiuvabantur"
+            ],
+            "futurpassiv": [
+                "adiuvabor",
+                "adiuvaberis",
+                "adiuvabitur",
+                "adiuvabimur",
+                "adiuvabimini",
+                "adiuvabuntur"
             ]
         }
     },
@@ -113,6 +161,30 @@
                 "egimus",
                 "egistis",
                 "egerunt"
+            ],
+            "preasenspassiv": [
+                "agitur",
+                "ageris",
+                "agitur",
+                "agimur",
+                "agimini",
+                "aguntur"
+            ],
+            "imperfektpassiv": [
+                "agebar",
+                "agebaris",
+                "agebatur",
+                "agebamur",
+                "agebamini",
+                "agebantur"
+            ],
+            "futurpassiv": [
+                "agar",
+                "ageris",
+                "agetur",
+                "agemur",
+                "agemini",
+                "agentur"
             ]
         }
     },
@@ -152,6 +224,30 @@
                 "amavimus",
                 "amavistis",
                 "amaverunt"
+            ],
+            "preasenspassiv": [
+                "amor",
+                "amaris",
+                "amatur",
+                "amamur",
+                "amamini",
+                "amantur"
+            ],
+            "imperfektpassiv": [
+                "amabar",
+                "amabaris",
+                "amabatur",
+                "amabamur",
+                "amabamini",
+                "amabantur"
+            ],
+            "futurpassiv": [
+                "amabor",
+                "amaberis",
+                "amabitur",
+                "amabimur",
+                "amabimini",
+                "amabuntur"
             ]
         }
     },
@@ -191,6 +287,30 @@
                 "appellavimus",
                 "appellavistis",
                 "appellaverunt"
+            ],
+            "preasenspassiv": [
+                "appellor",
+                "appellaris",
+                "appellatur",
+                "appellamur",
+                "appellamini",
+                "appellantur"
+            ],
+            "imperfektpassiv": [
+                "appellabar",
+                "appellabaris",
+                "appellabatur",
+                "appellabamur",
+                "appellabamini",
+                "appellabantur"
+            ],
+            "futurpassiv": [
+                "appellabor",
+                "appellaberis",
+                "appellabitur",
+                "appellabimur",
+                "appellabimini",
+                "appellabuntur"
             ]
         }
     },
@@ -230,6 +350,30 @@
                 "apportavimus",
                 "apportavistis",
                 "apportaverunt"
+            ],
+            "preasenspassiv": [
+                "apportor",
+                "apportaris",
+                "apportatur",
+                "apportamur",
+                "apportamini",
+                "apportantur"
+            ],
+            "imperfektpassiv": [
+                "apportabar",
+                "apportabaris",
+                "apportabatur",
+                "apportabamur",
+                "apportabamini",
+                "apportabantur"
+            ],
+            "futurpassiv": [
+                "apportabor",
+                "apportaberis",
+                "apportabitur",
+                "apportabimur",
+                "apportabimini",
+                "apportabuntur"
             ]
         }
     },
@@ -269,6 +413,30 @@
                 "arcuimus",
                 "arcuistis",
                 "arcuerunt"
+            ],
+            "preasenspassiv": [
+                "arceor",
+                "arceris",
+                "arcetur",
+                "arcemur",
+                "arcemini",
+                "arcentur"
+            ],
+            "imperfektpassiv": [
+                "arcebar",
+                "arcebaris",
+                "arcebatur",
+                "arcebamur",
+                "arcebamini",
+                "arcebantur"
+            ],
+            "futurpassiv": [
+                "arcebor",
+                "arceberis",
+                "arcebitur",
+                "arcebimur",
+                "arcebimini",
+                "arcebuntur"
             ]
         }
     },
@@ -308,6 +476,30 @@
                 "audivimus",
                 "audivistis",
                 "audiverunt"
+            ],
+            "preasenspassiv": [
+                "audior",
+                "auderis",
+                "auditur",
+                "audimur",
+                "audimini",
+                "audiuntur"
+            ],
+            "imperfektpassiv": [
+                "audiebar",
+                "audiebaris",
+                "audiebatur",
+                "audiebamur",
+                "audiebamini",
+                "audiebantur"
+            ],
+            "futurpassiv": [
+                "audiar",
+                "audieris",
+                "audietur",
+                "audiemur",
+                "audiemini",
+                "audientur"
             ]
         }
     },
@@ -347,6 +539,30 @@
                 "auximus",
                 "auxistis",
                 "auxerunt"
+            ],
+            "preasenspassiv": [
+                "augeor",
+                "augeris",
+                "augetur",
+                "augemur",
+                "augemini",
+                "augentur"
+            ],
+            "imperfektpassiv": [
+                "augebar",
+                "augebaris",
+                "augebatur",
+                "augebamur",
+                "augebamini",
+                "augebantur"
+            ],
+            "futurpassiv": [
+                "augebor",
+                "augeberis",
+                "augebitur",
+                "augebimur",
+                "augebimini",
+                "augebuntur"
             ]
         }
     },
@@ -386,6 +602,30 @@
                 "cecídimus",
                 "cecídistis",
                 "cecíderunt"
+            ],
+            "preasenspassiv": [
+                "caeditur",
+                "caederis",
+                "caeditur",
+                "caedimur",
+                "caedimini",
+                "caeduntur"
+            ],
+            "imperfektpassiv": [
+                "caedebar",
+                "caedebaris",
+                "caedebatur",
+                "caedebamur",
+                "caedebamini",
+                "caedebantur"
+            ],
+            "futurpassiv": [
+                "caedar",
+                "caederis",
+                "caedetur",
+                "caedemur",
+                "caedemini",
+                "caedentur"
             ]
         }
     },
@@ -425,6 +665,30 @@
                 "cantavimus",
                 "cantavistis",
                 "cantaverunt"
+            ],
+            "preasenspassiv": [
+                "cantor",
+                "cantaris",
+                "cantatur",
+                "cantamur",
+                "cantamini",
+                "cantantur"
+            ],
+            "imperfektpassiv": [
+                "cantabar",
+                "cantabaris",
+                "cantabatur",
+                "cantabamur",
+                "cantabamini",
+                "cantabantur"
+            ],
+            "futurpassiv": [
+                "cantabor",
+                "cantaberis",
+                "cantabitur",
+                "cantabimur",
+                "cantabimini",
+                "cantabuntur"
             ]
         }
     },
@@ -464,6 +728,30 @@
                 "cepimus",
                 "cepistis",
                 "ceperunt"
+            ],
+            "preasenspassiv": [
+                "capeor",
+                "caperis",
+                "capetur",
+                "capemur",
+                "capemini",
+                "capentur"
+            ],
+            "imperfektpassiv": [
+                "capebar",
+                "capebaris",
+                "capebatur",
+                "capebamur",
+                "capebamini",
+                "capebantur"
+            ],
+            "futurpassiv": [
+                "capar",
+                "caperis",
+                "capetur",
+                "capemur",
+                "capemini",
+                "capentur"
             ]
         }
     },
@@ -496,7 +784,31 @@
                 "carebitis",
                 "carebunt"
             ],
-            "perfekt": []
+            "perfekt": [],
+            "preasenspassiv": [
+                "careor",
+                "careris",
+                "caretur",
+                "caremur",
+                "caremini",
+                "carentur"
+            ],
+            "imperfektpassiv": [
+                "carebar",
+                "carebaris",
+                "carebatur",
+                "carebamur",
+                "carebamini",
+                "carebantur"
+            ],
+            "futurpassiv": [
+                "carebor",
+                "careberis",
+                "carebitur",
+                "carebimur",
+                "carebimini",
+                "carebuntur"
+            ]
         }
     },
     {
@@ -535,6 +847,30 @@
                 "celebravimus",
                 "celebravistis",
                 "celebraverunt"
+            ],
+            "preasenspassiv": [
+                "celebror",
+                "celebraris",
+                "celebratur",
+                "celebramur",
+                "celebramini",
+                "celebrantur"
+            ],
+            "imperfektpassiv": [
+                "celebrabar",
+                "celebrabaris",
+                "celebrabatur",
+                "celebrabamur",
+                "celebrabamini",
+                "celebrabantur"
+            ],
+            "futurpassiv": [
+                "celebrabor",
+                "celebraberis",
+                "celebrabitur",
+                "celebrabimur",
+                "celebrabimini",
+                "celebrabuntur"
             ]
         }
     },
@@ -574,6 +910,30 @@
                 "clamavimus",
                 "clamavistis",
                 "clamaverunt"
+            ],
+            "preasenspassiv": [
+                "clamor",
+                "clamaris",
+                "clamatur",
+                "clamamur",
+                "clamamini",
+                "clamantur"
+            ],
+            "imperfektpassiv": [
+                "clamabar",
+                "clamabaris",
+                "clamabatur",
+                "clamabamur",
+                "clamabamini",
+                "clamabantur"
+            ],
+            "futurpassiv": [
+                "clamabor",
+                "clamaberis",
+                "clamabitur",
+                "clamabimur",
+                "clamabimini",
+                "clamabuntur"
             ]
         }
     },
@@ -613,6 +973,30 @@
                 "cognovimus",
                 "cognovistis",
                 "cognoverunt"
+            ],
+            "preasenspassiv": [
+                "cognoscitur",
+                "cognosceris",
+                "cognoscitur",
+                "cognoscimur",
+                "cognoscimini",
+                "cognoscuntur"
+            ],
+            "imperfektpassiv": [
+                "cognoscebar",
+                "cognoscebaris",
+                "cognoscebatur",
+                "cognoscebamur",
+                "cognoscebamini",
+                "cognoscebantur"
+            ],
+            "futurpassiv": [
+                "cognoscar",
+                "cognosceris",
+                "cognoscetur",
+                "cognoscemur",
+                "cognoscemini",
+                "cognoscentur"
             ]
         }
     },
@@ -652,6 +1036,30 @@
                 "col-legimus",
                 "col-legistis",
                 "col-legerunt"
+            ],
+            "preasenspassiv": [
+                "colligitur",
+                "colligeris",
+                "colligitur",
+                "colligimur",
+                "colligimini",
+                "colliguntur"
+            ],
+            "imperfektpassiv": [
+                "colligebar",
+                "colligebaris",
+                "colligebatur",
+                "colligebamur",
+                "colligebamini",
+                "colligebantur"
+            ],
+            "futurpassiv": [
+                "colligar",
+                "colligeris",
+                "colligetur",
+                "colligemur",
+                "colligemini",
+                "colligentur"
             ]
         }
     },
@@ -691,6 +1099,30 @@
                 "contendimus",
                 "contendistis",
                 "contenderunt"
+            ],
+            "preasenspassiv": [
+                "contenditur",
+                "contenderis",
+                "contenditur",
+                "contendimur",
+                "contendimini",
+                "contenduntur"
+            ],
+            "imperfektpassiv": [
+                "contendebar",
+                "contendebaris",
+                "contendebatur",
+                "contendebamur",
+                "contendebamini",
+                "contendebantur"
+            ],
+            "futurpassiv": [
+                "contendar",
+                "contenderis",
+                "contendetur",
+                "contendemur",
+                "contendemini",
+                "contendentur"
             ]
         }
     },
@@ -730,6 +1162,30 @@
                 "cupivimus",
                 "cupivistis",
                 "cupiverunt"
+            ],
+            "preasenspassiv": [
+                "cupeor",
+                "cuperis",
+                "cupetur",
+                "cupemur",
+                "cupemini",
+                "cupentur"
+            ],
+            "imperfektpassiv": [
+                "cupebar",
+                "cupebaris",
+                "cupebatur",
+                "cupebamur",
+                "cupebamini",
+                "cupebantur"
+            ],
+            "futurpassiv": [
+                "cupar",
+                "cuperis",
+                "cupetur",
+                "cupemur",
+                "cupemini",
+                "cupentur"
             ]
         }
     },
@@ -769,6 +1225,30 @@
                 "cucurrimus",
                 "cucurristis",
                 "cucurrerunt"
+            ],
+            "preasenspassiv": [
+                "curritur",
+                "curreris",
+                "curritur",
+                "currimur",
+                "currimini",
+                "curruntur"
+            ],
+            "imperfektpassiv": [
+                "currebar",
+                "currebaris",
+                "currebatur",
+                "currebamur",
+                "currebamini",
+                "currebantur"
+            ],
+            "futurpassiv": [
+                "currar",
+                "curreris",
+                "curretur",
+                "curremur",
+                "curremini",
+                "currentur"
             ]
         }
     },
@@ -808,6 +1288,30 @@
                 "dedimus",
                 "dedistis",
                 "dederunt"
+            ],
+            "preasenspassiv": [
+                "dor",
+                "daris",
+                "datur",
+                "damur",
+                "damini",
+                "dantur"
+            ],
+            "imperfektpassiv": [
+                "dabar",
+                "dabaris",
+                "dabatur",
+                "dabamur",
+                "dabamini",
+                "dabantur"
+            ],
+            "futurpassiv": [
+                "dabor",
+                "daberis",
+                "dabitur",
+                "dabimur",
+                "dabimini",
+                "dabuntur"
             ]
         }
     },
@@ -847,6 +1351,30 @@
                 "debuimus",
                 "debuistis",
                 "debuerunt"
+            ],
+            "preasenspassiv": [
+                "debeor",
+                "deberis",
+                "debetur",
+                "debemur",
+                "debemini",
+                "debentur"
+            ],
+            "imperfektpassiv": [
+                "debebar",
+                "debebaris",
+                "debebatur",
+                "debebamur",
+                "debebamini",
+                "debebantur"
+            ],
+            "futurpassiv": [
+                "debebor",
+                "debeberis",
+                "debebitur",
+                "debebimur",
+                "debebimini",
+                "debebuntur"
             ]
         }
     },
@@ -886,6 +1414,30 @@
                 "defendimus",
                 "defendistis",
                 "defenderunt"
+            ],
+            "preasenspassiv": [
+                "defenditur",
+                "defenderis",
+                "defenditur",
+                "defendimur",
+                "defendimini",
+                "defenduntur"
+            ],
+            "imperfektpassiv": [
+                "defendebar",
+                "defendebaris",
+                "defendebatur",
+                "defendebamur",
+                "defendebamini",
+                "defendebantur"
+            ],
+            "futurpassiv": [
+                "defendar",
+                "defenderis",
+                "defendetur",
+                "defendemur",
+                "defendemini",
+                "defendentur"
             ]
         }
     },
@@ -925,6 +1477,30 @@
                 "delectavimus",
                 "delectavistis",
                 "delectaverunt"
+            ],
+            "preasenspassiv": [
+                "delector",
+                "delectaris",
+                "delectatur",
+                "delectamur",
+                "delectamini",
+                "delectantur"
+            ],
+            "imperfektpassiv": [
+                "delectabar",
+                "delectabaris",
+                "delectabatur",
+                "delectabamur",
+                "delectabamini",
+                "delectabantur"
+            ],
+            "futurpassiv": [
+                "delectabor",
+                "delectaberis",
+                "delectabitur",
+                "delectabimur",
+                "delectabimini",
+                "delectabuntur"
             ]
         }
     },
@@ -964,6 +1540,30 @@
                 "diximus",
                 "dixistis",
                 "dixerunt"
+            ],
+            "preasenspassiv": [
+                "dicitur",
+                "diceris",
+                "dicitur",
+                "dicimur",
+                "dicimini",
+                "dicuntur"
+            ],
+            "imperfektpassiv": [
+                "dicebar",
+                "dicebaris",
+                "dicebatur",
+                "dicebamur",
+                "dicebamini",
+                "dicebantur"
+            ],
+            "futurpassiv": [
+                "dicar",
+                "diceris",
+                "dicetur",
+                "dicemur",
+                "dicemini",
+                "dicentur"
             ]
         }
     },
@@ -1003,6 +1603,30 @@
                 "docuimus",
                 "docuistis",
                 "docuerunt"
+            ],
+            "preasenspassiv": [
+                "doceor",
+                "doceris",
+                "docetur",
+                "docemur",
+                "docemini",
+                "docentur"
+            ],
+            "imperfektpassiv": [
+                "docebar",
+                "docebaris",
+                "docebatur",
+                "docebamur",
+                "docebamini",
+                "docebantur"
+            ],
+            "futurpassiv": [
+                "docebor",
+                "doceberis",
+                "docebitur",
+                "docebimur",
+                "docebimini",
+                "docebuntur"
             ]
         }
     },
@@ -1042,6 +1666,30 @@
                 "doluimus",
                 "doluistis",
                 "doluerunt"
+            ],
+            "preasenspassiv": [
+                "doleor",
+                "doleris",
+                "doletur",
+                "dolemur",
+                "dolemini",
+                "dolentur"
+            ],
+            "imperfektpassiv": [
+                "dolebar",
+                "dolebaris",
+                "dolebatur",
+                "dolebamur",
+                "dolebamini",
+                "dolebantur"
+            ],
+            "futurpassiv": [
+                "dolebor",
+                "doleberis",
+                "dolebitur",
+                "dolebimur",
+                "dolebimini",
+                "dolebuntur"
             ]
         }
     },
@@ -1081,6 +1729,30 @@
                 "donavimus",
                 "donavistis",
                 "donaverunt"
+            ],
+            "preasenspassiv": [
+                "donor",
+                "donaris",
+                "donatur",
+                "donamur",
+                "donamini",
+                "donantur"
+            ],
+            "imperfektpassiv": [
+                "donabar",
+                "donabaris",
+                "donabatur",
+                "donabamur",
+                "donabamini",
+                "donabantur"
+            ],
+            "futurpassiv": [
+                "donabor",
+                "donaberis",
+                "donabitur",
+                "donabimur",
+                "donabimini",
+                "donabuntur"
             ]
         }
     },
@@ -1120,6 +1792,30 @@
                 "duximus",
                 "duxistis",
                 "duxerunt"
+            ],
+            "preasenspassiv": [
+                "ducitur",
+                "duceris",
+                "ducitur",
+                "ducimur",
+                "ducimini",
+                "ducuntur"
+            ],
+            "imperfektpassiv": [
+                "ducebar",
+                "ducebaris",
+                "ducebatur",
+                "ducebamur",
+                "ducebamini",
+                "ducebantur"
+            ],
+            "futurpassiv": [
+                "ducar",
+                "duceris",
+                "ducetur",
+                "ducemur",
+                "ducemini",
+                "ducentur"
             ]
         }
     },
@@ -1159,6 +1855,30 @@
                 "eguimus",
                 "eguistis",
                 "eguerunt"
+            ],
+            "preasenspassiv": [
+                "egeor",
+                "egeris",
+                "egetur",
+                "egemur",
+                "egemini",
+                "egentur"
+            ],
+            "imperfektpassiv": [
+                "egebar",
+                "egebaris",
+                "egebatur",
+                "egebamur",
+                "egebamini",
+                "egebantur"
+            ],
+            "futurpassiv": [
+                "egebor",
+                "egeberis",
+                "egebitur",
+                "egebimur",
+                "egebimini",
+                "egebuntur"
             ]
         }
     },
@@ -1198,6 +1918,30 @@
                 "exercuimus",
                 "exercuistis",
                 "exercuerunt"
+            ],
+            "preasenspassiv": [
+                "exerceor",
+                "exerceris",
+                "exercetur",
+                "exercemur",
+                "exercemini",
+                "exercentur"
+            ],
+            "imperfektpassiv": [
+                "exercebar",
+                "exercebaris",
+                "exercebatur",
+                "exercebamur",
+                "exercebamini",
+                "exercebantur"
+            ],
+            "futurpassiv": [
+                "exercebor",
+                "exerceberis",
+                "exercebitur",
+                "exercebimur",
+                "exercebimini",
+                "exercebuntur"
             ]
         }
     },
@@ -1237,6 +1981,30 @@
                 "expulimus",
                 "expulistis",
                 "expulerunt"
+            ],
+            "preasenspassiv": [
+                "expellitur",
+                "expelleris",
+                "expellitur",
+                "expellimur",
+                "expellimini",
+                "expelluntur"
+            ],
+            "imperfektpassiv": [
+                "expellebar",
+                "expellebaris",
+                "expellebatur",
+                "expellebamur",
+                "expellebamini",
+                "expellebantur"
+            ],
+            "futurpassiv": [
+                "expellar",
+                "expelleris",
+                "expelletur",
+                "expellemur",
+                "expellemini",
+                "expellentur"
             ]
         }
     },
@@ -1276,6 +2044,30 @@
                 "expulimus",
                 "expulistis",
                 "expulerunt"
+            ],
+            "preasenspassiv": [
+                "exspector",
+                "exspectaris",
+                "exspectatur",
+                "exspectamur",
+                "exspectamini",
+                "exspectantur"
+            ],
+            "imperfektpassiv": [
+                "exspectabar",
+                "exspectabaris",
+                "exspectabatur",
+                "exspectabamur",
+                "exspectabamini",
+                "exspectabantur"
+            ],
+            "futurpassiv": [
+                "exspectabor",
+                "exspectaberis",
+                "exspectabitur",
+                "exspectabimur",
+                "exspectabimini",
+                "exspectabuntur"
             ]
         }
     },
@@ -1315,6 +2107,30 @@
                 "fecimus",
                 "fecistis",
                 "fecerunt"
+            ],
+            "preasenspassiv": [
+                "faceor",
+                "faceris",
+                "facetur",
+                "facemur",
+                "facemini",
+                "facentur"
+            ],
+            "imperfektpassiv": [
+                "facebar",
+                "facebaris",
+                "facebatur",
+                "facebamur",
+                "facebamini",
+                "facebantur"
+            ],
+            "futurpassiv": [
+                "facar",
+                "faceris",
+                "facetur",
+                "facemur",
+                "facemini",
+                "facentur"
             ]
         }
     },
@@ -1354,6 +2170,30 @@
                 "fugavimus",
                 "fugavistis",
                 "fugaverunt"
+            ],
+            "preasenspassiv": [
+                "fugor",
+                "fugaris",
+                "fugatur",
+                "fugamur",
+                "fugamini",
+                "fugantur"
+            ],
+            "imperfektpassiv": [
+                "fugabar",
+                "fugabaris",
+                "fugabatur",
+                "fugabamur",
+                "fugabamini",
+                "fugabantur"
+            ],
+            "futurpassiv": [
+                "fugabor",
+                "fugaberis",
+                "fugabitur",
+                "fugabimur",
+                "fugabimini",
+                "fugabuntur"
             ]
         }
     },
@@ -1386,7 +2226,31 @@
                 "gaudebitis",
                 "gaudebunt"
             ],
-            "perfekt": []
+            "perfekt": [],
+            "preasenspassiv": [
+                "gaudeor",
+                "gauderis",
+                "gaudetur",
+                "gaudemur",
+                "gaudemini",
+                "gaudentur"
+            ],
+            "imperfektpassiv": [
+                "gaudebar",
+                "gaudebaris",
+                "gaudebatur",
+                "gaudebamur",
+                "gaudebamini",
+                "gaudebantur"
+            ],
+            "futurpassiv": [
+                "gaudebor",
+                "gaudeberis",
+                "gaudebitur",
+                "gaudebimur",
+                "gaudebimini",
+                "gaudebuntur"
+            ]
         }
     },
     {
@@ -1425,6 +2289,30 @@
                 "habuimus",
                 "habuistis",
                 "habuerunt"
+            ],
+            "preasenspassiv": [
+                "habeor",
+                "haberis",
+                "habetur",
+                "habemur",
+                "habemini",
+                "habentur"
+            ],
+            "imperfektpassiv": [
+                "habebar",
+                "habebaris",
+                "habebatur",
+                "habebamur",
+                "habebamini",
+                "habebantur"
+            ],
+            "futurpassiv": [
+                "habebor",
+                "habeberis",
+                "habebitur",
+                "habebimur",
+                "habebimini",
+                "habebuntur"
             ]
         }
     },
@@ -1464,6 +2352,30 @@
                 "habitavimus",
                 "habitavistis",
                 "habitaverunt"
+            ],
+            "preasenspassiv": [
+                "habitor",
+                "habitaris",
+                "habitatur",
+                "habitamur",
+                "habitamini",
+                "habitantur"
+            ],
+            "imperfektpassiv": [
+                "habitabar",
+                "habitabaris",
+                "habitabatur",
+                "habitabamur",
+                "habitabamini",
+                "habitabantur"
+            ],
+            "futurpassiv": [
+                "habitabor",
+                "habitaberis",
+                "habitabitur",
+                "habitabimur",
+                "habitabimini",
+                "habitabuntur"
             ]
         }
     },
@@ -1503,6 +2415,30 @@
                 "coepimus",
                 "coepistis",
                 "coeperunt"
+            ],
+            "preasenspassiv": [
+                "in-cipeor",
+                "in-ciperis",
+                "in-cipetur",
+                "in-cipemur",
+                "in-cipemini",
+                "in-cipentur"
+            ],
+            "imperfektpassiv": [
+                "in-cipebar",
+                "in-cipebaris",
+                "in-cipebatur",
+                "in-cipebamur",
+                "in-cipebamini",
+                "in-cipebantur"
+            ],
+            "futurpassiv": [
+                "in-cipar",
+                "in-ciperis",
+                "in-cipetur",
+                "in-cipemur",
+                "in-cipemini",
+                "in-cipentur"
             ]
         }
     },
@@ -1542,6 +2478,30 @@
                 "invenimus",
                 "invenistis",
                 "invenerunt"
+            ],
+            "preasenspassiv": [
+                "invenior",
+                "inveneris",
+                "invenitur",
+                "invenimur",
+                "invenimini",
+                "inveniuntur"
+            ],
+            "imperfektpassiv": [
+                "inveniebar",
+                "inveniebaris",
+                "inveniebatur",
+                "inveniebamur",
+                "inveniebamini",
+                "inveniebantur"
+            ],
+            "futurpassiv": [
+                "inveniar",
+                "invenieris",
+                "invenietur",
+                "inveniemur",
+                "inveniemini",
+                "invenientur"
             ]
         }
     },
@@ -1581,6 +2541,30 @@
                 "invitavimus",
                 "invitavistis",
                 "invitaverunt"
+            ],
+            "preasenspassiv": [
+                "invitor",
+                "invitaris",
+                "invitatur",
+                "invitamur",
+                "invitamini",
+                "invitantur"
+            ],
+            "imperfektpassiv": [
+                "invitabar",
+                "invitabaris",
+                "invitabatur",
+                "invitabamur",
+                "invitabamini",
+                "invitabantur"
+            ],
+            "futurpassiv": [
+                "invitabor",
+                "invitaberis",
+                "invitabitur",
+                "invitabimur",
+                "invitabimini",
+                "invitabuntur"
             ]
         }
     },
@@ -1620,6 +2604,30 @@
                 "iussimus",
                 "iussistis",
                 "iusserunt"
+            ],
+            "preasenspassiv": [
+                "iubeor",
+                "iuberis",
+                "iubetur",
+                "iubemur",
+                "iubemini",
+                "iubentur"
+            ],
+            "imperfektpassiv": [
+                "iubebar",
+                "iubebaris",
+                "iubebatur",
+                "iubebamur",
+                "iubebamini",
+                "iubebantur"
+            ],
+            "futurpassiv": [
+                "iubebor",
+                "iubeberis",
+                "iubebitur",
+                "iubebimur",
+                "iubebimini",
+                "iubebuntur"
             ]
         }
     },
@@ -1659,6 +2667,30 @@
                 "iunximus",
                 "iunxistis",
                 "iunxerunt"
+            ],
+            "preasenspassiv": [
+                "iungitur",
+                "iungeris",
+                "iungitur",
+                "iungimur",
+                "iungimini",
+                "iunguntur"
+            ],
+            "imperfektpassiv": [
+                "iungebar",
+                "iungebaris",
+                "iungebatur",
+                "iungebamur",
+                "iungebamini",
+                "iungebantur"
+            ],
+            "futurpassiv": [
+                "iungar",
+                "iungeris",
+                "iungetur",
+                "iungemur",
+                "iungemini",
+                "iungentur"
             ]
         }
     },
@@ -1698,6 +2730,30 @@
                 "laboravimus",
                 "laboravistis",
                 "laboraverunt"
+            ],
+            "preasenspassiv": [
+                "laboror",
+                "laboraris",
+                "laboratur",
+                "laboramur",
+                "laboramini",
+                "laborantur"
+            ],
+            "imperfektpassiv": [
+                "laborabar",
+                "laborabaris",
+                "laborabatur",
+                "laborabamur",
+                "laborabamini",
+                "laborabantur"
+            ],
+            "futurpassiv": [
+                "laborabor",
+                "laboraberis",
+                "laborabitur",
+                "laborabimur",
+                "laborabimini",
+                "laborabuntur"
             ]
         }
     },
@@ -1737,6 +2793,30 @@
                 "laudavimus",
                 "laudavistis",
                 "laudaverunt"
+            ],
+            "preasenspassiv": [
+                "laudor",
+                "laudaris",
+                "laudatur",
+                "laudamur",
+                "laudamini",
+                "laudantur"
+            ],
+            "imperfektpassiv": [
+                "laudabar",
+                "laudabaris",
+                "laudabatur",
+                "laudabamur",
+                "laudabamini",
+                "laudabantur"
+            ],
+            "futurpassiv": [
+                "laudabor",
+                "laudaberis",
+                "laudabitur",
+                "laudabimur",
+                "laudabimini",
+                "laudabuntur"
             ]
         }
     },
@@ -1776,6 +2856,30 @@
                 "legimus",
                 "legistis",
                 "legerunt"
+            ],
+            "preasenspassiv": [
+                "legitur",
+                "legeris",
+                "legitur",
+                "legimur",
+                "legimini",
+                "leguntur"
+            ],
+            "imperfektpassiv": [
+                "legebar",
+                "legebaris",
+                "legebatur",
+                "legebamur",
+                "legebamini",
+                "legebantur"
+            ],
+            "futurpassiv": [
+                "legar",
+                "legeris",
+                "legetur",
+                "legemur",
+                "legemini",
+                "legentur"
             ]
         }
     },
@@ -1815,6 +2919,30 @@
                 "mansimus",
                 "mansistis",
                 "manserunt"
+            ],
+            "preasenspassiv": [
+                "maneor",
+                "maneris",
+                "manetur",
+                "manemur",
+                "manemini",
+                "manentur"
+            ],
+            "imperfektpassiv": [
+                "manebar",
+                "manebaris",
+                "manebatur",
+                "manebamur",
+                "manebamini",
+                "manebantur"
+            ],
+            "futurpassiv": [
+                "manebor",
+                "maneberis",
+                "manebitur",
+                "manebimur",
+                "manebimini",
+                "manebuntur"
             ]
         }
     },
@@ -1854,6 +2982,30 @@
                 "misimus",
                 "misistis",
                 "miserunt"
+            ],
+            "preasenspassiv": [
+                "mittitur",
+                "mitteris",
+                "mittitur",
+                "mittimur",
+                "mittimini",
+                "mittuntur"
+            ],
+            "imperfektpassiv": [
+                "mittebar",
+                "mittebaris",
+                "mittebatur",
+                "mittebamur",
+                "mittebamini",
+                "mittebantur"
+            ],
+            "futurpassiv": [
+                "mittar",
+                "mitteris",
+                "mittetur",
+                "mittemur",
+                "mittemini",
+                "mittentur"
             ]
         }
     },
@@ -1893,6 +3045,30 @@
                 "monuimus",
                 "monuistis",
                 "monuerunt"
+            ],
+            "preasenspassiv": [
+                "moneor",
+                "moneris",
+                "monetur",
+                "monemur",
+                "monemini",
+                "monentur"
+            ],
+            "imperfektpassiv": [
+                "monebar",
+                "monebaris",
+                "monebatur",
+                "monebamur",
+                "monebamini",
+                "monebantur"
+            ],
+            "futurpassiv": [
+                "monebor",
+                "moneberis",
+                "monebitur",
+                "monebimur",
+                "monebimini",
+                "monebuntur"
             ]
         }
     },
@@ -1932,6 +3108,30 @@
                 "monstravimus",
                 "monstravistis",
                 "monstraverunt"
+            ],
+            "preasenspassiv": [
+                "monstror",
+                "monstraris",
+                "monstratur",
+                "monstramur",
+                "monstramini",
+                "monstrantur"
+            ],
+            "imperfektpassiv": [
+                "monstrabar",
+                "monstrabaris",
+                "monstrabatur",
+                "monstrabamur",
+                "monstrabamini",
+                "monstrabantur"
+            ],
+            "futurpassiv": [
+                "monstrabor",
+                "monstraberis",
+                "monstrabitur",
+                "monstrabimur",
+                "monstrabimini",
+                "monstrabuntur"
             ]
         }
     },
@@ -1971,6 +3171,30 @@
                 "movimus",
                 "movistis",
                 "moverunt"
+            ],
+            "preasenspassiv": [
+                "moveor",
+                "moveris",
+                "movetur",
+                "movemur",
+                "movemini",
+                "moventur"
+            ],
+            "imperfektpassiv": [
+                "movebar",
+                "movebaris",
+                "movebatur",
+                "movebamur",
+                "movebamini",
+                "movebantur"
+            ],
+            "futurpassiv": [
+                "movebor",
+                "moveberis",
+                "movebitur",
+                "movebimur",
+                "movebimini",
+                "movebuntur"
             ]
         }
     },
@@ -2010,6 +3234,30 @@
                 "narravimus",
                 "narravistis",
                 "narraverunt"
+            ],
+            "preasenspassiv": [
+                "narror",
+                "narraris",
+                "narratur",
+                "narramur",
+                "narramini",
+                "narrantur"
+            ],
+            "imperfektpassiv": [
+                "narrabar",
+                "narrabaris",
+                "narrabatur",
+                "narrabamur",
+                "narrabamini",
+                "narrabantur"
+            ],
+            "futurpassiv": [
+                "narrabor",
+                "narraberis",
+                "narrabitur",
+                "narrabimur",
+                "narrabimini",
+                "narrabuntur"
             ]
         }
     },
@@ -2049,6 +3297,30 @@
                 "navigavimus",
                 "navigavistis",
                 "navigaverunt"
+            ],
+            "preasenspassiv": [
+                "navigor",
+                "navigaris",
+                "navigatur",
+                "navigamur",
+                "navigamini",
+                "navigantur"
+            ],
+            "imperfektpassiv": [
+                "navigabar",
+                "navigabaris",
+                "navigabatur",
+                "navigabamur",
+                "navigabamini",
+                "navigabantur"
+            ],
+            "futurpassiv": [
+                "navigabor",
+                "navigaberis",
+                "navigabitur",
+                "navigabimur",
+                "navigabimini",
+                "navigabuntur"
             ]
         }
     },
@@ -2088,6 +3360,30 @@
                 "necavimus",
                 "necavistis",
                 "necaverunt"
+            ],
+            "preasenspassiv": [
+                "necor",
+                "necaris",
+                "necatur",
+                "necamur",
+                "necamini",
+                "necantur"
+            ],
+            "imperfektpassiv": [
+                "necabar",
+                "necabaris",
+                "necabatur",
+                "necabamur",
+                "necabamini",
+                "necabantur"
+            ],
+            "futurpassiv": [
+                "necabor",
+                "necaberis",
+                "necabitur",
+                "necabimur",
+                "necabimini",
+                "necabuntur"
             ]
         }
     },
@@ -2127,6 +3423,30 @@
                 "negavimus",
                 "negavistis",
                 "negaverunt"
+            ],
+            "preasenspassiv": [
+                "negor",
+                "negaris",
+                "negatur",
+                "negamur",
+                "negamini",
+                "negantur"
+            ],
+            "imperfektpassiv": [
+                "negabar",
+                "negabaris",
+                "negabatur",
+                "negabamur",
+                "negabamini",
+                "negabantur"
+            ],
+            "futurpassiv": [
+                "negabor",
+                "negaberis",
+                "negabitur",
+                "negabimur",
+                "negabimini",
+                "negabuntur"
             ]
         }
     },
@@ -2166,6 +3486,30 @@
                 "negleximus",
                 "neglexistis",
                 "neglexerunt"
+            ],
+            "preasenspassiv": [
+                "neglegitur",
+                "neglegeris",
+                "neglegitur",
+                "neglegimur",
+                "neglegimini",
+                "negleguntur"
+            ],
+            "imperfektpassiv": [
+                "neglegebar",
+                "neglegebaris",
+                "neglegebatur",
+                "neglegebamur",
+                "neglegebamini",
+                "neglegebantur"
+            ],
+            "futurpassiv": [
+                "neglegar",
+                "neglegeris",
+                "neglegetur",
+                "neglegemur",
+                "neglegemini",
+                "neglegentur"
             ]
         }
     },
@@ -2205,6 +3549,30 @@
                 "nupsimus",
                 "nupsistis",
                 "nupserunt"
+            ],
+            "preasenspassiv": [
+                "nubitur",
+                "nuberis",
+                "nubitur",
+                "nubimur",
+                "nubimini",
+                "nubuntur"
+            ],
+            "imperfektpassiv": [
+                "nubebar",
+                "nubebaris",
+                "nubebatur",
+                "nubebamur",
+                "nubebamini",
+                "nubebantur"
+            ],
+            "futurpassiv": [
+                "nubar",
+                "nuberis",
+                "nubetur",
+                "nubemur",
+                "nubemini",
+                "nubentur"
             ]
         }
     },
@@ -2244,6 +3612,30 @@
                 "occidimus",
                 "occidistis",
                 "occiderunt"
+            ],
+            "preasenspassiv": [
+                "occiditur",
+                "occideris",
+                "occiditur",
+                "occidimur",
+                "occidimini",
+                "occiduntur"
+            ],
+            "imperfektpassiv": [
+                "occidebar",
+                "occidebaris",
+                "occidebatur",
+                "occidebamur",
+                "occidebamini",
+                "occidebantur"
+            ],
+            "futurpassiv": [
+                "occidar",
+                "occideris",
+                "occidetur",
+                "occidemur",
+                "occidemini",
+                "occidentur"
             ]
         }
     },
@@ -2283,6 +3675,30 @@
                 "occidimus",
                 "occidistis",
                 "occiderunt"
+            ],
+            "preasenspassiv": [
+                "occultor",
+                "occultaris",
+                "occultatur",
+                "occultamur",
+                "occultamini",
+                "occultantur"
+            ],
+            "imperfektpassiv": [
+                "occultabar",
+                "occultabaris",
+                "occultabatur",
+                "occultabamur",
+                "occultabamini",
+                "occultabantur"
+            ],
+            "futurpassiv": [
+                "occultabor",
+                "occultaberis",
+                "occultabitur",
+                "occultabimur",
+                "occultabimini",
+                "occultabuntur"
             ]
         }
     },
@@ -2322,6 +3738,30 @@
                 "ornavimus",
                 "ornavistis",
                 "ornaverunt"
+            ],
+            "preasenspassiv": [
+                "ornor",
+                "ornaris",
+                "ornatur",
+                "ornamur",
+                "ornamini",
+                "ornantur"
+            ],
+            "imperfektpassiv": [
+                "ornabar",
+                "ornabaris",
+                "ornabatur",
+                "ornabamur",
+                "ornabamini",
+                "ornabantur"
+            ],
+            "futurpassiv": [
+                "ornabor",
+                "ornaberis",
+                "ornabitur",
+                "ornabimur",
+                "ornabimini",
+                "ornabuntur"
             ]
         }
     },
@@ -2361,6 +3801,30 @@
                 "paravimus",
                 "paravistis",
                 "paraverunt"
+            ],
+            "preasenspassiv": [
+                "paror",
+                "pararis",
+                "paratur",
+                "paramur",
+                "paramini",
+                "parantur"
+            ],
+            "imperfektpassiv": [
+                "parabar",
+                "parabaris",
+                "parabatur",
+                "parabamur",
+                "parabamini",
+                "parabantur"
+            ],
+            "futurpassiv": [
+                "parabor",
+                "paraberis",
+                "parabitur",
+                "parabimur",
+                "parabimini",
+                "parabuntur"
             ]
         }
     },
@@ -2400,6 +3864,30 @@
                 "paruimus",
                 "paruistis",
                 "paruerunt"
+            ],
+            "preasenspassiv": [
+                "pareor",
+                "pareris",
+                "paretur",
+                "paremur",
+                "paremini",
+                "parentur"
+            ],
+            "imperfektpassiv": [
+                "parebar",
+                "parebaris",
+                "parebatur",
+                "parebamur",
+                "parebamini",
+                "parebantur"
+            ],
+            "futurpassiv": [
+                "parebor",
+                "pareberis",
+                "parebitur",
+                "parebimur",
+                "parebimini",
+                "parebuntur"
             ]
         }
     },
@@ -2439,6 +3927,30 @@
                 "permisimus",
                 "permisistis",
                 "permiserunt"
+            ],
+            "preasenspassiv": [
+                "permittitur",
+                "permitteris",
+                "permittitur",
+                "permittimur",
+                "permittimini",
+                "permittuntur"
+            ],
+            "imperfektpassiv": [
+                "permittebar",
+                "permittebaris",
+                "permittebatur",
+                "permittebamur",
+                "permittebamini",
+                "permittebantur"
+            ],
+            "futurpassiv": [
+                "permittar",
+                "permitteris",
+                "permittetur",
+                "permittemur",
+                "permittemini",
+                "permittentur"
             ]
         }
     },
@@ -2478,6 +3990,30 @@
                 "pertinuimus",
                 "pertinuistis",
                 "pertinuerunt"
+            ],
+            "preasenspassiv": [
+                "pertineor",
+                "pertineris",
+                "pertinetur",
+                "pertinemur",
+                "pertinemini",
+                "pertinentur"
+            ],
+            "imperfektpassiv": [
+                "pertinebar",
+                "pertinebaris",
+                "pertinebatur",
+                "pertinebamur",
+                "pertinebamini",
+                "pertinebantur"
+            ],
+            "futurpassiv": [
+                "pertinebor",
+                "pertineberis",
+                "pertinebitur",
+                "pertinebimur",
+                "pertinebimini",
+                "pertinebuntur"
             ]
         }
     },
@@ -2517,6 +4053,30 @@
                 "per-turbavimus",
                 "per-turbavistis",
                 "per-turbaverunt"
+            ],
+            "preasenspassiv": [
+                "per-turbor",
+                "per-turbaris",
+                "per-turbatur",
+                "per-turbamur",
+                "per-turbamini",
+                "per-turbantur"
+            ],
+            "imperfektpassiv": [
+                "per-turbabar",
+                "per-turbabaris",
+                "per-turbabatur",
+                "per-turbabamur",
+                "per-turbabamini",
+                "per-turbabantur"
+            ],
+            "futurpassiv": [
+                "per-turbabor",
+                "per-turbaberis",
+                "per-turbabitur",
+                "per-turbabimur",
+                "per-turbabimini",
+                "per-turbabuntur"
             ]
         }
     },
@@ -2556,6 +4116,30 @@
                 "placavimus",
                 "placavistis",
                 "placaverunt"
+            ],
+            "preasenspassiv": [
+                "placor",
+                "placaris",
+                "placatur",
+                "placamur",
+                "placamini",
+                "placantur"
+            ],
+            "imperfektpassiv": [
+                "placabar",
+                "placabaris",
+                "placabatur",
+                "placabamur",
+                "placabamini",
+                "placabantur"
+            ],
+            "futurpassiv": [
+                "placabor",
+                "placaberis",
+                "placabitur",
+                "placabimur",
+                "placabimini",
+                "placabuntur"
             ]
         }
     },
@@ -2595,6 +4179,30 @@
                 "placuimus",
                 "placuistis",
                 "placuerunt"
+            ],
+            "preasenspassiv": [
+                "placeor",
+                "placeris",
+                "placetur",
+                "placemur",
+                "placemini",
+                "placentur"
+            ],
+            "imperfektpassiv": [
+                "placebar",
+                "placebaris",
+                "placebatur",
+                "placebamur",
+                "placebamini",
+                "placebantur"
+            ],
+            "futurpassiv": [
+                "placebor",
+                "placeberis",
+                "placebitur",
+                "placebimur",
+                "placebimini",
+                "placebuntur"
             ]
         }
     },
@@ -2634,6 +4242,30 @@
                 "portavimus",
                 "portavistis",
                 "portaverunt"
+            ],
+            "preasenspassiv": [
+                "portor",
+                "portaris",
+                "portatur",
+                "portamur",
+                "portamini",
+                "portantur"
+            ],
+            "imperfektpassiv": [
+                "portabar",
+                "portabaris",
+                "portabatur",
+                "portabamur",
+                "portabamini",
+                "portabantur"
+            ],
+            "futurpassiv": [
+                "portabor",
+                "portaberis",
+                "portabitur",
+                "portabimur",
+                "portabimini",
+                "portabuntur"
             ]
         }
     },
@@ -2673,6 +4305,30 @@
                 "prohibuimus",
                 "prohibuistis",
                 "prohibuerunt"
+            ],
+            "preasenspassiv": [
+                "prohibeor",
+                "prohiberis",
+                "prohibetur",
+                "prohibemur",
+                "prohibemini",
+                "prohibentur"
+            ],
+            "imperfektpassiv": [
+                "prohibebar",
+                "prohibebaris",
+                "prohibebatur",
+                "prohibebamur",
+                "prohibebamini",
+                "prohibebantur"
+            ],
+            "futurpassiv": [
+                "prohibebor",
+                "prohibeberis",
+                "prohibebitur",
+                "prohibebimur",
+                "prohibebimini",
+                "prohibebuntur"
             ]
         }
     },
@@ -2712,6 +4368,30 @@
                 "pugnavimus",
                 "pugnavistis",
                 "pugnaverunt"
+            ],
+            "preasenspassiv": [
+                "pugnor",
+                "pugnaris",
+                "pugnatur",
+                "pugnamur",
+                "pugnamini",
+                "pugnantur"
+            ],
+            "imperfektpassiv": [
+                "pugnabar",
+                "pugnabaris",
+                "pugnabatur",
+                "pugnabamur",
+                "pugnabamini",
+                "pugnabantur"
+            ],
+            "futurpassiv": [
+                "pugnabor",
+                "pugnaberis",
+                "pugnabitur",
+                "pugnabimur",
+                "pugnabimini",
+                "pugnabuntur"
             ]
         }
     },
@@ -2751,6 +4431,30 @@
                 "putavimus",
                 "putavistis",
                 "putaverunt"
+            ],
+            "preasenspassiv": [
+                "putor",
+                "putaris",
+                "putatur",
+                "putamur",
+                "putamini",
+                "putantur"
+            ],
+            "imperfektpassiv": [
+                "putabar",
+                "putabaris",
+                "putabatur",
+                "putabamur",
+                "putabamini",
+                "putabantur"
+            ],
+            "futurpassiv": [
+                "putabor",
+                "putaberis",
+                "putabitur",
+                "putabimur",
+                "putabimini",
+                "putabuntur"
             ]
         }
     },
@@ -2790,6 +4494,30 @@
                 "putavimus",
                 "putavistis",
                 "putaverunt"
+            ],
+            "preasenspassiv": [
+                "putor",
+                "putaris",
+                "putatur",
+                "putamur",
+                "putamini",
+                "putantur"
+            ],
+            "imperfektpassiv": [
+                "putabar",
+                "putabaris",
+                "putabatur",
+                "putabamur",
+                "putabamini",
+                "putabantur"
+            ],
+            "futurpassiv": [
+                "putabor",
+                "putaberis",
+                "putabitur",
+                "putabimur",
+                "putabimini",
+                "putabuntur"
             ]
         }
     },
@@ -2829,6 +4557,30 @@
                 "quaesivimus",
                 "quaesivistis",
                 "quaesiverunt"
+            ],
+            "preasenspassiv": [
+                "quaeritur",
+                "quaereris",
+                "quaeritur",
+                "quaerimur",
+                "quaerimini",
+                "quaeruntur"
+            ],
+            "imperfektpassiv": [
+                "quaerebar",
+                "quaerebaris",
+                "quaerebatur",
+                "quaerebamur",
+                "quaerebamini",
+                "quaerebantur"
+            ],
+            "futurpassiv": [
+                "quaerar",
+                "quaereris",
+                "quaeretur",
+                "quaeremur",
+                "quaeremini",
+                "quaerentur"
             ]
         }
     },
@@ -2868,6 +4620,30 @@
                 "rapuimus",
                 "rapuistis",
                 "rapuerunt"
+            ],
+            "preasenspassiv": [
+                "rapeor",
+                "raperis",
+                "rapetur",
+                "rapemur",
+                "rapemini",
+                "rapentur"
+            ],
+            "imperfektpassiv": [
+                "rapebar",
+                "rapebaris",
+                "rapebatur",
+                "rapebamur",
+                "rapebamini",
+                "rapebantur"
+            ],
+            "futurpassiv": [
+                "rapar",
+                "raperis",
+                "rapetur",
+                "rapemur",
+                "rapemini",
+                "rapentur"
             ]
         }
     },
@@ -2907,6 +4683,30 @@
                 "reliquimus",
                 "reliquistis",
                 "reliquerunt"
+            ],
+            "preasenspassiv": [
+                "relinquitur",
+                "relinqueris",
+                "relinquitur",
+                "relinquimur",
+                "relinquimini",
+                "relinquuntur"
+            ],
+            "imperfektpassiv": [
+                "relinquebar",
+                "relinquebaris",
+                "relinquebatur",
+                "relinquebamur",
+                "relinquebamini",
+                "relinquebantur"
+            ],
+            "futurpassiv": [
+                "relinquar",
+                "relinqueris",
+                "relinquetur",
+                "relinquemur",
+                "relinquemini",
+                "relinquentur"
             ]
         }
     },
@@ -2946,6 +4746,30 @@
                 "respondimus",
                 "respondistis",
                 "responderunt"
+            ],
+            "preasenspassiv": [
+                "respondeor",
+                "responderis",
+                "respondetur",
+                "respondemur",
+                "respondemini",
+                "respondentur"
+            ],
+            "imperfektpassiv": [
+                "respondebar",
+                "respondebaris",
+                "respondebatur",
+                "respondebamur",
+                "respondebamini",
+                "respondebantur"
+            ],
+            "futurpassiv": [
+                "respondebor",
+                "respondeberis",
+                "respondebitur",
+                "respondebimur",
+                "respondebimini",
+                "respondebuntur"
             ]
         }
     },
@@ -2985,6 +4809,30 @@
                 "rogavimus",
                 "rogavistis",
                 "rogaverunt"
+            ],
+            "preasenspassiv": [
+                "rogor",
+                "rogaris",
+                "rogatur",
+                "rogamur",
+                "rogamini",
+                "rogantur"
+            ],
+            "imperfektpassiv": [
+                "rogabar",
+                "rogabaris",
+                "rogabatur",
+                "rogabamur",
+                "rogabamini",
+                "rogabantur"
+            ],
+            "futurpassiv": [
+                "rogabor",
+                "rogaberis",
+                "rogabitur",
+                "rogabimur",
+                "rogabimini",
+                "rogabuntur"
             ]
         }
     },
@@ -3024,6 +4872,30 @@
                 "salutavimus",
                 "salutavistis",
                 "salutaverunt"
+            ],
+            "preasenspassiv": [
+                "salutor",
+                "salutaris",
+                "salutatur",
+                "salutamur",
+                "salutamini",
+                "salutantur"
+            ],
+            "imperfektpassiv": [
+                "salutabar",
+                "salutabaris",
+                "salutabatur",
+                "salutabamur",
+                "salutabamini",
+                "salutabantur"
+            ],
+            "futurpassiv": [
+                "salutabor",
+                "salutaberis",
+                "salutabitur",
+                "salutabimur",
+                "salutabimini",
+                "salutabuntur"
             ]
         }
     },
@@ -3063,6 +4935,30 @@
                 "scripsimus",
                 "scripsistis",
                 "scripserunt"
+            ],
+            "preasenspassiv": [
+                "scribitur",
+                "scriberis",
+                "scribitur",
+                "scribimur",
+                "scribimini",
+                "scribuntur"
+            ],
+            "imperfektpassiv": [
+                "scribebar",
+                "scribebaris",
+                "scribebatur",
+                "scribebamur",
+                "scribebamini",
+                "scribebantur"
+            ],
+            "futurpassiv": [
+                "scribar",
+                "scriberis",
+                "scribetur",
+                "scribemur",
+                "scribemini",
+                "scribentur"
             ]
         }
     },
@@ -3102,6 +4998,30 @@
                 "praebuimus",
                 "praebuistis",
                 "praebuerunt"
+            ],
+            "preasenspassiv": [
+                "se praebeor",
+                "se praeberis",
+                "se praebetur",
+                "se praebemur",
+                "se praebemini",
+                "se praebentur"
+            ],
+            "imperfektpassiv": [
+                "se praebebar",
+                "se praebebaris",
+                "se praebebatur",
+                "se praebebamur",
+                "se praebebamini",
+                "se praebebantur"
+            ],
+            "futurpassiv": [
+                "se praebebor",
+                "se praebeberis",
+                "se praebebitur",
+                "se praebebimur",
+                "se praebebimini",
+                "se praebebuntur"
             ]
         }
     },
@@ -3141,6 +5061,30 @@
                 "sedimus",
                 "sedistis",
                 "sederunt"
+            ],
+            "preasenspassiv": [
+                "sedeor",
+                "sederis",
+                "sedetur",
+                "sedemur",
+                "sedemini",
+                "sedentur"
+            ],
+            "imperfektpassiv": [
+                "sedebar",
+                "sedebaris",
+                "sedebatur",
+                "sedebamur",
+                "sedebamini",
+                "sedebantur"
+            ],
+            "futurpassiv": [
+                "sedebor",
+                "sedeberis",
+                "sedebitur",
+                "sedebimur",
+                "sedebimini",
+                "sedebuntur"
             ]
         }
     },
@@ -3180,6 +5124,30 @@
                 "servavimus",
                 "servavistis",
                 "servaverunt"
+            ],
+            "preasenspassiv": [
+                "servor",
+                "servaris",
+                "servatur",
+                "servamur",
+                "servamini",
+                "servantur"
+            ],
+            "imperfektpassiv": [
+                "servabar",
+                "servabaris",
+                "servabatur",
+                "servabamur",
+                "servabamini",
+                "servabantur"
+            ],
+            "futurpassiv": [
+                "servabor",
+                "servaberis",
+                "servabitur",
+                "servabimur",
+                "servabimini",
+                "servabuntur"
             ]
         }
     },
@@ -3212,7 +5180,31 @@
                 "solebitis",
                 "solebunt"
             ],
-            "perfekt": []
+            "perfekt": [],
+            "preasenspassiv": [
+                "soleor",
+                "soleris",
+                "soletur",
+                "solemur",
+                "solemini",
+                "solentur"
+            ],
+            "imperfektpassiv": [
+                "solebar",
+                "solebaris",
+                "solebatur",
+                "solebamur",
+                "solebamini",
+                "solebantur"
+            ],
+            "futurpassiv": [
+                "solebor",
+                "soleberis",
+                "solebitur",
+                "solebimur",
+                "solebimini",
+                "solebuntur"
+            ]
         }
     },
     {
@@ -3251,6 +5243,30 @@
                 "studuimus",
                 "studuistis",
                 "studuerunt"
+            ],
+            "preasenspassiv": [
+                "studeor",
+                "studeris",
+                "studetur",
+                "studemur",
+                "studemini",
+                "studentur"
+            ],
+            "imperfektpassiv": [
+                "studebar",
+                "studebaris",
+                "studebatur",
+                "studebamur",
+                "studebamini",
+                "studebantur"
+            ],
+            "futurpassiv": [
+                "studebor",
+                "studeberis",
+                "studebitur",
+                "studebimur",
+                "studebimini",
+                "studebuntur"
             ]
         }
     },
@@ -3290,6 +5306,30 @@
                 "superavimus",
                 "superavistis",
                 "superaverunt"
+            ],
+            "preasenspassiv": [
+                "superor",
+                "superaris",
+                "superatur",
+                "superamur",
+                "superamini",
+                "superantur"
+            ],
+            "imperfektpassiv": [
+                "superabar",
+                "superabaris",
+                "superabatur",
+                "superabamur",
+                "superabamini",
+                "superabantur"
+            ],
+            "futurpassiv": [
+                "superabor",
+                "superaberis",
+                "superabitur",
+                "superabimur",
+                "superabimini",
+                "superabuntur"
             ]
         }
     },
@@ -3329,6 +5369,30 @@
                 "tacuimus",
                 "tacuistis",
                 "tacuerunt"
+            ],
+            "preasenspassiv": [
+                "taceor",
+                "taceris",
+                "tacetur",
+                "tacemur",
+                "tacemini",
+                "tacentur"
+            ],
+            "imperfektpassiv": [
+                "tacebar",
+                "tacebaris",
+                "tacebatur",
+                "tacebamur",
+                "tacebamini",
+                "tacebantur"
+            ],
+            "futurpassiv": [
+                "tacebor",
+                "taceberis",
+                "tacebitur",
+                "tacebimur",
+                "tacebimini",
+                "tacebuntur"
             ]
         }
     },
@@ -3368,6 +5432,30 @@
                 "toleravimus",
                 "toleravistis",
                 "toleraverunt"
+            ],
+            "preasenspassiv": [
+                "toleror",
+                "toleraris",
+                "toleratur",
+                "toleramur",
+                "toleramini",
+                "tolerantur"
+            ],
+            "imperfektpassiv": [
+                "tolerabar",
+                "tolerabaris",
+                "tolerabatur",
+                "tolerabamur",
+                "tolerabamini",
+                "tolerabantur"
+            ],
+            "futurpassiv": [
+                "tolerabor",
+                "toleraberis",
+                "tolerabitur",
+                "tolerabimur",
+                "tolerabimini",
+                "tolerabuntur"
             ]
         }
     },
@@ -3407,6 +5495,30 @@
                 "venimus",
                 "venistis",
                 "venerunt"
+            ],
+            "preasenspassiv": [
+                "venior",
+                "veneris",
+                "venitur",
+                "venimur",
+                "venimini",
+                "veniuntur"
+            ],
+            "imperfektpassiv": [
+                "veniebar",
+                "veniebaris",
+                "veniebatur",
+                "veniebamur",
+                "veniebamini",
+                "veniebantur"
+            ],
+            "futurpassiv": [
+                "veniar",
+                "venieris",
+                "venietur",
+                "veniemur",
+                "veniemini",
+                "venientur"
             ]
         }
     },
@@ -3446,6 +5558,30 @@
                 "vidimus",
                 "vidistis",
                 "viderunt"
+            ],
+            "preasenspassiv": [
+                "videor",
+                "videris",
+                "videtur",
+                "videmur",
+                "videmini",
+                "videntur"
+            ],
+            "imperfektpassiv": [
+                "videbar",
+                "videbaris",
+                "videbatur",
+                "videbamur",
+                "videbamini",
+                "videbantur"
+            ],
+            "futurpassiv": [
+                "videbor",
+                "videberis",
+                "videbitur",
+                "videbimur",
+                "videbimini",
+                "videbuntur"
             ]
         }
     },
@@ -3485,6 +5621,30 @@
                 "visitavimus",
                 "visitavistis",
                 "visitaverunt"
+            ],
+            "preasenspassiv": [
+                "visitor",
+                "visitaris",
+                "visitatur",
+                "visitamur",
+                "visitamini",
+                "visitantur"
+            ],
+            "imperfektpassiv": [
+                "visitabar",
+                "visitabaris",
+                "visitabatur",
+                "visitabamur",
+                "visitabamini",
+                "visitabantur"
+            ],
+            "futurpassiv": [
+                "visitabor",
+                "visitaberis",
+                "visitabitur",
+                "visitabimur",
+                "visitabimini",
+                "visitabuntur"
             ]
         }
     },
@@ -3524,6 +5684,30 @@
                 "viximus",
                 "vixistis",
                 "vixerunt"
+            ],
+            "preasenspassiv": [
+                "vivitur",
+                "viveris",
+                "vivitur",
+                "vivimur",
+                "vivimini",
+                "vivuntur"
+            ],
+            "imperfektpassiv": [
+                "vivebar",
+                "vivebaris",
+                "vivebatur",
+                "vivebamur",
+                "vivebamini",
+                "vivebantur"
+            ],
+            "futurpassiv": [
+                "vivar",
+                "viveris",
+                "vivetur",
+                "vivemur",
+                "vivemini",
+                "viventur"
             ]
         }
     },
@@ -3563,6 +5747,30 @@
                 "vocavimus",
                 "vocavistis",
                 "vocaverunt"
+            ],
+            "preasenspassiv": [
+                "vocor",
+                "vocaris",
+                "vocatur",
+                "vocamur",
+                "vocamini",
+                "vocantur"
+            ],
+            "imperfektpassiv": [
+                "vocabar",
+                "vocabaris",
+                "vocabatur",
+                "vocabamur",
+                "vocabamini",
+                "vocabantur"
+            ],
+            "futurpassiv": [
+                "vocabor",
+                "vocaberis",
+                "vocabitur",
+                "vocabimur",
+                "vocabimini",
+                "vocabuntur"
             ]
         }
     },
@@ -3602,6 +5810,30 @@
                 "vocavimus",
                 "vocavistis",
                 "vocaverunt"
+            ],
+            "preasenspassiv": [
+                "vocor",
+                "vocaris",
+                "vocatur",
+                "vocamur",
+                "vocamini",
+                "vocantur"
+            ],
+            "imperfektpassiv": [
+                "vocabar",
+                "vocabaris",
+                "vocabatur",
+                "vocabamur",
+                "vocabamini",
+                "vocabantur"
+            ],
+            "futurpassiv": [
+                "vocabor",
+                "vocaberis",
+                "vocabitur",
+                "vocabimur",
+                "vocabimini",
+                "vocabuntur"
             ]
         }
     },
@@ -3641,6 +5873,30 @@
                 "animadvertimus",
                 "animadvertistis",
                 "animadverterunt"
+            ],
+            "preasenspassiv": [
+                "animadvertitur",
+                "animadverteris",
+                "animadvertitur",
+                "animadvertimur",
+                "animadvertimini",
+                "animadvertuntur"
+            ],
+            "imperfektpassiv": [
+                "animadvertebar",
+                "animadvertebaris",
+                "animadvertebatur",
+                "animadvertebamur",
+                "animadvertebamini",
+                "animadvertebantur"
+            ],
+            "futurpassiv": [
+                "animadvertar",
+                "animadverteris",
+                "animadvertetur",
+                "animadvertemur",
+                "animadvertemini",
+                "animadvertentur"
             ]
         }
     },
@@ -3680,6 +5936,30 @@
                 "fugimus",
                 "fugistis",
                 "fugerunt"
+            ],
+            "preasenspassiv": [
+                "fugeor",
+                "fugeris",
+                "fugetur",
+                "fugemur",
+                "fugemini",
+                "fugentur"
+            ],
+            "imperfektpassiv": [
+                "fugebar",
+                "fugebaris",
+                "fugebatur",
+                "fugebamur",
+                "fugebamini",
+                "fugebantur"
+            ],
+            "futurpassiv": [
+                "fugar",
+                "fugeris",
+                "fugetur",
+                "fugemur",
+                "fugemini",
+                "fugentur"
             ]
         }
     },
@@ -3719,6 +5999,30 @@
                 "effugimus",
                 "effugistis",
                 "effugerunt"
+            ],
+            "preasenspassiv": [
+                "effugeor",
+                "effugeris",
+                "effugetur",
+                "effugemur",
+                "effugemini",
+                "effugentur"
+            ],
+            "imperfektpassiv": [
+                "effugebar",
+                "effugebaris",
+                "effugebatur",
+                "effugebamur",
+                "effugebamini",
+                "effugebantur"
+            ],
+            "futurpassiv": [
+                "effugar",
+                "effugeris",
+                "effugetur",
+                "effugemur",
+                "effugemini",
+                "effugentur"
             ]
         }
     },
@@ -3758,6 +6062,30 @@
                 "stetimus",
                 "stetistis",
                 "steterunt"
+            ],
+            "preasenspassiv": [
+                "stitur",
+                "steris",
+                "stitur",
+                "stimur",
+                "stimini",
+                "stuntur"
+            ],
+            "imperfektpassiv": [
+                "stebar",
+                "stebaris",
+                "stebatur",
+                "stebamur",
+                "stebamini",
+                "stebantur"
+            ],
+            "futurpassiv": [
+                "star",
+                "steris",
+                "stetur",
+                "stemur",
+                "stemini",
+                "stentur"
             ]
         }
     },
@@ -3797,6 +6125,30 @@
                 "inst<bold>i</bold>timus",
                 "inst<bold>i</bold>tistis",
                 "inst<bold>i</bold>terunt"
+            ],
+            "preasenspassiv": [
+                "instor",
+                "instaris",
+                "instatur",
+                "instamur",
+                "instamini",
+                "instantur"
+            ],
+            "imperfektpassiv": [
+                "instabar",
+                "instabaris",
+                "instabatur",
+                "instabamur",
+                "instabamini",
+                "instabantur"
+            ],
+            "futurpassiv": [
+                "instabor",
+                "instaberis",
+                "instabitur",
+                "instabimur",
+                "instabimini",
+                "instabuntur"
             ]
         }
     },
@@ -3836,6 +6188,30 @@
                 "rest<bold>i</bold>timus",
                 "rest<bold>i</bold>tistis",
                 "rest<bold>i</bold>terunt"
+            ],
+            "preasenspassiv": [
+                "restor",
+                "restaris",
+                "restatur",
+                "restamur",
+                "restamini",
+                "restantur"
+            ],
+            "imperfektpassiv": [
+                "restabar",
+                "restabaris",
+                "restabatur",
+                "restabamur",
+                "restabamini",
+                "restabantur"
+            ],
+            "futurpassiv": [
+                "restabor",
+                "restaberis",
+                "restabitur",
+                "restabimur",
+                "restabimini",
+                "restabuntur"
             ]
         }
     },
@@ -3875,6 +6251,30 @@
                 "petivimus",
                 "petivistis",
                 "petiverunt"
+            ],
+            "preasenspassiv": [
+                "petitur",
+                "peteris",
+                "petitur",
+                "petimur",
+                "petimini",
+                "petuntur"
+            ],
+            "imperfektpassiv": [
+                "petebar",
+                "petebaris",
+                "petebatur",
+                "petebamur",
+                "petebamini",
+                "petebantur"
+            ],
+            "futurpassiv": [
+                "petar",
+                "peteris",
+                "petetur",
+                "petemur",
+                "petemini",
+                "petentur"
             ]
         }
     },
@@ -3914,6 +6314,30 @@
                 "tenuimus",
                 "tenuistis",
                 "tenuerunt"
+            ],
+            "preasenspassiv": [
+                "teneor",
+                "teneris",
+                "tenetur",
+                "tenemur",
+                "tenemini",
+                "tenentur"
+            ],
+            "imperfektpassiv": [
+                "tenebar",
+                "tenebaris",
+                "tenebatur",
+                "tenebamur",
+                "tenebamini",
+                "tenebantur"
+            ],
+            "futurpassiv": [
+                "tenebor",
+                "teneberis",
+                "tenebitur",
+                "tenebimur",
+                "tenebimini",
+                "tenebuntur"
             ]
         }
     },
@@ -3953,6 +6377,30 @@
                 "cavimus",
                 "cavistis",
                 "caverunt"
+            ],
+            "preasenspassiv": [
+                "caveor",
+                "caveris",
+                "cavetur",
+                "cavemur",
+                "cavemini",
+                "caventur"
+            ],
+            "imperfektpassiv": [
+                "cavebar",
+                "cavebaris",
+                "cavebatur",
+                "cavebamur",
+                "cavebamini",
+                "cavebantur"
+            ],
+            "futurpassiv": [
+                "cavebor",
+                "caveberis",
+                "cavebitur",
+                "cavebimur",
+                "cavebimini",
+                "cavebuntur"
             ]
         }
     },
@@ -3992,6 +6440,30 @@
                 "convenimus",
                 "convenistis",
                 "convenerunt"
+            ],
+            "preasenspassiv": [
+                "convenior",
+                "conveneris",
+                "convenitur",
+                "convenimur",
+                "convenimini",
+                "conveniuntur"
+            ],
+            "imperfektpassiv": [
+                "conveniebar",
+                "conveniebaris",
+                "conveniebatur",
+                "conveniebamur",
+                "conveniebamini",
+                "conveniebantur"
+            ],
+            "futurpassiv": [
+                "conveniar",
+                "convenieris",
+                "convenietur",
+                "conveniemur",
+                "conveniemini",
+                "convenientur"
             ]
         }
     },
@@ -4031,6 +6503,30 @@
                 "deposuimus",
                 "deposuistis",
                 "deposuerunt"
+            ],
+            "preasenspassiv": [
+                "deponitur",
+                "deponeris",
+                "deponitur",
+                "deponimur",
+                "deponimini",
+                "deponuntur"
+            ],
+            "imperfektpassiv": [
+                "deponebar",
+                "deponebaris",
+                "deponebatur",
+                "deponebamur",
+                "deponebamini",
+                "deponebantur"
+            ],
+            "futurpassiv": [
+                "deponar",
+                "deponeris",
+                "deponetur",
+                "deponemur",
+                "deponemini",
+                "deponentur"
             ]
         }
     },
@@ -4070,6 +6566,30 @@
                 "expectavimus",
                 "expectavistis",
                 "expectaverunt"
+            ],
+            "preasenspassiv": [
+                "expector",
+                "expectaris",
+                "expectatur",
+                "expectamur",
+                "expectamini",
+                "expectantur"
+            ],
+            "imperfektpassiv": [
+                "expectabar",
+                "expectabaris",
+                "expectabatur",
+                "expectabamur",
+                "expectabamini",
+                "expectabantur"
+            ],
+            "futurpassiv": [
+                "expectabor",
+                "expectaberis",
+                "expectabitur",
+                "expectabimur",
+                "expectabimini",
+                "expectabuntur"
             ]
         }
     },
@@ -4109,6 +6629,30 @@
                 "horruimus",
                 "horruistis",
                 "horruerunt"
+            ],
+            "preasenspassiv": [
+                "horreor",
+                "horreris",
+                "horretur",
+                "horremur",
+                "horremini",
+                "horrentur"
+            ],
+            "imperfektpassiv": [
+                "horrebar",
+                "horrebaris",
+                "horrebatur",
+                "horrebamur",
+                "horrebamini",
+                "horrebantur"
+            ],
+            "futurpassiv": [
+                "horrebor",
+                "horreberis",
+                "horrebitur",
+                "horrebimur",
+                "horrebimini",
+                "horrebuntur"
             ]
         }
     },
@@ -4148,6 +6692,30 @@
                 "nocuimus",
                 "nocuistis",
                 "nocuerunt"
+            ],
+            "preasenspassiv": [
+                "noceor",
+                "noceris",
+                "nocetur",
+                "nocemur",
+                "nocemini",
+                "nocentur"
+            ],
+            "imperfektpassiv": [
+                "nocebar",
+                "nocebaris",
+                "nocebatur",
+                "nocebamur",
+                "nocebamini",
+                "nocebantur"
+            ],
+            "futurpassiv": [
+                "nocebor",
+                "noceberis",
+                "nocebitur",
+                "nocebimur",
+                "nocebimini",
+                "nocebuntur"
             ]
         }
     },
@@ -4187,6 +6755,30 @@
                 "poposcimus",
                 "poposcistis",
                 "poposcerunt"
+            ],
+            "preasenspassiv": [
+                "poscitur",
+                "posceris",
+                "poscitur",
+                "poscimur",
+                "poscimini",
+                "poscuntur"
+            ],
+            "imperfektpassiv": [
+                "poscebar",
+                "poscebaris",
+                "poscebatur",
+                "poscebamur",
+                "poscebamini",
+                "poscebantur"
+            ],
+            "futurpassiv": [
+                "poscar",
+                "posceris",
+                "poscetur",
+                "poscemur",
+                "poscemini",
+                "poscentur"
             ]
         }
     },
@@ -4226,6 +6818,30 @@
                 "reximus",
                 "rexistis",
                 "rexerunt"
+            ],
+            "preasenspassiv": [
+                "regitur",
+                "regeris",
+                "regitur",
+                "regimur",
+                "regimini",
+                "reguntur"
+            ],
+            "imperfektpassiv": [
+                "regebar",
+                "regebaris",
+                "regebatur",
+                "regebamur",
+                "regebamini",
+                "regebantur"
+            ],
+            "futurpassiv": [
+                "regar",
+                "regeris",
+                "regetur",
+                "regemur",
+                "regemini",
+                "regentur"
             ]
         }
     },
@@ -4265,6 +6881,30 @@
                 "scivimus",
                 "scivistis",
                 "sciverunt"
+            ],
+            "preasenspassiv": [
+                "scior",
+                "sceris",
+                "scitur",
+                "scimur",
+                "scimini",
+                "sciuntur"
+            ],
+            "imperfektpassiv": [
+                "sciebar",
+                "sciebaris",
+                "sciebatur",
+                "sciebamur",
+                "sciebamini",
+                "sciebantur"
+            ],
+            "futurpassiv": [
+                "sciar",
+                "scieris",
+                "scietur",
+                "sciemur",
+                "sciemini",
+                "scientur"
             ]
         }
     },
@@ -4304,6 +6944,30 @@
                 "nescivimus",
                 "nescivistis",
                 "nesciverunt"
+            ],
+            "preasenspassiv": [
+                "nescior",
+                "nesceris",
+                "nescitur",
+                "nescimur",
+                "nescimini",
+                "nesciuntur"
+            ],
+            "imperfektpassiv": [
+                "nesciebar",
+                "nesciebaris",
+                "nesciebatur",
+                "nesciebamur",
+                "nesciebamini",
+                "nesciebantur"
+            ],
+            "futurpassiv": [
+                "nesciar",
+                "nescieris",
+                "nescietur",
+                "nesciemur",
+                "nesciemini",
+                "nescientur"
             ]
         }
     }

@@ -10,7 +10,36 @@ const verbs_visible = {
 
 let verbsLength = 0;
 let currentVerbShown = undefined;
-const possibleVerbTypes = ["Futur", "Imperfekt", "Normal", "Perfekt"]
+const possibleVerbTypes = [
+    {
+        id: "normal",
+        name: "Präsens Aktiv"
+    },
+    {
+        id: "imperfekt",
+        name: "Imperfekt Aktiv"
+    },
+    {
+        id: "futur",
+        name: "Futur Aktiv"
+    },
+    {
+        id: "perfekt",
+        name: "Perfekt"
+    },
+    {
+        id: "preasenspassiv",
+        name: "Präsens Passiv"
+    }, 
+    {
+        id: "imperfektpassiv",
+        name: "Imperfekt Passiv"
+    },
+    {
+        id: "futurpassiv",
+        name: "Futur Passiv"
+    }
+]
 
 
 const verbs_questionField = document.querySelector(".verbs_questionField");
@@ -35,7 +64,7 @@ const revealVerbAwnser = () => {
 
 
 
-let currentVerbButton; 
+let currentVerbButton;
 
 const showVerbButtons = (button) => {
 
@@ -58,17 +87,17 @@ const showVerbButtons = (button) => {
 const getRandomVerb = () => {
     const verb = verbsDB[Math.floor(verbsLength * Math.random())];
 
-    const type = possibleVerbTypes[Math.floor(possibleVerbTypes.length  * Math.random())]
-    const conjugationType = verb.conjugations[type.toLowerCase()];
+    const type = possibleVerbTypes[Math.floor(possibleVerbTypes.length * Math.random())]
+    const conjugationType = verb.conjugations[type.id];
 
-    const descriptor = Math.floor(conjugationType.length  * Math.random());
+    const descriptor = Math.floor(conjugationType.length * Math.random());
     const randomType = conjugationType[descriptor];
 
     let readableName = "";
 
-    if((descriptor + 1) > 3) readableName = (descriptor - 2) + ".Pl. " + (type === "Normal" ? "Präsens" : type);
-    else readableName = (descriptor + 1)  + ".Sg. " + (type === "Normal" ? "Präsens" : type);
-    
+    if ((descriptor + 1) > 3) readableName = (descriptor - 2) + ". Pl. " + type.name;
+    else readableName = (descriptor + 1) + ". Sg. " + type.name;
+
     return {
         result: randomType,
         name: readableName,
@@ -83,7 +112,7 @@ const showVerb = () => {
     verbs_questionField.innerHTML = randomVerb.result;
     currentVerbShown = randomVerb;
 }
- 
+
 const onShowVerbAwnser = () => {
     revealVerbAwnser();
     showVerbButtons(Button.AWNSERS);
