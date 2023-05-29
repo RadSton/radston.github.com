@@ -42,7 +42,7 @@ let COLOR_SETTINGS = [
 ];
 
 
-const updateLocalStorage = (update = false) => {
+const updateLocalStorageSettingColors = (update = false) => {
     const stored = JSON.parse(localStorage.getItem("settings_colors"));
     if (!stored || update) {
         const toStore = {};
@@ -61,10 +61,10 @@ const updateLocalStorage = (update = false) => {
 }
 
 try {
-    updateLocalStorage();
+    updateLocalStorageSettingColors();
 } catch (e) {
     localStorage.clear();
-    updateLocalStorage();
+    updateLocalStorageSettingColors();
 }
 
 
@@ -84,12 +84,44 @@ const settings_change = () => {
 
 }
 
+
+
+// save
+
+document.querySelector("[setting=save1_save]").addEventListener("click", (e) => {
+    const backup = e.target.innerHTML;
+    saveProgress("save1");
+    e.target.innerHTML += " (Success!)"
+    setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
+});
+document.querySelector("[setting=save1_read]").addEventListener("click", (e) => {
+    const backup = e.target.innerHTML;
+    if (localStorage.getItem("save1") != 'undefined' && localStorage.getItem("save1").length > 2) {
+        load("save1");
+        e.target.innerHTML += " (Success!)"
+        setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
+    } else {
+        e.target.innerHTML += " (ERROR: Not found)"
+        setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
+    }
+});
+document.querySelector("[setting=save1_delete]").addEventListener("click", (e) => {
+    clearStorage("save1");
+    const backup = e.target.innerHTML;
+    e.target.innerHTML += " (Success!)"
+    setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
+});
+
+
+
+
+
 const save = () => {
     for (const setting of COLOR_SETTINGS) {
         setting.current = setting.element.value;
     }
 
-    updateLocalStorage(true);
+    updateLocalStorageSettingColors(true);
 }
 
 const reset = () => {
@@ -102,3 +134,9 @@ const reset = () => {
 
 document.querySelector("[button_id=\"settings_save\"]").addEventListener("click", save);
 document.querySelector("[button_id=\"settings_reset\"]").addEventListener("click", reset);
+
+
+
+
+
+

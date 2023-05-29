@@ -58,13 +58,11 @@ for (const menu of menus) {
             menu.menu.classList.remove("hidden");
             menu.button.classList.add("menu__item__active");
 
-            if (menu.menu.className.includes("library")) {
-                console.log("opend_library")
+            if (menu.menu.className.includes("library")) 
                 gtag('event', 'opened_library', {});
-            } else if(menu.menu.className.includes("settings")) {
+            else if(menu.menu.className.includes("settings"))
                 gtag('event', 'opened_settings', {});
-                console.log("opened_settings")
-            }
+            
         });
 }
 

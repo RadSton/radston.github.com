@@ -9,23 +9,25 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=0.8">
 
-    <meta content="Vokabel Trainer v1.0 BETA made by radston12" property="og:title">
-    <meta content="Cooler neuer Trainer mit konfigurierbarem Design, Mobile Support und vielem mehr!"
+    <meta content="Vokabel Trainer v1.1 PreRelease made by radston12" property="og:title">
+    <meta content="Jetzt auch mit einem extra Speicherslot, diesen kannst du über die Einstellungen verwenden!"
         property="og:description">
     <meta content="https://radston.github.io/ver3/" property="og:url">
-    <meta content="VokTrainer v1.0-beta" property="og:site_name">
+    <meta content="VokTrainer v1.1-prerealease" property="og:site_name">
     <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
 
     <link rel="stylesheet" href="style.css">
     <script src="js/updater.js"></script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5BN2F0V2Z"></script>
+    <!--
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5BN2F0V2Z"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-H5BN2F0V2Z');
     </script>
+    -->
 </head>
 
 <body class="preload">
@@ -141,20 +143,24 @@
             <section class="not-middled">
 
                 <setting>
-                    <text>Speicherfunktionen <red>(WIP)</red></text>
+                    <text>Speicher</text>
                     <hr>
                     <table>
-                        <tr>
-                            <td width="100%">Anzahl an gespeicherten Sessions</td>
-                            <td><input setting="saved_study_sessions" placeholder="20" type="number"></td>
-                        </tr>
-                        <tr>
+                        <!--<tr>
                             <td width="100%">Gerätespeicher exportieren</td>
                             <td><button setting="export_save">Export</button></td>
+                        </tr>-->
+                        <tr>
+                            <td width="100%">Speicherstand 1 überschreiben</td>
+                            <td><button setting="save1_save">Save</button></td>
                         </tr>
                         <tr>
-                            <td width="100%">Gerätespeicher importieren</td>
-                            <td><button setting="import_save">Import</button></td>
+                            <td width="100%">Speicherstand 1 lesen</td>
+                            <td><button setting="save1_read">Read</button></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Speicherstand 1 löschen</td>
+                            <td><button setting="save1_delete">Delete</button></td>
                         </tr>
                     </table>
                 </setting>
@@ -197,7 +203,6 @@
                 <button button_id="settings_reset">Reset</button>
             </bottombar>
         </div>
-
         <div class="verbs">
 
             <section class="verbs_question">

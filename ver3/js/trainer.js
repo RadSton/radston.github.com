@@ -169,7 +169,6 @@ const handleAwnser = (good) => {
             currentTraining.stats.wrongWords++;
         }
         if (!getNextVocabular()) {
-            console.log("Done!");
             // Temporary solution: Refresh page TODO: Get more intelligent 
             clearStorage();
             window.location.href = window.location.href;
@@ -203,18 +202,14 @@ const handleTrainKeyPress = (e) => {
 
 // dev
 
-const SAVE_NAME = "currentTraining";
-
-const saveProgress = () => {
+const saveProgress = (SAVE_NAME = "currentTraining") => {
     localStorage.setItem(SAVE_NAME, JSON.stringify(currentTraining));
 } 
 
-const load = () => {
+const load = (SAVE_NAME = "currentTraining") => {
     const tempCurrentTraining = JSON.parse(localStorage.getItem(SAVE_NAME));
     if(!tempCurrentTraining) return;
     if(!tempCurrentTraining.set || !tempCurrentTraining.stats || !tempCurrentTraining.wrongs) return;
-
-    console.log(tempCurrentTraining);
 
     currentTraining.set = mixArray(tempCurrentTraining.set);
     currentTraining.stats = tempCurrentTraining.stats;
@@ -228,7 +223,7 @@ const load = () => {
     updateUi();
 }
 
-const clearStorage = () => {
+const clearStorage = (SAVE_NAME = "currentTraining") => {
     localStorage.setItem(SAVE_NAME, undefined);
 }
 
