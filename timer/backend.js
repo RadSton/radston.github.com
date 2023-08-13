@@ -33,6 +33,9 @@ let milliseconds = document.querySelector(".milliseconds > span");
 let sdays = document.querySelector(".sdays > span");
 let free = document.querySelector(".free > span");
 let weekends = document.querySelector(".weekends > span");
+let yesterday = document.querySelector(".yesterday > span");
+let today = document.querySelector(".today > span");
+let tomorrow = document.querySelector(".tomorrow > span");
 
 
 const getTypeOfDay = (date) => {
@@ -40,6 +43,9 @@ const getTypeOfDay = (date) => {
 
     let month = date.getMonth();
     let day = date.getDate();
+
+    if(month == 7) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
+    if(month == 8 && day <= 3) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
 
     if (month == 9) {
         if(day == 26) return TYPE_OF_FREE_DAY.NATIONALFEIERTAG;
@@ -154,11 +160,20 @@ const updateSmallTimer = () => {
     weekends.innerHTML = shouldInclude(school.weekends, "");
 }
 
+const updateMoreInfo = () => {
+    var d1 = new Date();d1.setDate(new Date().getDate() - 1);
+    var d2 = new Date();d2.setDate(new Date().getDate() + 1);
+    yesterday.innerHTML = getTypeOfDay(d1).name;
+    today.innerHTML = getTypeOfDay(new Date()).name;
+    tomorrow.innerHTML = getTypeOfDay(d2).name;
+}
+
 const animate = () => {
     fpsCounter++;
     currentTime.innerHTML = getCurrentTime();
     updateBigTimer();
     updateSmallTimer();
+    updateMoreInfo();
     requestAnimationFrame(animate);
 }
 
