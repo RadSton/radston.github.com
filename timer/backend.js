@@ -1,9 +1,22 @@
-const LAST_DAY = new Date("2023-06-30T12:00:00.000Z");
+const LAST_DAY = new Date("2024-06-28T12:00:00.000Z");
 const TYPE_OF_FREE_DAY = {
+    NATIONALFEIERTAG: { name: "Nationalfeiertag", datum: "26.10" },
+    HERBSTFERIEN: { name: "Herbstferien", datum: "27.10-31.10" },
+    ALLERHEILIGEN: { name: "Allerheiligen", datum: "01.11" },
+    ALLERSEELEN: { name: "Allerseelen", datum: "02.11" },
+    SCHULAUTONOM_HERBST: { name: "Schulautonom", datum: "03.11" },
+    LANDESPATRON: { name: "Landespatron", datum: "15.11" },
+    MARIAEMPFAENGNISS: { name: "Mariaempfängniss", datum: "08.12" },
+    WEIHNACHTSFERIEN: { name: "Weihnachtsferien", datum: "24.12-06.01" },
+    SEMESTERFERIEN: { name: "Semesterferien", datum: "05.02-11.02" },
+    OSTERFERIEN: { name: "Osterferien", datum: "23.03-01.04" },
+    SCHULAUTONOM_OSTERN: { name: "Schulautonom", datum: "02.04" },
     STAATSFEIERTAG: { name: "Staatsfeiertag", datum: "01.05" },
-    CHRISTIHIMMELFAHRT: { name: "Christi Himmelfahrt", datum: "18.05-19.05" },
-    PFINGSTMONTAG: { name: "Pfingstmontag", datum: "29.05" },
-    FROHNLEICHNAHM: { name: "Fronleichnam", datum: "08.06-09.06" },
+    CHRISTIHIMMELFAHRT: { name: "Christi Himmelfahrt", datum: "09.05" },
+    PFINGSTFERIEN: { name: "Pfingstferien", datum: "18.05-20.05" },
+    SCHULAUTONOM_PFINGSTEN: { name: "Schulautonom", datum: "21.05" },
+    FROHNLEICHNAHM: { name: "Fronleichnam", datum: "30.05" },
+    SCHULAUTONOM_ENDE: { name: "Schulautonom", datum: "31.05" },
     WEEKEND: { name: "Wochenende" }
 }
 
@@ -28,14 +41,34 @@ const getTypeOfDay = (date) => {
     let month = date.getMonth();
     let day = date.getDate();
 
-    if (month == 4) { // 5
+    if (month == 9) {
+        if(day == 26) return TYPE_OF_FREE_DAY.NATIONALFEIERTAG;
+        if(day >= 27 && day <= 31) return TYPE_OF_FREE_DAY.HERBSTFERIEN;
+    } else if (month == 10) {
+        if(day == 1) return TYPE_OF_FREE_DAY.ALLERHEILIGEN;
+        if(day == 2) return TYPE_OF_FREE_DAY.ALLERSEELEN;
+        if(day == 3) return TYPE_OF_FREE_DAY.SCHULAUTONOM_HERBST;
+        if(day == 15) return TYPE_OF_FREE_DAY.LANDESPATRON;
+    } else if (month == 11) {
+        if(day == 24) return TYPE_OF_FREE_DAY.MARIAEMPFAENGNISS;
+        if(day >= 24) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
+    } else if (month == 0) {
+        if(day <= 6) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
+    } else if (month == 1) {
+        if (day >= 5 && day <= 11) return TYPE_OF_FREE_DAY.SEMESTERFERIEN;
+    } else if (month == 2) {
+        if (day >= 23) return TYPE_OF_FREE_DAY.OSTERFERIEN;
+    } else if (month == 3) {
+        if (day == 1) return TYPE_OF_FREE_DAY.OSTERFERIEN;
+        if (day == 2) return TYPE_OF_FREE_DAY.SCHULAUTONOM_OSTERN;
+    } else if (month == 4) { // 5
         if (day == 1) return TYPE_OF_FREE_DAY.STAATSFEIERTAG;
-        if (day == 18 || day == 19) return TYPE_OF_FREE_DAY.CHRISTIHIMMELFAHRT;
-        if (day == 29) return TYPE_OF_FREE_DAY.PFINGSTMONTAG;
-    } else if (month == 5) { // 6
-        if (day == 8 || day == 9) return TYPE_OF_FREE_DAY.FROHNLEICHNAHM;
+        if (day == 9) return TYPE_OF_FREE_DAY.CHRISTIHIMMELFAHRT;
+        if (day >= 18 && day <= 20) return TYPE_OF_FREE_DAY.PFINGSTFERIEN;
+        if (day == 21) return TYPE_OF_FREE_DAY.SCHULAUTONOM_PFINGSTEN;
+        if (day == 30) return TYPE_OF_FREE_DAY.FROHNLEICHNAHM;
+        if (day == 31) return TYPE_OF_FREE_DAY.SCHULAUTONOM_ENDE;
     }
-
     return;
 }
 
