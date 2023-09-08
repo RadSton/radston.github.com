@@ -44,22 +44,22 @@ const getTypeOfDay = (date) => {
     let month = date.getMonth();
     let day = date.getDate();
 
-    if(month == 7) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
-    if(month == 8 && day <= 3) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
+    if (month == 7) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
+    if (month == 8 && day <= 3) return TYPE_OF_FREE_DAY.WEEKEND // sommerferien
 
     if (month == 9) {
-        if(day == 26) return TYPE_OF_FREE_DAY.NATIONALFEIERTAG;
-        if(day >= 27 && day <= 31) return TYPE_OF_FREE_DAY.HERBSTFERIEN;
+        if (day == 26) return TYPE_OF_FREE_DAY.NATIONALFEIERTAG;
+        if (day >= 27 && day <= 31) return TYPE_OF_FREE_DAY.HERBSTFERIEN;
     } else if (month == 10) {
-        if(day == 1) return TYPE_OF_FREE_DAY.ALLERHEILIGEN;
-        if(day == 2) return TYPE_OF_FREE_DAY.ALLERSEELEN;
-        if(day == 3) return TYPE_OF_FREE_DAY.SCHULAUTONOM_HERBST;
-        if(day == 15) return TYPE_OF_FREE_DAY.LANDESPATRON;
+        if (day == 1) return TYPE_OF_FREE_DAY.ALLERHEILIGEN;
+        if (day == 2) return TYPE_OF_FREE_DAY.ALLERSEELEN;
+        if (day == 3) return TYPE_OF_FREE_DAY.SCHULAUTONOM_HERBST;
+        if (day == 15) return TYPE_OF_FREE_DAY.LANDESPATRON;
     } else if (month == 11) {
-        if(day == 24) return TYPE_OF_FREE_DAY.MARIAEMPFAENGNISS;
-        if(day >= 24) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
+        if (day == 24) return TYPE_OF_FREE_DAY.MARIAEMPFAENGNISS;
+        if (day >= 24) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
     } else if (month == 0) {
-        if(day <= 6) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
+        if (day <= 6) return TYPE_OF_FREE_DAY.WEIHNACHTSFERIEN;
     } else if (month == 1) {
         if (day >= 5 && day <= 11) return TYPE_OF_FREE_DAY.SEMESTERFERIEN;
     } else if (month == 2) {
@@ -160,12 +160,19 @@ const updateSmallTimer = () => {
     weekends.innerHTML = shouldInclude(school.weekends, "");
 }
 
+const writeToElement = (ele, date) => {
+    let typeOfDay = getTypeOfDay(date);
+    if (typeOfDay == undefined) typeOfDay = "Schultag";
+    else typeOfDay = typeOfDay.name;
+    ele.innerHTML = typeOfDay;
+}
+
 const updateMoreInfo = () => {
-    var d1 = new Date();d1.setDate(new Date().getDate() - 1);
-    var d2 = new Date();d2.setDate(new Date().getDate() + 1);
-    yesterday.innerHTML = getTypeOfDay(d1).name;
-    today.innerHTML = getTypeOfDay(new Date()).name;
-    tomorrow.innerHTML = getTypeOfDay(d2).name;
+    var d1 = new Date(); d1.setDate(new Date().getDate() - 1);
+    var d2 = new Date(); d2.setDate(new Date().getDate() + 1);
+    writeToElement(yesterday, d1);
+    writeToElement(today, new Date());
+    writeToElement(tomorrow, d2);
 }
 
 const animate = () => {
