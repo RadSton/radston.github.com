@@ -17,7 +17,7 @@ const generateBookSearchResult = (latin, german) => {
 const runBookSearchForLatinVocabulary = (input) => {
     const search = findLatinVocabularyFromBook(input);
     let counter = 0;
-    let str = "<span class=\"booksearch--warning\">KEINE GARANTIE AUF RICHTIGKEIT</span>";
+    let str = "<span class=\"booksearch--warning\">VIELE VOKABEL SIND INKORREKT! DIES LIEGT AN EINEM SCAN FEHLER DES BUCHES</span>";
     for (const se of search) {
         counter++;
         str += generateBookSearchResult(se.l, se.d);
