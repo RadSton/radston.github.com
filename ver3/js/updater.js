@@ -2,7 +2,7 @@
 const DEV = false;
 const VOCABULAR_DATABASE = "./db/data.json";
 const VERBS_DATABASE = "./db/verbs.json";
-const VERSION_NUMBER = "1.0-beta";
+const VERSION_NUMBER = "1.1";
 
 // dev settings
 const MENU_VISUALLISATION = false;

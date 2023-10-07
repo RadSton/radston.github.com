@@ -4,7 +4,6 @@ const menus = [
         button: document.querySelector("[name=\"dashboard\"]"),
     },
     {
-        default: true,
         menu: document.querySelector(".testing"),
         button: document.querySelector("[name=\"testing\"]"),
     },
@@ -25,6 +24,14 @@ const menus = [
         menu: document.querySelector(".verbs"),
         button: document.querySelector("[name=\"verbs\"]"),
         update: () => settings_change()
+    },
+    {
+
+        default: true,
+        menu: document.querySelector(".booksearch"),
+        button: document.querySelector("[name=\"booksearch\"]"),
+        update: () => clearBookSearchItems(),
+        onshow: () => runBookSearchForLatinVocabulary("")
     },
 ]
 
@@ -49,6 +56,7 @@ for (const menu of menus) {
     if (menu.default || MENU_VISUALLISATION) {
         if (menu.button) menu.button.classList.add("menu__item__active");
         menu.menu.classList.remove("hidden");
+        if (menu.onshow) menu.onshow();
     }
     if (menu.button)
         menu.button.addEventListener("click", (event) => {
@@ -58,11 +66,13 @@ for (const menu of menus) {
             menu.menu.classList.remove("hidden");
             menu.button.classList.add("menu__item__active");
 
-            if (menu.menu.className.includes("library")) 
+            if (menu.onshow) menu.onshow();
+
+            if (menu.menu.className.includes("library"))
                 gtag('event', 'opened_library', {});
-            else if(menu.menu.className.includes("settings"))
+            else if (menu.menu.className.includes("settings"))
                 gtag('event', 'opened_settings', {});
-            
+
         });
 }
 
@@ -81,8 +91,8 @@ window.onunload = () => {
     _waitForFinalHit = true;
 
     gtag('event', 'closedpage', {
-        duration: Math.floor((Date.now() - initalLoad) /  1000),
-        hitCallback: function() {
+        duration: Math.floor((Date.now() - initalLoad) / 1000),
+        hitCallback: function () {
             _waitForFinalHit = false;
         }
     });

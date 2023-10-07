@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/updater.js"></script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.5.0/papaparse.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5BN2F0V2Z"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -44,6 +44,9 @@
         </a>
         <a class="menu__item" name="verbs">
             <i class="material-icons">extension</i>
+        </a>
+        <a class="menu__item" name="booksearch">
+            <i class="material-icons">travel_explore</i>
         </a>
         <a class="menu__item" name="settings">
             <i class="material-icons">settings</i>
@@ -137,6 +140,27 @@
             <bottombar>
                 <button vocabulary_view="button">Trainieren</button>
             </bottombar>
+        </div>
+        <div class="booksearch">
+            <form>
+                <div class="booksearchbar">
+                    <span class="material-icons">travel_explore</span>
+                    <input type="text" placeholder="Lateinbuch durchsuchen">
+                    <span class="booksearchbar--text">(LOADING) gefunden</span>
+                </div>
+                <div class="booksearch_results">
+                    
+                    <!-- SAMPLE DATA 
+                    <div class="booksearch--entry">
+                        <div class="booksearch--entry--latin">sedere</div>
+                        <div class="booksearch--entry--spacer">
+                            <div></div>
+                        </div>
+                        <div class="booksearch--entry--german">sizen</div>
+                    </div>
+                    -->
+                </div>
+            </form>
         </div>
         <div class="settings">
             <section class="title">Settings</section>
@@ -233,6 +257,7 @@
     <script src="js/library.js"></script>
     <script src="js/vocUtils.js"></script>
     <script src="js/settings.js"></script>
+    <script src="js/booksearch.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/trainer.js"></script>
     <script src="js/verbs.js"></script>
