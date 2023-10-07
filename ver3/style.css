@@ -413,7 +413,7 @@ td[trainer_style]:hover>i {
 
     .menu__item {
         padding: 0px;
-        width: 24%;
+        width: 19%;
         height: 100%;
         display: inline-flex;
     }
@@ -466,9 +466,9 @@ bold {
 }
 
 .booksearch--entry {
+    border: var(--bg-secondary) solid 1px;
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    height: fit-content;
     font-size: 24pt;
     margin: 5px;
     display: grid;
@@ -506,4 +506,16 @@ bold {
     text-align: center;
     width: 100%;
     display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+    .booksearch--entry {
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .booksearch--entry {
+        font-size: 10pt;
+    }
 }

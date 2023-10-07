@@ -4,6 +4,7 @@ const menus = [
         button: document.querySelector("[name=\"dashboard\"]"),
     },
     {
+        default: true,
         menu: document.querySelector(".testing"),
         button: document.querySelector("[name=\"testing\"]"),
     },
@@ -26,8 +27,6 @@ const menus = [
         update: () => settings_change()
     },
     {
-
-        default: true,
         menu: document.querySelector(".booksearch"),
         button: document.querySelector("[name=\"booksearch\"]"),
         update: () => clearBookSearchItems(),
