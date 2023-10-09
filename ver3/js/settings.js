@@ -88,32 +88,42 @@ const settings_change = () => {
 
 // save
 
-document.querySelector("[setting=save1_save]").addEventListener("click", (e) => {
-    const backup = e.target.innerHTML;
-    saveProgress("save1");
-    e.target.innerHTML += " (Success!)"
-    setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
-});
-document.querySelector("[setting=save1_read]").addEventListener("click", (e) => {
-    const backup = e.target.innerHTML;
-    if (localStorage.getItem("save1") != 'undefined' && localStorage.getItem("save1").length > 2) {
-        load("save1");
-        e.target.innerHTML += " (Success!)"
-        setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
-    } else {
-        e.target.innerHTML += " (ERROR: Not found)"
-        setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
+const register = () => {
+    const saveButton = document.querySelector("[setting=save1_save]");
+    const origSaveButtonName = saveButton.innerHTML;
+    const readButton = document.querySelector("[setting=save1_read]");
+    const origReadButtonName = readButton.innerHTML;
+    const deleteButton = document.querySelector("[setting=save1_delete]");
+    const origDeleteButtonName = deleteButton.innerHTML;
+
+    const showSuccess = (normalText, target, text = " (Success!)") => {
+        target.innerHTML = normalText + text;
+        setTimeout((back, target) => { target.innerHTML = back; }, 1000, normalText, target)
     }
-});
-document.querySelector("[setting=save1_delete]").addEventListener("click", (e) => {
-    clearStorage("save1");
-    const backup = e.target.innerHTML;
-    e.target.innerHTML += " (Success!)"
-    setTimeout((back, target) => { target.innerHTML = back; }, 1000, backup, e.target)
-});
 
+    saveButton.addEventListener("click", (e) => {
+        saveProgress("save1");
+        showSuccess(origSaveButtonName, saveButton);
+    });
 
+    readButton.addEventListener("click", (e) => {
+        if (!(localStorage.getItem("save1") != 'undefined' && localStorage.getItem("save1").length > 2)) {
+            showSuccess(origReadButtonName, readButton, " (ERROR: No save found)");
+            return;
+        }
 
+        load("save1");
+        showSuccess(origReadButtonName, readButton);
+    });
+
+    deleteButton.addEventListener("click", (e) => {
+        clearStorage("save1");
+        showSuccess(origDeleteButtonName, deleteButton);
+    });
+
+}
+
+register();
 
 
 const save = () => {
