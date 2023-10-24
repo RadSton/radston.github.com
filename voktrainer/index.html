@@ -1,0 +1,286 @@
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+    <title>Home</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+
+    <meta content="Vokabel Trainer vBETA-1.3 made by radston12" property="og:title">
+    <meta content="Diese Version ist nur " property="og:description">
+    <meta content="https://radston.github.io/voktrainer/" property="og:url">
+    <meta content="VokTrainer v1.3-BETA" property="og:site_name">
+    <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/booksearch.css">
+    <link rel="stylesheet" href="css/library.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/trainer.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.5.0/papaparse.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0QET4YSYK"></script>
+    <script>
+        let PROD_MODE = true;
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-V0QET4YSYK');
+    </script>
+    <!--    
+-->
+    <script src="js/updater.js"></script>
+</head>
+
+<body class="preload">
+
+    <nav class="menu">
+        <!--- <a class="menu__item menu__item__active" name="dashboard">
+            <i class="material-icons">home</i>
+        </a> --->
+        <a class="menu__item" name="testing">
+            <i class="material-icons">school</i>
+        </a>
+        <a class="menu__item" name="library">
+            <i class="material-icons">book</i>
+        </a>
+        <a class="menu__item" name="verbs">
+            <i class="material-icons">extension</i>
+        </a>
+        <a class="menu__item" name="booksearch">
+            <i class="material-icons">travel_explore</i>
+        </a>
+        <a class="menu__item" name="settings">
+            <i class="material-icons">settings</i>
+        </a>
+    </nav>
+
+    <main>
+
+        <div class="dashboard"></div>
+        <div class="testing">
+
+            <section trainer="div">
+                <table trainer="table">
+                    <tr>
+                        <th width="16%">Einheit</th>
+                        <th width="16%">Gesamt</th>
+                        <th width="16%">angezeigte Wörter</th>
+                        <th width="16%">richtige Wörter</th>
+                        <th width="16%">falsche Wörter</th>
+                        <th width="16%">Prozentsatz</th>
+                    </tr>
+                    <tr>
+                        <td trainer_ui="vocset_name">Nicht verfügbar</td>
+                        <td trainer_ui="vocset_cards">0</td>
+                        <td trainer_ui="vocset_learned">0</td>
+                        <td trainer_ui="vocset_right">0</td>
+                        <td trainer_ui="vocset_wrong">0</td>
+                        <td trainer_ui="vocset_percent">0%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="testing_question">
+                <span class="subquestion"></span>
+                <text class="question">Gehe auf <i class="material-icons" style="font-size: 20pt">book</i> wähle ein Set
+                    aus und drücke unten auf "Überprüfen" oder auf "Lernen"</text>
+                <div class="showing"></div>
+            </section>
+            <section class="testing_awnser">
+                <table>
+                    <tr>
+                        <td trainer_style trainer="right"><i class="material-icons">sentiment_satisfied</i></td>
+                        <td trainer_style trainer="star"><i class="material-icons">star</i></td>
+                        <td trainer_style trainer="wrong"><i class="material-icons">sentiment_dissatisfied</i></td>
+                        <td trainer_style trainer="visibility"><i class="material-icons">visibility</i></td>
+                    </tr>
+                    <tr>
+                        <th trainer="right">Wusste ich </th>
+                        <th trainer="star">Merken</th>
+                        <th trainer="wrong">Wusste ich nicht</th>
+                        <th trainer="visibility">Aufdecken</th>
+                    </tr>
+                </table>
+            </section>
+
+        </div>
+        <div class="library">
+            <section class="title">Vokabel Sets</section>
+            <section class="max vocsets">
+
+                <!-- SAMPLE DATA - normaly inserted by javascript
+                <div class="vocset">
+                    <div class="voc_set_description">
+                        <div class="count">
+                            <div class="count_description">Vokabel</div>
+                            <div class="count_value">109</div>
+                        </div>
+                        <div class="vocset_name">Latein SA 4 Vokabel</div>
+                        <div class="vocset_author">by radplat</div>
+                    </div>
+                </div>
+            -->
+
+            </section>
+
+        </div>
+        <div class="vocabulary_view">
+            <section class="title">Vokabel Übersicht</section>
+            <section class="max vocsets">
+
+                <spacer></spacer>
+                <spacer></spacer>
+
+                <div class="vocabulary_view_vocab_list">
+                    <text vocabulary_view="title"></text>
+                    <hr>
+                    <table vocabulary_view="table" type="vocabulary_view">
+                        <tr vocabulary_view="format"></tr>
+                    </table>
+                </div>
+            </section>
+            <bottombar>
+                <button vocabulary_view="train_button">Überprüfen</button>
+                <button vocabulary_view="button">Lernen</button>
+            </bottombar>
+        </div>
+        <div class="booksearch">
+            <form>
+                <div class="booksearchbar">
+                    <span class="material-icons">travel_explore</span>
+                    <input type="text" placeholder="Lateinbuch durchsuchen">
+                    <span class="booksearchbar--text">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </span>
+                </div>
+                <div class="booksearch_results">
+
+                    <!-- SAMPLE DATA 
+                    <div class="booksearch--entry">
+                        <div class="booksearch--entry--latin">sedere</div>
+                        <div class="booksearch--entry--spacer">
+                            <div></div>
+                        </div>
+                        <div class="booksearch--entry--german">sizen</div>
+                    </div>
+                    -->
+                </div>
+            </form>
+        </div>
+        <div class="settings">
+            <section class="title">Settings</section>
+            <section class="not-middled">
+
+                <setting>
+                    <text>Speicher</text>
+                    <hr>
+                    <table>
+                        <!--
+                            <tr>
+                                <td width="100%">Gerätespeicher exportieren</td>
+                                <td><button setting="export_save">Export</button></td>
+                            </tr>
+                        -->
+                        <tr>
+                            <td width="100%">Speicherstand 1 überschreiben</td>
+                            <td><button setting="save1_save">Save</button></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Speicherstand 1 lesen</td>
+                            <td><button setting="save1_read">Read</button></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Speicherstand 1 löschen</td>
+                            <td><button setting="save1_delete">Delete</button></td>
+                        </tr>
+                    </table>
+                </setting>
+
+                <setting>
+                    <text>Farben</text>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td width="100%">Textprimärfarbe</td>
+                            <td><input setting="text_primary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Textsekundärfarbe</td>
+                            <td><input setting="text_sekundary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundprimärfarbe</td>
+                            <td><input setting="back_primary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundsekundärfarbe</td>
+                            <td><input setting="back_second" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Hintergrundterzierfarbe</td>
+                            <td><input setting="back_tertiary" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td width="100%">Akzentfarbe</td>
+                            <td><input setting="accent" type="color"></td>
+                        </tr>
+                    </table>
+                </setting>
+
+            </section>
+            <bottombar>
+
+                <button button_id="settings_save">Save</button>
+                <button button_id="settings_reset">Reset</button>
+            </bottombar>
+        </div>
+        <div class="verbs">
+
+            <section class="verbs_question">
+                <span class="subquestion"></span>
+                <text class="question verbs_questionField">Loading ...</text>
+                <div class="showing verbs_showing"></div>
+            </section>
+            <section class="verbs_awnser testing_awnser">
+                <table>
+                    <tr>
+                        <th verb="right">Nächstes Verb</th>
+                        <th verb="visibility">Aufdecken</th>
+                    </tr>
+                    <tr>
+                        <td trainer_style verb="right"><i class="material-icons">read_more</i></td>
+                        <td trainer_style verb="visibility"><i class="material-icons">visibility</i>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="js/library.js"></script>
+    <script src="js/vocUtils.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/booksearch.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/remember.js"></script>
+    <script src="js/trainer.js"></script>
+    <script src="js/verbs.js"></script>
+    <script src="js/learnAlgorithm.js"></script>
+
+
+</body>
+
+</html>

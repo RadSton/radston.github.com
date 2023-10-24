@@ -1,0 +1,88 @@
+let rememberdSet = [];
+
+const rememberdCategory = {
+    name: "Privat",
+    format: {
+        questions: [1, 2],
+        questions_str: ["Wie lautet die grammatische Kennzeichnung <br> von", "Wie lautet das deutsche Wort <br> von"],
+        result_str: "Wusstest du was richtig war?",
+        names: ["Latein", "gramatische Kennzeichnung", "Deutsch"],
+        sortable: true
+    },
+}
+
+const createRememberdSet = () => {
+    return {
+        name: "Gemerkt",
+        author: "dir",
+        vocabulary: rememberdSet
+    }
+}
+
+const addRememberd = (voc) => {
+    rememberdSet.push(voc);
+}
+
+const removeRemeberd = (voc) => {
+    let newArray = [];
+
+    for (const check of rememberdSet) {
+        let isCorrect = true;
+        for (var i = 0; i < Math.min(check.length, voc.length); i++) {
+            if (!(check[i] == voc[i])) {
+                isCorrect = false;
+                break;
+            }
+        }
+        if (!isCorrect) newArray.push(check);
+    }
+
+    rememberdSet = newArray;
+}
+
+const isRemeberd = (voc) => {
+    for (const check of rememberdSet) {
+        let isCorrect = true;
+        for (var i = 0; i < Math.min(check.length, voc.length); i++) {
+            if (!(check[i] == voc[i])) {
+                isCorrect = false;
+                break;
+            }
+        }
+        if (isCorrect) return true;
+    }
+
+    return false;
+}
+
+const initRemember = () => {
+    star.button.addEventListener("click", () => {
+        if (!isRemeberd(currentTraining.currentVocabular))
+            addRememberd(currentTraining.currentVocabular);
+        else
+            removeRemeberd(currentTraining.currentVocabular);
+
+
+        revealAwnser();
+
+        setTimeout(saveRemember, 0);
+    });
+}
+
+
+const saveRemember = (SAVE_NAME = "remember") => {
+    localStorage.setItem(SAVE_NAME, JSON.stringify(rememberdSet));
+    loadLibrary();
+}
+
+const loadRemember = (SAVE_NAME = "remember") => {
+    rememberdSet = JSON.parse(localStorage.getItem(SAVE_NAME));
+    if (!rememberdSet) rememberdSet = [];
+    if(vocabularyDB != undefined) loadLibrary();
+}
+
+const clearRemember = (SAVE_NAME = "remember") => {
+    localStorage.setItem(SAVE_NAME, undefined);
+}
+
+loadRemember();
