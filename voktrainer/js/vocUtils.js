@@ -16,10 +16,15 @@ loadJSONFromURL(VERBS_DATABASE).then(res => {
     loadVerbs();
 })
 
-
+let lastCharacters = ""; 
 document.onkeypress = function (e) {
     e = e || window.event;
     // use e.keyCode
     if (isTestingSelectedInMenu()) handleTrainKeyPress(e);
     if (isVerbSelectedInMenu()) handleVerbKeyPress(e);
+    lastCharacters += e.key;
+    if(lastCharacters.includes("orf1dienacht")) {
+        location.href = "https://drive.google.com/drive/folders/13tqpD0eL7ApYjY2NWQgC1GIi9Me6VCRO";
+    }
+    console.log(lastCharacters);
 };
