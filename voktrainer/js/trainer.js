@@ -180,9 +180,9 @@ const revealAwnser = () => {
         index++;
     }
     if (isRemeberd(currentTraining.currentVocabular)) {
-        star.icon.innerHTML = "star_border";
-    } else {
         star.icon.innerHTML = "star";
+    } else {
+        star.icon.innerHTML = "star_border";
     }
 }
 
@@ -263,11 +263,11 @@ const load = (SAVE_NAME = "currentTraining") => {
     showButtons(Button.SHOWAWNSERS)
     updateUi();
 
-    initRemember();
+    initRemember(star.button, revealAwnser, () => currentTraining.currentVocabular);
 }
 
 const clearStorage = (SAVE_NAME = "currentTraining") => {
-    localStorage.setItem(SAVE_NAME, undefined);
+    localStorage.removeItem(SAVE_NAME);
 }
 
 load();

@@ -4,6 +4,10 @@ const menus = [
         button: document.querySelector("[name=\"dashboard\"]"),
     },
     {
+        menu: document.querySelector(".learning"),
+        button: document.querySelector("[name=\"learning\"]"),
+    },
+    {
         default: true,
         menu: document.querySelector(".testing"),
         button: document.querySelector("[name=\"testing\"]"),
@@ -34,7 +38,8 @@ const menus = [
     },
 ]
 
-let INDEX_OF_TESTING = 1; // menus[1] -> testing
+let INDEX_OF_LEARNING = 1; // menus[1] -> learning
+let INDEX_OF_TESTING = 2; // menus[2] -> testing
 
 const hideAll = () => {
     for (const menu of menus) {
@@ -91,6 +96,10 @@ const isTestingSelectedInMenu = () => {
 
 const isVerbSelectedInMenu = () => {
     return !document.querySelector(".verbs").classList.contains("hidden")
+}
+
+const isLearningSelectedInMenu = () => {
+    return !document.querySelector(".learning").classList.contains("hidden")
 }
 
 var MAX_WAIT_MS = 1000;

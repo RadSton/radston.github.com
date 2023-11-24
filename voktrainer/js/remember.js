@@ -55,15 +55,14 @@ const isRemeberd = (voc) => {
     return false;
 }
 
-const initRemember = () => {
-    star.button.addEventListener("click", () => {
-        if (!isRemeberd(currentTraining.currentVocabular))
-            addRememberd(currentTraining.currentVocabular);
+const initRemember = (element, callback, getVocabular) => {
+    element.addEventListener("click", () => {
+        if (!isRemeberd(getVocabular()))
+            addRememberd(getVocabular());
         else
-            removeRemeberd(currentTraining.currentVocabular);
+            removeRemeberd(getVocabular());
 
-
-        revealAwnser();
+        callback();
 
         setTimeout(saveRemember, 0);
     });
@@ -78,7 +77,7 @@ const saveRemember = (SAVE_NAME = "remember") => {
 const loadRemember = (SAVE_NAME = "remember") => {
     rememberdSet = JSON.parse(localStorage.getItem(SAVE_NAME));
     if (!rememberdSet) rememberdSet = [];
-    if(vocabularyDB != undefined) loadLibrary();
+    if (vocabularyDB != undefined) loadLibrary();
 }
 
 const clearRemember = (SAVE_NAME = "remember") => {

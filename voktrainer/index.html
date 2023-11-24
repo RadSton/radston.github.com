@@ -2,6 +2,8 @@
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
@@ -9,8 +11,9 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=0.8">
 
-    <meta content="Vokabel Trainer vBETA-1.3 made by radston12" property="og:title">
-    <meta content="Diese Version ist nur für BETA Tester geeignet! KEINE GARANTIE AUF FUNKTION!!" property="og:description">
+    <meta content="Vokabel Trainer vBETA-1.4 made by radston12" property="og:title">
+    <meta content="Weniger als 2 Wochen noch! HILFE! Diese Version ist für BETA Tester geeignet, da sie mehr Fehler enthalten kann!"
+        property="og:description">
     <meta content="https://radston.github.io/voktrainer/" property="og:url">
     <meta content="VokTrainer v1.3-BETA" property="og:site_name">
     <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
@@ -20,7 +23,7 @@
     <link rel="stylesheet" href="css/library.css">
     <link rel="stylesheet" href="css/settings.css">
     <link rel="stylesheet" href="css/trainer.css">
-
+    <link rel="stylesheet" href="css/learning.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.5.0/papaparse.min.js"></script>
 
@@ -34,7 +37,7 @@
         gtag('js', new Date());
         gtag('config', 'G-V0QET4YSYK');
     </script>
-    <!--    comment block above to activate development mode
+    <!-- comment block above to activate development mode
 -->
     <script src="js/updater.js"></script>
 </head>
@@ -45,6 +48,9 @@
         <!--- <a class="menu__item menu__item__active" name="dashboard">
             <i class="material-icons">home</i>
         </a> --->
+        <a class="menu__item" name="learning">
+            <i class="material-icons">quiz</i>
+        </a>
         <a class="menu__item" name="testing">
             <i class="material-icons">school</i>
         </a>
@@ -91,7 +97,7 @@
             <section class="testing_question">
                 <span class="subquestion"></span>
                 <text class="question">Gehe auf <i class="material-icons" style="font-size: 20pt">book</i> wähle ein Set
-                    aus und drücke unten auf "Überprüfen" oder auf "Lernen"</text>
+                    aus und drücke unten auf "Überprüfen"</text>
                 <div class="showing"></div>
             </section>
             <section class="testing_awnser">
@@ -111,6 +117,51 @@
                 </table>
             </section>
 
+        </div>
+        <div class="learning">
+            <section trainer="div">
+                <table learning="table">
+                    <tr>
+                        <th width="16%">zu Wiederholen</th>
+                        <th width="16%">zu Lernen</th>
+                        <th width="16%">Bereits gelernt</th>
+                        <th width="16%">Prozentsatz</th>
+                    </tr>
+                    <tr>
+                        <td learning_ui="toRevise">0</td>
+                        <td learning_ui="toLearn">0</td>
+                        <td learning_ui="learned">0</td>
+                        <td learning_ui="percent">0%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="learning_question">
+                <span class="subquestion"></span>
+                <text class="question"></text>
+                <div class="showing"></div>
+            </section>
+            <section class="learning_awnser">
+                <table>
+                    <tr>
+                        <td trainer_style learning_button="perfect"><i class="material-symbols-outlined">bolt</i></td>
+                        <td trainer_style learning_button="hardly"><i
+                                class="material-symbols-outlined">psychology_alt</i></td>
+                        <td trainer_style learning_button="blackout"><i
+                                class="material-symbols-outlined">delete_history</i></td>
+                        <td trainer_style learning_button="reveal"><i class="material-symbols-outlined">visibility</i>
+                        </td>
+                        <td trainer_style learning_button="remember"><i class="material-icons">star_border</i></td>
+                    </tr>
+                    <tr>
+                        <th learning_text="perfect">Wusste ich perfekt </th>
+                        <th learning_text="hardly">Wusste ich </th>
+                        <th learning_text="blackout">Wusste ich nicht </th>
+                        <th learning_text="reveal">Aufdecken </th>
+                        <th learning_text="remember">Merken </th>
+                    </tr>
+                </table>
+            </section>
         </div>
         <div class="library">
             <section class="title">Vokabel Sets</section>
@@ -149,7 +200,6 @@
             </section>
             <bottombar>
                 <button vocabulary_view="train_button">Überprüfen</button>
-                <button vocabulary_view="button">Lernen</button>
             </bottombar>
         </div>
         <div class="booksearch">
@@ -279,8 +329,9 @@
     <script src="js/menu.js"></script>
     <script src="js/remember.js"></script>
     <script src="js/trainer.js"></script>
+    <script src="js/learning.js"></script>
     <script src="js/verbs.js"></script>
-    <script src="js/learnAlgorithm.js"></script>
+    <script src="js/sm2.js"></script>
 
 
 </body>
