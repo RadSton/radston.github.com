@@ -298,16 +298,12 @@ const onLearningLoad = () => {
 }
 
 const handleLearnKeyPress = (e) => {
-    if (currentButton == Button.AWNSERS) {
-        switch (e.keyCode) {
-
-            default: break;
-        }
-    } else if (currentButton == Button.SHOWAWNSERS) {
-        switch (e.keyCode) {
-
-            default: break;
-        }
+    if (LEARNING.CurrentButton == Button.AWNSERS) {
+        if (e.keyCode == 97) handleLearningAwnser("perfect");
+        if (e.keyCode == 115) handleLearningAwnser("hardly");
+        if (e.keyCode == 100) handleLearningAwnser("blackout");
+    } else if (LEARNING.CurrentButton == Button.SHOWAWNSERS) {
+        if (e.keyCode == 119) onShowLearningAwnser();
     }
 };
 
