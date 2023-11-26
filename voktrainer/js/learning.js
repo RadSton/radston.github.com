@@ -236,7 +236,7 @@ const handleLearningAwnser = (button) => {
 
     const ID = LEARNING.Data.currentVocabular.id;
 
-    LEARNING.Data.vocabularyData[ID] = [res.interval, res.repetitions, res.easeFactor];
+    LEARNING.Data.vocabularyData[ID] = [res.interval, res.repetitions, res.easeFactor, Date.now()];
 
     saveLearningStorage();
 
