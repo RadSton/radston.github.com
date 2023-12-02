@@ -179,6 +179,7 @@ const revealAwnser = () => {
         if (index != 0 && iter) addAwnser(iter);
         index++;
     }
+    console.log("revealAnwser")
     if (isRemeberd(currentTraining.currentVocabular)) {
         star.icon.innerHTML = "star";
     } else {
@@ -248,7 +249,10 @@ const saveProgress = (SAVE_NAME = "currentTraining") => {
 }
 
 const load = (SAVE_NAME = "currentTraining") => {
+    initRemember(star.button, revealAwnser, () => currentTraining.currentVocabular);
+    
     const tempCurrentTraining = JSON.parse(localStorage.getItem(SAVE_NAME));
+    
     if (!tempCurrentTraining) return;
     if (!tempCurrentTraining.set || !tempCurrentTraining.stats || !tempCurrentTraining.wrongs) return;
 
@@ -262,8 +266,6 @@ const load = (SAVE_NAME = "currentTraining") => {
     clearAwnsers();
     showButtons(Button.SHOWAWNSERS)
     updateUi();
-
-    initRemember(star.button, revealAwnser, () => currentTraining.currentVocabular);
 }
 
 const clearStorage = (SAVE_NAME = "currentTraining") => {
