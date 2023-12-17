@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmvorstellung</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            height: 100%;
+            font-size: 26pt;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .already {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .already>span {
+            font-size: 50vh;
+            color: red;
+            width: 100%;
+        }
+
+        .contents {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+
+        }
+
+        .choose {
+            display: grid;
+            gap: 1.2rem;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        }
+
+        .choose>div {
+            border: 1px solid white;
+            border-radius: 3px;
+        }
+
+        .choose>div>span {
+            font-size: 25vh;
+            width: 100%;
+        }
+
+        .choose>div:hover {
+            border: 1px solid #353535;
+        }
+
+        .choose>div:hover>span {
+            color: gray;
+        }
+
+        .choose>div:hover>label {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="already" style="display: none;">
+        <span class="material-symbols-outlined">
+            favorite
+        </span>
+        <label>Du hast bereits abgestimmt, danke!</label>
+    </div>
+    <div class="contents" style="display: none;">
+        <div class="choose">
+            <div class="yes">
+                <span class="material-symbols-outlined">
+                    thumb_up
+                </span>
+                <label>Ich komme</label>
+            </div>
+            <div class="no">
+                <span class="material-symbols-outlined">
+                    thumb_down
+                </span>
+                <label>Ich komme nicht</label>
+            </div>
+        </div>
+    </div>
+
+    <noscript>
+        Diese Seite funktioniert ohne JavaScript nicht!
+    </noscript>
+
+</body>
+
+<script>
+    const already = document.querySelector(".already");
+    const contents = document.querySelector(".contents");
+    const yes = document.querySelector(".yes");
+    const no = document.querySelector(".no");
+
+    if (localStorage.getItem("filmvorstellung")) {
+        already.style.display = "flex";
+        contents.style.display = "none";
+    } else {
+        already.style.display = "none";
+        contents.style.display = "flex";
+    }
+
+    yes.addEventListener("click", () => {
+        localStorage.setItem("filmvorstellung", 1);
+        window.location.replace("http://raddum.rf.gd/add.php");
+    })
+
+    no.addEventListener("click", () => {
+        localStorage.setItem("filmvorstellung", 0);
+        window.location.replace("http://127.0.0.1:5500/radston.github.com/filmvorstellung/danke.html");
+    })
+
+</script>
+
+</html>
