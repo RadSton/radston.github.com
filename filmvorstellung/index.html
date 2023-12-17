@@ -43,6 +43,64 @@
 
         }
 
+        .count {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .count>span {
+            font-size: 50vh;
+            color: white;
+            width: 100%;
+        }
+
+        .count>label {
+            width: 100%;
+        }
+
+        .count>input {
+            color: white;
+            border: 0;
+            background-color: black;
+
+        }
+        .count>div {
+            color: white;
+            border: 0;
+            background-color: black;
+            width: 100%;
+
+        }
+
+        input[type=number] {
+            width: 10vh;
+            border: 1px solid white;
+            position: relative;
+            padding: 5px;
+            padding-right: 25px;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+
+        input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: inner-spin-button !important;
+            width: 25px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+
         .choose {
             display: grid;
             gap: 1.2rem;
@@ -80,6 +138,14 @@
         </span>
         <label>Du hast bereits abgestimmt, danke!</label>
     </div>
+    <div class="count" style="display: none;">
+        <span class="material-symbols-outlined">
+            group
+        </span>
+        <label>Wie viele Personen seit ihr?</label>
+        <input type="number" value="2" class="number">
+        <div><button>Absenden</button></div>
+    </div>
     <div class="contents" style="display: none;">
         <div class="choose">
             <div class="yes">
@@ -106,10 +172,13 @@
 <script>
     const already = document.querySelector(".already");
     const contents = document.querySelector(".contents");
+    const count = document.querySelector(".count");
     const yes = document.querySelector(".yes");
     const no = document.querySelector(".no");
+    const input = document.querySelector("input");
+    const button = document.querySelector("button");
 
-    if (localStorage.getItem("filmvorstellung")) {
+    if (localStorage.getItem("filmvorstellung_v1")) {
         already.style.display = "flex";
         contents.style.display = "none";
     } else {
@@ -118,13 +187,18 @@
     }
 
     yes.addEventListener("click", () => {
-        localStorage.setItem("filmvorstellung", 1);
-        window.location.replace("http://raddum.rf.gd/add.php");
+        contents.style.display = "none";
+        count.style.display = "flex";   
+    })
+
+    button.addEventListener("click", () => {
+        localStorage.setItem("filmvorstellung_v1", input.value);
+        window.location.replace("http://raddum.rf.gd/add.php?count=" + input.value);
     })
 
     no.addEventListener("click", () => {
-        localStorage.setItem("filmvorstellung", 0);
-        window.location.replace("http://127.0.0.1:5500/radston.github.com/filmvorstellung/danke.html");
+        localStorage.setItem("filmvorstellung_v1", 0);
+        window.location.replace("http://radston.github.io/filmvorstellung/danke");
     })
 
 </script>
