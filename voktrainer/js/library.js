@@ -30,9 +30,6 @@ const showCategory = (cat) => {
 }
 
 const showVocSetInVocabularyView = (set, category, isCategory = false) => {
-    hideAll();
-    unmarkAllButtons();
-
     vocabulary_view.querySelector("[vocabulary_view=\"table\"]").innerHTML = `<tr vocabulary_view="format"></tr>`;
 
     vocabulary_view.querySelector("[vocabulary_view=\"title\"]").innerHTML = "Vokabel von " + category.name + (isCategory ? "/*" : "/" + set.name);
@@ -76,8 +73,7 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
             });
     })
 
-
-    vocabulary_view.classList.remove("hidden");
+    MenuManager.showMenu("vocabulary_view");
 }
 
 const loadLibrary = () => {

@@ -54,10 +54,12 @@ const updateLocalStorageSettingColors = (update = false) => {
 
         localStorage.setItem("settings_colors", JSON.stringify(toStore));
         update = false;
-    } else
-        for (const setting of COLOR_SETTINGS) {
-            setting.current = stored[setting.cssVar];
-        }
+        return;
+    }
+
+    for (const setting of COLOR_SETTINGS) {
+       setting.current = stored[setting.cssVar];
+    }
 }
 
 try {
@@ -67,24 +69,24 @@ try {
     updateLocalStorageSettingColors();
 }
 
-
-
-for (const setting of COLOR_SETTINGS) {
-
-    setting.element.addEventListener("input", (elem) => {
-        ROOT.style.setProperty(setting.cssVar, elem.target.value);
-    });
-}
+let hasRegistered = true;
 
 const settings_change = () => {
     for (const setting of COLOR_SETTINGS) {
         ROOT.style.setProperty(setting.cssVar, setting.current);
         setting.element.value = CS.getPropertyValue(setting.cssVar);
+
+        if(hasRegistered)
+            setting.element.addEventListener("input", (elem) => {
+                ROOT.style.setProperty(setting.cssVar, elem.target.value);
+            });
+
+        hasRegistered = false;
     }
 
 }
 
-
+settings_change();
 
 // save
 

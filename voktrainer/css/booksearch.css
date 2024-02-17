@@ -70,7 +70,8 @@
     .booksearch--entry {
         font-size: 14pt;
     }
-    .booksearchbar--text > p {
+
+    .booksearchbar--text>p {
         font-size: 1.5vw;
     }
 }
@@ -79,9 +80,9 @@
     .booksearch--entry {
         font-size: 10pt;
     }
-    
+
 }
 
-.booksearchbar--text > p {
+.booksearchbar--text>p {
     margin: 0;
 }

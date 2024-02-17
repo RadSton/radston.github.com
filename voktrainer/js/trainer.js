@@ -200,8 +200,7 @@ const trainSet = (set, category, isCategory = false) => {
     currentTraining.wrongs = [];
     getNextVocabular();
 
-    // open Testing
-    openMenuById(INDEX_OF_TESTING);
+    MenuManager.showMenu("trainer")
 }
 
 const handleAwnser = (good) => {
@@ -248,7 +247,16 @@ const saveProgress = (SAVE_NAME = "currentTraining") => {
     localStorage.setItem(SAVE_NAME, JSON.stringify(currentTraining));
 }
 
+let MENUES = []; 
 const load = (SAVE_NAME = "currentTraining") => {
+    MENUES.push(new TestingMenu())
+    MENUES.push(new LearningMenu())
+    MENUES.push(new LibraryMenu())
+    MENUES.push(new BooksearchMenu())
+    MENUES.push(new SettingsMenu())
+    MENUES.push(new VocabularyViewMenu())
+    MenuManager.load();
+
     initRemember(star.button, revealAwnser, () => currentTraining.currentVocabular);
     
     const tempCurrentTraining = JSON.parse(localStorage.getItem(SAVE_NAME));

@@ -29,7 +29,7 @@
 
 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0QET4YSYK"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0QET4YSYK"></script>
     <script>
         let PROD_MODE = true;
         window.dataLayer = window.dataLayer || [];
@@ -37,41 +37,49 @@
         gtag('js', new Date());
         gtag('config', 'G-V0QET4YSYK');
     </script>
-  <!--   comment block above to activate development mode
+   <!--    comment block above to activate development mode
 -->
     <script src="js/updater.js"></script>
+
+
+    <!-- MENUs -->
+    <script src="js/menu/Menu.js"></script>
+    <script src="js/menu/MenuManager.js"></script>
+
+    <script src="js/menu/LearningMenu.js"></script>
+    <script src="js/menu/TestingMenu.js"></script>
+    <script src="js/menu/LibraryMenu.js"></script>
+    <script src="js/menu/BooksearchMenu.js"></script>
+    <script src="js/menu/SettingsMenu.js"></script>
+    <script src="js/menu/VocabularyViewMenu.js"></script>
+
+
 </head>
 
 <body class="preload">
 
     <nav class="menu">
-        <!--- <a class="menu__item menu__item__active" name="dashboard">
-            <i class="material-icons">home</i>
-        </a> --->
-        <a class="menu__item" name="learning">
+        <menubutton class="menu__item" name="learning">
             <i class="material-icons">quiz</i>
-        </a>
-        <a class="menu__item" name="testing">
+        </menubutton>
+        <menubutton class="menu__item" name="trainer">
             <i class="material-icons">school</i>
-        </a>
-        <a class="menu__item" name="library">
+        </menubutton>
+        <menubutton class="menu__item" name="library">
             <i class="material-icons">book</i>
-        </a>
-        <a class="menu__item" name="verbs">
-            <i class="material-icons">extension</i>
-        </a>
-        <a class="menu__item" name="booksearch">
+        </menubutton>
+        <menubutton class="menu__item" name="booksearch">
             <i class="material-icons">travel_explore</i>
-        </a>
-        <a class="menu__item" name="settings">
+        </menubutton>
+        <menubutton class="menu__item" name="settings">
             <i class="material-icons">settings</i>
-        </a>
+        </menubutton>
     </nav>
 
     <main>
 
-        <div class="dashboard"></div>
-        <div class="testing">
+        <div class="dashboard" style="display: none;"></div>
+        <div menuIdentifyer="trainer" class="testing">
 
             <section trainer="div">
                 <table trainer="table">
@@ -118,7 +126,7 @@
             </section>
 
         </div>
-        <div class="learning">
+        <div menuIdentifyer="learning" class="learning">
             <section trainer="div">
                 <table learning="table">
                     <tr>
@@ -163,7 +171,7 @@
                 </table>
             </section>
         </div>
-        <div class="library">
+        <div menuIdentifyer="library" class="library">
             <section class="title">Vokabel Sets</section>
             <section class="max vocsets">
 
@@ -183,7 +191,7 @@
             </section>
 
         </div>
-        <div class="vocabulary_view">
+        <div menuIdentifyer="vocabulary_view"  class="vocabulary_view" style="display: none">
             <section class="title">Vokabel Übersicht</section>
             <section class="max vocsets">
 
@@ -202,7 +210,7 @@
                 <button vocabulary_view="train_button">Überprüfen</button>
             </bottombar>
         </div>
-        <div class="booksearch">
+        <div menuIdentifyer="booksearch" class="booksearch">
             <form>
                 <div class="booksearchbar">
                     <span class="material-icons">travel_explore</span>
@@ -228,7 +236,7 @@
                 </div>
             </form>
         </div>
-        <div class="settings">
+        <div menuIdentifyer="settings" class="settings">
             <section class="title">Settings</section>
             <section class="not-middled">
 
@@ -295,28 +303,7 @@
                 <button button_id="settings_reset">Reset</button>
             </bottombar>
         </div>
-        <div class="verbs">
-
-            <section class="verbs_question">
-                <span class="subquestion"></span>
-                <text class="question verbs_questionField">Loading ...</text>
-                <div class="showing verbs_showing"></div>
-            </section>
-            <section class="verbs_awnser testing_awnser">
-                <table>
-                    <tr>
-                        <th verb="right">Nächstes Verb</th>
-                        <th verb="visibility">Aufdecken</th>
-                    </tr>
-                    <tr>
-                        <td trainer_style verb="right"><i class="material-icons">read_more</i></td>
-                        <td trainer_style verb="visibility"><i class="material-icons">visibility</i>
-                        </td>
-                    </tr>
-                </table>
-            </section>
-        </div>
-
+       
     </main>
 
 
@@ -326,11 +313,9 @@
     <script src="js/vocUtils.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/booksearch.js"></script>
-    <script src="js/menu.js"></script>
     <script src="js/remember.js"></script>
     <script src="js/trainer.js"></script>
     <script src="js/learning.js"></script>
-    <script src="js/verbs.js"></script>
     <script src="js/sm2.js"></script>
 
 
