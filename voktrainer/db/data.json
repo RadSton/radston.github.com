@@ -11,6 +11,55 @@
             },
             "sets": [
                 {
+                    "name": "Lektion 20 - ABL-ABS",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["gegen meinen/deinen Willen",               "me/te invito"],
+                        ["unter Kaiser Augustus",                    "Augusto imperatore"],
+                        ["unter König Romulus",                      "Romulo rege"],
+                        ["Nachdem diese Sachen gehört worden waren / Nachdem (er/sie) das gehört hatte(n), ..", "Quibusl rebus auditis"],
+                        ["Nachdem dies gemacht worden war / Nachdem dies geschah", "Quol facto"],
+                        ["Nachdem diese Sache in Erfahrung gebracht worden war / Nachdem (er/sie) diese Sache erfahren hatte(n)", "Qua l re cognitä"],
+                        ["während die Römer herrschten = unter der Herrschaft der Römer", "Romanis imperantibus"]
+                    ]
+                },
+                {
+                    "name": "Lektion 20 - VOKABEL",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["appropinquare ",                           "1, -o, -avi, -atum",                       "sich nähern"],
+                        ["dux",                                      "ducis m.",                                 "(An-)Führer, Heerführer"],
+                        ["exercitus",                                "-us m.",                                   "Heer"],
+                        ["hortus",                                   "-i m.",                                    "Garten"],
+                        ["in-vitus",                                 "3",                                        "unwillig, gegen den Willen"],
+                        ["me invito",                                "(Abl. abs.)",                              "gegen meinen Willen"],
+                        ["ludere",                                   "3, ludo",                                  "spielen"],
+                        ["nauta",                                    "-ae m.",                                   "Seemann, Matrose"],
+                        ["nescius",                                  "3",                                        "unwissend"],
+                        ["se recipere",                              "3, <bold>me recipio</bold>, recepi, receptum", "sich zurückziehen"],
+                        ["regnare",                                  "1, -o, regnavi, regnatum",                 "herrschen"],
+                        ["aditus",                                   "-us m.",                                   "Zugang"],
+                        ["consulere",                                "3, -o, consului, consultum",               "jemanden um Rat fragen; sich beraten"],
+                        ["etiam",                                    "",                                         "auch, sogar"],
+                        ["facies",                                   "faciei f. (E-Dekl.)",                      "Gesicht"],
+                        ["idoneus",                                  "3",                                        "geeignet"],
+                        ["insidiae",                                 "-arum f. Pl.",                             "der Hinterhalt, Anschlag (Attentat)"],
+                        ["in-spicere ",                              "3, -io, -spexi, -spectum",                 "anschauen, untersuchen"],
+                        ["interdiu ",                                "(Adv.)",                                   "untertags"],
+                        ["latere ",                                  "2, -eo, latui",                            "verborgen/versteckt sein"],
+                        ["liquidus",                                 "3",                                        "flüssig"],
+                        ["mens",                                     "mentis f.",                                "Geist, Verstand"],
+                        ["mensa",                                    "-ae f.",                                   "Tisch"],
+                        ["piscis",                                   "-is m.",                                   "Fisch"],
+                        ["pudor",                                    "pudoris m.",                               "Schamgefühl; Schande"],
+                        ["solum",                                    "(Adv.)",                                   "nur, allein"],
+                        ["terra marique",                            "",                                         "zu Lande und zu Wasser, auf dem Land und auf dem Meer"],
+                        ["ubique",                                   "",                                         "überall, wo auch immer"],
+                        ["vestigium",                                "-i n.",                                    "Schritt, Spur"],
+                        ["vinum",                                    "-i n.",                                    "Wein"]
+                    ]
+                },
+                {
                     "name": "Lektion 18",
                     "author": "radston12",
                     "vocabulary": [
