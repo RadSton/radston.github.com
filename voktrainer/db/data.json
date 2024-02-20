@@ -11,19 +11,6 @@
             },
             "sets": [
                 {
-                    "name": "Lektion 20 - ABL-ABS",
-                    "author": "radston12",
-                    "vocabulary": [
-                        ["gegen meinen/deinen Willen",               "me/te invito"],
-                        ["unter Kaiser Augustus",                    "Augusto imperatore"],
-                        ["unter König Romulus",                      "Romulo rege"],
-                        ["Nachdem diese Sachen gehört worden waren / Nachdem (er/sie) das gehört hatte(n), ..", "Quibusl rebus auditis"],
-                        ["Nachdem dies gemacht worden war / Nachdem dies geschah", "Quol facto"],
-                        ["Nachdem diese Sache in Erfahrung gebracht worden war / Nachdem (er/sie) diese Sache erfahren hatte(n)", "Qua l re cognitä"],
-                        ["während die Römer herrschten = unter der Herrschaft der Römer", "Romanis imperantibus"]
-                    ]
-                },
-                {
                     "name": "Lektion 20 - VOKABEL",
                     "author": "radston12",
                     "vocabulary": [
@@ -882,6 +869,30 @@
                         ["Troiani",                 "-orum m. Pl.",                 "die Trojaner"],
                         ["tum",                     "(Adv.)",                       "damals, da; dann, darauf"],
                         ["Ulixes",                  "Gen.: Ulixis, Akk.: Ulixem",   "Odysseus"]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Latein ABL-ABS Übungem",
+            "format": {
+                "questions": [1],
+                "questions_str": ["Wie lautet die Deutsche Übersetzungg <br> von dem Abl. Abs. : "],
+                "result_str": "Wusstest du was richtig war?",
+                "names": ["Abl. Abs.","Deutsch"]
+            },
+            "sets": [ 
+                {
+                    "name": "Lektion 20 - ABL-ABS",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["me/te invito"                 ,"gegen meinen/deinen Willen"                                                                           ],
+                        ["Augusto imperatore"           ,"unter Kaiser Augustus"                                                                                ],
+                        ["Romulo rege"                  ,"unter König Romulus"                                                                                  ],
+                        ["Quibusl rebus auditis"        ,"Nachdem diese Sachen gehört worden waren / Nachdem (er/sie) das gehört hatte(n), .."                  ],
+                        ["Quol facto"                   ,"Nachdem dies gemacht worden war / Nachdem dies geschah"                                               ],
+                        ["Qua l re cognitä"             ,"Nachdem diese Sache in Erfahrung gebracht worden war / Nachdem (er/sie) diese Sache erfahren hatte(n)"],
+                        ["Romanis imperantibus"         ,"während die Römer herrschten = unter der Herrschaft der Römer"                                        ]
                     ]
                 }
             ]

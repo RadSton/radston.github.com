@@ -161,8 +161,12 @@ class MenuManager {
 
         MenuManager.hideAllMenus();
 
+        console.log(storedMenu);
+
         storedMenu.element.style.display = ""; // Reset to default
-        storedMenu.button.classList.add("menu__item__active"); // TODO: Customize // DONE
+        
+        if(storedMenu.hasButton && storedMenu.button.classList)
+            storedMenu.button.classList.add("menu__item__active"); // TODO: Customize // DONE
         
         this.#menuStorage.currentIdentifyer = identifyer;
 
@@ -181,7 +185,8 @@ class MenuManager {
             for (const func of storedMenu.onHide) func();
             
             storedMenu.element.style.display = "none";
-            storedMenu.button.classList.remove("menu__item__active"); // TODO: Customize // DONE
+            if(storedMenu.hasButton && storedMenu.button.classList)
+                storedMenu.button.classList.remove("menu__item__active"); // TODO: Customize // DONE
         }
     }
 
