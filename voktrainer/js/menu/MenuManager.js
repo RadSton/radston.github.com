@@ -4,6 +4,7 @@ class MenuManager {
         id: 0,
         ids: [],
         currentIdentifyer: undefined,
+        onInit: []
     };
 
 
@@ -54,6 +55,10 @@ class MenuManager {
         this.#menuStorage[menu.getName()].onHide.push(func);
     }
 
+    static registerOnInit(func) {
+        this.#menuStorage.onInit.push(func);
+    }
+
     /**
      * Adds a function to the OnKeypress Event
      * @param {Menu} menu 
@@ -65,9 +70,9 @@ class MenuManager {
 
     /**
      * Finishes Initalizing the MenuManager
+     * Needs to be called after the DOM is initialized !
      */
     static load() {
-
         // Finishes Registering
 
         for (const menuIdentifyer of this.#menuStorage.ids) {
@@ -150,6 +155,10 @@ class MenuManager {
             for(const func of onKeypress) func(event);
         
         }
+
+        // Calls all init events 
+
+        for(const func of this.#menuStorage.onInit) func();
     }
 
     static showMenu(identifyer) {

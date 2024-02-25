@@ -1,33 +1,33 @@
 const right = {
-    name: document.querySelector("th[trainer=\"right\"]"),
-    button: document.querySelector("td[trainer=\"right\"]")
+    name: selectElement("th[trainer=\"right\"]"),
+    button: selectElement("td[trainer=\"right\"]")
 }
 const star = {
-    name: document.querySelector("th[trainer=\"star\"]"),
-    button: document.querySelector("td[trainer=\"star\"]"),
-    icon: document.querySelector("td[trainer=\"star\"] > i")
+    name: selectElement("th[trainer=\"star\"]"),
+    button: selectElement("td[trainer=\"star\"]"),
+    icon: selectElement("td[trainer=\"star\"] > i")
 }
 const wrong = {
-    name: document.querySelector("th[trainer=\"wrong\"]"),
-    button: document.querySelector("td[trainer=\"wrong\"]")
+    name: selectElement("th[trainer=\"wrong\"]"),
+    button: selectElement("td[trainer=\"wrong\"]")
 }
 const visible = {
-    name: document.querySelector("th[trainer=\"visibility\"]"),
-    button: document.querySelector("td[trainer=\"visibility\"]")
+    name: selectElement("th[trainer=\"visibility\"]"),
+    button: selectElement("td[trainer=\"visibility\"]")
 }
 
-const awnserField = document.querySelector(".showing");
+const awnserField = selectElement(".showing");
 
 const UI = {
-    vocset_name: document.querySelector('[trainer_ui="vocset_name"]'),
-    vocset_cards: document.querySelector('[trainer_ui="vocset_cards"]'),
-    vocset_learned: document.querySelector('[trainer_ui="vocset_learned"]'),
-    vocset_right: document.querySelector('[trainer_ui="vocset_right"]'),
-    vocset_wrong: document.querySelector('[trainer_ui="vocset_wrong"]'),
-    vocset_percent: document.querySelector('[trainer_ui="vocset_percent"]'),
+    vocset_name: selectElement('[trainer_ui="vocset_name"]'),
+    vocset_cards: selectElement('[trainer_ui="vocset_cards"]'),
+    vocset_learned: selectElement('[trainer_ui="vocset_learned"]'),
+    vocset_right: selectElement('[trainer_ui="vocset_right"]'),
+    vocset_wrong: selectElement('[trainer_ui="vocset_wrong"]'),
+    vocset_percent: selectElement('[trainer_ui="vocset_percent"]'),
 }
 
-const questionField = document.querySelector(".question");
+const questionField = selectElement(".question");
 
 let currentButton;
 
@@ -250,7 +250,9 @@ const saveProgress = (SAVE_NAME = "currentTraining") => {
 let MENUES = []; 
 const load = (SAVE_NAME = "currentTraining") => {
     MENUES.push(new TestingMenu())
-    MENUES.push(new LearningMenu())
+    var LearningMenuInstance = new LearningMenu();
+    LearningMenu.load(LearningMenuInstance);
+    MENUES.push(LearningMenuInstance);
     MENUES.push(new LibraryMenu())
     MENUES.push(new BooksearchMenu())
     MENUES.push(new SettingsMenu())
@@ -274,10 +276,6 @@ const load = (SAVE_NAME = "currentTraining") => {
     clearAwnsers();
     showButtons(Button.SHOWAWNSERS)
     updateUi();
-}
-
-const clearStorage = (SAVE_NAME = "currentTraining") => {
-    localStorage.removeItem(SAVE_NAME);
 }
 
 load();

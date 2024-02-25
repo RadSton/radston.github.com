@@ -1,41 +1,41 @@
-const ROOT = document.querySelector(":root");
+const ROOT = selectElement(":root");
 
 const CS = getComputedStyle(ROOT);
 
 let COLOR_SETTINGS = [
     {
         cssVar: "--text-primary",
-        element: document.querySelector("[setting=\"text_primary\"]"),
+        element: selectElement("[setting=\"text_primary\"]"),
         current: "#cc81fd",
         default: "#cc81fd"
     },
     {
         cssVar: "--text-secondary",
-        element: document.querySelector("[setting=\"text_sekundary\"]"),
+        element: selectElement("[setting=\"text_sekundary\"]"),
         current: "#5c92ff",
         default: "#5c92ff"
     },
     {
         cssVar: "--bg-primary",
-        element: document.querySelector("[setting=\"back_primary\"]"),
+        element: selectElement("[setting=\"back_primary\"]"),
         current: "#000000",
         default: "#000000"
     },
     {
         cssVar: "--bg-secondary",
-        element: document.querySelector("[setting=\"back_second\"]"),
+        element: selectElement("[setting=\"back_second\"]"),
         current: "#17141a",
         default: "#17141a"
     },
     {
         cssVar: "--bg-tertiary",
-        element: document.querySelector("[setting=\"back_tertiary\"]"),
+        element: selectElement("[setting=\"back_tertiary\"]"),
         current: "#121212",
         default: "#121212"
     },
     {
         cssVar: "--accent",
-        element: document.querySelector("[setting=\"accent\"]"),
+        element: selectElement("[setting=\"accent\"]"),
         current: "#707070",
         default: "#707070"
     }
@@ -91,11 +91,11 @@ settings_change();
 // save
 
 const register = () => {
-    const saveButton = document.querySelector("[setting=save1_save]");
+    const saveButton = selectElement("[setting=save1_save]");
     const origSaveButtonName = saveButton.innerHTML;
-    const readButton = document.querySelector("[setting=save1_read]");
+    const readButton = selectElement("[setting=save1_read]");
     const origReadButtonName = readButton.innerHTML;
-    const deleteButton = document.querySelector("[setting=save1_delete]");
+    const deleteButton = selectElement("[setting=save1_delete]");
     const origDeleteButtonName = deleteButton.innerHTML;
 
     const showSuccess = (normalText, target, text = " (Success!)") => {
@@ -144,8 +144,8 @@ const reset = () => {
     save();
 }
 
-document.querySelector("[button_id=\"settings_save\"]").addEventListener("click", save);
-document.querySelector("[button_id=\"settings_reset\"]").addEventListener("click", reset);
+selectElement("[button_id=\"settings_save\"]").addEventListener("click", save);
+selectElement("[button_id=\"settings_reset\"]").addEventListener("click", reset);
 
 
 

@@ -12,7 +12,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=0.8">
 
     <meta content="Vokabel Trainer vBETA-1.4 made by radston12" property="og:title">
-    <meta content="Bald ist es wieder so weit! Weniger als 2 Wochen noch (HILFE)! Lektionen 2-18 sind bereits verfügbar! Diese Version ist für BETA Tester geeignet, da sie mehr Fehler enthalten kann als die LTS Version!"
+    <meta
+        content="Bald ist es wieder so weit! Weniger als 2 Wochen noch (HILFE)! Lektionen 2-18 sind bereits verfügbar! Diese Version ist für BETA Tester geeignet, da sie mehr Fehler enthalten kann als die LTS Version!"
         property="og:description">
     <meta content="https://radston.github.io/voktrainer/" property="og:url">
     <meta content="VokTrainer v1.4-BETA" property="og:site_name">
@@ -29,18 +30,21 @@
 
 
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0QET4YSYK"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0QET4YSYK"></script>
     <script>
-        let PROD_MODE = true;
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-V0QET4YSYK');
+        if (!window.location.href.includes("localhost") && !window.location.href.includes("0.0") && !window.location.href.includes("file:")) { // localhost, 0.0.0.0, 127.0.0.1, filesystem   
+            window.PROD_MODE = true;
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-V0QET4YSYK');
+        }
     </script>
-   <!--    comment block above to activate development mode
--->
-    <script src="js/updater.js"></script>
 
+
+    <script src="js/HTMLHelper.js"></script>
+
+    <script src="js/updater.js"></script>
 
     <!-- MENUs -->
     <script src="js/menu/Menu.js"></script>
@@ -53,6 +57,7 @@
     <script src="js/menu/SettingsMenu.js"></script>
     <script src="js/menu/VocabularyViewMenu.js"></script>
 
+    <script src="js/TrainingAlgorithm.js"></script>
 
 </head>
 
@@ -145,7 +150,8 @@
             </section>
 
             <section class="learning_question">
-                <span class="subquestion">Dieses Feature ist noch nicht perfekt und benötigt noch viel Arbeit! (Lektionen 2-18)<br><br></span>
+                <span class="subquestion">Dieses Feature ist noch nicht perfekt und benötigt noch viel Arbeit!
+                    (Lektionen 2-18)<br><br></span>
                 <text class="question"></text>
                 <div class="showing"></div>
             </section>
@@ -191,7 +197,7 @@
             </section>
 
         </div>
-        <div menuIdentifyer="vocabulary_view"  class="vocabulary_view" style="display: none">
+        <div menuIdentifyer="vocabulary_view" class="vocabulary_view" style="display: none">
             <section class="title">Vokabel Übersicht</section>
             <section class="max vocsets">
 
@@ -303,7 +309,7 @@
                 <button button_id="settings_reset">Reset</button>
             </bottombar>
         </div>
-       
+
     </main>
 
 
@@ -315,8 +321,6 @@
     <script src="js/booksearch.js"></script>
     <script src="js/remember.js"></script>
     <script src="js/trainer.js"></script>
-    <script src="js/learning.js"></script>
-    <script src="js/sm2.js"></script>
 
 
 </body>

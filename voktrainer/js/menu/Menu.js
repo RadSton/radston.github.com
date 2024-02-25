@@ -4,6 +4,10 @@ class Menu {
         MenuManager.registerMenu(this, isButtonLess);
     }
 
+    registerOnInit (func) {
+        MenuManager.registerOnInit(func);
+    }
+
     registerOnShowEvent (func) {
         MenuManager.registerOnShowEvent(this, func);
     }

@@ -1,4 +1,4 @@
-const vocabulary_view = document.querySelector(".vocabulary_view");
+const vocabulary_view = selectElement(".vocabulary_view");
 
 const sortAlphabeticly = (toSort) => {
     var clone = [...toSort];
@@ -59,7 +59,7 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
 
 
 
-    var el = document.querySelector('[vocabulary_view="train_button"]');
+    var el = selectElement('[vocabulary_view="train_button"]');
     var elClone = el.cloneNode(true);
     el.parentNode.replaceChild(elClone, el);
 
@@ -79,7 +79,7 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
 const loadLibrary = () => {
     let catIndex = 0;
     if (rememberdSet.length > 0)
-        document.querySelector(".vocsets").innerHTML = `<div class="vocset" identifyer="##REMEMBER">
+        selectElement(".vocsets").innerHTML = `<div class="vocset" identifyer="##REMEMBER">
             <div class="voc_set_description">
                 <div class="count">
                     <div class="count_description">Vokabel</div>
@@ -90,7 +90,7 @@ const loadLibrary = () => {
             </div>
         </div>`;
     else
-        document.querySelector(".vocsets").innerHTML = "";
+        selectElement(".vocsets").innerHTML = "";
 
     for (const category of vocabularyDB.categorys) {
         let htmlToInject = `<category><text>${category.name}</text><button class="category_button" identifyer="${catIndex}">Kategorie anzeigen</button><hr>`;
@@ -111,7 +111,7 @@ const loadLibrary = () => {
         }
 
         htmlToInject += "</category>";
-        document.querySelector(".vocsets").innerHTML += htmlToInject;
+        selectElement(".vocsets").innerHTML += htmlToInject;
         catIndex++;
     }
 

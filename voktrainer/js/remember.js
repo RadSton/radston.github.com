@@ -77,7 +77,7 @@ const saveRemember = (SAVE_NAME = "remember") => {
 const loadRemember = (SAVE_NAME = "remember") => {
     rememberdSet = JSON.parse(localStorage.getItem(SAVE_NAME));
     if (!rememberdSet) rememberdSet = [];
-    if (vocabularyDB != undefined) loadLibrary();
+    if (vocabularyDB) loadLibrary();
 }
 
 const clearRemember = (SAVE_NAME = "remember") => {

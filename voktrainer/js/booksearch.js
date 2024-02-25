@@ -7,7 +7,7 @@ let bookSearchSearchExact = false;
 let lastSearch = "";
 
 const booksearchUI = {
-    results: document.querySelector(".booksearch_results"),
+    results: selectElement(".booksearch_results"),
     exactType: document.querySelectorAll(".booksearchbar--text > p")[0],
     searchType: document.querySelectorAll(".booksearchbar--text > p")[1],
     found: document.querySelectorAll(".booksearchbar--text > p")[2],
@@ -88,12 +88,12 @@ const updateBookSearchUI = (counter, max) => {
 
 }
 
-document.querySelector("input").addEventListener("keyup", (e) => {
+selectElement("input").addEventListener("keyup", (e) => {
     console.time("runBookSearchForLatinVocabulary");
     runBookSearchForLatinVocabulary(e.target.value);
     console.timeEnd("runBookSearchForLatinVocabulary");
 })
 
 const clearBookSearchItems = () => {
-    document.querySelector(".booksearch_results").innerHTML = "Enabling feature (may lag)";
+    selectElement(".booksearch_results").innerHTML = "Enabling feature (may lag)";
 }
