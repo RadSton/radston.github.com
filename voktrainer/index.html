@@ -11,12 +11,12 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=0.8">
 
-    <meta content="Vokabel Trainer vBETA-1.6.1 made by radston12" property="og:title">
+    <meta content="Vokabel Trainer vBETA-1.6.2 made by radston12" property="og:title">
     <meta
         content="Bald ist es wieder so weit! Fast weniger als 2 Wochen noch (HILFE)! Lektionen 2-18, 20 sind bereits verfügbar! Diese Version ist für BETA Tester geeignet, da sie mehr Fehler enthalten kann als die LTS Version!"
         property="og:description">
     <meta content="https://radston.github.io/voktrainer/" property="og:url">
-    <meta content="VokTrainer v1.4-BETA" property="og:site_name">
+    <meta content="VokTrainer v1.6.2-BETA" property="og:site_name">
     <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
 
     <link rel="stylesheet" href="css/base.css">
@@ -40,6 +40,7 @@
 
     <script src="js/HTMLHelper.js"></script>
 
+    <script src="js/analytics.js"></script>
     <script src="js/updater.js"></script>
 
     <!-- MENUs -->
@@ -295,6 +296,17 @@
                         <tr>
                             <td width="100%">Akzentfarbe</td>
                             <td><input setting="accent" type="color"></td>
+                        </tr>
+                    </table>
+                </setting>
+
+                <setting>
+                    <text>Analytics</text>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td width="100%" setting="analytics">Staus: Aktiv</td>
+                            <td><button setting="analytics">Deaktiviern</button></td>
                         </tr>
                     </table>
                 </setting>

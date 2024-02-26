@@ -66,10 +66,9 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
     elClone.addEventListener("click", (e) => {
         e.preventDefault();
         trainSet(set, category, isCategory);
-        if (PROD_MODE)
-            gtag('event', 'started_training', {
-                set: category.name + "/" + set.name
-            });
+
+        analytics.send("LIBRARY - START", "Set: " + category.name + "/" + set.name);
+
     })
 
     MenuManager.showMenu("vocabulary_view");

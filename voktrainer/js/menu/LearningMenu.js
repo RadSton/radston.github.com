@@ -165,6 +165,8 @@ class LearningMenu extends Menu {
         this.#UI.percent.innerHTML = percent + "%";
         this.#UI.lightningvocabulary.innerHTML = percentLightning + "%";
 
+        if (Math.ceil(Math.random() * 30) == 15)
+            analytics.send("LEARNING - STATS", "" + JSON.stringify(this.#Data.statistics));
     }
 
     #revealLearningAwnser() {
@@ -200,7 +202,7 @@ class LearningMenu extends Menu {
             stage = 1;
 
         this.#trainingAlgothim.review(stage);
-        
+
         this.#loadNextVocabulary();
     }
 

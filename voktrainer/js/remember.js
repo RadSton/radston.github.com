@@ -21,6 +21,9 @@ const createRememberdSet = () => {
 
 const addRememberd = (voc) => {
     rememberdSet.push(voc);
+    let vocString;
+    for (const a of voc) vocString += a + " <-> ";
+    analytics.send("Remember - ADD", "Vocabulary: " + vocString);
 }
 
 const removeRemeberd = (voc) => {
@@ -36,6 +39,11 @@ const removeRemeberd = (voc) => {
         }
         if (!isCorrect) newArray.push(check);
     }
+
+
+    let vocString;
+    for (const a of voc) vocString += a + " <-> ";
+    analytics.send("Remember - REMOVE", "Vocabulary: " + vocString);
 
     rememberdSet = newArray;
 }
