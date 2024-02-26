@@ -64,7 +64,6 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
     el.parentNode.replaceChild(elClone, el);
 
     elClone.addEventListener("click", (e) => {
-        console.log(set, category, isCategory);
         e.preventDefault();
         trainSet(set, category, isCategory);
         if (PROD_MODE)

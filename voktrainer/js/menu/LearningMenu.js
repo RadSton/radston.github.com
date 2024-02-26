@@ -33,7 +33,8 @@ class LearningMenu extends Menu {
         toRevise: selectElement('[learning_ui="toRevise"]'),
         toLearn: selectElement('[learning_ui="toLearn"]'),
         learned: selectElement('[learning_ui="learned"]'),
-        percent: selectElement('[learning_ui="percent"]')
+        percent: selectElement('[learning_ui="percent"]'),
+        lightningvocabulary: selectElement('[learning_ui="lightningvocabulary"]')
     }
     #Data = {
         currentVocabular: {
@@ -156,11 +157,13 @@ class LearningMenu extends Menu {
         this.#Data.statistics = this.#trainingAlgothim.generateStatistics();
 
         const percent = Math.floor((this.#Data.statistics.learned / this.#Data.statistics.count) * 1000) / 10 // 0.1 accuarcy 
+        const percentLightning = Math.floor((this.#Data.statistics.lightningVoc / this.#Data.statistics.count) * 1000) / 10 // 0.1 accuarcy 
 
         this.#UI.toRevise.innerHTML = this.#Data.statistics.toRevise;
         this.#UI.toLearn.innerHTML = this.#Data.statistics.toLearn;
         this.#UI.learned.innerHTML = this.#Data.statistics.learned;
         this.#UI.percent.innerHTML = percent + "%";
+        this.#UI.lightningvocabulary.innerHTML = percentLightning + "%";
 
     }
 
@@ -197,15 +200,7 @@ class LearningMenu extends Menu {
             stage = 1;
 
         this.#trainingAlgothim.review(stage);
-        /*
-                const res = calcSM2(stage, this.#Data.currentVocabular.interval, this.#Data.currentVocabular.repetitions, this.#Data.currentVocabular.easeFactor);
         
-                const ID = this.#Data.currentVocabular.id;
-        
-                this.#Data.vocabularyData[ID] = [res.interval, res.repetitions, res.easeFactor, Date.now()]; // replace 
-        
-                this.#saveStorage();
-        */
         this.#loadNextVocabulary();
     }
 

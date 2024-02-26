@@ -89,9 +89,7 @@ const updateBookSearchUI = (counter, max) => {
 }
 
 selectElement("input").addEventListener("keyup", (e) => {
-    console.time("runBookSearchForLatinVocabulary");
     runBookSearchForLatinVocabulary(e.target.value);
-    console.timeEnd("runBookSearchForLatinVocabulary");
 })
 
 const clearBookSearchItems = () => {

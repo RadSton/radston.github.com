@@ -179,7 +179,7 @@ const revealAwnser = () => {
         if (index != 0 && iter) addAwnser(iter);
         index++;
     }
-    console.log("revealAnwser")
+
     if (isRemeberd(currentTraining.currentVocabular)) {
         star.icon.innerHTML = "star";
     } else {

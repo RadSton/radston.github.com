@@ -8,7 +8,7 @@ if (typeof PROD_MODE === 'undefined') {
 
 const VOCABULAR_DATABASE = "./db/data.json";
 const LEARN_DATABASE = "./db/learning.json";
-const VERSION_NUMBER = "1.5-BETA";
+const VERSION_NUMBER = "1.6.1-BETA";
 
 // dev settings
 const VERSION_NAME = (DEV ? "dev-" : "") + VERSION_NUMBER;

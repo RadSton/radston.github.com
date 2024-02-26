@@ -37,6 +37,8 @@ class TrainingAlgorithm {
         if (newData0.nextRevisionTime == -1) newData0.nextRevisionTime = 1;
 
         newData0.nextRevisionTime = Math.floor(newData0.nextRevisionTime * (0.5 * (successLevel ^ 1.00125))) // TODO: Adjust values Math.floor(hours for complete black * (newData0.nextRevisionTime * 0.4)) 
+        if (successLevel == 0) newData0.nextRevisionTime = -1;
+        else if (successLevel == 1) newData0.nextRevisionTime = 1;
 
         newData0.nextRevisionDate = (Number.parseInt(newData0.lastRevisionDate) + Number.parseInt(newData0.nextRevisionTime))
 
@@ -49,7 +51,8 @@ class TrainingAlgorithm {
         let stats = {
             toRevise: 0,
             toLearn: 0,
-            learned: 0, 
+            learned: 0,
+            lightningVoc: 0,
             count: this.data.length
         }
 
@@ -63,8 +66,11 @@ class TrainingAlgorithm {
 
             if (entry.nextRevisionDate < CURRENT_DATE) {
                 stats.toRevise++;
-            } else
+            } else {
                 stats.learned++;
+                if (entry.nextRevisionTime > 24)
+                    stats.lightningVoc++;
+            }
         }
 
         return stats;
@@ -96,9 +102,19 @@ class TrainingAlgorithm {
     }
 
     #loadFromData(storedData) {
+        let faultyCounter = 0;
+
         for (const element of storedData) {
 
             this.coveredVocabularyList.push(Number.parseInt(element[0]));
+
+            const dbEntry = this.vocabularyIDDatabase[Number.parseInt(element[0])];
+            
+            if(!dbEntry || dbEntry[0].startsWith("#")) {
+                console.warn("[TrainingAlgorithm] Found vocabulary that is no longer supported in device storage! Deleting from local storage ... [DEBUG INFO - VOCABULARY_DATABASE_IDENTIFYER: " + element[0] + ")")
+                faultyCounter++;
+                continue;
+            }
 
             this.data.push({
                 vocabulary: {
@@ -112,6 +128,17 @@ class TrainingAlgorithm {
 
         }
 
+        
+        console.log("[TrainingAlgorithm] Loaded trainer algorithm data for " + this.data.length + " vocab from device storage");
+
+        if(faultyCounter != 0) {
+            console.error("[TrainingAlgorithm] Had to remove " + faultyCounter + " vocabularys from local storage to avoid errors");
+            if (faultyCounter > 5) {
+                localStorage.setItem("faultVocabulary_" + faultyCounter + "_" + TrainingAlgorithm.getLocalStorageName(), storedData);
+                console.error("[TrainingAlgorithm] Since this number (> 5) is not normal an automatic backup was created (DEBUG_NAME: \"" + ("faultVocabulary_" + faultyCounter + "_" + TrainingAlgorithm.getLocalStorageName()) + "\")!");
+            }
+        }
+
     }
 
     save() {
@@ -119,7 +146,7 @@ class TrainingAlgorithm {
 
         for (const element of this.data) {
             if (element.lastRevisionDate == -1) continue;
-            console.log(element);
+
             toStore.push([element.vocabulary.id, element.lastRevisionDate, element.nextRevisionTime]);
         }
 

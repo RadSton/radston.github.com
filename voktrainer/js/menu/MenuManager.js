@@ -168,9 +168,9 @@ class MenuManager {
             return;
         }
 
+        console.log("[MenuManager] Switching to menu " + identifyer + "!");
+            
         MenuManager.hideAllMenus();
-
-        console.log(storedMenu);
 
         storedMenu.element.style.display = ""; // Reset to default
         
