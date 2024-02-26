@@ -8,12 +8,13 @@
     text-align: center;
 }
 
-.testing_awnser>table>th {
-    font-size: 10pt;
+.testing_awnser>table>tbody>tr>th {
+    font-size: 13pt;
+    width: 100px;
 }
 
 .subquestion {
-    font-size: 12pt;
+    font-size: 10pt;
     text-align: center;
     width: 100%;
     display: block;

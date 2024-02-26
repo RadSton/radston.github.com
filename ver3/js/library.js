@@ -1,4 +1,4 @@
-const vocabulary_view = document.querySelector(".vocabulary_view");
+const vocabulary_view = selectElement(".vocabulary_view");
 
 const sortAlphabeticly = (toSort) => {
     var clone = [...toSort];
@@ -30,9 +30,6 @@ const showCategory = (cat) => {
 }
 
 const showVocSetInVocabularyView = (set, category, isCategory = false) => {
-    hideAll();
-    unmarkAllButtons();
-
     vocabulary_view.querySelector("[vocabulary_view=\"table\"]").innerHTML = `<tr vocabulary_view="format"></tr>`;
 
     vocabulary_view.querySelector("[vocabulary_view=\"title\"]").innerHTML = "Vokabel von " + category.name + (isCategory ? "/*" : "/" + set.name);
@@ -62,28 +59,37 @@ const showVocSetInVocabularyView = (set, category, isCategory = false) => {
 
 
 
-    var el = document.querySelector('[vocabulary_view="button"]'),
-        elClone = el.cloneNode(true);
+    var el = selectElement('[vocabulary_view="train_button"]');
+    var elClone = el.cloneNode(true);
     el.parentNode.replaceChild(elClone, el);
 
     elClone.addEventListener("click", (e) => {
         e.preventDefault();
         trainSet(set, category, isCategory);
-        gtag('event', 'started_training', {
-            set: category.name + "/" + set.name
-        });
-        hideAll();
-        unmarkAllButtons();
-        menus[INDEX_OF_TESTING].menu.classList.remove("hidden");
-        menus[INDEX_OF_TESTING].button.classList.add("menu__item__active");
+
+        analytics.send("LIBRARY - START", "Set: " + category.name + "/" + set.name);
+
     })
 
-
-    vocabulary_view.classList.remove("hidden");
+    MenuManager.showMenu("vocabulary_view");
 }
 
 const loadLibrary = () => {
     let catIndex = 0;
+    if (rememberdSet.length > 0)
+        selectElement(".vocsets").innerHTML = `<div class="vocset" identifyer="##REMEMBER">
+            <div class="voc_set_description">
+                <div class="count">
+                    <div class="count_description">Vokabel</div>
+                    <div class="count_value">${rememberdSet.length}</div>
+                </div>
+                <div class="vocset_name">Gemerkt</div>
+                <div class="vocset_author">von dir</div>
+            </div>
+        </div>`;
+    else
+        selectElement(".vocsets").innerHTML = "";
+
     for (const category of vocabularyDB.categorys) {
         let htmlToInject = `<category><text>${category.name}</text><button class="category_button" identifyer="${catIndex}">Kategorie anzeigen</button><hr>`;
 
@@ -103,14 +109,15 @@ const loadLibrary = () => {
         }
 
         htmlToInject += "</category>";
-        document.querySelector(".vocsets").innerHTML += htmlToInject;
+        selectElement(".vocsets").innerHTML += htmlToInject;
         catIndex++;
     }
 
     for (const set of document.querySelectorAll(".vocset")) {
         set.addEventListener("click", (ev) => {
             const identifyer = set.getAttribute("identifyer").split("-");
-            showVocSetInVocabularyView(vocabularyDB.categorys[identifyer[0]].sets[identifyer[1]], vocabularyDB.categorys[identifyer[0]]);
+            if (identifyer != "##REMEMBER") showVocSetInVocabularyView(vocabularyDB.categorys[identifyer[0]].sets[identifyer[1]], vocabularyDB.categorys[identifyer[0]]);
+            else showVocSetInVocabularyView(createRememberdSet(), rememberdCategory);
         })
     };
 

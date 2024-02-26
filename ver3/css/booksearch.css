@@ -60,7 +60,7 @@
 
 .booksearch--warning {
     color: var(--text-secondary);
-    font-size: 32pt;
+    font-size: 2.5vw;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -70,10 +70,19 @@
     .booksearch--entry {
         font-size: 14pt;
     }
+
+    .booksearchbar--text>p {
+        font-size: 1.5vw;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .booksearch--entry {
         font-size: 10pt;
     }
+
+}
+
+.booksearchbar--text>p {
+    margin: 0;
 }
