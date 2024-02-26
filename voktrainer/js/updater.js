@@ -14,7 +14,7 @@ const VERSION_NUMBER = "1.6.2-BETA";
 // dev settings
 const VERSION_NAME = (DEV ? "dev-" : "") + VERSION_NUMBER;
 
-if(localStorage.getItem("opt_out").toString() == "true") window.PROD_MODE = false;
+if(localStorage.getItem("opt_out") && (localStorage.getItem("opt_out").toString() == "true")) window.PROD_MODE = false;
 
 const analytics = new Analytics(() => PROD_MODE);
 
