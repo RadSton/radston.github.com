@@ -206,11 +206,15 @@ const trainSet = (set, category, isCategory = false) => {
 const handleAwnser = (good) => {
     return (event) => {
         if (event) event.preventDefault();
-        if (good) currentTraining.stats.rightWords++;
+        if (good)
+            currentTraining.stats.rightWords++;
         else {
             currentTraining.wrongs.push(currentTraining.currentVocabular);
             currentTraining.stats.wrongWords++;
         }
+
+        analytics.sendTrainingReport(currentTraining.stats.setName.split("/")[1] + "/" + currentTraining.currentVocabular[0].substring(0,7), good);
+
         if (!getNextVocabular())
             resetTrainer();
         else saveProgress();
@@ -247,7 +251,7 @@ const saveProgress = (SAVE_NAME = "currentTraining") => {
     localStorage.setItem(SAVE_NAME, JSON.stringify(currentTraining));
 }
 
-let MENUES = []; 
+let MENUES = [];
 const load = (SAVE_NAME = "currentTraining") => {
     MENUES.push(new TestingMenu())
     var LearningMenuInstance = new LearningMenu();
@@ -260,9 +264,9 @@ const load = (SAVE_NAME = "currentTraining") => {
     MenuManager.load();
 
     initRemember(star.button, revealAwnser, () => currentTraining.currentVocabular);
-    
+
     const tempCurrentTraining = JSON.parse(localStorage.getItem(SAVE_NAME));
-    
+
     if (!tempCurrentTraining) return;
     if (!tempCurrentTraining.set || !tempCurrentTraining.stats || !tempCurrentTraining.wrongs) return;
 

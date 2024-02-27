@@ -10,6 +10,9 @@ class Analytics {
         "attachments": []
     }
 
+    #vocabularyMsg = [];
+    #trainingVocabularyMsg = [];
+
     constructor(enabledFunction) {
         this.#enabled = enabledFunction();
 
@@ -34,6 +37,43 @@ class Analytics {
             this.#baseData.username = res.slice(0, 12);
 
             this.#sendInit(res);
+        }
+    }
+
+
+    sendLearningReport(vocabularyId, stage, time) {
+
+        if(!this.#enabled) return;
+
+        this.#vocabularyMsg.push([vocabularyId, stage, time]);
+
+        if(this.#vocabularyMsg.length >= 15) {
+            let msg = "";
+            for(const vocMsg of this.#vocabularyMsg) {
+                msg += vocMsg[0] + " -> " + vocMsg[1] + "(" + vocMsg[2] + "s)\n";
+            }
+
+            this.#vocabularyMsg = [];
+
+            this.send("LEARNING - REPORT", msg);
+        }
+    }
+
+    sendTrainingReport(vocabularyId, known) {
+        if(!this.#enabled) return;
+
+        this.#trainingVocabularyMsg.push([vocabularyId, known]);
+
+        if(this.#trainingVocabularyMsg.length >= 20) {
+            let msg = "";
+
+            for(const vocMsg of this.#trainingVocabularyMsg) {
+                msg += vocMsg[0] + " -> " + vocMsg[1] + "\n";
+            }
+
+            this.#trainingVocabularyMsg = [];
+            
+            this.send("TRAINING - REPORT", msg);
         }
     }
 

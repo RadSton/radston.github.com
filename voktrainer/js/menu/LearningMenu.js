@@ -61,7 +61,6 @@ class LearningMenu extends Menu {
         started: -1,
         took: -1,
     }
-    #learningDB = {};
     #trainingAlgothim;
 
     constructor() {
@@ -103,7 +102,6 @@ class LearningMenu extends Menu {
         // replace with loader this.Timeouts.onLoad = setTimeout(onLearningLoad, 350);
 
         loadJSONFromURL(LEARN_DATABASE).then(res => {
-            this.#learningDB = res;
             this.#trainingAlgothim = new TrainingAlgorithm(res);
             this.#loadNextVocabulary();
 
@@ -202,6 +200,9 @@ class LearningMenu extends Menu {
             stage = 1;
 
         this.#trainingAlgothim.review(stage);
+
+                
+        analytics.sendLearningReport(this.#Data.currentVocabular.vocabulary.id, stage, took);
 
         this.#loadNextVocabulary();
     }
