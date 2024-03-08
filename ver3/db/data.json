@@ -11,6 +11,43 @@
             },
             "sets": [
                 {
+                    "name": "Schularbeitsstoff 3. SA",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["unde ?",                                   "[Lektion: 15]",                            "woher ? von wo ?"],
+                        ["quo ?",                                    "[Lektion 11]",                             "wohin ?"],
+                        ["num?",                                     "[Lektion 8]",                              "etwa? (in einer Frage; erwartete Antwort = nein!)"],
+                        ["nonne?",                                   "[Lektion 8]",                              "nicht? (in einer Frage; erwartete Antwort = ja, doch!)"],
+                        ["quis?",                                    "[Lektion 5]",                              "wer?"],
+                        ["quis nostrum/vestrum?",                    "[Lektion 5]",                              "wer von uns/euch?"],
+                        ["quid?",                                    "[Lektion 3]",                              "was?"],
+                        ["quia",                                     "(Konjunktion) [Lektion 3]",                "weil"],
+                        ["quod",                                     "(Konjunktion) [Lektion 3]",                "weil"],
+                        ["iterum ",                                  "(Adv.) [Lektion 13]",                      "wieder, noch einmal"],
+                        ["nunc",                                     "(Adv.) [Am Schularbeits-Stoff steht nuc aber das exisitiert nicht]", "jetzt, nun"],
+                        ["iam",                                      "(Adv.) [Lektion 13]",                      "schon; nach Verneinung : mehr"],
+                        ["etiam",                                    " [Lektion 20]",                            "auch, sogar"],
+                        ["Utinam...!",                               "(Einleitung eines Wunsches)  [Lektion 21]", "Wenn ... doch ... ! "],
+                        ["Utinam ne...!",                            "(Einleitung eines Wunsches)  [Lektion 21]", "Wenn ... doch ... nicht ...!"],
+                        ["rex",                                      "regis m. [Lektion 4]",                     "König"],
+                        ["res",                                      "rei f. [Lektion 7]",                       "Sache; Angelegenheit; Lage"],
+                        ["res publica",                              "Gen. rei publicae f. [Lektion 21]",        "Staat"],
+                        ["cupere",                                   "M, -io, -ivi, -itum [Lektion 3]",          "wünschen, begehren"],
+                        ["capere",                                   "M, -io, cepi, captum [Lektion 3]",         "fangen, erobern; (einen Plan) fassen; nehmen"],
+                        ["vita",                                     " -ae f. [Lektion 9]",                      "das Leben"],
+                        ["vitare",                                   "1, -o, -avi, -atum [Lektion 21]",          "(ver)meiden"],
+                        ["nudus",                                    "3 [Lektion 19]",                           "nackt"],
+                        ["notus",                                    "3 [Lektion 11]",                           "bekannt"],
+                        ["consul",                                   "consulis m. [Lektion 21]",                 "Konsul (höchster röm. Beamter)"],
+                        ["consilium",                                " -i n. [Lektion 3]",                       "Rat, Plan; Beratung"],
+                        ["relinquere",                               "3, -o, reliqui, relictum [Lektion 3]",     "verlassen; zurücklassen"],
+                        ["redire",                                   "redeo, redii, reditum [Lektion 11]",       "zurückkehren"],
+                        ["petere",                                   "3, -o, -ivi, -itum [Lektion 12]",          "anstreben"],
+                        ["petere [+ Akk.]",                          "3, -o, -ivi, -itum [Lektion 12]",          "reisen nach…, angreifen"],
+                        ["petere [+ a/ab (+ Abl.)]",                 "3, -o, -ivi, -itum [Lektion 12]",          "jemanden nach (etwas) bitten"]
+                    ]
+                },
+                {
                     "name": "Lektion 21",
                     "author": "radston12",
                     "vocabulary": [
