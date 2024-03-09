@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+    <button onclick="download('data_dump.json', JSON.stringify(localStorage));">Download as data_dump.json</button>
+    <div></div>
 <body>
     <script>
         function download(filename, text) {
@@ -22,7 +23,7 @@
             document.body.removeChild(element);
         }
 
-        download("data_dump.json", JSON.stringify(localStorage));
+        document.querySelector("div").innerHTML = JSON.stringify(localStorage);
     </script>
 </body>
 
