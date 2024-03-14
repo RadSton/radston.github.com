@@ -6,7 +6,7 @@ const rememberdCategory = {
         questions: [1, 2],
         questions_str: ["Wie lautet die grammatische Kennzeichnung <br> von", "Wie lautet das deutsche Wort <br> von"],
         result_str: "Wusstest du was richtig war?",
-        names: ["Latein", "gramatische Kennzeichnung", "Deutsch"],
+        names: ["Latein", "grammatische Kennzeichnung", "Deutsch"],
         sortable: true
     },
 }
